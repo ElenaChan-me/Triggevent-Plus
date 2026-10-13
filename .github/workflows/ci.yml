@@ -29,4 +29,4 @@ jobs:
       # 本家の注記どおり、時間に依存するテストは GitHub のランナーでは不安定なため、画面まわりのモジュールに限って実行する
       - name: Test
         # CalloutExpiryTest は待ち時間の精度に依存し、GitHub のランナーでは失敗することがあるため除外する（手元では成功を確認）
-        run: mvn -B -pl xivsupport test "-Dtest=!CalloutExpiryTest" -Dsurefire.failIfNoSpecifiedTests=false
+        run: mvn -B -pl xivsupport test "-Dtest=!CalloutExpiryTest" "-Dsurefire.failIfNoSpecifiedTests=false"
