@@ -10,6 +10,7 @@ import javax.swing.text.StyleContext;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Locale;
 
 /**
  * XIVToolHub で選んだ日本語フォントを画面とコールアウトに使う。
@@ -62,7 +63,8 @@ public final class UiFont {
 		try {
 			Font font = Font.createFont(Font.TRUETYPE_FONT, file);
 			GraphicsEnvironment.getLocalGraphicsEnvironment().registerFont(font);
-			family = font.getFamily();
+			// 日本語環境では getFamily() が日本語名を返すが、その名前では登録したフォントを引けないため英語名を使う
+			family = font.getFamily(Locale.ENGLISH);
 		}
 		catch (FontFormatException | IOException e) {
 			// フォントが壊れていても、既定のフォントで起動を続ける
