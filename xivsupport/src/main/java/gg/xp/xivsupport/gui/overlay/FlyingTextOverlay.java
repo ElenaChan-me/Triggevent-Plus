@@ -18,6 +18,8 @@ import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import gg.xp.xivsupport.gui.i18n.UiFont;
+
 import javax.swing.*;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
@@ -56,8 +58,9 @@ public class FlyingTextOverlay extends XivOverlay {
 		super("Callout Text", "callout-text-overlay", oc, pers);
 		alignmentSetting = new EnumSetting<>(pers, "callout-text-overlay.text-alignment", TextAlignment.class, TextAlignment.CENTER);
 		textColorSetting = new ColorSetting(pers, "callout-text-overlay.text-color", defaultTextColor);
-		// 論理フォントの Dialog は日本語の代替フォントを持つため、日本語のコールアウトが文字化けしない
-		textFontSetting = new FontSetting(pers, "callout-text-overlay.text-font", Font.DIALOG, 24);
+		// 論理フォントの Dialog は日本語の代替フォントを持つため、日本語のコールアウトが文字化けしない。
+		// XIVToolHub でフォントを選んでいる場合は、そのフォントを既定にする。
+		textFontSetting = new FontSetting(pers, "callout-text-overlay.text-font", UiFont.familyOr(Font.DIALOG), 24);
 		flipVertical = new BooleanSetting(pers, "callout-text-overlay.flip-vertical", false);
 		JLabel templateJLabel = new JLabel();
 		templateJLabel.setFont(textFontSetting.get());

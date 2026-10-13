@@ -27,21 +27,21 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 画面の文字列を日本語に置き換える。
+ * 画面の文字列を選択した言語（日本語・韓国語・中国語）に置き換える。
  * 本家のソースの文字列を直接書き換えると更新の取り込みが難しくなるため、
- * 部品が画面に追加・変更されたときに辞書（/i18n/ja.tsv）を引いて表示だけを差し替える。
- * 辞書に無い文字列は英語のまま表示する。
+ * 部品が画面に追加・変更されたときに辞書（/i18n/言語コード.tsv）を引いて表示だけを差し替える。
+ * 辞書に無い文字列と、英語を選んだ場合は本家の英語のまま表示する。
  */
 public final class UiTranslator {
 	private static final Logger log = LoggerFactory.getLogger(UiTranslator.class);
 
-	private static final String DICTIONARY = "/i18n/ja.tsv";
+	private static final String DICTIONARY_FORMAT = "/i18n/%s.tsv";
 	// -Dtriggevent.translate=false で英語表示に戻せる（不具合の切り分け用）
 	private static final String DISABLE_PROPERTY = "triggevent.translate";
 	private static final String HOOKED_KEY = "triggevent.i18n.hooked";
 	private static final String TOOLTIP_KEY = "ToolTipText";
 
-	private static final Map<String, String> dictionary = load();
+	private static final Map<String, String> dictionary = load(HubSettings.get().getLanguage());
 	private static volatile boolean installed;
 
 	private UiTranslator() {
@@ -248,11 +248,15 @@ public final class UiTranslator {
 		}
 	}
 
-	private static Map<String, String> load() {
+	static Map<String, String> load(String language) {
 		Map<String, String> map = new HashMap<>();
-		try (InputStream stream = UiTranslator.class.getResourceAsStream(DICTIONARY)) {
+		if (language == null || "en".equals(language)) {
+			return Map.of();
+		}
+		String resource = DICTIONARY_FORMAT.formatted(language);
+		try (InputStream stream = UiTranslator.class.getResourceAsStream(resource)) {
 			if (stream == null) {
-				log.warn("Translation dictionary not found: {}", DICTIONARY);
+				log.warn("Translation dictionary not found: {}", resource);
 				return map;
 			}
 			BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8));
