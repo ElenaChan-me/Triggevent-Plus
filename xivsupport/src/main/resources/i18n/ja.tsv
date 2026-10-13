@@ -1,0 +1,570 @@
+# Triggevent 日本語化辞書
+# 書式: 英語<TAB>日本語。画面に表示される文字列と完全に一致したものだけを置き換える。
+# \n は改行、\t はタブとして扱う。前後の空白は無視し、表示時は元の文字列の空白を引き継ぐ。
+# 本家の文字列が変わった場合は英語のまま表示されるので、そのときに追記する。
+
+# メインタブ
+Welcome	ようこそ
+Summary	概要
+Plugin Settings	プラグイン設定
+Combatants	戦闘メンバー
+Statuses	ステータス
+Events	イベント
+ACT Log	ACT ログ
+System Log	システムログ
+Pulls	プル
+Overlays	オーバーレイ
+Map	マップ
+Library	ライブラリ
+Groovy	Groovy
+Updates	更新
+Advanced	詳細設定
+
+# 共通
+Name	名前
+Description	説明
+ID	ID
+Reset	リセット
+Cancel	キャンセル
+Type	種類
+Value	値
+Enable Overlay	オーバーレイを有効にする
+Font Color	文字の色
+Icon	アイコン
+Import	インポート
+Job	ジョブ
+Strict	厳密
+Text Color	文字の色
+Bigger	大きく
+Delete	削除
+Duration	時間
+Execute	実行
+Play	再生
+Smaller	小さく
+Active Color	実行中の色
+Background	背景
+Cooldown	リキャスト
+Enable TTS	TTS を有効にする
+Exit	終了
+HP	HP
+Help	ヘルプ
+Key	キー
+Max in Overlay	オーバーレイの最大表示数
+Select	選択
+Skill	スキル
+TTS and Sound	TTS とサウンド
+Text	テキスト
+Time	時刻
+Zone	エリア
+A Fatal Error Has Occurred	致命的なエラーが発生しました
+Ability/Status	アクション/ステータス
+Add New	新規追加
+Audio Files	音声ファイル
+Background Opacity	背景の不透明度
+Close	閉じる
+Collapse All	すべて折りたたむ
+Cooldown (from CSV)	リキャスト（CSV）
+Copied to clipboard	クリップボードにコピーしました
+Copy Error Message	エラー内容をコピー
+Custom Cooldowns	カスタムリキャスト
+Delete Selected	選択項目を削除
+Dominion Priority	ドミニオンの優先順位
+Duty Name	コンテンツ名
+Enable Party List	パーティリストを有効にする
+Enable Timers	タイマーを有効にする
+Error	エラー
+Error making component	部品の作成でエラーが発生しました
+Error: 	エラー:
+Error: cannot find component	エラー: 部品が見つかりません
+Error: null component	エラー: 部品がありません
+Expand All	すべて展開
+Expired Color	終了後の色
+Export	エクスポート
+Field	項目
+Fight #	戦闘番号
+Foreground Opacity	前景の不透明度
+Fraction Mode	分数表示
+Icons	アイコン
+Install Right Click Debug Options	右クリックにデバッグ項目を追加
+Kill/Wipe	撃破/全滅
+Language	言語
+Line	行
+Manage Addons	アドオンの管理
+Max Charges	最大チャージ数
+No Actions Available	実行できる操作がありません
+On CD Color	リキャスト中の色
+Opacity for Snapshotted Buffs	スナップショット済みバフの不透明度
+Percent	パーセント
+Place Name	地名
+PostNamazu	PostNamazu
+Preapp Color	事前付与の色
+Raw class/job/category	クラス/ジョブ/カテゴリ（内部値）
+Ready Color	使用可能の色
+Record	記録
+Reset to Default	既定値に戻す
+Right Align	右揃え
+Same as TTS:	TTS と同じ:
+Shadows on Text	文字に影を付ける
+Show Log File	ログファイルを表示
+Show Snapshotted Buffs (Beta)	スナップショット済みバフを表示（ベータ）
+Show/Hide	表示/非表示
+Source	実行者
+Spacing between buffs	バフの間隔
+Stacks	スタック数
+Status Effects	ステータス効果
+Status: 	状態:
+Success!	成功しました
+Take Me There!	表示する
+Target	対象
+Telesto	Telesto
+Test	テスト
+Test Callouts	コールアウトをテスト
+Tethers	線
+Text Alignment	文字の配置
+Text Color (Normal)	文字の色（通常）
+Text Color (Own Buffs)	文字の色（自分のバフ）
+Text Color (Removable)	文字の色（解除可能）
+Time before expiry to call out (milliseconds)	効果切れの何ミリ秒前に知らせるか
+WARNING: Please do not abuse this functionality! By enabling this, you agree to only use these for debugging purposes and not in the course of real gameplay.	警告: この機能を悪用しないでください。有効にすると、実際のプレイ中ではなくデバッグ目的でのみ使うことに同意したものとみなします。
+Wait	待機
+AM Delay (seconds) - 15+ recommended	オートマーカーの遅延（秒）- 15 以上を推奨
+Accept	決定
+Accept New Priority?	新しい優先順位を適用しますか？
+Accept this priority?	この優先順位を適用しますか？
+Action	アクション
+Actions/Abilities	アクション/アビリティ
+Add	追加
+Add Component	部品を追加
+Add From URL	URL から追加
+Add New Zone	エリアを追加
+Advance By	進める量
+Align to Bottom	下揃え
+Allow Bad Certs	不正な証明書を許可
+Allow TTS	TTS を許可
+AoEs	範囲攻撃
+Append to your own name	自分の名前の後ろに付ける
+Apply and Restart	適用して再起動
+Are you sure you want to delete all customizations for the currently selected timeline?	選択中のタイムラインのカスタマイズをすべて削除しますか？
+Are you sure you want to reset all enabled/disabled settings on this page? This cannot be reverted!	このページの有効/無効の設定をすべてリセットしますか？元に戻せません。
+Are you sure you wish to delete this timeline?	このタイムラインを削除しますか？
+Arena Positions	フィールドの位置
+Arena Sector Conversions	フィールドの区画の変換
+Auto Refresh	自動更新
+AutoMark	オートマーカー
+AutoMark System:	オートマーカーの方式:
+Automatic	自動
+Automatic File Name	ファイル名を自動で付ける
+Automatically exit when another process (e.g. FFXIV or ACT) exits.	他のプロセス（FFXIV や ACT など）の終了時に自動で終了します。
+Background Color	背景色
+Bar Color	バーの色
+Bar Fill Seconds	バーが満ちるまでの秒数
+Bar Width	バーの幅
+Between marks, delay 	マーカーごとの待ち時間
+Between commands, delay 	コマンドごとの待ち時間
+plus a random delay up to 	に加えて最大で次のランダムな遅延
+Bold	太字
+Border Thickness	枠線の太さ
+Bottom-to-top	下から上
+Buffers (0 for default)	バッファー数（0 で既定値）
+Cactbot Equivalent	Cactbot での対応
+Callout Styling	コールアウトの見た目
+Cast	詠唱
+Cast Bars	詠唱バー
+Category	カテゴリ
+Change File	ファイルを変更
+Changelog	更新履歴
+Choose Jobs	ジョブを選択
+Clear Data	データを消去
+Click this button, then use an ability (or get hit by it) in-game. The ability will then be selected in the table.	このボタンを押してから、ゲーム内でアクションを使う（または受ける）と、表でそのアクションが選択されます。
+Combat Duration	戦闘時間
+Command Delays	コマンドの遅延
+Condition	条件
+Conga	一列整列
+Connection	接続
+Continue	続ける
+Cooldown Tracker	リキャストトラッカー
+Cooldown/Charges/Duration (Leave Blank for Auto)	リキャスト/チャージ/効果時間（空欄で自動）
+Copied	コピーしました
+Copy Map Image URL	マップ画像の URL をコピー
+Crit %	クリティカル率
+Current State: 	現在の状態:
+Custom Loader	カスタムローダー
+Custom Party Overlay	カスタムパーティオーバーレイ
+Custom Timeline Zone	カスタムタイムラインのエリア
+Custom Values (leave blank to use global defaults):	個別の値（空欄で全体の既定値を使用）:
+Custom Values (select 'Custom' in the box above):	個別の値（上の欄で「Custom」を選択）:
+DCrit %	直撃クリティカル率
+DMU Settings	DMU の設定
+DSR Automarks	DSR（絶竜詩）オートマーカー
+DSR Wroth+Thunder Automarks	DSR 怒りの雷オートマーカー
+Debug Mode	デバッグモード
+Debug mode will cause the last sync to always be displayed, and will cause sync-only entries to be displayed as well.	デバッグモードでは、最後の同期と同期専用の項目も常に表示します。
+Declared In	定義場所
+Decompress events (uses more memory)	イベントを展開して保持（メモリ使用量が増えます）
+Default Join Character(s)	既定の区切り文字
+Default Style	既定のスタイル
+Delays	遅延
+Delta	差分
+Dev Tools	開発者ツール
+Dhit %	直撃率
+Directories	フォルダ
+Disable All	すべて無効
+Disable All Groups	すべてのグループを無効
+Discord	Discord
+Disk Storage	ディスクへの保存
+Display Component Test Callout	部品付きのテストコールアウトを表示
+Display Icon Test Callout	アイコン付きのテストコールアウトを表示
+Display Simple Test Callout	シンプルなテストコールアウトを表示
+Dmg Type/Aspect	ダメージ種別/属性
+DoT/Buff Tracker	DoT/バフトラッカー
+Don't Save Settings	設定を保存しない
+Dots and Buffs	DoT とバフ
+Double Tower Call only when no debuff	デバフがないときだけ二重の塔を知らせる
+Drag anywhere in this area to scrub	この範囲をドラッグして時間を移動
+Dragonsong Automarks	絶竜詩戦争オートマーカー
+Dump Heap	ヒープをダンプ
+Duties	コンテンツ
+Earthquake Cleanse Calls: 	大地震の解除のコール:
+Easy Triggers	イージートリガー
+Easy Triggers 2.0	イージートリガー 2.0
+Edit	編集
+Effects	効果
+Enable All	すべて有効
+Enable All Groups	すべてのグループを有効
+Enable Auto Exit	自動終了を有効にする
+Enable Automarks	オートマーカーを有効にする
+Enable By Default	既定で有効
+Enable Doodle Support	落書き表示を有効にする
+Enable Personal Callout	個人向けコールアウトを有効にする
+Enable Priority	優先順位を有効にする
+Enable Profiling	プロファイリングを有効にする
+Enable Sounds	サウンドを有効にする
+Enable TTS By Default	既定で TTS を有効にする
+Enable Text By Default	既定でテキストを有効にする
+Enemy	敵
+Enter an ID in base 10 (1234) or 16 (0x12AB)	ID を 10 進数（1234）または 16 進数（0x12AB）で入力
+Enter the addon URL	アドオンの URL を入力
+Error saving timeline, check log. Did you choose your Cactbot user dir already?	タイムラインを保存できませんでした。ログを確認してください。Cactbot のユーザーフォルダは選択済みですか？
+Error: no LogCollector instance. If you aren't using a custom logback.xml, this is a bug.	エラー: LogCollector がありません。独自の logback.xml を使っていない場合は不具合です。
+Event	イベント
+Event Type: 	イベントの種類:
+Executable (use $TEXT as placeholder)	実行ファイル（$TEXT が読み上げる文字に置き換わります）
+Exit Delay (seconds)	終了までの待ち時間（秒）
+Expiring Color	効果切れ間近の色
+Export To Cactbot	Cactbot へエクスポート
+FFLogs	FFLogs
+FFLogs Client ID	FFLogs クライアント ID
+FFLogs Client Secret	FFLogs クライアントシークレット
+Fake Enemy	仮の敵
+Fake Omen	仮の範囲表示
+Fast refresh of non-combat entities	非戦闘対象をすばやく更新
+Field Type	項目の種類
+File	ファイル
+Filter for Enemy-Targeted Abilities (Mug, Chain, etc)	敵が対象のアクションに絞り込む（ぶんどる、連携など）
+Find (Regex)	検索（正規表現）
+First Set Automarker	1 回目のオートマーカー
+First Set Delay	1 回目の遅延
+Fix Visibility	表示を修正
+Flush	書き出し
+Flying Text Enabled	フライテキストを有効にする
+For Macros Only: Use F1-F9 (Instead of NumPad 1-9)	マクロ用: テンキー 1〜9 の代わりに F1〜F9 を使う
+Force	強制
+Force GC	GC を強制実行
+Force Reconnect	強制的に再接続
+Force Visible Even When Game Inactive	ゲームが非アクティブでも表示する
+Freeform	自由入力
+Full Refresh	全体を更新
+GC on new pull	プル開始時に GC を実行
+Game Client Language	ゲームクライアントの言語
+Github	GitHub
+Give this sound a name	このサウンドの名前を入力
+Graphics (Restart Required)	描画（再起動が必要）
+Groovy: 	Groovy:
+Group 1	グループ 1
+Group 1, Far	グループ 1・遠
+Group 1, Mid	グループ 1・中
+Group 2	グループ 2
+Group 2, Far	グループ 2・遠
+Group 2, Mid	グループ 2・中
+Group Prio	グループの優先順位
+Group Swap Priority/Automarks	グループ入れ替えの優先順位/オートマーカー
+HP Bars	HP バー
+HP, Empty Blend	HP（空・ぼかし）
+HP, Full	HP（満タン）
+HP, Full Blend	HP（満タン・ぼかし）
+Have your party line up from West to East in the desired priority order.	パーティに、優先順位の順で西から東へ並んでもらってください。
+Heap Dump	ヒープダンプ
+Height	高さ
+Hide Swiftcast on Non-Rez Casters	蘇生できないキャスターの迅速魔を隠す
+Hitboxes	ヒットボックス
+IDs	ID
+Identity	識別情報
+Ignore External Repaint	外部からの再描画を無視
+Ignored	無視
+Import ACT Log	ACT ログをインポート
+Import Session	セッションをインポート
+Import a Triggevent Session	Triggevent のセッションをインポート
+Import an ACT Log file	ACT のログファイルをインポート
+Import an FFLogs URL	FFLogs の URL からインポート
+Import from FFLogs	FFLogs からインポート
+In Progress	処理中
+Information for this ability could not be determined automatically.\n\nPlease enter the name, cooldown, and charges manually.	このアクションの情報を自動で取得できませんでした。\n\n名前、リキャスト、チャージ数を入力してください。
+Initial Duration	初期の時間
+Install Easy Trigger Doodle Actions	イージートリガーに落書き操作を追加
+Instructions: Drag Jobs/Classes on the left to the desired order.\nThe list on the right reflects the current party with your custom order applied.	使い方: 左のジョブ/クラスをドラッグして並べ替えてください。\n右の一覧は、現在のパーティに並び順を適用した結果です。
+Interrupted	中断
+Interval (ms)	間隔（ミリ秒）
+Italic	斜体
+Item	アイテム
+Jails	ジェイル
+Java	Java
+Java Command Line Options:	Java の起動オプション:
+Job Icon Placement	ジョブアイコンの位置
+Jobs	ジョブ
+Jump	移動
+Launch Swing Explorer	Swing Explorer を起動
+Level	レベル
+Live	ライブ
+Loading...	読み込み中...
+Local Sound as Fallback	ローカルのサウンドで代用
+Local TTS Blocking Mode	ローカル TTS の待機モード
+Local TTS as Fallback	ローカルの TTS で代用
+Log Level: 	ログレベル:
+Logs	ログ
+Looper	ルーパー
+Looper Automark (Configure Below)	ルーパーのオートマーカー（下で設定）
+Looper/Panto Markers	ルーパー/パントクラトルのマーカー
+MP	MP
+Macro Help	マクロのヘルプ
+Marker Delays	マーカーの遅延
+Marks	マーカー
+Max	最大
+Max In-Memory Events	メモリに保持する最大イベント数
+Max Overlay FPS	オーバーレイの最大 FPS
+Max Snapshots	最大スナップショット数
+Memory Info	メモリ情報
+Method: 	方式:
+Min Overlay FPS	オーバーレイの最小 FPS
+Min Snap Interval (ms)	スナップショットの最小間隔（ミリ秒）
+Minimize to Tray	タスクトレイに最小化
+Mode	モード
+Monitor	監視
+More Actions...	その他の操作...
+NPC Hitbox	NPC のヒットボックス
+NPC Omen	NPC の範囲表示
+Name Conversions	名前の変換
+Name/Skill	名前/スキル
+New	新規
+New Cooldown	新しいリキャスト
+New Entry	新しい項目
+New Label	新しいラベル
+New Skill Callout	新しいスキルのコールアウト
+New Window	新しいウィンドウ
+News and Tips	お知らせとヒント
+No editor for 	編集画面がありません:
+Not Implemented Yet	未実装です
+Nothing	なし
+Npc Yells	NPC のセリフ
+Number	番号
+Number of Rows	行数
+OK	OK
+Omega	オメガ
+One or more components failed to initialize.	一部の部品の初期化に失敗しました。
+Only Display Active Buffs	効果中のバフだけ表示
+Open ACT Log Dir	ACT のログフォルダを開く
+Open Install Dir	インストール先を開く
+Open Sessions Dir	セッションのフォルダを開く
+Open Settings/Log Dir	設定/ログのフォルダを開く
+Open in External Editor	外部エディタで開く
+Open/Close Settings	設定を開く/閉じる
+Other Entity	その他の対象
+Other PC	他のプレイヤー
+Overlay Enabled	オーバーレイを有効にする
+Override TTS Program	TTS プログラムを変更
+Override Text Color: 	文字の色を変更:
+Override Zone Lock (for testing)	エリアの制限を無視（テスト用）
+P2 PS Markers	P2 PS マーカー
+P5 Thunderstruck Automarks	P5 雷のオートマーカー
+P6 Wroth Flames Automarks	P6 邪念の炎オートマーカー
+Panto Automark (Configure Below)	パントクラトルのオートマーカー（下で設定）
+Parent	親
+Party	パーティ
+Party Cooldown Tracker	パーティのリキャストトラッカー
+Party Member	パーティメンバー
+Party Order Reset, Please Restart	パーティの並び順をリセットしました。再起動してください
+Pause	一時停止
+Pick	選ぶ
+Play to Next Matching	次に一致する箇所まで再生
+Player Action	プレイヤーのアクション
+Player Hitbox	プレイヤーのヒットボックス
+Player Name Style	プレイヤー名の表示形式
+Player Names	プレイヤー名
+Player Omen	プレイヤーの範囲表示
+Please select a file to import, or drag and drop a file onto this window.	インポートするファイルを選ぶか、このウィンドウにドラッグ＆ドロップしてください。
+Please select something to import	インポートするものを選んでください
+Position	位置
+Primary Ability	メインのアクション
+Process Name (e.g. ffxiv_dx11.exe)	プロセス名（例: ffxiv_dx11.exe）
+Process Not Detected	プロセスが見つかりません
+Property	プロパティ
+Pull: 	プル:
+Question	確認
+Quick Filter:	絞り込み:
+RSV Entries	RSV の項目
+Range/Shape	範囲/形状
+Re-Run	再実行
+Read Events, Launching GUI.	イベントを読み込みました。画面を起動しています。
+Recast	リキャスト
+Recent	最近
+Recording	記録中
+Refresh	更新
+Refresh Selection	選択を更新
+Reload	再読み込み
+Reload All	すべて再読み込み
+Reminder: use 'wss://' instead of 'ws://' if using SSL.	SSL を使う場合は 'ws://' ではなく 'wss://' を指定してください。
+Remove Component	部品を削除
+Rename	名前を変更
+Replace With	置き換え後
+Replace your own name	自分の名前を置き換える
+Replay: 	リプレイ:
+Reset All	すべてリセット
+Reset Enabled/Disabled Status	有効/無効の状態をリセット
+Reset Layout	レイアウトをリセット
+Reset on Map Change	マップ切り替えでリセット
+Return to This Window	このウィンドウに戻る
+Reverse sort (higher priority gets larger number)	逆順に並べる（優先度が高いほど大きい番号）
+Right to Left	右から左
+Rot takes highest priority	腐敗を最優先にする
+Roundness	角の丸み
+Run	実行
+Save	保存
+Save All	すべて保存
+Save As...	名前を付けて保存...
+Save Map Info as Temp Var	マップ情報を一時変数に保存
+Save State as Temp Var	状態を一時変数に保存
+Save to Disk	ディスクに保存
+Scroll to Bottom	最下部までスクロール
+Second Set Automarker	2 回目のオートマーカー
+Second Set Delay	2 回目の遅延
+Secondary Abilities	サブのアクション
+Seconds in Future	未来の秒数
+Seconds in Past	過去の秒数
+Select Current	現在のものを選択
+Selection	選択
+Selection BG	選択時の背景
+Set Cactbot Dir	Cactbot のフォルダを設定
+Settings	設定
+Shadow	影
+Shield	バリア
+Shift-Drag for slower scrub, Ctrl-Drag for faster scrub	Shift を押しながらドラッグでゆっくり、Ctrl を押しながらドラッグで速く移動
+Short	短縮
+Show Application Delay	付与までの遅延を表示
+Show FC Buffs	FC アクションのバフを表示
+Show Food Buffs	食事のバフを表示
+Show IDs	ID を表示
+Show Non-Combat Entities	非戦闘対象を表示
+Show Overlays	オーバーレイを表示
+Show Pre-Pull	プル前を表示
+Show Rationing Buffs	配給のバフを表示
+Show Selection	選択を表示
+Show System Events	システムイベントを表示
+Show Ticks	ティックを表示
+Sigma	シグマ
+Size	サイズ
+Snap/Resolve: 	スナップショット/判定:
+Sound: 	サウンド:
+Spacing Between Items	項目の間隔
+Split to New Window	別のウィンドウに分ける
+Start	開始
+Start Minimized	最小化して起動
+Start Recording?	記録を開始しますか？
+Startup/Shutdown	起動/終了
+Stats	ステータス
+Status	状態
+Status Effect	ステータス効果
+Subdirectory	サブフォルダ
+Success	成功
+Sync	同期
+System	システム
+TTS	TTS
+TTS Overrides	TTS の上書き
+TTS:	TTS:
+Test TTS	TTS をテスト
+Test With Delay	遅延付きでテスト
+Test With Event	イベント付きでテスト
+Test With Holds (Start)	保持付きでテスト（開始）
+Test With Holds (Stop)	保持付きでテスト（停止）
+Test With Icons	アイコン付きでテスト
+Test With Overridden Delay	遅延を上書きしてテスト
+Test With Vars	変数付きでテスト
+Test Without Event	イベントなしでテスト
+Text Font	文字のフォント
+Text to replace/append to your own name	自分の名前を置き換える/後ろに付ける文字
+Text/Name	テキスト/名前
+Text:	テキスト:
+That zone appears to already have been added.	そのエリアは既に追加されています。
+The Player	プレイヤー自身
+The current zone does not have a timeline.	現在のエリアにはタイムラインがありません。
+The port has been changed. You should test your Telesto connection now.	ポートを変更しました。Telesto との接続をテストしてください。
+The default Telesto port changed in Telesto version 1.0.0.0. Would you like to update your settings now?	Telesto 1.0.0.0 で既定のポートが変わりました。設定を更新しますか？
+Theme	テーマ
+This customization file is empty!	このカスタマイズファイルは空です。
+This script has requested to be run on startup. Allow?	このスクリプトは起動時の実行を求めています。許可しますか？
+This trigger failed to load. It is possible that you are missing a plugin which is required for this trigger to work. If you know what is wrong, you can export the JSON, edit it, and re-import it.	このトリガーを読み込めませんでした。必要なプラグインが入っていない可能性があります。原因が分かる場合は、JSON をエクスポートして編集し、インポートし直してください。
+Thread	スレッド
+Timeline will show prior to there being a valid sync.	有効な同期の前からタイムラインを表示します。
+Timelines	タイムライン
+Titan Gaols	タイタンのジェイル
+Titan Jails	タイタンのジェイル
+Topology	構成
+Total	合計
+Transition	移行
+Trigger Details	トリガーの詳細
+Try to Continue Anyway	このまま続ける
+Unfortunately, it appears you have an old launcher version. Please download the latest release manually.	ランチャーが古いバージョンのようです。最新版を入手してください。
+Unfortunately, this event type is not possible to automatically make a trigger for.	この種類のイベントからは、トリガーを自動で作成できません。
+Unknown	不明
+Upcoming Color	開始前の色
+Update/Repair	更新/修復
+Use OP WebSocket for Sound	サウンドに OverlayPlugin の WebSocket を使う
+Use OP WebSocket for TTS	TTS に OverlayPlugin の WebSocket を使う
+Use Snapshots	スナップショットを使う
+Values (Separate with |)	値（| で区切る）
+Visual Callouts	表示のコールアウト
+WARNING: This can break things if you set bad values. These are stored in args.txt in your install dir.	警告: 不適切な値を設定すると動作しなくなる場合があります。設定はインストール先の args.txt に保存されます。
+Waiting for response...	応答を待っています...
+Waiting for response...\nPlease make sure you have /echo chat showing in-game.	応答を待っています...\nゲーム内でエコーのチャットが表示される設定か確認してください。
+Website	Web サイト
+Websocket	WebSocket
+When using replays, it can be useful to block settings changes, as things like echo commands may change settings.\nAlso useful if you just want to play around while having an easy way to revert.	リプレイ中はエコーコマンドなどで設定が変わることがあるため、設定の変更を止めておくと便利です。\n気軽に試して元に戻したいときにも使えます。
+Where	場所
+Width	幅
+Will not activate when importing/replaying, only live use.	インポートやリプレイ中は動作せず、ライブでのみ動作します。
+Win Effective	有効な同期範囲
+Win End	同期範囲の終わり
+Win Start	同期範囲の始まり
+Y Offset Between Party Members	パーティメンバー間の縦の間隔
+You are not currently in a zone.	現在エリアにいません。
+You can only clone triggers that are in the same parent folder	複製できるのは同じフォルダ内のトリガーだけです
+You did not select any jobs or categories. Please select something.	ジョブやカテゴリが選ばれていません。選択してください。
+You didn't choose any conditions. Are you sure?	条件が選ばれていません。よろしいですか？
+You do not have any customizations for this timeline to export.	このタイムラインにはエクスポートできるカスタマイズがありません。
+You must apply updates to make your addon changes effective.	アドオンの変更を反映するには更新を適用する必要があります。
+Zone ID to Add: 	追加するエリアの ID:
+Zone/Timeline	エリア/タイムライン
+Zones	エリア
+
+# 接続状態など、画面の主要部分
+Connected to OverlayPlugin WS	OverlayPlugin の WebSocket に接続
+System Status	システムの状態
+
+# 詳細設定のメモリ情報・プラグイン名
+Auto Exit	自動終了
+Skill Hit Tracker	スキル命中トラッカー
+Heap Used	ヒープ使用量
+Heap Committed	ヒープ確保量
+Heap Max	ヒープ上限
+Other Used	その他の使用量
+Other Committed	その他の確保量
+Synthetic	合成
+In-Memory	メモリ内

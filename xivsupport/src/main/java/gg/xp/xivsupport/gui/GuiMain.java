@@ -21,6 +21,7 @@ import gg.xp.xivsupport.events.state.combatstate.StatusEffectRepository;
 import gg.xp.xivsupport.events.ws.ActWsConnectionStatusChangedEvent;
 import gg.xp.xivsupport.events.ws.WsState;
 import gg.xp.xivsupport.groovy.GroovyScriptManager;
+import gg.xp.xivsupport.gui.i18n.UiTranslator;
 import gg.xp.xivsupport.gui.components.ReadOnlyHtml;
 import gg.xp.xivsupport.gui.components.ReadOnlyText;
 import gg.xp.xivsupport.gui.extra.PluginTab;
@@ -891,7 +892,8 @@ public class GuiMain {
 					// TODO: messy
 					GuiUtil.bringToFront(eventPanel);
 					IntStream.range(0, tabPane.getTabCount())
-							.filter(i -> tabPane.getTitleAt(i).equals("Events"))
+							// タブ名は日本語に置き換わっている場合があるため、翻訳後の名前でも探す
+							.filter(i -> tabPane.getTitleAt(i).equals("Events") || tabPane.getTitleAt(i).equals(UiTranslator.translate("Events")))
 							.findFirst()
 							.ifPresentOrElse(tabPane::setSelectedIndex, () -> log.error("Couldn't find Events tab"));
 				})))
