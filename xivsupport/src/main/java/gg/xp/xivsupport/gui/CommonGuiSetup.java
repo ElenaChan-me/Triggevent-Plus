@@ -1,6 +1,8 @@
 package gg.xp.xivsupport.gui;
 
 import com.formdev.flatlaf.FlatLaf;
+import gg.xp.xivsupport.gui.i18n.UiFont;
+import gg.xp.xivsupport.gui.i18n.UiTranslator;
 import gg.xp.xivsupport.gui.overlay.Scaled;
 import gg.xp.xivsupport.gui.themes.BuiltinTheme;
 import gg.xp.xivsupport.persistence.settings.EnumSetting;
@@ -66,6 +68,8 @@ public final class CommonGuiSetup {
 		EnumSetting<BuiltinTheme> themeSetting = WindowConfig.getThemeSettingStatic();
 		log.info("Theme: {}", themeSetting.get());
 		themeSetting.addAndRunListener(() -> setTheme(themeSetting.get()));
+		UiFont.apply();
+		UiTranslator.install();
 		SwingUtilities.invokeLater(() -> {
 			Thread.currentThread().setPriority(Thread.MAX_PRIORITY);
 		});

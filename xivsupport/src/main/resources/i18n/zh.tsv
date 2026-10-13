@@ -1,0 +1,564 @@
+# Triggevent 简体中文词典
+# 格式：英文<TAB>中文。只替换与界面文字完全一致的内容，忽略首尾空格。
+
+# 主选项卡
+Welcome	欢迎
+Summary	概要
+Plugin Settings	插件设置
+Combatants	战斗对象
+Statuses	状态
+Events	事件
+ACT Log	ACT 日志
+System Log	系统日志
+Pulls	开怪记录
+Overlays	悬浮窗
+Map	地图
+Library	资料库
+Groovy	Groovy
+Updates	更新
+Advanced	高级设置
+
+# 通用
+Name	名称
+Description	说明
+ID	ID
+Reset	重置
+Cancel	取消
+Type	类型
+Value	值
+Enable Overlay	启用悬浮窗
+Font Color	文字颜色
+Icon	图标
+Import	导入
+Job	职业
+Strict	严格
+Text Color	文字颜色
+Bigger	放大
+Delete	删除
+Duration	持续时间
+Execute	执行
+Play	播放
+Smaller	缩小
+Active Color	进行中颜色
+Background	背景
+Cooldown	冷却
+Enable TTS	启用 TTS
+Exit	退出
+HP	HP
+Help	帮助
+Key	键
+Max in Overlay	悬浮窗最大显示数
+Select	选择
+Skill	技能
+TTS and Sound	TTS 与声音
+Text	文本
+Time	时间
+Zone	区域
+A Fatal Error Has Occurred	发生了严重错误
+Ability/Status	技能/状态
+Add New	新增
+Audio Files	音频文件
+Background Opacity	背景不透明度
+Close	关闭
+Collapse All	全部折叠
+Cooldown (from CSV)	冷却（CSV）
+Copied to clipboard	已复制到剪贴板
+Copy Error Message	复制错误信息
+Custom Cooldowns	自定义冷却
+Delete Selected	删除所选
+Dominion Priority	统治优先级
+Duty Name	任务名称
+Enable Party List	启用小队列表
+Enable Timers	启用计时器
+Error	错误
+Error making component	创建组件时出错
+Error:	错误：
+Error: cannot find component	错误：找不到组件
+Error: null component	错误：组件不存在
+Expand All	全部展开
+Expired Color	结束后颜色
+Export	导出
+Field	字段
+Fight #	战斗编号
+Foreground Opacity	前景不透明度
+Fraction Mode	分数显示
+Icons	图标
+Install Right Click Debug Options	在右键菜单中添加调试选项
+Kill/Wipe	击杀/团灭
+Language	语言
+Line	行
+Manage Addons	管理扩展
+Max Charges	最大充能数
+No Actions Available	没有可执行的操作
+On CD Color	冷却中颜色
+Opacity for Snapshotted Buffs	快照状态的不透明度
+Percent	百分比
+Place Name	地名
+PostNamazu	PostNamazu
+Preapp Color	预先施加颜色
+Raw class/job/category	职业/类别（内部值）
+Ready Color	可用颜色
+Record	记录
+Reset to Default	恢复默认值
+Right Align	右对齐
+Same as TTS:	与 TTS 相同：
+Shadows on Text	文字阴影
+Show Log File	显示日志文件
+Show Snapshotted Buffs (Beta)	显示快照状态（测试版）
+Show/Hide	显示/隐藏
+Source	来源
+Spacing between buffs	状态间距
+Stacks	层数
+Status Effects	状态效果
+Status:	状态：
+Success!	成功
+Take Me There!	前往
+Target	目标
+Telesto	Telesto
+Test	测试
+Test Callouts	测试提示
+Tethers	连线
+Text Alignment	文字对齐
+Text Color (Normal)	文字颜色（普通）
+Text Color (Own Buffs)	文字颜色（自己的状态）
+Text Color (Removable)	文字颜色（可驱散）
+Time before expiry to call out (milliseconds)	在效果结束前多少毫秒提示
+WARNING: Please do not abuse this functionality! By enabling this, you agree to only use these for debugging purposes and not in the course of real gameplay.	警告：请勿滥用此功能。启用即表示你同意仅用于调试，而不在实际游戏中使用。
+Wait	等待
+AM Delay (seconds) - 15+ recommended	自动标记延迟（秒）- 建议 15 以上
+Accept	确定
+Accept New Priority?	要应用新的优先级吗？
+Accept this priority?	要应用此优先级吗？
+Action	技能
+Actions/Abilities	技能/能力
+Add	添加
+Add Component	添加组件
+Add From URL	从 URL 添加
+Add New Zone	添加区域
+Advance By	前进量
+Align to Bottom	底部对齐
+Allow Bad Certs	允许无效证书
+Allow TTS	允许 TTS
+AoEs	范围攻击
+Append to your own name	附加在自己的名字后
+Apply and Restart	应用并重启
+Are you sure you want to delete all customizations for the currently selected timeline?	要删除所选时间轴的全部自定义吗？
+Are you sure you want to reset all enabled/disabled settings on this page? This cannot be reverted!	要重置此页面的全部启用/禁用设置吗？此操作无法撤销。
+Are you sure you wish to delete this timeline?	要删除此时间轴吗？
+Arena Positions	场地位置
+Arena Sector Conversions	场地区块转换
+Auto Refresh	自动刷新
+AutoMark	自动标记
+AutoMark System:	自动标记方式：
+Automatic	自动
+Automatic File Name	自动命名文件
+Automatically exit when another process (e.g. FFXIV or ACT) exits.	当其他进程（如 FFXIV 或 ACT）退出时自动退出。
+Background Color	背景颜色
+Bar Color	条颜色
+Bar Fill Seconds	条填满秒数
+Bar Width	条宽度
+Between marks, delay	标记之间的延迟
+Between commands, delay	命令之间的延迟
+plus a random delay up to	再加上最多以下的随机延迟
+Bold	粗体
+Border Thickness	边框粗细
+Bottom-to-top	从下到上
+Buffers (0 for default)	缓冲区数量（0 为默认）
+Cactbot Equivalent	对应的 Cactbot
+Callout Styling	提示样式
+Cast	咏唱
+Cast Bars	咏唱条
+Category	类别
+Change File	更换文件
+Changelog	更新记录
+Choose Jobs	选择职业
+Clear Data	清除数据
+Click this button, then use an ability (or get hit by it) in-game. The ability will then be selected in the table.	点击此按钮后，在游戏中使用（或受到）技能，表格中会选中该技能。
+Combat Duration	战斗时间
+Command Delays	命令延迟
+Condition	条件
+Conga	排成一列
+Connection	连接
+Continue	继续
+Cooldown Tracker	冷却监控
+Cooldown/Charges/Duration (Leave Blank for Auto)	冷却/充能/持续时间（留空为自动）
+Copied	已复制
+Copy Map Image URL	复制地图图片 URL
+Crit %	暴击率
+Current State:	当前状态：
+Custom Loader	自定义加载器
+Custom Party Overlay	自定义小队悬浮窗
+Custom Timeline Zone	自定义时间轴区域
+Custom Values (leave blank to use global defaults):	单独设置的值（留空使用全局默认值）：
+Custom Values (select 'Custom' in the box above):	单独设置的值（在上方选择“Custom”）：
+DCrit %	直暴率
+DMU Settings	DMU 设置
+DSR Automarks	DSR（绝龙诗）自动标记
+DSR Wroth+Thunder Automarks	DSR 愤怒与雷电自动标记
+Debug Mode	调试模式
+Debug mode will cause the last sync to always be displayed, and will cause sync-only entries to be displayed as well.	调试模式下会始终显示最后一次同步，并显示仅用于同步的项目。
+Declared In	声明位置
+Decompress events (uses more memory)	解压保存事件（占用更多内存）
+Default Join Character(s)	默认连接字符
+Default Style	默认样式
+Delays	延迟
+Delta	差值
+Dev Tools	开发者工具
+Dhit %	直击率
+Directories	文件夹
+Disable All	全部禁用
+Disable All Groups	禁用所有分组
+Discord	Discord
+Disk Storage	磁盘保存
+Display Component Test Callout	显示带组件的测试提示
+Display Icon Test Callout	显示带图标的测试提示
+Display Simple Test Callout	显示简单的测试提示
+Dmg Type/Aspect	伤害类型/属性
+DoT/Buff Tracker	DoT/状态监控
+Don't Save Settings	不保存设置
+Dots and Buffs	DoT 与状态
+Double Tower Call only when no debuff	仅在没有减益时提示双塔
+Drag anywhere in this area to scrub	在此区域拖动以调整时间
+Dragonsong Automarks	绝龙诗战争自动标记
+Dump Heap	转储堆
+Duties	任务
+Earthquake Cleanse Calls:	大地震净化提示：
+Easy Triggers	简易触发器
+Easy Triggers 2.0	简易触发器 2.0
+Edit	编辑
+Effects	效果
+Enable All	全部启用
+Enable All Groups	启用所有分组
+Enable Auto Exit	启用自动退出
+Enable Automarks	启用自动标记
+Enable By Default	默认启用
+Enable Doodle Support	启用涂鸦显示
+Enable Personal Callout	启用个人提示
+Enable Priority	启用优先级
+Enable Profiling	启用性能分析
+Enable Sounds	启用声音
+Enable TTS By Default	默认启用 TTS
+Enable Text By Default	默认启用文本
+Enemy	敌人
+Enter an ID in base 10 (1234) or 16 (0x12AB)	以十进制（1234）或十六进制（0x12AB）输入 ID
+Enter the addon URL	输入扩展的 URL
+Error saving timeline, check log. Did you choose your Cactbot user dir already?	保存时间轴失败，请查看日志。是否已选择 Cactbot 用户文件夹？
+Error: no LogCollector instance. If you aren't using a custom logback.xml, this is a bug.	错误：没有 LogCollector。如果没有使用自定义的 logback.xml，这是一个程序错误。
+Event	事件
+Event Type:	事件类型：
+Executable (use $TEXT as placeholder)	可执行文件（$TEXT 会替换为朗读内容）
+Exit Delay (seconds)	退出延迟（秒）
+Expiring Color	即将结束颜色
+Export To Cactbot	导出到 Cactbot
+FFLogs	FFLogs
+FFLogs Client ID	FFLogs 客户端 ID
+FFLogs Client Secret	FFLogs 客户端密钥
+Fake Enemy	虚拟敌人
+Fake Omen	虚拟范围提示
+Fast refresh of non-combat entities	快速刷新非战斗对象
+Field Type	字段类型
+File	文件
+Filter for Enemy-Targeted Abilities (Mug, Chain, etc)	筛选以敌人为目标的技能（夺取、连环计等）
+Find (Regex)	查找（正则表达式）
+First Set Automarker	第一轮自动标记
+First Set Delay	第一轮延迟
+Fix Visibility	修复显示
+Flush	写入
+Flying Text Enabled	启用飘字
+For Macros Only: Use F1-F9 (Instead of NumPad 1-9)	仅宏使用：用 F1～F9 代替小键盘 1～9
+Force	强制
+Force GC	强制 GC
+Force Reconnect	强制重连
+Force Visible Even When Game Inactive	游戏未激活时也显示
+Freeform	自由输入
+Full Refresh	完全刷新
+GC on new pull	开怪时执行 GC
+Game Client Language	游戏客户端语言
+Github	GitHub
+Give this sound a name	为此声音命名
+Graphics (Restart Required)	图形（需要重启）
+Groovy:	Groovy：
+Group 1	第 1 组
+Group 1, Far	第 1 组·远
+Group 1, Mid	第 1 组·中
+Group 2	第 2 组
+Group 2, Far	第 2 组·远
+Group 2, Mid	第 2 组·中
+Group Prio	分组优先级
+Group Swap Priority/Automarks	换组优先级/自动标记
+HP Bars	HP 条
+HP, Empty Blend	HP（空·渐变）
+HP, Full	HP（满）
+HP, Full Blend	HP（满·渐变）
+Have your party line up from West to East in the desired priority order.	请让队员按优先级从西到东排列。
+Heap Dump	堆转储
+Height	高度
+Hide Swiftcast on Non-Rez Casters	隐藏无法复活的法系职业的即刻咏唱
+Hitboxes	判定范围
+IDs	ID
+Identity	标识
+Ignore External Repaint	忽略外部重绘
+Ignored	忽略
+Import ACT Log	导入 ACT 日志
+Import Session	导入会话
+Import a Triggevent Session	导入 Triggevent 会话
+Import an ACT Log file	导入 ACT 日志文件
+Import an FFLogs URL	从 FFLogs URL 导入
+Import from FFLogs	从 FFLogs 导入
+In Progress	处理中
+Information for this ability could not be determined automatically.\n\nPlease enter the name, cooldown, and charges manually.	无法自动获取此技能的信息。\n\n请手动输入名称、冷却和充能数。
+Initial Duration	初始时间
+Install Easy Trigger Doodle Actions	为简易触发器添加涂鸦动作
+Instructions: Drag Jobs/Classes on the left to the desired order.\nThe list on the right reflects the current party with your custom order applied.	说明：拖动左侧的职业进行排序。\n右侧列表为当前小队应用此顺序后的结果。
+Interrupted	已中断
+Interval (ms)	间隔（毫秒）
+Italic	斜体
+Item	物品
+Jails	监狱
+Java	Java
+Java Command Line Options:	Java 启动参数：
+Job Icon Placement	职业图标位置
+Jobs	职业
+Jump	跳转
+Launch Swing Explorer	启动 Swing Explorer
+Level	等级
+Live	实时
+Loading...	加载中...
+Local Sound as Fallback	使用本地声音作为备用
+Local TTS Blocking Mode	本地 TTS 等待模式
+Local TTS as Fallback	使用本地 TTS 作为备用
+Log Level:	日志级别：
+Logs	日志
+Looper	循环
+Looper Automark (Configure Below)	循环自动标记（在下方设置）
+Looper/Panto Markers	循环/全能之主标记
+MP	MP
+Macro Help	宏帮助
+Marker Delays	标记延迟
+Marks	标记
+Max	最大
+Max In-Memory Events	内存中保留的最大事件数
+Max Overlay FPS	悬浮窗最大 FPS
+Max Snapshots	最大快照数
+Memory Info	内存信息
+Method:	方式：
+Min Overlay FPS	悬浮窗最小 FPS
+Min Snap Interval (ms)	快照最小间隔（毫秒）
+Minimize to Tray	最小化到托盘
+Mode	模式
+Monitor	监视
+More Actions...	更多操作...
+NPC Hitbox	NPC 判定范围
+NPC Omen	NPC 范围提示
+Name Conversions	名称转换
+Name/Skill	名称/技能
+New	新建
+New Cooldown	新冷却
+New Entry	新项目
+New Label	新标签
+New Skill Callout	新技能提示
+New Window	新窗口
+News and Tips	新闻与提示
+No editor for	没有对应的编辑界面：
+Not Implemented Yet	尚未实现
+Nothing	无
+Npc Yells	NPC 台词
+Number	编号
+Number of Rows	行数
+OK	确定
+Omega	欧米茄
+One or more components failed to initialize.	部分组件初始化失败。
+Only Display Active Buffs	仅显示生效中的状态
+Open ACT Log Dir	打开 ACT 日志文件夹
+Open Install Dir	打开安装文件夹
+Open Sessions Dir	打开会话文件夹
+Open Settings/Log Dir	打开设置/日志文件夹
+Open in External Editor	在外部编辑器中打开
+Open/Close Settings	打开/关闭设置
+Other Entity	其他对象
+Other PC	其他玩家
+Overlay Enabled	启用悬浮窗
+Override TTS Program	更改 TTS 程序
+Override Text Color:	更改文字颜色：
+Override Zone Lock (for testing)	忽略区域限制（测试用）
+P2 PS Markers	P2 PS 标记
+P5 Thunderstruck Automarks	P5 雷击自动标记
+P6 Wroth Flames Automarks	P6 邪念之火自动标记
+Panto Automark (Configure Below)	全能之主自动标记（在下方设置）
+Parent	上级
+Party	小队
+Party Cooldown Tracker	小队冷却监控
+Party Member	队员
+Party Order Reset, Please Restart	已重置小队顺序，请重启
+Pause	暂停
+Pick	选择
+Play to Next Matching	播放到下一个匹配处
+Player Action	玩家技能
+Player Hitbox	玩家判定范围
+Player Name Style	玩家名称显示方式
+Player Names	玩家名称
+Player Omen	玩家范围提示
+Please select a file to import, or drag and drop a file onto this window.	请选择要导入的文件，或拖放到此窗口。
+Please select something to import	请选择要导入的内容
+Position	位置
+Primary Ability	主要技能
+Process Name (e.g. ffxiv_dx11.exe)	进程名（例：ffxiv_dx11.exe）
+Process Not Detected	未检测到进程
+Property	属性
+Pull:	开怪：
+Question	确认
+Quick Filter:	快速筛选：
+RSV Entries	RSV 项目
+Range/Shape	范围/形状
+Re-Run	重新运行
+Read Events, Launching GUI.	已读取事件，正在启动界面。
+Recast	复唱
+Recent	最近
+Recording	记录中
+Refresh	刷新
+Refresh Selection	刷新所选
+Reload	重新加载
+Reload All	全部重新加载
+Reminder: use 'wss://' instead of 'ws://' if using SSL.	如使用 SSL，请用“wss://”代替“ws://”。
+Remove Component	移除组件
+Rename	重命名
+Replace With	替换为
+Replace your own name	替换自己的名字
+Replay:	回放：
+Reset All	全部重置
+Reset Enabled/Disabled Status	重置启用/禁用状态
+Reset Layout	重置布局
+Reset on Map Change	切换地图时重置
+Return to This Window	返回此窗口
+Reverse sort (higher priority gets larger number)	倒序（优先级越高编号越大）
+Right to Left	从右到左
+Rot takes highest priority	腐烂最优先
+Roundness	圆角程度
+Run	运行
+Save	保存
+Save All	全部保存
+Save As...	另存为...
+Save Map Info as Temp Var	将地图信息保存为临时变量
+Save State as Temp Var	将状态保存为临时变量
+Save to Disk	保存到磁盘
+Scroll to Bottom	滚动到底部
+Second Set Automarker	第二轮自动标记
+Second Set Delay	第二轮延迟
+Secondary Abilities	次要技能
+Seconds in Future	未来秒数
+Seconds in Past	过去秒数
+Select Current	选择当前
+Selection	选择
+Selection BG	选中背景
+Set Cactbot Dir	设置 Cactbot 文件夹
+Settings	设置
+Shadow	阴影
+Shield	护盾
+Shift-Drag for slower scrub, Ctrl-Drag for faster scrub	按住 Shift 拖动慢速调整，按住 Ctrl 拖动快速调整
+Short	简短
+Show Application Delay	显示施加延迟
+Show FC Buffs	显示部队状态
+Show Food Buffs	显示食物状态
+Show IDs	显示 ID
+Show Non-Combat Entities	显示非战斗对象
+Show Overlays	显示悬浮窗
+Show Pre-Pull	显示开怪前
+Show Rationing Buffs	显示配给状态
+Show Selection	显示所选
+Show System Events	显示系统事件
+Show Ticks	显示跳数
+Sigma	西格玛
+Size	大小
+Snap/Resolve:	快照/判定：
+Sound:	声音：
+Spacing Between Items	项目间距
+Split to New Window	拆分到新窗口
+Start	开始
+Start Minimized	最小化启动
+Start Recording?	要开始记录吗？
+Startup/Shutdown	启动/退出
+Stats	统计
+Status	状态
+Status Effect	状态效果
+Subdirectory	子文件夹
+Success	成功
+Sync	同步
+System	系统
+TTS	TTS
+TTS Overrides	TTS 覆盖
+TTS:	TTS：
+Test TTS	测试 TTS
+Test With Delay	带延迟测试
+Test With Event	带事件测试
+Test With Holds (Start)	带保持测试（开始）
+Test With Holds (Stop)	带保持测试（停止）
+Test With Icons	带图标测试
+Test With Overridden Delay	覆盖延迟测试
+Test With Vars	带变量测试
+Test Without Event	不带事件测试
+Text Font	文字字体
+Text to replace/append to your own name	替换或附加到自己名字的文字
+Text/Name	文本/名称
+Text:	文本：
+That zone appears to already have been added.	该区域已添加。
+The Player	玩家自身
+The current zone does not have a timeline.	当前区域没有时间轴。
+The port has been changed. You should test your Telesto connection now.	端口已更改，请测试与 Telesto 的连接。
+The default Telesto port changed in Telesto version 1.0.0.0. Would you like to update your settings now?	Telesto 1.0.0.0 更改了默认端口。要现在更新设置吗？
+Theme	主题
+This customization file is empty!	此自定义文件为空。
+This script has requested to be run on startup. Allow?	此脚本请求在启动时运行。是否允许？
+This trigger failed to load. It is possible that you are missing a plugin which is required for this trigger to work. If you know what is wrong, you can export the JSON, edit it, and re-import it.	无法加载此触发器，可能缺少所需的插件。如果知道原因，可导出 JSON 修改后重新导入。
+Thread	线程
+Timeline will show prior to there being a valid sync.	在有效同步之前也显示时间轴。
+Timelines	时间轴
+Titan Gaols	泰坦监狱
+Titan Jails	泰坦监狱
+Topology	结构
+Total	合计
+Transition	转换
+Trigger Details	触发器详情
+Try to Continue Anyway	仍然继续
+Unfortunately, it appears you have an old launcher version. Please download the latest release manually.	启动器版本较旧，请手动下载最新版本。
+Unfortunately, this event type is not possible to automatically make a trigger for.	此类事件无法自动生成触发器。
+Unknown	未知
+Upcoming Color	开始前颜色
+Update/Repair	更新/修复
+Use OP WebSocket for Sound	声音使用 OverlayPlugin WebSocket
+Use OP WebSocket for TTS	TTS 使用 OverlayPlugin WebSocket
+Use Snapshots	使用快照
+Values (Separate with |)	值（用 | 分隔）
+Visual Callouts	画面提示
+WARNING: This can break things if you set bad values. These are stored in args.txt in your install dir.	警告：设置不当的值可能导致无法运行。设置保存在安装文件夹的 args.txt 中。
+Waiting for response...	正在等待响应...
+Waiting for response...\nPlease make sure you have /echo chat showing in-game.	正在等待响应...\n请确认游戏中会显示默语频道。
+Website	网站
+Websocket	WebSocket
+When using replays, it can be useful to block settings changes, as things like echo commands may change settings.\nAlso useful if you just want to play around while having an easy way to revert.	回放时默语命令等可能会更改设置，因此阻止设置更改会很方便。\n也适合在想随意尝试并方便还原时使用。
+Where	位置
+Width	宽度
+Will not activate when importing/replaying, only live use.	导入或回放时不会生效，仅在实时使用时生效。
+Win Effective	有效同步范围
+Win End	同步范围结束
+Win Start	同步范围开始
+Y Offset Between Party Members	队员之间的纵向间距
+You are not currently in a zone.	当前不在任何区域。
+You can only clone triggers that are in the same parent folder	只能复制同一文件夹中的触发器
+You did not select any jobs or categories. Please select something.	未选择职业或类别，请进行选择。
+You didn't choose any conditions. Are you sure?	未选择任何条件，确定吗？
+You do not have any customizations for this timeline to export.	此时间轴没有可导出的自定义。
+You must apply updates to make your addon changes effective.	需要应用更新才能使扩展的更改生效。
+Zone ID to Add:	要添加的区域 ID：
+Zone/Timeline	区域/时间轴
+Zones	区域
+Connected to OverlayPlugin WS	已连接 OverlayPlugin WebSocket
+System Status	系统状态
+Auto Exit	自动退出
+Skill Hit Tracker	技能命中监控
+Heap Used	堆使用量
+Heap Committed	堆已分配
+Heap Max	堆上限
+Other Used	其他使用量
+Other Committed	其他已分配
+Synthetic	合成
+In-Memory	内存中

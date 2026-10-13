@@ -1,0 +1,564 @@
+# Triggevent 한국어 사전
+# 형식: 영어<TAB>한국어. 화면 문자열과 일치하는 것만 바꾼다. 앞뒤 공백은 무시한다.
+
+# 메인 탭
+Welcome	환영
+Summary	요약
+Plugin Settings	플러그인 설정
+Combatants	전투 대상
+Statuses	상태
+Events	이벤트
+ACT Log	ACT 로그
+System Log	시스템 로그
+Pulls	풀
+Overlays	오버레이
+Map	맵
+Library	라이브러리
+Groovy	Groovy
+Updates	업데이트
+Advanced	고급 설정
+
+# 공통
+Name	이름
+Description	설명
+ID	ID
+Reset	초기화
+Cancel	취소
+Type	종류
+Value	값
+Enable Overlay	오버레이 사용
+Font Color	글자 색
+Icon	아이콘
+Import	가져오기
+Job	직업
+Strict	엄격
+Text Color	글자 색
+Bigger	크게
+Delete	삭제
+Duration	지속 시간
+Execute	실행
+Play	재생
+Smaller	작게
+Active Color	진행 중 색
+Background	배경
+Cooldown	재사용 대기
+Enable TTS	TTS 사용
+Exit	종료
+HP	HP
+Help	도움말
+Key	키
+Max in Overlay	오버레이 최대 표시 수
+Select	선택
+Skill	스킬
+TTS and Sound	TTS와 사운드
+Text	텍스트
+Time	시각
+Zone	지역
+A Fatal Error Has Occurred	치명적인 오류가 발생했습니다
+Ability/Status	기술/상태
+Add New	새로 추가
+Audio Files	음성 파일
+Background Opacity	배경 불투명도
+Close	닫기
+Collapse All	모두 접기
+Cooldown (from CSV)	재사용 대기 (CSV)
+Copied to clipboard	클립보드에 복사했습니다
+Copy Error Message	오류 내용 복사
+Custom Cooldowns	사용자 재사용 대기
+Delete Selected	선택 항목 삭제
+Dominion Priority	도미니언 우선순위
+Duty Name	임무 이름
+Enable Party List	파티 목록 사용
+Enable Timers	타이머 사용
+Error	오류
+Error making component	구성 요소를 만드는 중 오류가 발생했습니다
+Error:	오류:
+Error: cannot find component	오류: 구성 요소를 찾을 수 없습니다
+Error: null component	오류: 구성 요소가 없습니다
+Expand All	모두 펼치기
+Expired Color	종료 후 색
+Export	내보내기
+Field	항목
+Fight #	전투 번호
+Foreground Opacity	전경 불투명도
+Fraction Mode	분수 표시
+Icons	아이콘
+Install Right Click Debug Options	오른쪽 클릭에 디버그 항목 추가
+Kill/Wipe	처치/전멸
+Language	언어
+Line	줄
+Manage Addons	애드온 관리
+Max Charges	최대 충전 수
+No Actions Available	실행할 수 있는 작업이 없습니다
+On CD Color	재사용 대기 중 색
+Opacity for Snapshotted Buffs	스냅샷된 버프의 불투명도
+Percent	퍼센트
+Place Name	지명
+PostNamazu	PostNamazu
+Preapp Color	사전 부여 색
+Raw class/job/category	클래스/직업/분류 (내부 값)
+Ready Color	사용 가능 색
+Record	기록
+Reset to Default	기본값으로 되돌리기
+Right Align	오른쪽 정렬
+Same as TTS:	TTS와 같음:
+Shadows on Text	글자에 그림자
+Show Log File	로그 파일 보기
+Show Snapshotted Buffs (Beta)	스냅샷된 버프 표시 (베타)
+Show/Hide	표시/숨기기
+Source	시전자
+Spacing between buffs	버프 간격
+Stacks	중첩 수
+Status Effects	상태 효과
+Status:	상태:
+Success!	성공했습니다
+Take Me There!	이동하기
+Target	대상
+Telesto	Telesto
+Test	테스트
+Test Callouts	콜아웃 테스트
+Tethers	선
+Text Alignment	글자 정렬
+Text Color (Normal)	글자 색 (일반)
+Text Color (Own Buffs)	글자 색 (내 버프)
+Text Color (Removable)	글자 색 (해제 가능)
+Time before expiry to call out (milliseconds)	효과 종료 몇 밀리초 전에 알릴지
+WARNING: Please do not abuse this functionality! By enabling this, you agree to only use these for debugging purposes and not in the course of real gameplay.	경고: 이 기능을 남용하지 마세요. 켜면 실제 플레이가 아닌 디버그 목적으로만 사용하는 데 동의한 것으로 간주합니다.
+Wait	대기
+AM Delay (seconds) - 15+ recommended	자동 마커 지연 (초) - 15 이상 권장
+Accept	확인
+Accept New Priority?	새 우선순위를 적용할까요?
+Accept this priority?	이 우선순위를 적용할까요?
+Action	기술
+Actions/Abilities	기술/능력
+Add	추가
+Add Component	구성 요소 추가
+Add From URL	URL에서 추가
+Add New Zone	지역 추가
+Advance By	진행 단위
+Align to Bottom	아래 정렬
+Allow Bad Certs	잘못된 인증서 허용
+Allow TTS	TTS 허용
+AoEs	범위 공격
+Append to your own name	내 이름 뒤에 붙이기
+Apply and Restart	적용 후 재시작
+Are you sure you want to delete all customizations for the currently selected timeline?	선택한 타임라인의 사용자 설정을 모두 삭제할까요?
+Are you sure you want to reset all enabled/disabled settings on this page? This cannot be reverted!	이 페이지의 사용/미사용 설정을 모두 초기화할까요? 되돌릴 수 없습니다.
+Are you sure you wish to delete this timeline?	이 타임라인을 삭제할까요?
+Arena Positions	필드 위치
+Arena Sector Conversions	필드 구역 변환
+Auto Refresh	자동 새로 고침
+AutoMark	자동 마커
+AutoMark System:	자동 마커 방식:
+Automatic	자동
+Automatic File Name	파일 이름 자동 지정
+Automatically exit when another process (e.g. FFXIV or ACT) exits.	다른 프로세스(FFXIV나 ACT 등)가 종료되면 자동으로 종료합니다.
+Background Color	배경색
+Bar Color	막대 색
+Bar Fill Seconds	막대가 차는 시간 (초)
+Bar Width	막대 너비
+Between marks, delay	마커 사이 대기 시간
+Between commands, delay	명령 사이 대기 시간
+plus a random delay up to	여기에 최대 다음 만큼의 무작위 지연 추가
+Bold	굵게
+Border Thickness	테두리 두께
+Bottom-to-top	아래에서 위로
+Buffers (0 for default)	버퍼 수 (0이면 기본값)
+Cactbot Equivalent	Cactbot 대응
+Callout Styling	콜아웃 모양
+Cast	시전
+Cast Bars	시전 막대
+Category	분류
+Change File	파일 변경
+Changelog	변경 내역
+Choose Jobs	직업 선택
+Clear Data	데이터 지우기
+Click this button, then use an ability (or get hit by it) in-game. The ability will then be selected in the table.	이 버튼을 누른 뒤 게임에서 기술을 사용하거나 맞으면 표에서 그 기술이 선택됩니다.
+Combat Duration	전투 시간
+Command Delays	명령 지연
+Condition	조건
+Conga	한 줄 정렬
+Connection	연결
+Continue	계속
+Cooldown Tracker	재사용 대기 추적기
+Cooldown/Charges/Duration (Leave Blank for Auto)	재사용 대기/충전/지속 시간 (비우면 자동)
+Copied	복사했습니다
+Copy Map Image URL	맵 이미지 URL 복사
+Crit %	극대화 확률
+Current State:	현재 상태:
+Custom Loader	사용자 로더
+Custom Party Overlay	사용자 파티 오버레이
+Custom Timeline Zone	사용자 타임라인 지역
+Custom Values (leave blank to use global defaults):	개별 값 (비우면 전체 기본값 사용):
+Custom Values (select 'Custom' in the box above):	개별 값 (위 칸에서 'Custom' 선택):
+DCrit %	직격 극대화 확률
+DMU Settings	DMU 설정
+DSR Automarks	DSR (절 용시전쟁) 자동 마커
+DSR Wroth+Thunder Automarks	DSR 분노의 번개 자동 마커
+Debug Mode	디버그 모드
+Debug mode will cause the last sync to always be displayed, and will cause sync-only entries to be displayed as well.	디버그 모드에서는 마지막 동기화와 동기화 전용 항목도 항상 표시합니다.
+Declared In	정의 위치
+Decompress events (uses more memory)	이벤트를 풀어서 보관 (메모리 사용 증가)
+Default Join Character(s)	기본 구분 문자
+Default Style	기본 스타일
+Delays	지연
+Delta	차이
+Dev Tools	개발자 도구
+Dhit %	직격 확률
+Directories	폴더
+Disable All	모두 끄기
+Disable All Groups	모든 그룹 끄기
+Discord	Discord
+Disk Storage	디스크 저장
+Display Component Test Callout	구성 요소 포함 테스트 콜아웃 표시
+Display Icon Test Callout	아이콘 포함 테스트 콜아웃 표시
+Display Simple Test Callout	간단한 테스트 콜아웃 표시
+Dmg Type/Aspect	피해 종류/속성
+DoT/Buff Tracker	DoT/버프 추적기
+Don't Save Settings	설정 저장 안 함
+Dots and Buffs	DoT와 버프
+Double Tower Call only when no debuff	디버프가 없을 때만 이중 탑 알림
+Drag anywhere in this area to scrub	이 영역을 끌어서 시간 이동
+Dragonsong Automarks	절 용시전쟁 자동 마커
+Dump Heap	힙 덤프
+Duties	임무
+Earthquake Cleanse Calls:	대지진 해제 알림:
+Easy Triggers	간편 트리거
+Easy Triggers 2.0	간편 트리거 2.0
+Edit	편집
+Effects	효과
+Enable All	모두 켜기
+Enable All Groups	모든 그룹 켜기
+Enable Auto Exit	자동 종료 사용
+Enable Automarks	자동 마커 사용
+Enable By Default	기본으로 사용
+Enable Doodle Support	그리기 표시 사용
+Enable Personal Callout	개인 콜아웃 사용
+Enable Priority	우선순위 사용
+Enable Profiling	프로파일링 사용
+Enable Sounds	사운드 사용
+Enable TTS By Default	기본으로 TTS 사용
+Enable Text By Default	기본으로 텍스트 사용
+Enemy	적
+Enter an ID in base 10 (1234) or 16 (0x12AB)	ID를 10진수(1234) 또는 16진수(0x12AB)로 입력
+Enter the addon URL	애드온 URL 입력
+Error saving timeline, check log. Did you choose your Cactbot user dir already?	타임라인을 저장하지 못했습니다. 로그를 확인하세요. Cactbot 사용자 폴더를 선택했나요?
+Error: no LogCollector instance. If you aren't using a custom logback.xml, this is a bug.	오류: LogCollector가 없습니다. 별도의 logback.xml을 쓰지 않는다면 버그입니다.
+Event	이벤트
+Event Type:	이벤트 종류:
+Executable (use $TEXT as placeholder)	실행 파일 ($TEXT가 읽을 문장으로 바뀜)
+Exit Delay (seconds)	종료 대기 시간 (초)
+Expiring Color	종료 임박 색
+Export To Cactbot	Cactbot으로 내보내기
+FFLogs	FFLogs
+FFLogs Client ID	FFLogs 클라이언트 ID
+FFLogs Client Secret	FFLogs 클라이언트 시크릿
+Fake Enemy	가상 적
+Fake Omen	가상 범위 표시
+Fast refresh of non-combat entities	비전투 대상 빠르게 갱신
+Field Type	항목 종류
+File	파일
+Filter for Enemy-Targeted Abilities (Mug, Chain, etc)	적 대상 기술로 좁히기 (훔치기, 연계 등)
+Find (Regex)	찾기 (정규식)
+First Set Automarker	1차 자동 마커
+First Set Delay	1차 지연
+Fix Visibility	표시 수정
+Flush	쓰기
+Flying Text Enabled	플라이 텍스트 사용
+For Macros Only: Use F1-F9 (Instead of NumPad 1-9)	매크로용: 숫자 키패드 1~9 대신 F1~F9 사용
+Force	강제
+Force GC	GC 강제 실행
+Force Reconnect	강제 재연결
+Force Visible Even When Game Inactive	게임이 비활성이어도 표시
+Freeform	자유 입력
+Full Refresh	전체 새로 고침
+GC on new pull	풀 시작 시 GC 실행
+Game Client Language	게임 클라이언트 언어
+Github	GitHub
+Give this sound a name	이 사운드의 이름 입력
+Graphics (Restart Required)	그래픽 (재시작 필요)
+Groovy:	Groovy:
+Group 1	그룹 1
+Group 1, Far	그룹 1·먼 곳
+Group 1, Mid	그룹 1·중간
+Group 2	그룹 2
+Group 2, Far	그룹 2·먼 곳
+Group 2, Mid	그룹 2·중간
+Group Prio	그룹 우선순위
+Group Swap Priority/Automarks	그룹 교체 우선순위/자동 마커
+HP Bars	HP 막대
+HP, Empty Blend	HP (빈 칸·흐림)
+HP, Full	HP (가득)
+HP, Full Blend	HP (가득·흐림)
+Have your party line up from West to East in the desired priority order.	파티원을 원하는 우선순위대로 서쪽에서 동쪽으로 세워 주세요.
+Heap Dump	힙 덤프
+Height	높이
+Hide Swiftcast on Non-Rez Casters	부활할 수 없는 캐스터의 신속마법 숨기기
+Hitboxes	히트박스
+IDs	ID
+Identity	식별 정보
+Ignore External Repaint	외부 다시 그리기 무시
+Ignored	무시
+Import ACT Log	ACT 로그 가져오기
+Import Session	세션 가져오기
+Import a Triggevent Session	Triggevent 세션 가져오기
+Import an ACT Log file	ACT 로그 파일 가져오기
+Import an FFLogs URL	FFLogs URL에서 가져오기
+Import from FFLogs	FFLogs에서 가져오기
+In Progress	처리 중
+Information for this ability could not be determined automatically.\n\nPlease enter the name, cooldown, and charges manually.	이 기술의 정보를 자동으로 알아내지 못했습니다.\n\n이름, 재사용 대기, 충전 수를 입력해 주세요.
+Initial Duration	초기 시간
+Install Easy Trigger Doodle Actions	간편 트리거에 그리기 동작 추가
+Instructions: Drag Jobs/Classes on the left to the desired order.\nThe list on the right reflects the current party with your custom order applied.	사용법: 왼쪽의 직업/클래스를 끌어서 순서를 바꾸세요.\n오른쪽 목록은 현재 파티에 이 순서를 적용한 결과입니다.
+Interrupted	중단됨
+Interval (ms)	간격 (밀리초)
+Italic	기울임
+Item	아이템
+Jails	감옥
+Java	Java
+Java Command Line Options:	Java 실행 옵션:
+Job Icon Placement	직업 아이콘 위치
+Jobs	직업
+Jump	이동
+Launch Swing Explorer	Swing Explorer 실행
+Level	레벨
+Live	라이브
+Loading...	불러오는 중...
+Local Sound as Fallback	로컬 사운드로 대체
+Local TTS Blocking Mode	로컬 TTS 대기 모드
+Local TTS as Fallback	로컬 TTS로 대체
+Log Level:	로그 수준:
+Logs	로그
+Looper	루퍼
+Looper Automark (Configure Below)	루퍼 자동 마커 (아래에서 설정)
+Looper/Panto Markers	루퍼/판토크라토르 마커
+MP	MP
+Macro Help	매크로 도움말
+Marker Delays	마커 지연
+Marks	마커
+Max	최대
+Max In-Memory Events	메모리에 보관할 최대 이벤트 수
+Max Overlay FPS	오버레이 최대 FPS
+Max Snapshots	최대 스냅샷 수
+Memory Info	메모리 정보
+Method:	방식:
+Min Overlay FPS	오버레이 최소 FPS
+Min Snap Interval (ms)	스냅샷 최소 간격 (밀리초)
+Minimize to Tray	트레이로 최소화
+Mode	모드
+Monitor	감시
+More Actions...	기타 작업...
+NPC Hitbox	NPC 히트박스
+NPC Omen	NPC 범위 표시
+Name Conversions	이름 변환
+Name/Skill	이름/스킬
+New	새로 만들기
+New Cooldown	새 재사용 대기
+New Entry	새 항목
+New Label	새 라벨
+New Skill Callout	새 스킬 콜아웃
+New Window	새 창
+News and Tips	소식과 팁
+No editor for	편집 화면이 없습니다:
+Not Implemented Yet	아직 구현되지 않았습니다
+Nothing	없음
+Npc Yells	NPC 대사
+Number	번호
+Number of Rows	행 수
+OK	확인
+Omega	오메가
+One or more components failed to initialize.	일부 구성 요소의 초기화에 실패했습니다.
+Only Display Active Buffs	적용 중인 버프만 표시
+Open ACT Log Dir	ACT 로그 폴더 열기
+Open Install Dir	설치 폴더 열기
+Open Sessions Dir	세션 폴더 열기
+Open Settings/Log Dir	설정/로그 폴더 열기
+Open in External Editor	외부 편집기에서 열기
+Open/Close Settings	설정 열기/닫기
+Other Entity	기타 대상
+Other PC	다른 플레이어
+Overlay Enabled	오버레이 사용
+Override TTS Program	TTS 프로그램 변경
+Override Text Color:	글자 색 변경:
+Override Zone Lock (for testing)	지역 제한 무시 (테스트용)
+P2 PS Markers	P2 PS 마커
+P5 Thunderstruck Automarks	P5 번개 자동 마커
+P6 Wroth Flames Automarks	P6 사념의 불꽃 자동 마커
+Panto Automark (Configure Below)	판토크라토르 자동 마커 (아래에서 설정)
+Parent	상위
+Party	파티
+Party Cooldown Tracker	파티 재사용 대기 추적기
+Party Member	파티원
+Party Order Reset, Please Restart	파티 순서를 초기화했습니다. 다시 시작해 주세요
+Pause	일시 정지
+Pick	고르기
+Play to Next Matching	다음 일치 지점까지 재생
+Player Action	플레이어 기술
+Player Hitbox	플레이어 히트박스
+Player Name Style	플레이어 이름 표시 형식
+Player Names	플레이어 이름
+Player Omen	플레이어 범위 표시
+Please select a file to import, or drag and drop a file onto this window.	가져올 파일을 고르거나 이 창에 끌어다 놓으세요.
+Please select something to import	가져올 것을 골라 주세요
+Position	위치
+Primary Ability	주 기술
+Process Name (e.g. ffxiv_dx11.exe)	프로세스 이름 (예: ffxiv_dx11.exe)
+Process Not Detected	프로세스를 찾을 수 없습니다
+Property	속성
+Pull:	풀:
+Question	확인
+Quick Filter:	빠른 필터:
+RSV Entries	RSV 항목
+Range/Shape	범위/모양
+Re-Run	다시 실행
+Read Events, Launching GUI.	이벤트를 읽었습니다. 화면을 실행합니다.
+Recast	재사용
+Recent	최근
+Recording	기록 중
+Refresh	새로 고침
+Refresh Selection	선택 새로 고침
+Reload	다시 불러오기
+Reload All	모두 다시 불러오기
+Reminder: use 'wss://' instead of 'ws://' if using SSL.	SSL을 쓴다면 'ws://' 대신 'wss://'를 사용하세요.
+Remove Component	구성 요소 삭제
+Rename	이름 변경
+Replace With	바꿀 내용
+Replace your own name	내 이름 바꾸기
+Replay:	리플레이:
+Reset All	모두 초기화
+Reset Enabled/Disabled Status	사용/미사용 상태 초기화
+Reset Layout	배치 초기화
+Reset on Map Change	맵 변경 시 초기화
+Return to This Window	이 창으로 돌아가기
+Reverse sort (higher priority gets larger number)	역순 정렬 (우선순위가 높을수록 큰 번호)
+Right to Left	오른쪽에서 왼쪽
+Rot takes highest priority	부패를 최우선으로
+Roundness	모서리 둥글기
+Run	실행
+Save	저장
+Save All	모두 저장
+Save As...	다른 이름으로 저장...
+Save Map Info as Temp Var	맵 정보를 임시 변수로 저장
+Save State as Temp Var	상태를 임시 변수로 저장
+Save to Disk	디스크에 저장
+Scroll to Bottom	맨 아래로 스크롤
+Second Set Automarker	2차 자동 마커
+Second Set Delay	2차 지연
+Secondary Abilities	보조 기술
+Seconds in Future	미래 초
+Seconds in Past	과거 초
+Select Current	현재 항목 선택
+Selection	선택
+Selection BG	선택 배경
+Set Cactbot Dir	Cactbot 폴더 설정
+Settings	설정
+Shadow	그림자
+Shield	보호막
+Shift-Drag for slower scrub, Ctrl-Drag for faster scrub	Shift를 누른 채 끌면 천천히, Ctrl을 누른 채 끌면 빠르게 이동
+Short	짧게
+Show Application Delay	부여 지연 표시
+Show FC Buffs	FC 버프 표시
+Show Food Buffs	음식 버프 표시
+Show IDs	ID 표시
+Show Non-Combat Entities	비전투 대상 표시
+Show Overlays	오버레이 표시
+Show Pre-Pull	풀 이전 표시
+Show Rationing Buffs	배급 버프 표시
+Show Selection	선택 표시
+Show System Events	시스템 이벤트 표시
+Show Ticks	틱 표시
+Sigma	시그마
+Size	크기
+Snap/Resolve:	스냅샷/판정:
+Sound:	사운드:
+Spacing Between Items	항목 간격
+Split to New Window	새 창으로 분리
+Start	시작
+Start Minimized	최소화 상태로 시작
+Start Recording?	기록을 시작할까요?
+Startup/Shutdown	시작/종료
+Stats	통계
+Status	상태
+Status Effect	상태 효과
+Subdirectory	하위 폴더
+Success	성공
+Sync	동기화
+System	시스템
+TTS	TTS
+TTS Overrides	TTS 덮어쓰기
+TTS:	TTS:
+Test TTS	TTS 테스트
+Test With Delay	지연 포함 테스트
+Test With Event	이벤트 포함 테스트
+Test With Holds (Start)	유지 포함 테스트 (시작)
+Test With Holds (Stop)	유지 포함 테스트 (정지)
+Test With Icons	아이콘 포함 테스트
+Test With Overridden Delay	지연 덮어쓰기 테스트
+Test With Vars	변수 포함 테스트
+Test Without Event	이벤트 없이 테스트
+Text Font	글꼴
+Text to replace/append to your own name	내 이름을 바꾸거나 뒤에 붙일 글자
+Text/Name	텍스트/이름
+Text:	텍스트:
+That zone appears to already have been added.	그 지역은 이미 추가되어 있습니다.
+The Player	플레이어 본인
+The current zone does not have a timeline.	현재 지역에는 타임라인이 없습니다.
+The port has been changed. You should test your Telesto connection now.	포트를 변경했습니다. Telesto 연결을 테스트해 주세요.
+The default Telesto port changed in Telesto version 1.0.0.0. Would you like to update your settings now?	Telesto 1.0.0.0에서 기본 포트가 바뀌었습니다. 설정을 갱신할까요?
+Theme	테마
+This customization file is empty!	이 사용자 설정 파일은 비어 있습니다.
+This script has requested to be run on startup. Allow?	이 스크립트는 시작 시 실행을 요청했습니다. 허용할까요?
+This trigger failed to load. It is possible that you are missing a plugin which is required for this trigger to work. If you know what is wrong, you can export the JSON, edit it, and re-import it.	이 트리거를 불러오지 못했습니다. 필요한 플러그인이 없을 수 있습니다. 원인을 안다면 JSON을 내보내 수정한 뒤 다시 가져오세요.
+Thread	스레드
+Timeline will show prior to there being a valid sync.	유효한 동기화 전부터 타임라인을 표시합니다.
+Timelines	타임라인
+Titan Gaols	타이탄 감옥
+Titan Jails	타이탄 감옥
+Topology	구성
+Total	합계
+Transition	전환
+Trigger Details	트리거 상세
+Try to Continue Anyway	그래도 계속하기
+Unfortunately, it appears you have an old launcher version. Please download the latest release manually.	런처가 오래된 버전입니다. 최신 버전을 받아 주세요.
+Unfortunately, this event type is not possible to automatically make a trigger for.	이 종류의 이벤트로는 트리거를 자동으로 만들 수 없습니다.
+Unknown	알 수 없음
+Upcoming Color	시작 전 색
+Update/Repair	업데이트/복구
+Use OP WebSocket for Sound	사운드에 OverlayPlugin WebSocket 사용
+Use OP WebSocket for TTS	TTS에 OverlayPlugin WebSocket 사용
+Use Snapshots	스냅샷 사용
+Values (Separate with |)	값 (|로 구분)
+Visual Callouts	화면 콜아웃
+WARNING: This can break things if you set bad values. These are stored in args.txt in your install dir.	경고: 잘못된 값을 넣으면 동작하지 않을 수 있습니다. 설정은 설치 폴더의 args.txt에 저장됩니다.
+Waiting for response...	응답을 기다리는 중...
+Waiting for response...\nPlease make sure you have /echo chat showing in-game.	응답을 기다리는 중...\n게임에서 에코 채팅이 표시되는지 확인해 주세요.
+Website	웹사이트
+Websocket	WebSocket
+When using replays, it can be useful to block settings changes, as things like echo commands may change settings.\nAlso useful if you just want to play around while having an easy way to revert.	리플레이 중에는 에코 명령 등으로 설정이 바뀔 수 있으므로 설정 변경을 막아 두면 편리합니다.\n가볍게 시험해 보고 되돌리고 싶을 때도 쓸 수 있습니다.
+Where	위치
+Width	너비
+Will not activate when importing/replaying, only live use.	가져오기나 리플레이 중에는 동작하지 않고 라이브에서만 동작합니다.
+Win Effective	유효 동기화 범위
+Win End	동기화 범위 끝
+Win Start	동기화 범위 시작
+Y Offset Between Party Members	파티원 간 세로 간격
+You are not currently in a zone.	현재 지역에 있지 않습니다.
+You can only clone triggers that are in the same parent folder	같은 폴더 안의 트리거만 복제할 수 있습니다
+You did not select any jobs or categories. Please select something.	직업이나 분류를 선택하지 않았습니다. 선택해 주세요.
+You didn't choose any conditions. Are you sure?	조건을 선택하지 않았습니다. 괜찮을까요?
+You do not have any customizations for this timeline to export.	이 타임라인에는 내보낼 사용자 설정이 없습니다.
+You must apply updates to make your addon changes effective.	애드온 변경을 반영하려면 업데이트를 적용해야 합니다.
+Zone ID to Add:	추가할 지역 ID:
+Zone/Timeline	지역/타임라인
+Zones	지역
+Connected to OverlayPlugin WS	OverlayPlugin WebSocket에 연결
+System Status	시스템 상태
+Auto Exit	자동 종료
+Skill Hit Tracker	스킬 적중 추적기
+Heap Used	힙 사용량
+Heap Committed	힙 확보량
+Heap Max	힙 상한
+Other Used	기타 사용량
+Other Committed	기타 확보량
+Synthetic	합성
+In-Memory	메모리 내
