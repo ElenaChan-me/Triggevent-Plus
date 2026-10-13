@@ -130,7 +130,10 @@ public class MapTab extends JPanel {
 
 
 	private void updateMapPanel() {
-		mapPanel.setCombatants(table.getMainModel().getData());
+		// 非表示の間は描画されないため、100ms ごとの一覧のコピーと再描画要求を省く
+		if (mapPanel.isShowing()) {
+			mapPanel.setCombatants(table.getMainModel().getData());
+		}
 	}
 
 	private void signalUpdate() {

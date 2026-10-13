@@ -38,7 +38,7 @@
     <!--        <appender-ref ref="CONSOLE"/>-->
     <!--    </logger>-->
 
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="CONSOLE"/>
         <!--        TODO: Find a clean way to have COLLECTOR also get trace-level logs-->
         <appender-ref ref="COLLECTOR"/>
