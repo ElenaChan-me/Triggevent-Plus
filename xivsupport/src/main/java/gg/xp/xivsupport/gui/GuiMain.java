@@ -21,6 +21,7 @@ import gg.xp.xivsupport.events.state.combatstate.StatusEffectRepository;
 import gg.xp.xivsupport.events.ws.ActWsConnectionStatusChangedEvent;
 import gg.xp.xivsupport.events.ws.WsState;
 import gg.xp.xivsupport.groovy.GroovyScriptManager;
+import gg.xp.xivsupport.gui.i18n.HubSettings;
 import gg.xp.xivsupport.gui.i18n.UiTranslator;
 import gg.xp.xivsupport.gui.components.ReadOnlyHtml;
 import gg.xp.xivsupport.gui.components.ReadOnlyText;
@@ -292,7 +293,10 @@ public class GuiMain {
 
 			{
 				JPanel topPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-				topPanel.add(new EnumSettingGui<>(WindowConfig.getThemeSettingStatic(), "Theme", () -> true).getComboBoxOnly());
+				// テーマを XIVToolHub で管理している場合は、ここで変えても次回の起動時に戻るので表示しない
+				if (HubSettings.get().getTheme() == null) {
+					topPanel.add(new EnumSettingGui<>(WindowConfig.getThemeSettingStatic(), "Theme", () -> true).getComboBoxOnly());
+				}
 				topPanel.add(new EasyAction("Github", () -> GuiUtil.openUrl("https://github.com/xpdota/event-trigger"), () -> true, null).asButton());
 				topPanel.add(new EasyAction("Website", () -> GuiUtil.openUrl("https://triggevent.io"), () -> true, null).asButton());
 				topPanel.add(new EasyAction("Discord", () -> GuiUtil.openUrl("https://discord.gg/jxk24jC66r"), () -> true, null).asButton());
