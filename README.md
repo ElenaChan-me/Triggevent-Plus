@@ -1,3 +1,52 @@
+# Triggevent JP
+
+[Triggevent](https://github.com/xpdota/event-trigger) を日本語化・最適化した版です。
+A Japanese-localized and optimized fork of [Triggevent](https://github.com/xpdota/event-trigger).
+
+## 注意 / Warning
+
+FINAL FANTASY XIV の利用規約では外部ツールの使用が禁止されています。利用は自己責任で行ってください。
+Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use at your own risk.
+
+## 本家からの変更点 / Changes from the original
+
+変更日 / Date of modification: 2026-10-13（ベース / based on: upstream `master` `44aca1b`）
+
+- **日本語化 / Localization**: 画面の文字列を辞書（`xivsupport/src/main/resources/i18n/ja.tsv`）で日本語に置き換える仕組みを追加。本家のソースの文字列は変更していません。`-Dtriggevent.translate=false` で英語表示に戻せます。
+  UI strings are replaced at display time from a dictionary; upstream source strings are untouched.
+- **自動更新の無効化 / Updater disabled**: 本家の配布ファイルで日本語版が上書きされないよう、本家サーバーからの更新を停止。更新は XIVToolHub から行います。
+  The upstream auto-updater is disabled so the Japanese build is not overwritten; updates come via XIVToolHub.
+- **配布サイズの削減 / Smaller package**: 同梱 JRE を jlink で作成（Windows 用 zip: 225MB → 146MB）。
+  The bundled JRE is built with jlink (Windows zip: 225MB → 146MB).
+- **負荷の削減 / Lower overhead**: ログの既定レベルを info に変更、文字列の重複排除を有効化、非表示のマップタブの更新処理を停止。
+  Default log level set to info, string deduplication enabled, hidden map tab no longer refreshes.
+- **日本語の表示 / Japanese text**: コールアウトの既定フォントを日本語を表示できる論理フォント（Dialog）に変更。
+  The default callout font now supports Japanese.
+- **CI**: 本家専用のワークフローを削除し、GitHub のランナーで動くビルド・リリース用のワークフローに置き換え。
+  Upstream-only workflows were replaced with ones that run on GitHub-hosted runners.
+
+## 必要なもの / Requirements
+
+ACT（Advanced Combat Tracker）、FFXIV_ACT_Plugin、OverlayPlugin が必要です。XIVToolHub で Triggevent JP を選ぶと、これらも一緒にインストールされます。ACT の OverlayPlugin の設定で WebSocket サーバーを開始してから起動してください。
+
+ACT, FFXIV_ACT_Plugin and OverlayPlugin are required; XIVToolHub installs them together with Triggevent JP. Start the OverlayPlugin WebSocket server before launching.
+
+## ビルド / Build
+
+```powershell
+mvn -B -DskipTests install
+```
+
+`launcher/target/triggevent-jp-win.zip` が配布用ファイルです。jlink を使うため、jmods を含む JDK 21 で実行してください。
+The distributable is `launcher/target/triggevent-jp-win.zip`. Use a JDK 21 that includes jmods.
+
+## ライセンス / License
+
+本家と同じく GPL-3.0 です（[LICENSE](LICENSE)）。
+Licensed under GPL-3.0, the same as the original ([LICENSE](LICENSE)).
+
+---
+
 # Triggevent
 
 Triggevent is a comprehensive FFXIV addon that provides triggers, automarkers, overlays, log analysis, and more for 
