@@ -1,6 +1,7 @@
 package gg.xp.xivsupport.gui;
 
 import com.formdev.flatlaf.FlatLaf;
+import gg.xp.xivsupport.gui.i18n.HubSettings;
 import gg.xp.xivsupport.gui.i18n.UiFont;
 import gg.xp.xivsupport.gui.i18n.UiTranslator;
 import gg.xp.xivsupport.gui.overlay.Scaled;
@@ -66,6 +67,11 @@ public final class CommonGuiSetup {
 			}
 		}
 		EnumSetting<BuiltinTheme> themeSetting = WindowConfig.getThemeSettingStatic();
+		// XIVToolHub から起動した場合は、ハブと他のツールに揃えてハブのテーマを使う
+		BuiltinTheme hubTheme = HubSettings.get().getTheme();
+		if (hubTheme != null && hubTheme != themeSetting.get()) {
+			themeSetting.set(hubTheme);
+		}
 		log.info("Theme: {}", themeSetting.get());
 		themeSetting.addAndRunListener(() -> setTheme(themeSetting.get()));
 		UiFont.apply();

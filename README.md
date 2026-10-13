@@ -22,6 +22,10 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
   Default log level set to info, string deduplication enabled, hidden map tab no longer refreshes.
 - **日本語の表示 / Japanese text**: コールアウトの既定フォントを日本語を表示できる論理フォント（Dialog）に変更。
   The default callout font now supports Japanese.
+- **多言語 / Languages**: 表示言語を日本語・英語・韓国語・中国語（簡体字）から選択可能（辞書は `ja.tsv`・`ko.tsv`・`zh.tsv`）。XIVToolHub でインストール時に選び、日本語の場合は追加フォントも選べます。
+  Display language can be Japanese, English, Korean or Simplified Chinese, chosen in XIVToolHub (with an optional font for Japanese).
+- **テーマ / Themes**: テーマを「黒・赤」と「白・水色」の2種類に整理し、XIVToolHub・Glamaholic JP と同じ配色に統一。ハブから起動した場合はハブのテーマに合わせます。
+  Themes reduced to Black/Red and White/Light Blue, shared with XIVToolHub and Glamaholic JP; the hub's theme is used when installed through it.
 - **CI**: 本家専用のワークフローを削除し、GitHub のランナーで動くビルド・リリース用のワークフローに置き換え。
   Upstream-only workflows were replaced with ones that run on GitHub-hosted runners.
 

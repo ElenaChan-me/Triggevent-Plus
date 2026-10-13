@@ -17,6 +17,13 @@ public class WindowConfig {
 	static {
 		PersistenceProvider earlyProps = EarlyPropsProvider.getProvider();
 		theme = new EnumSetting<>(earlyProps, "window-config.theme", BuiltinTheme.class, BuiltinTheme.DARK);
+		try {
+			theme.get();
+		}
+		catch (IllegalArgumentException e) {
+			// 削除したテーマ（Darker など）が保存されている場合は既定に戻す
+			theme.delete();
+		}
 	}
 
 	public WindowConfig(PersistenceProvider pers) {
