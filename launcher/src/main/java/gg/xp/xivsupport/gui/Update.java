@@ -699,27 +699,25 @@ public class Update {
 		return anythingChanged;
 	}
 
+	// 日本語版は本家の配布ファイルで上書きされないよう、本家サーバーからの更新を行わない。更新は XIVToolHub から行う。
+	private static final String JP_UPDATE_GUIDE = "日本語版では本家の自動更新を使用しません。\n更新は XIVToolHub の「最新版を確認」から行ってください。";
+
 	public static void main(String[] args) {
 		CatchFatalErrorInUpdater.run(() -> {
-			GraphicalUpdater gupdate = new GraphicalUpdater(false);
-			try {
-				Thread.sleep(1000);
-			}
-			catch (InterruptedException e) {
-				// ignore
-			}
-			gupdate.run();
+			JOptionPane.showMessageDialog(null, JP_UPDATE_GUIDE, "Triggevent 更新", JOptionPane.INFORMATION_MESSAGE);
+			System.exit(0);
 		});
 	}
 
 	@SuppressWarnings("unused")
 	public static void updateTheUpdater() {
-		new GraphicalUpdater(true).run();
+		// 本家の更新プログラムを取得しないよう何もしない
 	}
 
 	@SuppressWarnings("unused")
 	public static boolean justCheck(Consumer<String> logging) {
-		return new Update(logging, true, true).doUpdateCheck();
+		logging.accept("Update check is disabled in the Japanese build");
+		return false;
 	}
 
 	private static String md5sum(File file) {
