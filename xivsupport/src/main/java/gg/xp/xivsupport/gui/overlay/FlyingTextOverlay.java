@@ -56,7 +56,8 @@ public class FlyingTextOverlay extends XivOverlay {
 		super("Callout Text", "callout-text-overlay", oc, pers);
 		alignmentSetting = new EnumSetting<>(pers, "callout-text-overlay.text-alignment", TextAlignment.class, TextAlignment.CENTER);
 		textColorSetting = new ColorSetting(pers, "callout-text-overlay.text-color", defaultTextColor);
-		textFontSetting = new FontSetting(pers, "callout-text-overlay.text-font", new JLabel().getFont().getFontName(), 24);
+		// 論理フォントの Dialog は日本語の代替フォントを持つため、日本語のコールアウトが文字化けしない
+		textFontSetting = new FontSetting(pers, "callout-text-overlay.text-font", Font.DIALOG, 24);
 		flipVertical = new BooleanSetting(pers, "callout-text-overlay.flip-vertical", false);
 		JLabel templateJLabel = new JLabel();
 		templateJLabel.setFont(textFontSetting.get());
