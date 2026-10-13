@@ -1,6 +1,7 @@
 package gg.xp.xivsupport.gui.i18n;
 
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.BufferedReader;
@@ -8,13 +9,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class UiTranslatorTest {
 
 	@Test
 	public void translatesKnownStrings() {
+		// 設定ファイルの無いテスト環境では日本語版の既定として日本語になる
 		Assert.assertEquals(UiTranslator.translate("Plugin Settings"), "プラグイン設定");
 		Assert.assertEquals(UiTranslator.translate("Events"), "イベント");
 		// 後ろに値が続くラベルは、元の空白を残したまま置き換える
@@ -43,10 +46,45 @@ public class UiTranslatorTest {
 	}
 
 	@Test
-	public void dictionaryHasNoDuplicateOrMalformedKeys() throws IOException {
-		Set<String> keys = new HashSet<>();
-		try (InputStream stream = UiTranslator.class.getResourceAsStream("/i18n/ja.tsv")) {
-			Assert.assertNotNull(stream);
+	public void loadsEachLanguage() {
+		Assert.assertEquals(UiTranslator.load("ko").get("Plugin Settings"), "플러그인 설정");
+		Assert.assertEquals(UiTranslator.load("zh").get("Plugin Settings"), "插件设置");
+		Assert.assertTrue(UiTranslator.load("en").isEmpty());
+	}
+
+	@Test
+	public void normalizesLanguageCodes() {
+		Assert.assertEquals(HubSettings.normalize("JA"), "ja");
+		Assert.assertEquals(HubSettings.normalize("zh-Hans"), "zh");
+		Assert.assertEquals(HubSettings.normalize(" ko "), "ko");
+		Assert.assertNull(HubSettings.normalize("fr"));
+		Assert.assertNull(HubSettings.normalize(null));
+	}
+
+	@DataProvider
+	public Object[][] languages() {
+		return new Object[][]{{"ja"}, {"ko"}, {"zh"}};
+	}
+
+	@Test(dataProvider = "languages")
+	public void dictionaryHasNoDuplicateOrMalformedKeys(String language) throws IOException {
+		Set<String> keys = readKeys(language);
+		Map<String, String> loaded = UiTranslator.load(language);
+		Assert.assertEquals(loaded.size(), keys.size());
+	}
+
+	@Test
+	public void allLanguagesCoverTheSameStrings() throws IOException {
+		// 言語によって英語のまま残る箇所が出ないよう、日本語辞書と同じ項目をそろえる
+		Set<String> ja = readKeys("ja");
+		Assert.assertEquals(readKeys("ko"), ja);
+		Assert.assertEquals(readKeys("zh"), ja);
+	}
+
+	private static Set<String> readKeys(String language) throws IOException {
+		Set<String> keys = new LinkedHashSet<>();
+		try (InputStream stream = UiTranslator.class.getResourceAsStream("/i18n/" + language + ".tsv")) {
+			Assert.assertNotNull(stream, language);
 			BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8));
 			String line;
 			int lineNumber = 0;
@@ -56,12 +94,12 @@ public class UiTranslatorTest {
 					continue;
 				}
 				String[] parts = line.split("\t", -1);
-				Assert.assertEquals(parts.length, 2, "Line " + lineNumber + " must have exactly one tab: " + line);
-				Assert.assertFalse(parts[1].isEmpty(), "Line " + lineNumber + " has no translation");
+				Assert.assertEquals(parts.length, 2, language + " line " + lineNumber + " must have exactly one tab: " + line);
+				Assert.assertFalse(parts[1].isBlank(), language + " line " + lineNumber + " has no translation");
 				// 前後の空白は無視して引くため、空白だけが違うキーも重複とみなす
-				Assert.assertTrue(keys.add(parts[0].strip()), "Duplicate key at line " + lineNumber + ": " + parts[0]);
+				Assert.assertTrue(keys.add(parts[0].strip()), language + " duplicate key at line " + lineNumber + ": " + parts[0]);
 			}
 		}
-		Assert.assertEquals(UiTranslator.size(), keys.size());
+		return keys;
 	}
 }
