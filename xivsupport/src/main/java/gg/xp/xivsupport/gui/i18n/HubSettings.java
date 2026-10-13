@@ -1,5 +1,6 @@
 package gg.xp.xivsupport.gui.i18n;
 
+import gg.xp.xivsupport.gui.themes.BuiltinTheme;
 import gg.xp.xivsupport.persistence.Platform;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +11,7 @@ import java.io.File;
 import java.util.Locale;
 
 /**
- * XIVToolHub がインストール先に書き出す設定（表示言語・フォント）。
+ * XIVToolHub がインストール先に書き出す設定（表示言語・フォント・テーマ）。
  * ハブを使わずに導入した場合はファイルが無いので、日本語版の既定として日本語で表示する。
  */
 public final class HubSettings {
@@ -26,10 +27,12 @@ public final class HubSettings {
 
 	private final String language;
 	private final File fontFile;
+	private final BuiltinTheme theme;
 
-	private HubSettings(String language, File fontFile) {
+	private HubSettings(String language, File fontFile, BuiltinTheme theme) {
 		this.language = language;
 		this.fontFile = fontFile;
+		this.theme = theme;
 	}
 
 	public static HubSettings get() {
@@ -60,14 +63,23 @@ public final class HubSettings {
 		return fontFile;
 	}
 
+	/**
+	 * XIVToolHub で選んだテーマ。ハブを使わずに起動した場合は null で、Triggevent 側の設定を使う。
+	 */
+	public BuiltinTheme getTheme() {
+		return theme;
+	}
+
 	private static HubSettings load() {
 		String language = null;
 		File fontFile = null;
+		BuiltinTheme theme = null;
 		try {
 			File file = new File(Platform.getInstallDir(), FILE_NAME);
 			if (file.isFile() && file.length() <= MAX_FILE_BYTES) {
 				JsonNode root = new ObjectMapper().readTree(file);
 				language = normalize(textOrNull(root.get("language")));
+				theme = BuiltinTheme.fromHubCode(textOrNull(root.get("theme")));
 				String fontPath = textOrNull(root.get("fontPath"));
 				if (fontPath != null && !fontPath.isBlank()) {
 					File candidate = new File(fontPath);
@@ -95,8 +107,8 @@ public final class HubSettings {
 		if (!"ja".equals(language)) {
 			fontFile = null;
 		}
-		log.info("Display language: {}, font: {}", language, fontFile);
-		return new HubSettings(language, fontFile);
+		log.info("Display language: {}, font: {}, theme: {}", language, fontFile, theme);
+		return new HubSettings(language, fontFile, theme);
 	}
 
 	private static String textOrNull(JsonNode node) {
