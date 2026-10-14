@@ -104,6 +104,19 @@ public class VoicePackTest {
 		delete(dir);
 	}
 
+	@Test
+	public void listsPacksInParentFolder() throws IOException {
+		Path parent = Files.createTempDirectory("voicepacks");
+		Path cute = Files.createDirectories(parent.resolve("mia-cute"));
+		Path serious = Files.createDirectories(parent.resolve("mia"));
+		Files.createDirectories(parent.resolve("not-a-pack"));
+		Files.writeString(cute.resolve("manifest.json"), "{}");
+		Files.writeString(serious.resolve("manifest.json"), "{}");
+		Assert.assertEquals(VoicePack.listPacks(parent), List.of(serious, cute));
+		Assert.assertEquals(VoicePack.listPacks(parent.resolve("missing")), List.of());
+		delete(parent);
+	}
+
 	@Test(expectedExceptions = IOException.class)
 	public void rejectsMissingFiles() throws IOException {
 		Path dir = createPack();

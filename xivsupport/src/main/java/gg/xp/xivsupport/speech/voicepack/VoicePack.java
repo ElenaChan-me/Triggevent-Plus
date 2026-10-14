@@ -4,6 +4,7 @@ import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 /**
  * Triggevent-VoiceGen が書き出したボイスパック（manifest.json・callouts.json・WAV）。
@@ -47,6 +49,21 @@ public final class VoicePack {
 		this.directions = directions;
 		this.numbers = numbers;
 		this.you = you;
+	}
+
+	/**
+	 * フォルダの中にあるボイスパック（manifest.json があるフォルダ）を名前順に返す。読めないときは空。
+	 */
+	public static List<Path> listPacks(Path parent) {
+		if (parent == null || !Files.isDirectory(parent)) {
+			return List.of();
+		}
+		try (Stream<Path> dirs = Files.list(parent)) {
+			return dirs.filter(d -> Files.isRegularFile(d.resolve("manifest.json"))).sorted().toList();
+		}
+		catch (IOException | UncheckedIOException e) {
+			return List.of();
+		}
 	}
 
 	public static VoicePack load(Path directory) throws IOException {

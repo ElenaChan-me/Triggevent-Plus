@@ -13,6 +13,9 @@ import gg.xp.xivsupport.speech.TtsRequest;
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
+import java.nio.file.InvalidPathException;
+import java.nio.file.Path;
+import java.util.List;
 
 /**
  * ボイスパックの設定と試し再生。
@@ -23,6 +26,10 @@ public class VoicePackTab implements PluginTab {
 	private final VoicePackPlayer player;
 	private final EventMaster master;
 	private JLabel status;
+	private JTextField folderField;
+	private JComboBox<Path> packCombo;
+	// 一覧を作り直している間の選択の変化を、利用者の操作として扱わない
+	private boolean refreshingPacks;
 
 	public VoicePackTab(VoicePackPlayer player, EventMaster master) {
 		this.player = player;
@@ -51,7 +58,7 @@ public class VoicePackTab implements PluginTab {
 
 		JPanel folderPanel = new JPanel(new WrapLayout(FlowLayout.LEFT));
 		folderPanel.add(new JLabel("Voice pack folder"));
-		JTextField folderField = new JTextField(player.getFolder().get(), 40);
+		folderField = new JTextField(player.getFolder().get(), 40);
 		folderField.setEditable(false);
 		folderPanel.add(folderField);
 		JButton browse = new JButton("Browse...");
@@ -59,19 +66,38 @@ public class VoicePackTab implements PluginTab {
 			JFileChooser chooser = new JFileChooser(player.getFolder().get().isBlank() ? null : new File(player.getFolder().get()));
 			chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 			if (chooser.showOpenDialog(outer) == JFileChooser.APPROVE_OPTION) {
-				player.getFolder().set(chooser.getSelectedFile().getAbsolutePath());
-				folderField.setText(player.getFolder().get());
-				updateStatus();
+				selectFolder(chooser.getSelectedFile().getAbsolutePath());
 			}
 		});
 		folderPanel.add(browse);
 		JButton reload = new JButton("Reload");
 		reload.addActionListener(e -> {
 			player.reload();
+			refreshPacks();
 			updateStatus();
 		});
 		folderPanel.add(reload);
 		content.add(folderPanel);
+
+		// 同じフォルダに並べた別のパック（本気用・かわいい用など）をすぐに切り替えられるようにする
+		JPanel switchPanel = new JPanel(new WrapLayout(FlowLayout.LEFT));
+		switchPanel.add(new JLabel("Switch voice pack"));
+		packCombo = new JComboBox<>();
+		packCombo.setRenderer(new DefaultListCellRenderer() {
+			@Override
+			public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+				Object label = value instanceof Path path ? path.getFileName() : value;
+				return super.getListCellRendererComponent(list, label, index, isSelected, cellHasFocus);
+			}
+		});
+		packCombo.addActionListener(e -> {
+			if (!refreshingPacks && packCombo.getSelectedItem() instanceof Path path) {
+				selectFolder(path.toString());
+			}
+		});
+		switchPanel.add(packCombo);
+		content.add(switchPanel);
+		refreshPacks();
 
 		status = new JLabel();
 		JPanel statusPanel = new JPanel(new WrapLayout(FlowLayout.LEFT));
@@ -94,6 +120,45 @@ public class VoicePackTab implements PluginTab {
 		testPanel.add(play);
 		content.add(testPanel);
 		return outer;
+	}
+
+	private void selectFolder(String dir) {
+		if (dir.equals(player.getFolder().get())) {
+			return;
+		}
+		player.getFolder().set(dir);
+		folderField.setText(dir);
+		refreshPacks();
+		updateStatus();
+	}
+
+	private void refreshPacks() {
+		Path current = currentFolder();
+		List<Path> packs = current == null ? List.of() : VoicePack.listPacks(current.getParent());
+		refreshingPacks = true;
+		try {
+			packCombo.removeAllItems();
+			packs.forEach(packCombo::addItem);
+			packCombo.setSelectedItem(packs.contains(current) ? current : null);
+			packCombo.setEnabled(packs.size() > 1);
+		}
+		finally {
+			refreshingPacks = false;
+		}
+	}
+
+	private Path currentFolder() {
+		String dir = player.getFolder().get();
+		if (dir == null || dir.isBlank()) {
+			return null;
+		}
+		try {
+			return Path.of(dir).toAbsolutePath().normalize();
+		}
+		catch (InvalidPathException e) {
+			// 設定ファイルを手で書き換えた場合などは、一覧を出さないだけにする
+			return null;
+		}
 	}
 
 	private void updateStatus() {
