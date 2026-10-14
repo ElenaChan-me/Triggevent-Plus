@@ -570,3 +570,11 @@ Synthetic	合成
 In-Memory	メモリ内
 Black / Red	黒・赤
 White / Light Blue	白・水色
+Voice Pack	ボイスパック
+Use voice pack	ボイスパックを使う
+Read callouts without recordings in Japanese via ACT TTS	収録の無い読み上げは日本語にして ACT の TTS で読む
+Volume (%)	音量（%）
+Voice pack folder	ボイスパックのフォルダ
+Switch voice pack	ボイスパックの切り替え
+Browse...	参照...
+Callout text to test	試す読み上げ文
