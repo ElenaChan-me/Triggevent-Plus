@@ -1,5 +1,6 @@
 package gg.xp.xivsupport.speech.voicepack;
 
+import gg.xp.xivsupport.persistence.InMemoryMapPersistenceProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -115,6 +116,18 @@ public class VoicePackTest {
 		Assert.assertEquals(VoicePack.listPacks(parent), List.of(serious, cute));
 		Assert.assertEquals(VoicePack.listPacks(parent.resolve("missing")), List.of());
 		delete(parent);
+	}
+
+	@Test
+	public void tabOpensWithAndWithoutFolder() throws IOException {
+		// フォルダ未設定の初回起動でタブを開けなかったことがあるので、両方の状態で組み立てられるかを見る
+		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider());
+		Assert.assertNotNull(new VoicePackTab(player, null).getTabContents());
+		Path dir = createPack();
+		player.getFolder().set(dir.toString());
+		Assert.assertNotNull(player.getPack());
+		Assert.assertNotNull(new VoicePackTab(player, null).getTabContents());
+		delete(dir);
 	}
 
 	@Test(expectedExceptions = IOException.class)
