@@ -139,7 +139,8 @@ public class VoicePackTab implements PluginTab {
 		try {
 			packCombo.removeAllItems();
 			packs.forEach(packCombo::addItem);
-			packCombo.setSelectedItem(packs.contains(current) ? current : null);
+			// List.of() の contains は null を渡すと例外になるので、フォルダ未設定のときは先に除く
+			packCombo.setSelectedItem(current != null && packs.contains(current) ? current : null);
 			packCombo.setEnabled(packs.size() > 1);
 		}
 		finally {
