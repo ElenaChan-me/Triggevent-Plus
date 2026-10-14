@@ -30,7 +30,8 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
   - 収録した音声があれば Triggevent が直接再生します。名前や方角などの部品はつなげて鳴らします。
   - プレイヤー名が入るなど収録が揃わない読み上げは、日本語にした文を ACT の TTS で読みます。そのため、ACT の TTS には日本語の音声（例: Microsoft Haruka）を選んでください。
   - 台本に無い読み上げ（自分で書き換えたコールアウトなど）は、今までどおりの動作です。
-  A "Voice Pack" tab plays recorded clips from a Triggevent-VoiceGen pack instead of TTS. Lines that cannot be fully covered by clips are read in Japanese via ACT TTS, and callouts not in the script behave as before.
+  - 同じフォルダに複数のパック（本気用・かわいい話し方など）を並べておくと、「ボイスパックの切り替え」で選び直せます。
+  A "Voice Pack" tab plays recorded clips from a Triggevent-VoiceGen pack instead of TTS. Lines that cannot be fully covered by clips are read in Japanese via ACT TTS, and callouts not in the script behave as before. Packs placed in the same parent folder can be switched from the tab.
 - **CI**: 本家専用のワークフローを削除し、GitHub のランナーで動くビルド・リリース用のワークフローに置き換え。
   Upstream-only workflows were replaced with ones that run on GitHub-hosted runners.
 
