@@ -56,6 +56,18 @@ public enum KnownDuty implements Duty {
 
 	DtEx1("EX1", 1196, Expansion.DT, DutyType.TRIAL_EX),
 	DtEx2("EX2", 1201, Expansion.DT, DutyType.TRIAL_EX),
+	DtEx3("EX3", 1243, Expansion.DT, DutyType.TRIAL_EX),
+	DtEx4("EX4", 1271, Expansion.DT, DutyType.TRIAL_EX),
+	DtEx5("EX5", 1296, Expansion.DT, DutyType.TRIAL_EX),
+	DtEx6("EX6", 1308, Expansion.DT, DutyType.TRIAL_EX),
+	DtEx7("EX7", 1362, Expansion.DT, DutyType.TRIAL_EX),
+
+	// 幻（アンリアル）は黄金のレガシーの時期に追加されたもの。改修のたびに ID が変わる
+	ByakkoUn("Byakko Unreal", 1239, Expansion.DT, DutyType.TRIAL_EX),
+	SuzakuUn("Suzaku Unreal", 1272, Expansion.DT, DutyType.TRIAL_EX),
+	SeiryuUn("Seiryu Unreal", 1302, Expansion.DT, DutyType.TRIAL_EX),
+	TsukuyomiUn("Tsukuyomi Unreal", 1318, Expansion.DT, DutyType.TRIAL_EX),
+	ShinryuUn("Shinryu Unreal", 1372, Expansion.DT, DutyType.TRIAL_EX),
 
 	M1N("M1N", 1225,Expansion.DT, DutyType.RAID),
 	M2N("M2N", 1227,Expansion.DT, DutyType.RAID),
