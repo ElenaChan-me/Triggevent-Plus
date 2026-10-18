@@ -374,6 +374,10 @@
         </dependency>
         <dependency>
             <groupId>gg.xp</groupId>
+            <artifactId>triggers-cactbot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>gg.xp</groupId>
             <artifactId>triggers-sb</artifactId>
         </dependency>
         <dependency>

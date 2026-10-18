@@ -15,5 +15,14 @@
                 <exclude>*.sh</exclude>
             </excludes>
         </fileSet>
+        <!-- cactbot から移植したトリガーを含むため、配布物にもライセンス文を同梱する -->
+        <fileSet>
+            <directory>${project.basedir}/..</directory>
+            <outputDirectory>triggevent</outputDirectory>
+            <includes>
+                <include>LICENSE</include>
+                <include>licenses/**</include>
+            </includes>
+        </fileSet>
     </fileSets>
 </assembly>

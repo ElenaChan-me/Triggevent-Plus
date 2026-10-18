@@ -32,6 +32,10 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
   - 台本に無い読み上げ（自分で書き換えたコールアウトなど）は、今までどおりの動作です。
   - 同じフォルダに複数のパック（本気用・かわいい話し方など）を並べておくと、「ボイスパックの切り替え」で選び直せます。
   A "Voice Pack" tab plays recorded clips from a Triggevent-VoiceGen pack instead of TTS. Lines that cannot be fully covered by clips are read in Japanese via ACT TTS, and callouts not in the script behave as before. Packs placed in the same parent folder can be switched from the tab.
+- **黄金のレガシーの極・幻・メインストーリー / Dawntrail Extremes, Unreals and story duties**: 本家が未対応のボス（極：スフェーン・ゼレニア・ネクロン・ドゥームトレイン・エヌオー、幻：白虎・朱雀・青龍・ツクヨミ・神龍、ダンジョン11か所、ノーマル討伐戦5つ）のトリガーを、[cactbot](https://github.com/OverlayPlugin/cactbot)（Apache License 2.0）のトリガーをもとに移植しました。ライセンス文は `licenses/cactbot-LICENSE.txt` にあります。実際の戦闘ログでの確認はまだのため、読み上げのタイミングがずれる場合があります。
+  Triggers for Dawntrail Extremes, Unreals, dungeons and normal trials not covered upstream were ported from cactbot (Apache License 2.0); see `licenses/cactbot-LICENSE.txt`. They have not been verified against real combat logs yet.
+- **全拡張のボス / Bosses from every expansion**: 新生〜黄金の、本家が未対応のダンジョン・討伐戦・レイド・アライアンス・絶（247か所）のトリガーを cactbot から移植し、`triggers-cactbot` モジュールにまとめました。cactbot のタイムライン専用のトリガーと、名前でしか判別できないトリガーは移植していません。
+  Triggers for 247 duties from A Realm Reborn to Dawntrail that upstream does not cover were ported from cactbot into the `triggers-cactbot` module. Timeline-only and name-only cactbot triggers were not ported.
 - **CI**: 本家専用のワークフローを削除し、GitHub のランナーで動くビルド・リリース用のワークフローに置き換え。
   Upstream-only workflows were replaced with ones that run on GitHub-hosted runners.
 
