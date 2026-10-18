@@ -17,6 +17,7 @@
         <module>triggers-sb</module>
         <module>titan-jails</module>
         <module>triggers-dt</module>
+        <module>triggers-cactbot</module>
     </modules>
     <dependencies>
         <dependency>
