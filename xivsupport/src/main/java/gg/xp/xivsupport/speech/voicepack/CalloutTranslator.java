@@ -56,6 +56,12 @@ public class CalloutTranslator {
 		speechEnabled = new BooleanSetting(pers, "callout-translation.speech", true);
 		this.japanese = japanese;
 		displayEnabled.addListener(this::clearCache);
+		if (japanese) {
+			// 対応表は大きく、最初のコールアウトで読み込むと表示が遅れるので、起動時に裏で読んでおく
+			Thread preload = new Thread(this::mapping, "CalloutTranslatorPreload");
+			preload.setDaemon(true);
+			preload.start();
+		}
 	}
 
 	private CalloutMapping mapping() {
