@@ -119,6 +119,22 @@ public class VoicePackTest {
 	}
 
 	@Test
+	public void usesPackInstalledByHubUntilUserChooses() throws IOException {
+		Path dir = createPack();
+		InMemoryMapPersistenceProvider pers = new InMemoryMapPersistenceProvider();
+		VoicePackPlayer player = new VoicePackPlayer(pers, List.of(dir));
+		// XIVToolHub で入れたパックは、そのまま使えるよう最初から有効にする
+		Assert.assertTrue(player.getEnabled().get());
+		Assert.assertEquals(player.getFolder().get(), dir.toString());
+		Assert.assertNotNull(player.getPack());
+		// 自分で切った設定は次の起動でも引き継ぐ
+		player.getEnabled().set(false);
+		Assert.assertFalse(new VoicePackPlayer(pers, List.of(dir)).getEnabled().get());
+		Assert.assertFalse(new VoicePackPlayer(new InMemoryMapPersistenceProvider(), List.of()).getEnabled().get());
+		delete(dir);
+	}
+
+	@Test
 	public void tabOpensWithAndWithoutFolder() throws IOException {
 		// フォルダ未設定の初回起動でタブを開けなかったことがあるので、両方の状態で組み立てられるかを見る
 		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider());

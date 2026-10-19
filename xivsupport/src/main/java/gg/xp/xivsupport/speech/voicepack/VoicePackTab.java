@@ -16,6 +16,7 @@ import java.awt.*;
 import java.io.File;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -153,7 +154,9 @@ public class VoicePackTab implements PluginTab {
 
 	private void refreshPacks() {
 		Path current = currentFolder();
-		List<Path> packs = current == null ? List.of() : VoicePack.listPacks(current.getParent());
+		// 同じフォルダに並べたパックに加えて、XIVToolHub でインストールしたパックも選べるようにする
+		List<Path> packs = new ArrayList<>(current == null ? List.of() : VoicePack.listPacks(current.getParent()));
+		player.getHubPacks().stream().filter(p -> !packs.contains(p)).forEach(packs::add);
 		refreshingPacks = true;
 		try {
 			packCombo.removeAllItems();

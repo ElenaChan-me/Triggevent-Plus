@@ -8,10 +8,15 @@ import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.InvalidPathException;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 /**
- * XIVToolHub がインストール先に書き出す設定（表示言語・フォント・テーマ）。
+ * XIVToolHub がインストール先に書き出す設定（表示言語・フォント・テーマ・ボイスパック）。
  * ハブを使わずに導入した場合はファイルが無いので、日本語版の既定として日本語で表示する。
  */
 public final class HubSettings {
@@ -22,17 +27,20 @@ public final class HubSettings {
 	private static final String LANGUAGE_PROPERTY = "triggevent.language";
 	private static final String DEFAULT_LANGUAGE = "ja";
 	private static final long MAX_FILE_BYTES = 64 * 1024;
+	private static final int MAX_VOICE_PACKS = 32;
 
 	private static volatile HubSettings instance;
 
 	private final String language;
 	private final File fontFile;
 	private final BuiltinTheme theme;
+	private final List<Path> voicePacks;
 
-	private HubSettings(String language, File fontFile, BuiltinTheme theme) {
+	private HubSettings(String language, File fontFile, BuiltinTheme theme, List<Path> voicePacks) {
 		this.language = language;
 		this.fontFile = fontFile;
 		this.theme = theme;
+		this.voicePacks = List.copyOf(voicePacks);
 	}
 
 	public static HubSettings get() {
@@ -70,16 +78,25 @@ public final class HubSettings {
 		return theme;
 	}
 
+	/**
+	 * XIVToolHub でインストールしたボイスパックのフォルダ。manifest.json が無いものは除く。
+	 */
+	public List<Path> getVoicePacks() {
+		return voicePacks;
+	}
+
 	private static HubSettings load() {
 		String language = null;
 		File fontFile = null;
 		BuiltinTheme theme = null;
+		List<Path> voicePacks = new ArrayList<>();
 		try {
 			File file = new File(Platform.getInstallDir(), FILE_NAME);
 			if (file.isFile() && file.length() <= MAX_FILE_BYTES) {
 				JsonNode root = new ObjectMapper().readTree(file);
 				language = normalize(textOrNull(root.get("language")));
 				theme = BuiltinTheme.fromHubCode(textOrNull(root.get("theme")));
+				voicePacks = voicePacks(root.get("voicePacks"));
 				String fontPath = textOrNull(root.get("fontPath"));
 				if (fontPath != null && !fontPath.isBlank()) {
 					File candidate = new File(fontPath);
@@ -107,8 +124,35 @@ public final class HubSettings {
 		if (!"ja".equals(language)) {
 			fontFile = null;
 		}
-		log.info("Display language: {}, font: {}, theme: {}", language, fontFile, theme);
-		return new HubSettings(language, fontFile, theme);
+		log.info("Display language: {}, font: {}, theme: {}, voice packs: {}", language, fontFile, theme, voicePacks.size());
+		return new HubSettings(language, fontFile, theme, voicePacks);
+	}
+
+	static List<Path> voicePacks(JsonNode node) {
+		List<Path> packs = new ArrayList<>();
+		if (node == null || !node.isArray()) {
+			return packs;
+		}
+		for (JsonNode item : node) {
+			if (packs.size() >= MAX_VOICE_PACKS) {
+				break;
+			}
+			String text = textOrNull(item);
+			if (text == null || text.isBlank()) {
+				continue;
+			}
+			try {
+				Path dir = Path.of(text).toAbsolutePath().normalize();
+				// アンインストール後に古い設定が残っていても、存在するパックだけを出す
+				if (Files.isRegularFile(dir.resolve("manifest.json")) && !packs.contains(dir)) {
+					packs.add(dir);
+				}
+			}
+			catch (InvalidPathException e) {
+				log.warn("Invalid voice pack path: {}", text);
+			}
+		}
+		return packs;
 	}
 
 	private static String textOrNull(JsonNode node) {
