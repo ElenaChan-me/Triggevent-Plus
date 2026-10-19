@@ -70,7 +70,20 @@ public class UiTranslatorTest {
 	public void dictionaryHasNoDuplicateOrMalformedKeys(String language) throws IOException {
 		Set<String> keys = readKeys(language);
 		Map<String, String> loaded = UiTranslator.load(language);
-		Assert.assertEquals(loaded.size(), keys.size());
+		// 日本語は自動生成の辞書（コンテンツ名・技名）も合わせて読むので、手で書いた分より多くなる
+		if ("ja".equals(language)) {
+			Assert.assertTrue(loaded.size() > keys.size(), language);
+		}
+		else {
+			Assert.assertEquals(loaded.size(), keys.size());
+		}
+	}
+
+	@Test
+	public void loadsGeneratedCalloutDictionaryForJapanese() {
+		Map<String, String> ja = UiTranslator.load("ja");
+		Assert.assertEquals(ja.get("Icicle Impact"), "アイシクルインパクト");
+		Assert.assertNull(UiTranslator.load("ko").get("Icicle Impact"));
 	}
 
 	@Test

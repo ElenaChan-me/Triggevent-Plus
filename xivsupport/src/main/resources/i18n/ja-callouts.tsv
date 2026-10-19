@@ -1,0 +1,4508 @@
+# 自動生成（tools/script_builder/ui_dictionary.py）。手で直す場合は ja.tsv に書く
+-100 Gs	重力マイナス100
+100 Gs	重力100
+100 Gs (On You)	重力100（自分）
+2-tonze Magitek Missile	大型魔導ミサイル
+Aac Cruiserweight M1	至天の座アルカディア：クルーザー級1
+Aac Cruiserweight M2	至天の座アルカディア：クルーザー級2
+Aac Cruiserweight M4	至天の座アルカディア：クルーザー級4
+Aac Heavyweight M1	至天の座アルカディア：ヘビー級1
+Aac Heavyweight M2	至天の座アルカディア：ヘビー級2
+Aac Heavyweight M3	至天の座アルカディア：ヘビー級3
+Aac Heavyweight M4	至天の座アルカディア：ヘビー級4
+Aac Light Heavyweight M2	至天の座アルカディア：ライトヘビー級2
+Abandonment	孤独感
+About Face	移動命令：後
+About Face (Statice)	移動命令：後（Statice）
+Absolute Authority	アブソリュート・オーソリティ
+Absolute Authority: Dorito Stack	アブソリュート・オーソリティ：Dorito Stack
+Absolute Authority: Flare on You	アブソリュート・オーソリティ：Flare on You
+Absolute Authority: No Flare	アブソリュート・オーソリティ：No Flare
+Absolute Blizzard III	アブソリュートブリザガ
+Absolute Fire III	アブソリュートファイガ
+Absolute Flash	アブソリュートフラッシュ
+Absolute Holy	アブソリュートホーリー
+Absolute Holy (On You)	アブソリュートホーリー（自分）
+Absolute Protect	アブソリュートプロテス
+Absolute Stone III	アブソリュートストンガ
+Absolute Terror	アブソルートテラー
+Absolute Zero	絶対零度
+Abyssal Echoes	アビサルエコー
+Abyssal Nox	アビサルノックス
+Abyssal Outburst	暗黒波動
+Abyssal Quasar	アビスクエーサー
+Accelerate (Spread)	突貫する（散開）
+Accelerate (Stack)	突貫する（頭割り）
+Acceleration Bomb	加速度爆弾
+Acceleration Bomb (Delta, Initial)	加速度爆弾（Delta, Initial）
+Acceleration Bomb (Omega)	加速度爆弾（Omega）
+Accretion	混沌の泥土
+Accretion (Earth)	混沌の泥土（土）
+Acid Pinax	ピナクスポイズン
+Acid Rain	アシッドレイン
+Actualize	アクチュアライズ
+Adamant Sphere	ダイヤスフィア
+Adikia	アディキア
+Adikia (First)	アディキア（1回目）
+Adikia (Inside North)	アディキア（Inside North）
+Adikia (Outside North)	アディキア（Outside North）
+Adit Driver	削岩
+Advanced Relativity: Double Aero	時間圧縮・急：Double Aero
+Advanced Relativity: Shadoweye	時間圧縮・急：Shadoweye
+Advanced Relativity: Spread	時間圧縮・急：散開
+Advanced Relativity: Yellow Hourglasses	時間圧縮・急：Yellow Hourglasses
+Aerial Blast	エリアルブラスト
+Aero Assault	ずんずんエアロガ
+Aero III	エアロガ
+Aero III Assault	ずんずんエアロガ
+Aero IV	エアロジャ
+Aeroquell	エアロバースト
+Aether Bend	エーテルベント
+Aether Rot	エーテルロット
+Aether Rot (On You)	エーテルロット（自分）
+Aether Spray (Bubble)	属性放出（Bubble）
+Aether Spray (Knockback)	属性放出（Knockback）
+Aetherial Disruption	地脈暴走
+Aetherial Pull	吸引
+Aetheric Boom (First Orbs)	エーテル波動（First Orbs）
+Aetheric Boom (Knockback)	エーテル波動（Knockback）
+Aetheric Boom (Second Orbs)	エーテル波動（Second Orbs）
+Aetheric Boom (Third Orbs)	エーテル波動（Third Orbs）
+Aetheric Boom: Knockback	エーテル波動：Knockback
+Aetheric Polyominoid	エーテル・ポリオミノ
+Aetherletting	エーテルレッティング
+Aetherletting (Followup)	エーテルレッティング（続き）
+Aetherletting (Spread)	エーテルレッティング（散開）
+Aetherochemical Bomb	魔爆弾
+Aetherochemical Coil	魔科学ホイール
+Aetherochemical Flame	魔科学フレイム
+Aetherochemical Residue	魔科学粘液
+Aetheroplasm	爆雷起爆
+Aetheroplasm Production	爆雷生成
+Aetheroplasm: Clockwise	爆雷起爆：Clockwise
+Aetheroplasm: Counterclockwise	爆雷起爆：Counterclockwise
+Aethertithe	エーテルレヴィー
+Aethertithe: Center Cone	エーテルレヴィー：Center Cone
+Aethertithe: Left Cone	エーテルレヴィー：Left Cone
+Aethertithe: Right Cone	エーテルレヴィー：Right Cone
+Aethertithe: Safe Spots	エーテルレヴィー：Safe Spots
+Aggravated Assault	確定判決：加重罰
+Aglaea Bite (Not on You)	アグライアバイト（自分以外）
+Aglaea Bite (On You)	アグライアバイト（自分）
+Aglaea Climb (NE/SW)	アグライアクライム（NE/SW）
+Aglaea Climb (NW/SE)	アグライアクライム（NW/SE）
+Aglaia	輝ける神域 アグライア
+Aionagonia	アイオンアゴニア
+Aioniopyr	アイオンピュール
+Air Bump	エアーバンプ
+Air Bump (On You)	エアーバンプ（自分）
+Air Bump (on You)	エアーバンプ（自分）
+Aire Tam Storm	エメラルドビッグバン
+Airy Emptiness	拡散波動
+Akadaemia Anyder	創造機関 アナイダアカデミア
+Akh Afah	アク・アファー
+Akh Morn	アク・モーン
+Akh Morn (Akh Rhai)	アク・モーン（Akh Rhai）
+Akh Morn (On You)	アク・モーン（自分）
+Akh Morn (Others)	アク・モーン（ほか）
+Akh Morn (Stacks)	アク・モーン（Stacks）
+Akh Morn (Tank)	アク・モーン（タンク）
+Akh Morn (on You)	アク・モーン（自分）
+Akh Morn: On Others	アク・モーン：On Others
+Akh Morn: On You	アク・モーン：自分
+Akh Rhai	アク・ラーイ
+Ala Mhigo	紅蓮決戦 アラミゴ
+Albion's Embrace	アルビオンハグ
+Alea Iacta Est	アーレア・ヤクタ・エスト
+Alea Iacta Est (Go Front)	アーレア・ヤクタ・エスト（Go Front）
+Alexander The Arm Of The Father	機工城アレキサンダー：起動編3
+Alexander The Arm Of The Father Savage	機工城アレキサンダー零式：起動編3
+Alexander The Arm Of The Son Savage	機工城アレキサンダー零式：律動編3
+Alexander The Breath Of The Creator	機工城アレキサンダー：天動編2
+Alexander The Breath Of The Creator Savage	機工城アレキサンダー零式：天動編2
+Alexander The Burden Of The Father Savage	機工城アレキサンダー零式：起動編4
+Alexander The Burden Of The Son	機工城アレキサンダー：律動編4
+Alexander The Burden Of The Son Savage	機工城アレキサンダー零式：律動編4
+Alexander The Cuff Of The Father Savage	機工城アレキサンダー零式：起動編2
+Alexander The Cuff Of The Son	機工城アレキサンダー：律動編2
+Alexander The Cuff Of The Son Savage	機工城アレキサンダー零式：律動編2
+Alexander The Eyes Of The Creator Savage	機工城アレキサンダー零式：天動編1
+Alexander The Fist Of The Father Savage	機工城アレキサンダー零式：起動編1
+Alexander The Fist Of The Son Savage	機工城アレキサンダー零式：律動編1
+Alexander The Heart Of The Creator Savage	機工城アレキサンダー零式：天動編3
+Alexander The Soul Of The Creator	機工城アレキサンダー：天動編4
+Alexander The Soul Of The Creator Savage	機工城アレキサンダー零式：天動編4
+Alexandria	記憶幻想 アレクサンドリア
+Alexandrian Banish III (Bloom 4)	キングダム・バニシュガ（Bloom 4）
+Algedon	アルゲドン
+Algedon (Melee Spot Safe)	アルゲドン（Melee Spot Safe）
+Algedon (NE)	アルゲドン（NE）
+Algedon (NW)	アルゲドン（NW）
+Algedon (Paradeigma 2)	アルゲドン（Paradeigma 2）
+Allagan Field	アラガンフィールド
+Allagan Field (on You)	アラガンフィールド（自分）
+Allagan Flare	アラガンフレア
+Allagan Flare (On You)	アラガンフレア（自分）
+Allagan Gravity	アラガングラビデ
+Allagan Rot	アラガンロット
+Allagan Rot (on You)	アラガンロット（自分）
+Allagan Thunder	アラガン・サンダー
+Alley-oop Inferno	フレイムアリウープ
+Alley-oop Maelstrom	ハイドロアリウープ
+Almagest	アルマゲスト
+Almighty Racket	マイティサウンド
+Aloalo Island	ヴァリアントダンジョン アロアロ島
+Alphascape V10	次元の狭間オメガ：アルファ編1
+Alphascape V10 Savage	次元の狭間オメガ零式：アルファ編1
+Alphascape V20	次元の狭間オメガ：アルファ編2
+Alphascape V20 Savage	次元の狭間オメガ零式：アルファ編2
+Alphascape V30	次元の狭間オメガ：アルファ編3
+Alphascape V30 Savage	次元の狭間オメガ零式：アルファ編3
+Alphascape V40	次元の狭間オメガ：アルファ編4
+Alphascape V40 Savage	次元の狭間オメガ零式：アルファ編4
+Altar Pyre	アルターパイヤ
+Altitude	アルティチュード
+Altius	アルティウス
+Alzadaals Legacy	近東秘宝 アルザダール海底遺跡群
+Amalgamight	アマルガムマイト
+Amaurot	終末幻想 アーモロート
+Amdapor Keep	邪教排撃 古城アムダプール
+Amdapor Keep Hard	邪念排撃 古城アムダプール (Hard)
+Analysis (Back Unseen)	アナライズ（Back Unseen）
+Analysis (Front Unseen)	アナライズ（Front Unseen）
+Analysis (Left Unseen)	アナライズ（Left Unseen）
+Analysis (Right Unseen)	アナライズ（Right Unseen）
+Anamnesis Anyder	黒風海底 アニドラス・アナムネーシス
+Ancient Aero III	エンシェントエアロガ
+Ancient Aero: Avoid Orb	エンシェントエアロ：Avoid Orb
+Ancient Aero: Pop Orb	エンシェントエアロ：Pop Orb
+Ancient Circle	エンシェントリング
+Ancient Darkness	エンシェントダーク
+Ancient Holy	エンシェントホーリー
+Ancient Quaga	エンシェントクエイガ
+Ancient Quaga (Enrage)	エンシェントクエイガ（Enrage）
+Ancient Stone: Avoid Orb	エンシェントストーン：Avoid Orb
+Ancient Stone: Pop Orb	エンシェントストーン：Pop Orb
+Ancient Water III	エンシェントウォタガ
+Ancient Water III (No Marker)	エンシェントウォタガ（No Marker）
+Ancient Water III (On You)	エンシェントウォタガ（自分）
+Ancient Water III (Unmarked)	エンシェントウォタガ（Unmarked）
+Angry Seas (Role Stacks)	アングリーシーズ（Role Stacks）
+Angry Seas (Spread)	アングリーシーズ（散開）
+Angry Seas (Stacks)	アングリーシーズ（Stacks）
+Angry Seas: Role Stacks	アングリーシーズ：Role Stacks
+Angry Seas: Spread	アングリーシーズ：散開
+Angry Seas: Stacks	アングリーシーズ：Stacks
+Ania	アニア
+Annihilation	アナイアレイション
+Another Aloalo Island	アナザーダンジョン 異聞アロアロ島
+Another Aloalo Island Savage	アナザーダンジョン 異聞アロアロ島 零式
+Another Mount Rokkon	アナザーダンジョン 異聞六根山
+Another Mount Rokkon Savage	アナザーダンジョン 異聞六根山 零式
+Another Sil'Dihn Subterrane (Criterion/Savage)	アナザーダンジョン 異聞シラディハ水道
+Anthelion	アントゥヘリオン
+Anthelion (with Crystallize)	アントゥヘリオン（with Crystallize）
+Antilight	暗黒光
+Antilight (Center)	暗黒光（中央）
+Antilight (First, Levitating)	暗黒光（First, Levitating）
+Antilight (First, Not Levitating)	暗黒光（First, Not Levitating）
+Antipodal Assault	アンティポディース・スラスト
+Antipressure	ヴォイドプレッシャー
+Anvil of Tartarus	タルタロスアンヴィル
+Apocalyptic Ray	アポカリプティクレイ
+Apodialogos	アポ・ディアロゴス
+Apokalypsis	アポカリュプシス
+Aquatic Lance	アクアランス
+Arachne Web	アンキレーウェブ
+Aratama	荒弾
+Arbor Storm	アーバーストーム
+Arboreal Storm	アーボリアルストーム
+Arcadia Aflame	アルカディアン・フレイム
+Arcadian Arcanum	アルカディアン・アルケイナム
+Arcadian Hell	アルカディアン・ヘル
+Arcadian Hell (Enrage)	アルカディアン・ヘル（Enrage）
+Arcadion Avalanche (East Safe)	アルカディア・クラッシュ（East Safe）
+Arcadion Avalanche (West Safe)	アルカディア・クラッシュ（West Safe）
+Arcadion Avalanche: Cleave Safespot	アルカディア・クラッシュ：Cleave Safespot
+Arcadion Avalanche: Cross	アルカディア・クラッシュ：Cross
+Arcadion Avalanche: Stay	アルカディア・クラッシュ：Stay
+Arcane Armaments (First)	魔力成形（1回目）
+Arcane Armaments (Knockback)	魔力成形（Knockback）
+Arcane Armaments (Poison Spear)	魔力成形（Poison Spear）
+Arcane Armaments (Rout)	魔力成形（Rout）
+Arcane Armaments (Second)	魔力成形（2回目）
+Arcane Armaments (Third)	魔力成形（3回目）
+Arcane Armaments (Water Spear)	魔力成形（Water Spear）
+Arcane Blight (Back)	魔紋砲（後ろ）
+Arcane Blight (Front)	魔紋砲（前）
+Arcane Blight (Left)	魔紋砲（左）
+Arcane Blight (Right)	魔紋砲（右）
+Arcane Blight (Unknown)	魔紋砲（不明）
+Arcane Blight: Back Safe	魔紋砲：Back Safe
+Arcane Blight: Front Safe	魔紋砲：Front Safe
+Arcane Blight: Left Safe	魔紋砲：Left Safe
+Arcane Blight: Right Safe	魔紋砲：Right Safe
+Arcane Edge	魔針弾
+Arcane Intervention	魔眼
+Arcane Revelation: Dark Safe	魔法陣展開：Dark Safe
+Arcane Revelation: Light Safe	魔法陣展開：Light Safe
+Arcane Stomp	大力足
+Arch Inferno	烈風火燕流
+Archaic Demolish	古式破砕拳
+Archaic Rockbreaker	古式地烈斬
+Archaic Rockbreaker: Front+Out then In	古式地烈斬：Front+Out then In
+Archaic Rockbreaker: Rear+In then Out	古式地烈斬：Rear+In then Out
+Archaic Rockbreaker: Rear+Out then In	古式地烈斬：Rear+Out then In
+Archive All: No Marker	アーカイブオール：No Marker
+Archive All: Spread	アーカイブオール：散開
+Archive All: Stack on You	アーカイブオール：Stack on You
+Arm Shot	腕を狙う
+Arm and Hammer	アームハンマー
+Arrogance Incarnate	アロガンズインカーネイト
+Art of the Fireblossom	火花の術
+Art of the Fluff (East)	もふもふの術（東）
+Art of the Fluff (West)	もふもふの術（西）
+Art of the Storm	雷切一閃
+Art of the Swell	風断一閃
+Art of the Sword	妖刀一閃
+Art of the Windblossom	風花の術
+Articulated Bits	アームビット
+Articulated Bits (P2)	アームビット（P2）
+Articulated Bits (P3)	アームビット（P3）
+Artificial Plasma	魔導プラズマ
+Artillery	火砲
+Artistic Anarchy (Enrage)	アーティスティック・アナーキー（Enrage）
+As Above, So Below	死生択一の炎
+As Above, So Below (Blue)	死生択一の炎（青）
+As Above, So Below (Red)	死生択一の炎（赤）
+Ascalon's Mercy	アスカロンメルシー
+Ascendant Fist	穿昇拳
+Ascension	アセンション
+Ashen Eye	闇の瞳
+Ashlayer	熱放射
+Asphodelos The First Circle	万魔殿パンデモニウム：辺獄編1
+Asphodelos The Fourth Circle	万魔殿パンデモニウム：辺獄編4
+Asphodelos The Second Circle	万魔殿パンデモニウム：辺獄編2
+Asphodelos The Third Circle	万魔殿パンデモニウム：辺獄編3
+Assault Cannon	アサルトカノン
+Assault Evolved	ウェポンアサルト
+Assault Evolved: First	ウェポンアサルト：1回目
+Assault Evolved: Puddle	ウェポンアサルト：Puddle
+Assault Evolved: Second	ウェポンアサルト：2回目
+Assault Evolved: Third	ウェポンアサルト：3回目
+Assimilation	浸食
+Astral Eclipse: All Safe Spots	アストラルエクリプス：All Safe Spots
+Astral Eclipse: First Safe Spot	アストラルエクリプス：First Safe Spot
+Astral Eclipse: Next Safe Spot	アストラルエクリプス：Next Safe Spot
+Astral Effect	偏属性：光
+Astral Flow: Bird	アストラルフロウ：Bird
+Astral Flow: Inside East	アストラルフロウ：Inside East
+Astral Flow: Inside North	アストラルフロウ：Inside North
+Astral Flow: Inside West	アストラルフロウ：Inside West
+Astral Flow: Outside East	アストラルフロウ：Outside East
+Astral Flow: Outside North	アストラルフロウ：Outside North
+Astral Flow: Outside West	アストラルフロウ：Outside West
+Asuran Fists	夢想阿修羅拳
+Atomic Flame	アトミックフレイム
+Atomic Ray	アトミックレイ
+Atomic Tail	アトミックテイル
+Atropine Spore	アトロピンスポア
+Augurium	アウガースマッシュ
+Aureole	オーレオール
+Aureole (with Crystallize)	オーレオール（with Crystallize）
+Auri Cyclone	アウリサイクロン
+Auri Doomstead	アウリドゥーム
+Auri Doomstead (On You)	アウリドゥーム（自分）
+Auri Doomstead (Other Tank)	アウリドゥーム（Other Tank）
+Auroral Drape	オーロラルドレープ
+Auroral Uppercut (Big)	羅刹七星拳（Big）
+Auroral Uppercut (Mid)	羅刹七星拳（Mid）
+Auroral Uppercut (Short)	羅刹七星拳（短）
+Auroral Wind	オーロラルウィンド
+Authority's Gaze: On You	空間掌握：石光：自分
+Authority's Hold: Acceleration Bomb	空間掌握：制動：Acceleration Bomb
+Authority's Hold: Stop	空間掌握：制動：Stop
+Avalanche	アバランチ
+Avalanche (On You)	アバランチ（自分）
+Ave Maria	アヴェ・マリア
+Axe Kick	かかと落とし
+Axe Kick (Mirror)	かかと落とし（Mirror）
+Axe Kick (With Mirror)	かかと落とし（With Mirror）
+Axioma	アクシオマー
+Azdaja's Shadow: Stocking In/Spread	黒竜剣アジュダヤ：Stocking In/Spread
+Azdaja's Shadow: Stocking Out/Stack	黒竜剣アジュダヤ：Stocking Out/Stack
+Azure Auspice	青帝剣気
+Azure Thunder	アズールサンダー
+Backward Blows	後方返し太刀
+Backward Half (Back Left Safe)	バックワード・ルーズハーフ（Back Left Safe）
+Backward Half (Back Right Safe)	バックワード・ルーズハーフ（Back Right Safe）
+Backward Implosion	バックワード・インプロージョン
+Backward Shadow Implosion	バックワード・シャドウインプロージョン
+Bad Faith (Left First)	バッドフェイス（Left First）
+Bad Faith (Right First)	バッドフェイス（Right First）
+Baelsars Wall	巨大防壁 バエサルの長城
+Baleful Breath	ベイルフルブレス
+Ballast	バラスト
+Ballistic Impact (9S)	ミサイル着弾（9S）
+Ballistic Impact (Flight Unit)	ミサイル着弾（Flight Unit）
+Ballistic Missile	バリスティックミサイル
+Bangyzoom	突撃命令
+Banish (Tank)	バニシュ（タンク）
+Banish Divided (Tank)	ディバイデッド・バニシュ（タンク）
+Banish III	バニシュガ
+Banish III (Buddies)	バニシュガ（Buddies）
+Banish III (Spread)	バニシュガ（散開）
+Banish III Divided	ディバイデッド・バニシュガ
+Banish Storm	バニシュストーム
+Banishga	バニシュガ
+Banishga (Spread)	バニシュガ（散開）
+Banishga IV	バニシュガIV
+Banishga IV (Orbs)	バニシュガIV（Orbs）
+Barbarous Barrage: First Towers	ボンバリアンボム：First Towers
+Barbarous Barrage: Initial	ボンバリアンボム：最初
+Barbarous Barrage: Second Towers	ボンバリアンボム：Second Towers
+Barbarous Barrage: Third Towers + Mist	ボンバリアンボム：Third Towers + Mist
+Bardams Mettle	伝統試練 バルダム覇道
+Barreling Smash	バレリングスマッシュ
+Barreling Smash (On You)	バレリングスマッシュ（自分）
+Barreling Smash (on Other)	バレリングスマッシュ（on Other）
+Barreling Smash (on You)	バレリングスマッシュ（自分）
+Basic Relativity: Dark Water	時間圧縮・序：Dark Water
+Basic Relativity: Long Fire	時間圧縮・序：Long Fire
+Basic Relativity: Long Ice	時間圧縮・序：Long Ice
+Basic Relativity: Shadoweye	時間圧縮・序：Shadoweye
+Basic Relativity: Short Fire	時間圧縮・序：Short Fire
+Basic Relativity: Short Ice	時間圧縮・序：Short Ice
+Basic Relativity: Yellow Hourglass	時間圧縮・序：Yellow Hourglass
+Bastion of Twilight	たそがれのまほら
+Bastion of Twilight (Lasers)	たそがれのまほら（Lasers）
+Bastion of Twilight (Left)	たそがれのまほら（左）
+Bastion of Twilight (Right)	たそがれのまほら（右）
+Battering Arms	バテリングアーム
+Battle Cry	バトルクライ
+Battle Cry (Initial)	バトルクライ（最初）
+Beam Cannons	収束粒子砲
+Beastly Fury	ビーストフューリー
+Beastly Roar	ビーストロア
+Beatific Scorn	魔光閃
+Beckon Moonlight (Both Safe Spots)	幻狼招来（Both Safe Spots）
+Beckon Moonlight (First Safe Spot)	幻狼招来（First Safe Spot）
+Beckon Moonlight (Move)	幻狼招来（Move）
+Beckoning Dark	闇の侵食：重
+Bedeviling Light	悪魔の光
+Bee Sting	ビースティング
+Befoulment	膿汁弾
+Beguiling Mist	ビガイリングミスト
+Belone Bursts	エンチャンテッドペロネー：エクスプロージョン
+Belone Coils	エンチャンテッドペロネー：ラウンド
+Benevolence	博愛
+Berserk	バーサク
+Beyond Death	死の超越
+Beyond Death (Delta)	死の超越（Delta）
+Beyond Death (Delta, Tank)	死の超越（Delta, Tank）
+Beyond Death (Delta, Tank, Water Known)	死の超越（Delta, Tank, Water Known）
+Beyond Defense	シールドコンボS
+Beyond Defense: Hit on You	シールドコンボS：Hit on You
+Beyond Defense: Stack	シールドコンボS：頭割り
+Beyond Strength (Shield)	シールドコンボG（Shield）
+Bibliocide	火炎
+Bident	バイデント
+Big Bang	突出せよ
+Big Bang (Fire)	突出せよ（炎）
+Big Boot	ビックブート
+Big Crunch	ビッグクランチ
+Big Wave	ビッグウェーブ
+Bill	ソリッドビル
+Billowing Bolts	魔布法陣
+Binding Cold	呪縛の冷気
+Binding Sigil	バインドサークル
+Bio II	バイオラ
+Bio-arithmeticks	生命計算術
+Biochemical Front	前面噴霧
+Bionic Thrash (Front Left Safe)	スイングアーム（Front Left Safe）
+Bionic Thrash (Front Right Safe)	スイングアーム（Front Right Safe）
+Biscuit Maker	ビスケットメーカー
+Biting Frost	フロストスラッシュ
+Biting Frost (First Mirror, Red East)	フロストスラッシュ（First Mirror, Red East）
+Biting Frost (First Mirror, Red West)	フロストスラッシュ（First Mirror, Red West）
+Biting Frost (With Mirror)	フロストスラッシュ（With Mirror）
+Biting Halberd	バイティングハルバード
+Bitter End: On Other	ヒット・ジ・エンド：On Other
+Bitter End: On You	ヒット・ジ・エンド：自分
+Bitter End: Tank Swap	ヒット・ジ・エンド：Tank Swap
+Bitter Reaping: Buster on Others	ビターリープ：Buster on Others
+Bitter Reaping: Buster on You	ビターリープ：Buster on You
+Bitter Regret (Alternating Lines)	ネガティブメモリーズ（Alternating Lines）
+Bitter Regret (Middle)	ネガティブメモリーズ（中央）
+Bitter Regret (Sides)	ネガティブメモリーズ（横）
+Bitter Regret (Solid Lines, Left Safe)	ネガティブメモリーズ（Solid Lines, Left Safe）
+Bitter Regret (Solid Lines, Right Safe)	ネガティブメモリーズ（Solid Lines, Right Safe）
+Bitter Whirlwind	ビターウィンド
+Biwa Breaker	琵琶誅撃
+Black Cat Crossing: Card safe	クロスネイル：Card safe
+Black Cat Crossing: Inter safe	クロスネイル：Inter safe
+Black Fang	黒い牙
+Black Flame	黒炎流
+Black Flame: Dodge	黒炎流：Dodge
+Black Halo	ブラックヘイロー
+Black Hole	アトモス：吸い込み
+Black Nebula	ブラックネビュラ
+Blackfire	漆黒の炎
+Blade	カマ
+Blade of Darkness: Left Safe	闇の刃：Left Safe
+Blade of Darkness: Out	闇の刃：外
+Blade of Darkness: Right Safe	闇の刃：Right Safe
+Blades of Attis	アッティスの刃葉
+Bladewise	剣光波
+Bladewise (Jump)	剣光波（Jump）
+Blassty Charge: On Someone Else	ブラスティ・チャージ：On Someone Else
+Blassty Charge: On You	ブラスティ・チャージ：自分
+Blast Beat (Inner)	共振波（Inner）
+Blast Beat (Middle)	共振波（中央）
+Blast Beat (Outer)	共振波（Outer）
+Blaze	ブレイズ
+Blazing Rapture	狂える炎
+Blazing Scourge	白光の鞭
+Blazing Scourge (Healer)	白光の鞭（ヒーラー）
+Blazing Scourge (On You)	白光の鞭（自分）
+Blessed Barricade	聖護壁
+Blight	クラウダ
+Blighted Bladework	死喰剣・断裁
+Blighted Bolt	災厄の落雷
+Blighted Bouquet	ブライテッドブーケ
+Blighted Gloom	ブライテッドグルーム
+Blighted Sweep	死喰剣・払除
+Blighted Water	腐水塊
+Blind Faith	ブラインド・フェイス
+Blinder	ブラインダーミサイル
+Blindside	ブラインドサイド
+Blistering Blow	乱斬り
+Blizzard (Fake Donut)	ブリザド（Fake Donut）
+Blizzard (Fake Near)	ブリザド（Fake Near）
+Blizzard (True Donut)	ブリザド（True Donut）
+Blizzard (True Near)	ブリザド（True Near）
+Blizzard II	ブリザラ
+Blizzard III	ブリザガ
+Blizzard III (Dualcast)	ブリザガ（Dualcast）
+Blizzard IV	ブリザジャ
+Bloodburst	ブラッドバースト
+Bloodrake	ブラッドレイク
+Bloodshed (Cleaving East)	ブラッドシェッド（Cleaving East）
+Bloodshed (Cleaving West)	ブラッドシェッド（Cleaving West）
+Bloody Puddle	ブラッディパドル
+Bloody Scratch	ブラッディースクラッチ
+Bloody Sweep (Between)	薙ぎ払い（Between）
+Bloody Sweep (Opposite)	薙ぎ払い（Opposite）
+Blow Kiss	キッスブロー
+Blowing Bubbles	バブルブロワー
+Blue Moon	月神光
+Blue Screen	ブルースクリーン
+Blue Shockwave	青の衝撃
+Bluefire	青碧の炎
+Body Slam	ボディスラム
+Boiling	徐々にヒート
+Bold Boulder	大岩礫
+Bolts from the Blue	天雷
+Bomb Deployment	爆弾設置
+Bomb Toss	爆弾投げ
+Bomb's Away (First)	爆弾投下（1回目）
+Bomb's Away (Later)	爆弾投下（Later）
+Bombardment (First)	爆撃（1回目）
+Bombardment (First, Unknown)	爆撃（1回目、不明）
+Bombardment (Knockback)	爆撃（Knockback）
+Bombardment (Knockback, Unknown)	爆撃（Knockback, Unknown）
+Bombogenesis	爆弾低気圧
+Bonebreaker	骨砕き
+Boomcannon (Healer)	ブームカノン（ヒーラー）
+Boomcannon (on You)	ブームカノン（自分）
+Both Ends (Blue)	如意大旋風（青）
+Both Ends (Red)	如意大旋風（赤）
+Boulder	岩礫
+Boulder Break	重岩礫
+Boundless Pain	バウンドレスペイン
+Bowels of Agony	バウル・オブ・アゴニー
+Bracing Duster	そよそよダスター
+Bracing Duster (Slippery Soap)	そよそよダスター（Slippery Soap）
+Bradamante	ブラダマンテ
+Brainjack	ブレインジャック
+Brainjack (on You)	ブレインジャック（自分）
+Brand of the Fallen	生贄の烙印
+Brayfloxs Longstop	奪還支援 ブレイフロクスの野営地
+Brazen Ballad (Blue)	琵琶の旋律（青）
+Brazen Ballad (Purple)	琵琶の旋律（紫）
+Break IV	ブレクジャ
+Breath Wing	ブレスウィング
+Breathless (6 Stacks)	呼吸困難（6 Stacks）
+Breathless (7+ Stacks)	呼吸困難（7+ Stacks）
+Breathstroke	ブレス&スワイプ
+Bright Blade (Full Moon)	月刀左近（Full Moon）
+Bright Blade (New Moon)	月刀左近（New Moon）
+Bright Sabbath	ブライトサバト
+Bright Spectrum	ブライトスペクトル
+Brightstorm	晴嵐
+Brightwing	光翼閃
+Brimstone Earth	ブリムストーンアース
+Briny Cannonade	蒼の砲撃
+Brittle Boulder	小岩礫
+Broken Faith	ブロークンフェイス
+Broken Seal	氷炎の紋
+Broken Seal (Fire)	氷炎の紋（炎）
+Broken Seal (Ice)	氷炎の紋（氷）
+Broken Seal (Unknown)	氷炎の紋（不明）
+Brutal Crown	ブルータルレガリア
+Brutal Impact	スマッシュインパクト
+Brutal Lariat: East safe	ブルートラリアット：East safe
+Brutal Lariat: West safe	ブルートラリアット：West safe
+Brutal Rain	ブルータルレイン
+Brutal Rush	ブルータルラッシュ
+Brutish Swing: Glower	ブルートスイング：Glower
+Brutish Swing: In	ブルートスイング：中
+Brutish Swing: In into Glower	ブルートスイング：In into Glower
+Brutish Swing: In into Lariat	ブルートスイング：In into Lariat
+Brutish Swing: In into Tower	ブルートスイング：In into Tower
+Brutish Swing: Lariat	ブルートスイング：Lariat
+Brutish Swing: Out	ブルートスイング：外
+Brutish Swing: Out into Glower	ブルートスイング：Out into Glower
+Brutish Swing: Out into Lariat	ブルートスイング：Out into Lariat
+Brutish Swing: Out into Tower	ブルートスイング：Out into Tower
+Bubble Net	バブルネットフィーディング
+Bubble Shower	バブルシャワー
+Bubble Weave	バブルネットエコー
+Bubble Weave (No Partner)	バブルネットエコー（No Partner）
+Bubble Weave (with Partner)	バブルネットエコー（with Partner）
+Building Heat	熱膨張
+Bull's-eye: Dart on You	サンダーダート：Dart on You
+Bull's-eye: No Dart	サンダーダート：No Dart
+Bull's-eye: Unmarked Player	サンダーダート：Unmarked Player
+Burning Brand	烙印燃焼
+Burning Chains	炎の鎖
+Burning Court	バーニングコート
+Burning Cyclone (Ashdrake)	バーニングサイクロン（Ashdrake）
+Burning Cyclone (Inferno Drake)	バーニングサイクロン（Inferno Drake）
+Burning Moat	バーニングモート
+Burnished Glory	光焔光背
+Burnt Strike (Fire Clone)	バーンストライク（Fire Clone）
+Burnt Strike (Fire)	バーンストライク（炎）
+Burnt Strike (Holy)	バーンストライク（Holy）
+Burnt Strike (Lightning Clone)	バーンストライク（Lightning Clone）
+Burnt Strike (Lightning)	バーンストライク（雷）
+Burst	大爆発
+Bury: Cardinals First	衝撃：Cardinals First
+Bury: Corners First	衝撃：Corners First
+Bury: Hide Behind East	衝撃：Hide Behind East
+Bury: Hide Behind West	衝撃：Hide Behind West
+Byakko Unreal	幻白虎征魂戦
+Byregot's Strike	ビエルゴズ・ストライク
+Byregot's Strike (Lightning)	ビエルゴズ・ストライク（雷）
+Byregot's Ward (Not on You)	ビエルゴの加護（自分以外）
+Byregot's Ward (On You)	ビエルゴの加護（自分）
+Caber Toss	放り投げ
+Calamitous Cry	カラミティクライ
+Calamitous Cry: Non-Tank	カラミティクライ：Non-Tank
+Calamitous Cry: Tank	カラミティクライ：タンク
+Calamity's Edge	カラミティエッジ
+Calamity's Flames	火の災禍
+Calamity's Frost	氷の災禍
+Calamity's Fulgur	雷の災禍［強］
+Calculated Trajectory (Backward)	強制移動（Backward）
+Calculated Trajectory (Forward)	強制移動（Forward）
+Calculated Trajectory (Left)	強制移動（左）
+Calculated Trajectory (Right)	強制移動（右）
+Call Me Honey	ラブリーコール
+Caloric Theory: Fire Debuff	カロリックセオリー：Fire Debuff
+Caloric Theory: Fire Markers	カロリックセオリー：Fire Markers
+Caloric Theory: Raidwide	カロリックセオリー：Raidwide
+Caloric Theory: Wind Debuff	カロリックセオリー：Wind Debuff
+Camisado	カミサドー
+Candy Cane	キャンディケーン
+Cannonspawn	キャノンスポーン
+Captive Bolt	破砕斬
+Captive Bolt (On You)	破砕斬（自分）
+Captivity	キャプティビティ
+Carnage	カーネイジ
+Carpet Beater	カーペットビーター
+Cascade	カスケード
+Cascading Latent Defect	レイテントバグ：デグレード
+Castellation: Levitating	キャスタレーション：Levitating
+Castellation: Not Levitating	キャスタレーション：Not Levitating
+Castrum Abania	巨砲要塞 カストルム・アバニア
+Castrum Fluminis	ツクヨミ討滅戦
+Castrum Marinum	エメラルドウェポン破壊作戦
+Castrum Marinum Extreme	極エメラルドウェポン破壊作戦
+Cataclysm	天変地異
+Cataclysmic Blade	カタクリスムブレイド
+Cataclysmic Vortex (Look Away)	カタクリスムヴォルテクス（Look Away）
+Cataclysmic Vortex (Look Towards)	カタクリスムヴォルテクス（Look Towards）
+Cataclysmic Vortex (Motion)	カタクリスムヴォルテクス（Motion）
+Cataclysmic Vortex (Stillness)	カタクリスムヴォルテクス（Stillness）
+Catechism	聖句
+Celebrate Good Times	セレブレート・グッドタイムズ
+Celestial Trail	セレスティア・トレイル
+Celestriad	スリースターズ
+Celestriad: Double Fire Tower	スリースターズ：Double Fire Tower
+Celestriad: Double Ice Tower	スリースターズ：Double Ice Tower
+Celestriad: Double Lightning Tower	スリースターズ：Double Lightning Tower
+Celestriad: Fire Res Down	スリースターズ：Fire Res Down
+Celestriad: Ice Res Down	スリースターズ：Ice Res Down
+Celestriad: Lightning Res Down	スリースターズ：Lightning Res Down
+Celestriad: No Res Down	スリースターズ：No Res Down
+Centaur's Charge	セントールチャージ
+Centralized Current	セントラルカレント
+Centrifugal Spin	センター：回転攻撃
+Cermet Drill	サーメットドリル
+Certain Solitude	孤独の絶望
+Ceruleum Vent	セルレアムベント
+Chain Down	チェーンダウン
+Chain Lightning	チェインライトニング
+Chain of Brambles	ブランブルチェーン
+Chain of Purgatory	誘爆
+Chain of Purgatory (on You)	誘爆（自分）
+Champion's Circuit: Center	廻天動地：中央
+Champion's Circuit: Clockwise	廻天動地：Clockwise
+Champion's Circuit: Counter-Clockwise	廻天動地：Counter-Clockwise
+Champion's Circuit: In	廻天動地：中
+Champion's Circuit: OUt	廻天動地：外
+Champion's Circuit: Sides	廻天動地：横
+Change of Heart (Blue)	感情変化（青）
+Change of Heart (Red)	感情変化（赤）
+Chaos Storm	カオスストーム
+Chaotic Dispersion	カオティックディスパーション
+Charge	チャージ
+Charge (During Starbirth)	チャージ（During Starbirth）
+Charge Eradicated	エラディケイター
+Charge Eradicated (On You)	エラディケイター（自分）
+Chariot	人馬戦車
+Charybdis	ミールストーム
+Charybdis: Burst	ミールストーム：Burst
+Charybdis: First Set	ミールストーム：First Set
+Charybdis: Hide Behind Meteor	ミールストーム：Hide Behind Meteor
+Charybdis: Second Set	ミールストーム：Second Set
+Charybdis: Wait Middle	ミールストーム：Wait Middle
+Charybdistopia	ザ・ミールストーム
+Chasm of Vollok: Safe Corner	ピット・オブ・ヴォロク：Safe Corner
+Chastening Heat	神罰の熱線
+Chastening Heat (On You)	神罰の熱線（自分）
+Chastening Heat (Other Tank)	神罰の熱線（Other Tank）
+Chastening Heat (Tank/Healer)	神罰の熱線（Tank/Healer）
+Chelic Synergy	キール・シュネルギア
+Chemical Missile	ナパームミサイル
+Chesed	ケセド
+Chesed Gevurah (Left)	ケセド・ゲブラー（左）
+Chesed Gevurah (No Debuff)	ケセド・ゲブラー（No Debuff）
+Chesed Gevurah (Right)	ケセド・ゲブラー（右）
+Chest Thump	ドラミング
+Chilling Cataclysm	コールドディザスター
+Chilling Chirp	チリングチャープ
+Chilling Duster	ひえひえダスター
+Chilling Duster (Puffs)	ひえひえダスター（Puffs）
+Chilling Duster (Slippery Soap)	ひえひえダスター（Slippery Soap）
+Chimeric Succession: #1	キメリックコンボ：#1
+Chimeric Succession: #2	キメリックコンボ：#2
+Chimeric Succession: #3	キメリックコンボ：#3
+Chimeric Succession: #4	キメリックコンボ：#4
+Chimeric Succession: Behind Boss	キメリックコンボ：Behind Boss
+Chimeric Succession: In Front of Boss	キメリックコンボ：In Front of Boss
+Chimeric Succession: Nothing	キメリックコンボ：Nothing
+Chimeric Succession: Swap Now	キメリックコンボ：Swap Now
+Chopping Block	髑髏の処刑台
+Churning	禍泡
+Ciclicle	シクリクル
+Cinder Drift	ルビーウェポン破壊作戦
+Cinder Drift Extreme	極ルビーウェポン破壊作戦
+Circle of Chaos	カオスサークル
+Circle of Lives	青の輪波
+Circle of Lives: Dodge Hand After	青の輪波：Dodge Hand After
+Circle of Lives: Lean	青の輪波：Lean
+Circle of Lives: Wait for Hand	青の輪波：Wait for Hand
+Circling Winds	疾風衝
+Circular Saw	全体斬攻撃
+Circumscribed Fire (Initial)	輪くぐりファイア（最初）
+Circumscribed Fire (Next)	輪くぐりファイア（Next）
+Circumscribed Fire (Next, Unknown)	輪くぐりファイア（Next, Unknown）
+Citadel Buster (Motherbit)	シタデルバスター（Motherbit）
+Citadel Buster (Ultima Warrior)	シタデルバスター（Ultima Warrior）
+Citius	キティウス
+Citius (DPS)	キティウス（DPS）
+Citius (On You)	キティウス（自分）
+Clamp	クランプ
+Clanging Blow	強攻撃
+Classical Sculpture: Stack on You	巨兵創出：Stack on You
+Classical Sculpture: Stacks	巨兵創出：Stacks
+Claw Swipe (East)	クロースラッシュ（東）
+Claw Swipe (West)	クロースラッシュ（西）
+Claw to Tail	クロウ・アンド・テイル
+Clearing Smoke	衝撃煙管打ち
+Climbing Shot (Eulogia)	クライムシュート（Eulogia）
+Climbing Shot (Oschon)	クライムシュート（Oschon）
+Cloak of Shadows	クローク・オブ・シャドウ
+Clockwork Raiton	からくり雷遁
+Cloud to Ground	襲雷
+Cloudsplitter (Not On You)	クラウドスプリッタ（自分以外）
+Cloudsplitter (On You)	クラウドスプリッタ（自分）
+CoD (CAR) Triggers	滅暗闇の雲激闘戦
+CoD CAR	滅暗闇の雲激闘戦
+Coffin Scratch	コフィンスクラッチ
+Cogwheel	焔剣熱風斬
+Coherence (Flare)	コヒーレンス（Flare）
+Coherence (Line Stack)	コヒーレンス（Line Stack）
+Coif Change (Left)	魔髪変化（左）
+Coif Change (Right)	魔髪変化（右）
+Cold Feat: Followup	氷結：続き
+Cold Feat: Start	氷結：Start
+Cold Grip (East Safe)	暗き死の腕（East Safe）
+Cold Grip (West Safe)	暗き死の腕（West Safe）
+Collective Agony	念波動
+Collider Conductor	過剰蓄雷
+Color Clash: Stocking Light Parties	カラークラッシュ：Stocking Light Parties
+Color Clash: Stocking Partners	カラークラッシュ：Stocking Partners
+Color Riot	カラーライオット
+Color Riot (Not On You)	カラーライオット（自分以外）
+Color Riot (On You)	カラーライオット（自分）
+Colossal Charge (Left)	コロッサスチャージ（左）
+Colossal Charge (Right)	コロッサスチャージ（右）
+Colossal Impact (Middle)	強攻撃（中央）
+Colossal Impact (Northeast)	強攻撃（Northeast）
+Colossal Impact (Northwest)	強攻撃（Northwest）
+Colossal Impact (Sides)	強攻撃（横）
+Colossal Launch	コロッサスローンチ
+Colossal Strike	コロッサスストライク
+Colossal Swing	コロッサススイング
+Colossal Swing (Barrels)	コロッサススイング（Barrels）
+Comet	コメット
+Communion	コミュニオン
+Compressed Lightning	雷属性圧縮
+Compressed Lightning (Drop)	雷属性圧縮（Drop）
+Compressed Lightning (on Other)	雷属性圧縮（on Other）
+Compressed Lightning (on You)	雷属性圧縮（自分）
+Compressed Water	水属性圧縮
+Compressed Water (Drop)	水属性圧縮（Drop）
+Compressed Water (on Other)	水属性圧縮（on Other）
+Compressed Water (on You)	水属性圧縮（自分）
+Compressed Water: Explode Soon	水属性圧縮：Explode Soon
+Concentrated Dose	高圧縮薬弾
+Concentrativity	圧縮剣気
+Concussion	打撲傷
+Condensed Aero II	アグリゲート・エアロラ
+Condensed Libra (Interrupt)	プチライブラ（Interrupt）
+Condensed Libra (Stun)	プチライブラ（Stun）
+Confession of Faith (Spread)	コンフェッション・オブ・フェイス（散開）
+Confession of Faith (Stack)	コンフェッション・オブ・フェイス（頭割り）
+Confiteor	コンフィテオル
+Conflag Strike	コンフラグレーションストライク
+Conflag Strike (Follow-up)	コンフラグレーションストライク（続き）
+Consecration	聖域束縛式
+Constructive Figure	人形召喚
+Containment Bay P1 T6 Extreme	極女神ソフィア討滅戦
+Containment Bay P1 T6 Unreal	幻女神ソフィア討滅戦
+Containment Bay S1 T7	魔神セフィロト討滅戦
+Containment Bay S1 T7 Extreme	極魔神セフィロト討滅戦
+Containment Bay S1 T7 Unreal	幻セフィロト討滅戦
+Containment Bay Z1 T9 Extreme	極鬼神ズルワーン討滅戦
+Containment Bay Z1 T9 Unreal	幻鬼神ズルワーン討滅戦
+Conviction	コンヴィクション
+Conviction Marcato	コンヴィクション・マルカート
+Convulsive Crush	殴撃
+Cool Flame	クールフレイム
+Coordinate March	起動指令
+Coordinate March (Move after Orb Explosion)	起動指令（Move after Orb Explosion）
+Coordinate March (Move after Wall Laser)	起動指令（Move after Wall Laser）
+Coordinate March: Move after Orb Explosion	起動指令：Move after Orb Explosion
+Coordinate March: Move after Wall Laser	起動指令：Move after Wall Laser
+Cordage	捕縛
+Coronation: Laser	端末射出：Laser
+Corrupted Crystal	偏属性クリスタル
+Coruscant Saber (In)	ブライトセイバー（中）
+Coruscant Saber (Out)	ブライトセイバー（外）
+Cosmic Breath	コズミックブレス
+Cosmic Kiss	着弾
+Cosmic Tail	コズミックテイル
+Cosmo Arrow	コスモアロー
+Cosmo Dive	コスモダイブ
+Cosmo Memory	コスモメモリー
+Cosmo Memory (P6)	コスモメモリー（P6）
+Coursing River	蛇崩
+Coursing River (Unknown Side)	蛇崩（Unknown Side）
+Covering Fire	援護射撃
+Crab Dribble	クラブドリブル
+Crackling Cataclysm	ライトニングディザスター
+Crash-smash	ヒヤヒヤカチカチ
+Crash-smash (On You)	ヒヤヒヤカチカチ（自分）
+Crater Carve	クレーターカーヴ
+Creeping Ivy	クリープアイヴィ
+Cremate	赤熱撃
+Crescent Blade	弦月剣
+Crewel Slice	人形剣技
+Crippling Blow	痛打
+Crippling Blow (On You)	痛打（自分）
+Critical Error	クリティカルエラー
+Critical Overflow Bug	クリティカルバグ：サークル
+Critical Reaver	クリティカルディバイド
+Critical Rip	クリティカルリップ
+Critical Synchronization Bug: Long on You	クリティカルバグ：シェア：Long on You
+Critical Synchronization Bug: Short on Other	クリティカルバグ：シェア：Short on Other
+Critical Synchronization Bug: Short on You	クリティカルバグ：シェア：Short on You
+Critical Underflow Bug	クリティカルバグ：デグレード
+Critical Wrath	必中の決意
+Cross Attack	クロスアタック
+Cross Attack: On Other	クロスアタック：On Other
+Cross Attack: On You	クロスアタック：自分
+Cross Tail Switch	クロステイル・スペシャル
+Cross of Chaos	カオスクロス
+Crosswind	クロスウィンド
+Crowd Kill	クラウドキリング
+Crown of Arcadia	キング・オブ・アルカディア
+Cruel Coil (Northwest)	クルエルコイル（Northwest）
+Cruel Coil (Southeast)	クルエルコイル（Southeast）
+Cruelty	強襲
+Crumbling Down	岩盤崩落
+Crunch	クランチ
+Crusade	群体突進
+Crush Accessory	咬撃氷狼破
+Crush Armor (Hit on You)	強甲破点突き（Hit on You）
+Crush Armor (Tank)	強甲破点突き（タンク）
+Crush Helm	星天爆撃打
+Crush Helm (Feint)	星天爆撃打（Feint）
+Crush Helm (Healer)	星天爆撃打（ヒーラー）
+Crush Helm (Hit on You)	星天爆撃打（Hit on You）
+Crush Weapon	冥界恐叫打
+Crushing Comet	ヘビーコメット
+Crystal Needle	クリスタルニードル
+Crystalline Blizzard III (Echo)	クリスタル・ブリザガ（Echo）
+Crystalline Stone III (Echo)	クリスタル・ストンガ（Echo）
+Crystallize Time: Aero + Long Red	時間結晶：Aero + Long Red
+Crystallize Time: Drop Rewind	時間結晶：Drop Rewind
+Crystallize Time: Eruption + Blue	時間結晶：Eruption + Blue
+Crystallize Time: Ice + Blue	時間結晶：Ice + Blue
+Crystallize Time: Ice + Short Red	時間結晶：Ice + Short Red
+Crystallize Time: Initial	時間結晶：最初
+Crystallize Time: Quietus	時間結晶：Quietus
+Crystallize Time: Stack + Blue	時間結晶：Stack + Blue
+Crystallize Time: Tethers	時間結晶：Tethers
+Crystallize Time: Water + Blue	時間結晶：Water + Blue
+Culling Blade	衝撃斬
+Curse of Darkness (In 3 Seconds)	波動の呪詛（In 3 Seconds）
+Curse of Darkness (Initial Damage)	波動の呪詛（Initial Damage）
+Curse of the Flesh	病の呪詛
+Cursed Echo	カースドエコー
+Cursed Voice	呪詛の声
+Cursekeeper (On You)	呪怨の形代（自分）
+Cursekeeper (Other Tank)	呪怨の形代（Other Tank）
+Cursekeeper (on You)	呪怨の形代（自分）
+Cut and Run	クロースラッシュ
+Cutback Blaze	フレイムカットバック
+Cutters Cry	流砂迷宮 カッターズクライ
+Cutters Cry72	流砂迷宮 カッターズクライ（旧）
+Cutting Jewel	光玉
+Cycle of Chaos	混沌の連続剣
+Cycle of Faith (Fire)	魔装連続剣（炎）
+Cycle of Faith (Holy)	魔装連続剣（Holy）
+Cycle of Faith (Lightning)	魔装連続剣（雷）
+Cycle of Retribution	復讐の連続剣
+Cyclone (Headwind)	サイクロン（Headwind）
+Cyclone (Tailwind)	サイクロン（Tailwind）
+Cyclone Wing	サイクロンウィング
+Cyclonic Break: Move 2	サイクロニックブレイク：Move 2
+Cyclonic Break: Move 3	サイクロニックブレイク：Move 3
+Cytolysis	サイタリシス
+DMU	絶妖星乱舞
+DMU Triggers	絶妖星乱舞
+Da'at	ダアト
+Damage Down	ダメージ低下
+Damning Edict	ダミングイーディクト
+Damning Strikes	ダミングストライク
+Dance of Domination	ダンス・オブ・ドミネーション
+Dance of Domination Trophy	ウェポンジェネレート：ドミネーション
+Dance of Domination Trophy: Safe Spot	ウェポンジェネレート：ドミネーション：Safe Spot
+Dance of the Dead	黄泉の舞
+Dancing Mad	ダンシングマッド
+Dark Ashes	ダークアッシュ
+Dark Blade (Full Moon)	月刀右近（Full Moon）
+Dark Blade (New Moon)	月刀右近（New Moon）
+Dark Cannonade	闇の砲撃
+Dark Current	ダークストリーム
+Dark Dominion	深闇領域
+Dark Eruption	ダークエラプション
+Dark Fire	ダークファイア
+Dark Flame	ダークフレイム
+Dark Forte	フォルテダーク
+Dark Freeze	ダークフリーズ
+Dark Harvest	ダークハーベスト
+Dark Impact	暗黒魔弾
+Dark Matter	ダークマター
+Dark Matter (On You)	ダークマター（自分）
+Dark Matter Blast	ダークマターブラスト
+Dark Mist (Dodge)	ダークミスト（Dodge）
+Dark Mist (Stun)	ダークミスト（Stun）
+Dark Nebula	ノヴァブラスト
+Dark Nebula (First)	ノヴァブラスト（1回目）
+Dark Nova	ダークノヴァ
+Dark Orb	ダークオーブ
+Dark Pulse	黒の波動
+Dark Souls	ダークソウル
+Dark Sphere	ダークスフィア
+Dark Sphere (Donut)	ダークスフィア（Donut）
+Dark Vision	夢魔の視線
+Dark Wings	黒風
+Dark and Light: Dark Tethered to Dark	光と闇の調停：Dark Tethered to Dark
+Dark and Light: Dark Tethered to Light	光と闇の調停：Dark Tethered to Light
+Dark and Light: Light Tethered to Dark	光と闇の調停：Light Tethered to Dark
+Dark and Light: Light Tethered to Light	光と闇の調停：Light Tethered to Light
+Darkened Fire	闇の炎
+Darker Note (Avoid)	断唱：黒（Avoid）
+Darker Note (Healer)	断唱：黒（ヒーラー）
+Darker Note (on You)	断唱：黒（自分）
+Darklit Dragonsong: Initial	光と闇の竜詩：最初
+Darklit Dragonsong: Neither Tether nor Stack	光と闇の竜詩：Neither Tether nor Stack
+Darklit Dragonsong: Spirit Taker	光と闇の竜詩：Spirit Taker
+Darklit Dragonsong: Stack + Tether	光と闇の竜詩：Stack + Tether
+Darklit Dragonsong: Stack, No Tether	光と闇の竜詩：Stack, No Tether
+Darklit Dragonsong: Stacks	光と闇の竜詩：Stacks
+Darklit Dragonsong: Tank Baits	光と闇の竜詩：Tank Baits
+Darklit Dragonsong: Tether, No Stack	光と闇の竜詩：Tether, No Stack
+Darklit Dragonsong: Tower with Tether	光と闇の竜詩：Tower with Tether
+Darklit Dragonsong: Tower, no Tether	光と闇の竜詩：Tower, no Tether
+Darkness Unleashed	シャドウアンリーシュ
+Darkness Unleashed (Umbra Smash Target)	シャドウアンリーシュ（Umbra Smash Target）
+Darkness of Eternity	エターナルダークネス
+Dawn of Time	星天極光
+Dawn of an Age	ドーン・エイジ
+Dead Man's Overdraught: Partners	オーバーブースト：Partners
+Dead Man's Overdraught: Spread	オーバーブースト：散開
+Dead Rebirth	黒き不死鳥
+Dead Wake	前進
+Deadly Rebirth	あらたま
+Deadly Thrust	デッドリースラスト
+Deadly Twist	呪髪穿
+Death Foreseen (Boss)	死の魔眼（Boss）
+Death Foreseen (Rings)	死の魔眼（Rings）
+Death IV	デスジャ
+Death IV: Inside	デスジャ：Inside
+Death Penalty	死刑宣告
+Death Sentence	デスセンテンス
+Death Sentence (On You)	デスセンテンス（自分）
+Death Sentence (Other)	デスセンテンス（ほか）
+Death Sentence (on You)	デスセンテンス（自分）
+Death Spin	デススピン
+Death's Embrace	デスエンブレース
+Death's Embrace (Feathers)	デスエンブレース（Feathers）
+Death's Gaze	死神の瞳
+Death's Harvest	生命の繁茂【凶】
+Death's Toll (1)	死の運命（1）
+Death's Toll (2)	死の運命（2）
+Death's Toll (4)	死の運命（4）
+Death's Toll (?)	死の運命（?）
+Deathly Cadenza	亡者の歌
+Debilitator (Fire)	ウィークメーカー（炎）
+Debilitator (Water)	ウィークメーカー（水）
+Decay	ディケイ
+Decimation	焼却光線
+Decisive Battle	決戦
+Decisive Battle (Unknown)	決戦（不明）
+Decollation	デコレーション
+Deep Aerial: Cast	ハイドロエアリアル：詠唱
+Deep Aerial: Fire On You	ハイドロエアリアル：Fire On You
+Deep Aerial: No Tether	ハイドロエアリアル：No Tether
+Deep Aerial: Water On You	ハイドロエアリアル：Water On You
+Deep Cut	ディープカット
+Deep Cut (Not On You)	ディープカット（自分以外）
+Deep Cut (On You)	ディープカット（自分）
+Deep Dive	海淵落とし
+Deep Draught	給水
+Deep Freeze: Flare not on You	ディープフリーズ：Flare not on You
+Deep Freeze: Flare on You	ディープフリーズ：Flare on You
+Deep Impact	ディープインパクト
+Deep Impact (Non-tank)	ディープインパクト（Non-tank）
+Deep Impact (Tank)	ディープインパクト（タンク）
+Deep Thunder	地ならし
+Deep Thunder (First)	地ならし（1回目）
+Deep Varial	ハイドロバリエル
+Deepshadow Nova	ディープシャドウノヴァ
+Defamation	確定判決：名誉罰
+Defensive Array	魔導プロテクティブレーザー
+Defensive Reaction	防衛反応
+Delay-action Charge	時限爆弾
+Delta Attack	デルタアタック
+Delta Thunder III	デルタ・サンダガ
+Delta Trance	デルタトランス
+Deltascape V10	次元の狭間オメガ：デルタ編1
+Deltascape V10 Savage	次元の狭間オメガ零式：デルタ編1
+Deltascape V20	次元の狭間オメガ：デルタ編2
+Deltascape V20 Savage	次元の狭間オメガ零式：デルタ編2
+Deltascape V30	次元の狭間オメガ：デルタ編3
+Deltascape V30 Savage	次元の狭間オメガ零式：デルタ編3
+Deltascape V40	次元の狭間オメガ：デルタ編4
+Deltascape V40 Savage	次元の狭間オメガ零式：デルタ編4
+Deluge of Darkness	闇の大氾濫
+Deluge of Darkness (Enrage)	闇の大氾濫（Enrage）
+Deluge of Death	ヘビーレイン・オブ・デス
+Demi Ultima	デミアルテマ
+Demigod Double	半神の双撃
+Demimagicks	デミマジック
+Demolition Deathmatch	ソーンデスマッチ・ビルディング
+Demolition Deathmatch: Flare	ソーンデスマッチ・ビルディング：Flare
+Demolition Deathmatch: Seed on You	ソーンデスマッチ・ビルディング：Seed on You
+Demon Eye	悪魔の瞳
+Demon Simulation	ローディング：デーモン
+Demonic Dive	デモンダイブ
+Demonic Dive (On You)	デモンダイブ（自分）
+Demonic Dive (on You)	デモンダイブ（自分）
+Demonic Howl	デモニックハウル
+Demonic Pain	デモニックペイン
+Demonic Shear	デモニックシアー
+Demonic Stone	デモニックストーン
+Dense Emptiness	集束波動
+Deploy Armaments (Center)	武装起動（中央）
+Deploy Armaments (Corner)	武装起動（Corner）
+Deploy Armaments (North Boss)	武装起動（North Boss）
+Deploy Armaments (North)	武装起動（北）
+Deploy Armaments (Unknown)	武装起動（不明）
+Deploy Armaments (West Boss)	武装起動（West Boss）
+Deploy Armaments (West)	武装起動（西）
+Depth Charge	デプスチャージ
+Depth Grip	ハンド・オブ・オーシャン
+Deracinator	デラシネーター
+Derailment Siege	ディレールパウンド
+Derailment Siege (Car 3)	ディレールパウンド（Car 3）
+Derailment Siege (Car 4)	ディレールパウンド（Car 4）
+Derailment Siege (Car 5)	ディレールパウンド（Car 5）
+Derailment Siege (Car 6)	ディレールパウンド（Car 6）
+Destroy	破壊する
+Destructive Bolt	壊雷撃
+Destructive Bolt (Not on You)	壊雷撃（自分以外）
+Destructive Bolt (On You)	壊雷撃（自分）
+Destructive Heat	熱破砕
+Destructive Static	壊雷斬
+Destructive Strike (Not on You)	壊神斬（自分以外）
+Destructive Strike (On You)	壊神斬（自分）
+Deterrent Pulse	ヴァリアレイ
+Devitalize	デヴァイタライズ
+Devour	捕食
+Devour (Honey-Glazed)	捕食（Honey-Glazed）
+Devouring Brand	十字走火
+Diabolic Headlamp	魔界の前照灯
+Diabolic Light	魔界の光
+Diabolic Wind	魔界の風
+Diamond Dust	ダイアモンドダスト
+Diamond Dust: Stop	ダイアモンドダスト：Stop
+Diamond Flash	ダイヤフラッシュ
+Diamond Frost	ダイアモンドダスト
+Diamond Frost: Star on You	ダイアモンドダスト：Star on You
+Diamond Rain	ダイヤレイン
+Diamond Shrapnel	ダイヤバースト
+Dichroic Spectrum	ダイクロイックスペクトル
+Diffractive Laser	拡散レーザー
+Diffractive Plasma	拡散プラズマ
+Diffuse Laser	拡散レーザー
+Diffuse Wave Cannon (Front/Back)	拡散波動砲（Front/Back）
+Diffuse Wave Cannon (Sides)	拡散波動砲（横）
+Diffusion Ray	ディフュージョンレイ
+Diffusive-force Particle Beam	分散式波動砲
+Digestive Fluid	消化液
+Digititis (Damage)	ゆびさき（Damage）
+Digititis (Healer)	ゆびさき（ヒーラー）
+Digititis (Tank)	ゆびさき（タンク）
+Dike	ディケー
+Dimension Zero	ディメンションゼロ
+Dimensional Shift	ディメンションシフト
+Dimensional Torsion	次元波
+Dimensional Wave	次元波動
+Disassembly	ディスアセンブリ
+Disaster Zone	ディザスターゾーン
+Discharger	ディスチャージャー
+Disciples of Levin	内輪雷
+Disco Infernal	ディスコインファーナル
+Disco Infernal: Long Timer	ディスコインファーナル：Long Timer
+Disco Infernal: Short Timer	ディスコインファーナル：Short Timer
+Disco Infernal: Soak Now	ディスコインファーナル：Soak Now
+Discoid	ディスコイド
+Disinfection	ディスインフェクション
+Dismissal Overruling: KB/In/Buddies	ディスミサル＆オーバールール：KB/In/Buddies
+Dismissal Overruling: KB/Out/Light Parties	ディスミサル＆オーバールール：KB/Out/Light Parties
+Dispersed Aero II	スプレッド・エアロラ
+Dispose	処理する
+Disruption	ディスラプション
+Dissociation	ディソシエーション
+Dissociation (E safe)	ディソシエーション（E safe）
+Dissociation (W safe)	ディソシエーション（W safe）
+Distant Clap	遠雷
+Distant Scream	影の遠吠え
+Divebomb	ダイブボム
+Divebomb (Middle+Partners)	ダイブボム（Middle+Partners）
+Divebomb (Quickmarch)	ダイブボム（Quickmarch）
+Divers' Dare	ファイティングスピリット
+Divide Et Impera (Tankbuster)	ディヴィデ・エト・インペラ（Tankbuster）
+Divide and Conquer	ディバイド・アンド・コンカー
+Dividing Wings	ディバイドウィング
+Divination	ディヴィネーション
+Divination (On You)	ディヴィネーション（自分）
+Divination Rune	魔のルーン
+Divine Arrow (Clockwise)	聖なる矢（Clockwise）
+Divine Arrow (Counterclockwise)	聖なる矢（Counterclockwise）
+Divine Denial	完全なる拒絶
+Divine Desire	完全なる誘引
+Divine Diminuendo	ディヴァイン・ディミヌエンド
+Divine Doubt	完全なる惑乱
+Divine Judgment	聖なる審判
+Divine Judgment Volts: Orb	裁きの熱雷・天帝：Orb
+Divine Spark	熱いまなざし
+Divine Spear (Arrow)	聖なる炎（Arrow）
+Divine Spear (Pinwheel Clockwise)	聖なる炎（Pinwheel Clockwise）
+Divine Spear (Pinwheel Counterclockwise)	聖なる炎（Pinwheel Counterclockwise）
+Divine Spear (Unknown)	聖なる炎（不明）
+Divisive Dark	闇の侵食：砕
+Divisive Overruling: Sides then Buddies In	ディバイド＆オーバールール：Sides then Buddies In
+Divisive Overruling: Sides then LP Out	ディバイド＆オーバールール：Sides then LP Out
+Do the Hustle (East Safe)	ドゥ・ザ・ハッスル（East Safe）
+Do the Hustle (West Safe)	ドゥ・ザ・ハッスル（West Safe）
+Dohn Mheg	水妖幻園 ドォーヌ・メグ
+Doma Castle	解放決戦 ドマ城
+Dominion Slash	ドミニオンスラッシュ
+Dominion: First Towers	支配者の一撃：First Towers
+Dominion: First Towers, Pos 1	支配者の一撃：First Towers, Pos 1
+Dominion: First Towers, Pos 2	支配者の一撃：First Towers, Pos 2
+Dominion: First Towers, Pos 3	支配者の一撃：First Towers, Pos 3
+Dominion: First Towers, Pos 4	支配者の一撃：First Towers, Pos 4
+Dominion: Initial	支配者の一撃：最初
+Dominion: Second Towers, Pos 1	支配者の一撃：Second Towers, Pos 1
+Dominion: Second Towers, Pos 2	支配者の一撃：Second Towers, Pos 2
+Dominion: Second Towers, Pos 3	支配者の一撃：Second Towers, Pos 3
+Dominion: Second Towers, Pos 4	支配者の一撃：Second Towers, Pos 4
+Doom	死の宣告
+Doom (Healer)	死の宣告（ヒーラー）
+Doom Arc	ドゥームアーク
+Doom Spear	ドゥームスピアー
+Doom Strike	魔霊撃
+Doomsay	死の呪い
+Doomvoid Cleaver	ドゥームヴォイド・クリーバー
+Doomvoid Guillotine	ドゥームヴォイド・ギロチン
+Doomvoid Slicer	ドゥームヴォイド・スライサー
+Double Hex Eye	大凶眼
+Double Immolation	双炎法
+Double Kasumi-giri (First)	霞二段（1回目）
+Double Kasumi-giri (Second)	霞二段（2回目）
+Double Rocket Punch	ダブルロケットパンチ
+Double Rocket Punch (DPS)	ダブルロケットパンチ（DPS）
+Double Rocket Punch (On You)	ダブルロケットパンチ（自分）
+Double Rocket Punch (Tank/Healer)	ダブルロケットパンチ（Tank/Healer）
+Double Rocket Punch (on Other)	ダブルロケットパンチ（on Other）
+Double Rocket Punch (on You)	ダブルロケットパンチ（自分）
+Double Rush	ダブルラッシュ
+Double Scrapline	ダブルラリアット
+Double Slap	ダブルスラップ
+Double Slap: On Other	ダブルスラップ：On Other
+Double Slap: On You	ダブルスラップ：自分
+Double Slap: Tank Swap	ダブルスラップ：Tank Swap
+Double Sobat	ダブルソバット
+Double Sobat: Second Hit	ダブルソバット：Second Hit
+Double Swipe	ダブルクロウ
+Double Tyrannhilation	ツインスターズ・タイラントフォール
+Double Vision (Ireful)	ふたつの視線（Ireful）
+Double Vision (Sullen)	ふたつの視線（Sullen）
+Double-edged Swords (Back First)	ツインエッジ（Back First）
+Double-edged Swords (Front First)	ツインエッジ（Front First）
+Doubled Impact	ダブルインパクト
+Downburst	ダウンバースト
+Downpour	水責め
+Drachen Armor	ドラゴンアーマー
+Dragon Breath	ドラゴンブレス
+Dragon's Lair	雲蒸竜変
+Dragonfall	亢竜天鎚落
+Dragonfist	龍掌
+Dragonsong	絶竜詩戦争
+Dragonsong's Reprise	絶竜詩戦争
+Drain Touch	ドレインタッチ
+Drainage (Tank)	ドレナージ（タンク）
+Drainage (on You)	ドレナージ（自分）
+Dramatic Lysis	細胞爆発
+Dreams of Ice	氷結の幻想
+Drenching Pulse	猛烈なる波動
+Drenching Pulse: Puddles	猛烈なる波動：Puddles
+Drifting Petals	落花流水の術
+Driving Frost	フロストスラスト
+Driving Frost (First Mirror, Red East)	フロストスラスト（First Mirror, Red East）
+Driving Frost (First Mirror, Red West)	フロストスラスト（First Mirror, Red West）
+Driving Frost (With Mirror)	フロストスラスト（With Mirror）
+Drop of Venom	ベノムドロップ
+Drum of Vollok: Knockback not on You	ノック・オブ・ヴォロク：Knockback not on You
+Drum of Vollok: Knockback on You	ノック・オブ・ヴォロク：Knockback on You
+Dry Ice	フリージングダスト
+Dual Earthen Fists	大地の両拳
+Dual Strike	デュアルストライク
+Dualfire	双炎流
+Dualfire (Avoid)	双炎流（Avoid）
+Dualfire (Healer)	双炎流（ヒーラー）
+Dualfire (on You)	双炎流（自分）
+Duality of Death	デストゥワイス
+Dualspell	ダブルスペル
+Dun Scaith	影の国ダン・スカー
+Dust Bluster	ダストブロワー
+Duty's Edge	デューティエッジ
+Dying Memory	ダイイングメモリー
+Dynamic Dominance	ショッキングバウ
+Dynamic Fluid	混沌の水
+Dynamic Fluid (Enrage)	混沌の水（Enrage）
+Dynamic Fluid (Orb)	混沌の水（Orb）
+Dynamic Pound (Opposite Polarity)	超電磁グラウンドパンチ（Opposite Polarity）
+Dynamic Pound (Same Polarity)	超電磁グラウンドパンチ（Same Polarity）
+Dynamic Scrapline (Opposite Polarity)	超電磁ローリングラリアット（Opposite Polarity）
+Dynamic Scrapline (Same Polarity)	超電磁ローリングラリアット（Same Polarity）
+Dynamic Sensory Jammer	動体感知ジャマー
+Dynastic Diadem	サークレットフォース
+EX1	極ヴァリガルマンダ討滅戦
+EX2	極ゾラージャ討滅戦
+EX3	極エターナルクイーン討滅戦
+EX4	極ゼレニア討滅戦
+EX5	極永遠の闇討滅戦
+EX6	極グラシャラボラス討滅戦
+EX7	極エヌオー討滅戦
+Earth Hammer	大地のハンマー
+Earth Resistance Down II	土属性耐性低下［強］
+Earth Shaker	アースシェイカー
+Earth Shaker (Avoid)	アースシェイカー（Avoid）
+Earth Shaker (on You)	アースシェイカー（自分）
+Earthen Fist (2x Left)	大地の拳（2x Left）
+Earthen Fist (2x Right)	大地の拳（2x Right）
+Earthen Fist (Left/Right)	大地の拳（Left/Right）
+Earthen Fist (Right/Left)	大地の拳（Right/Left）
+Earthen Fury	大地の怒り
+Earthen Fury (Bleed)	大地の怒り（Bleed）
+Earthen Geyser	アースゲイザー
+Earthen Shot (After Crystalline Storm)	アースショット（After Crystalline Storm）
+Earthen Shot (Before Crystalline Storm)	アースショット（Before Crystalline Storm）
+Earthquake	地震
+Earthquake (Levitating)	地震（Levitating）
+Earthquake (Not Levitating)	地震（Not Levitating）
+Earthquake: Body Slam + Damning Edict	地震：Body Slam + Damning Edict
+Earthquake: Debuff Cleansed	地震：Debuff Cleansed
+Earthquake: Despair Only	地震：Despair Only
+Earthquake: Invalid	地震：Invalid
+Earthquake: Persistent Text	地震：Persistent Text
+Earthquake: Self Cleansed	地震：Self Cleansed
+Earthquake: Slap Happy + Lat: Front/Back First then Roles	地震：Slap Happy + Lat: Front/Back First then Roles
+Earthquake: Slap Happy + Lat: Front/Back First then Stack	地震：Slap Happy + Lat: Front/Back First then Stack
+Earthquake: Slap Happy + Lat: Sides + Stack	地震：Slap Happy + Lat: Sides + Stack
+Earthquake: Slap Happy + Long: Front/Back + Stack	地震：Slap Happy + Long: Front/Back + Stack
+Earthquake: Slap Happy + Long: Sides First then Roles	地震：Slap Happy + Long: Sides First then Roles
+Earthquake: Slap Happy + Long: Sides First then Stack	地震：Slap Happy + Long: Sides First then Stack
+Earthshock	アースショック
+Easterly Shift (Knockback)	シフティングストライクE（Knockback）
+Easterly Shift (Slash)	シフティングストライクE（Slash）
+Easterly Winds	東風の魔印
+Echoes	エコーズ
+Echoes of Agony	アゴニーズエコー
+Eclipsing Exhaust	大噴射
+Ecliptic Meteor	エクリプスメテオ
+Ecliptic Stampede	メテオスタンピード
+Ecliptic Stampede: Four-Way with Fireball Tether	メテオスタンピード：Four-Way with Fireball Tether
+Ecliptic Stampede: Four-Way with No Tether	メテオスタンピード：Four-Way with No Tether
+Ecliptic Stampede: Marker	メテオスタンピード：Marker
+Ecliptic Stampede: No Marker	メテオスタンピード：No Marker
+Ecliptic Stampede: No Tether	メテオスタンピード：No Tether
+Ecliptic Stampede: Tether	メテオスタンピード：Tether
+Ecliptic Stampede: Tower	メテオスタンピード：Tower
+Ecliptic Stampede: Two-Way with Fireball Tether	メテオスタンピード：Two-Way with Fireball Tether
+Ecliptic Stampede: Two-Way with No Tether	メテオスタンピード：Two-Way with No Tether
+Eden's Flare	エデン・フレア
+Eden's Gravity	エデン・グラビデ
+Edens Gate Descent	希望の園エデン：覚醒編2
+Edens Gate Descent Savage	希望の園エデン零式：覚醒編2
+Edens Gate Inundation	希望の園エデン：覚醒編3
+Edens Gate Inundation Savage	希望の園エデン零式：覚醒編3
+Edens Gate Resurrection	希望の園エデン：覚醒編1
+Edens Gate Resurrection Savage	希望の園エデン零式：覚醒編1
+Edens Gate Sepulture	希望の園エデン：覚醒編4
+Edens Gate Sepulture Savage	希望の園エデン零式：覚醒編4
+Edens Promise Anamorphosis	希望の園エデン：再生編3
+Edens Promise Anamorphosis Savage	希望の園エデン零式：再生編3
+Edens Promise Eternity	希望の園エデン：再生編4
+Edens Promise Eternity Savage	希望の園エデン零式：再生編4
+Edens Promise Litany	希望の園エデン：再生編2
+Edens Promise Litany Savage	希望の園エデン零式：再生編2
+Edens Promise Umbra	希望の園エデン：再生編1
+Edens Promise Umbra Savage	希望の園エデン零式：再生編1
+Edens Verse Fulmination	希望の園エデン：共鳴編1
+Edens Verse Fulmination Savage	希望の園エデン零式：共鳴編1
+Edens Verse Furor	希望の園エデン：共鳴編2
+Edens Verse Furor Savage	希望の園エデン零式：共鳴編2
+Edens Verse Iconoclasm	希望の園エデン：共鳴編3
+Edens Verse Iconoclasm Savage	希望の園エデン零式：共鳴編3
+Edens Verse Refulgence	希望の園エデン：共鳴編4
+Edens Verse Refulgence Savage	希望の園エデン零式：共鳴編4
+Edge of Oblivion	忘却の此方
+Efface	デストロイ
+Efface (On You)	デストロイ（自分）
+Efficient Bladework	ソードアクション
+Efficient Bladework (Shield)	ソードアクション（Shield）
+Effluvium	不快な臭い
+Effluvium (on You)	不快な臭い（自分）
+Eighth Beats	8ビート
+Ein	アイン
+Eironeia	エイロネイア
+Ektothermos	爆炎波動
+Elddragon Dive	エンシェントドラゴンダイブ
+Electray	エレクトロレイ
+Electric Arc	アーク放電
+Electric Burst	エレクトリックバースト
+Electric Field	ヴァリアスパーク
+Electric Slide	オメガスライド
+Electric Slide (On You)	オメガスライド（自分）
+Electric Slide: Square	オメガスライド：Square
+Electric Slide: Triangle	オメガスライド：Triangle
+Electric Whorl	エレクトリックワーラル
+Electrical Overload	広域放雷
+Electrified Gunshield	ガンシールド：魔導ショック
+Electrify	大放電
+Electrifying Witch Hunt: Inside Safe	ライトニング・ウィッチハント：Inside Safe
+Electrifying Witch Hunt: Outside Safe	ライトニング・ウィッチハント：Outside Safe
+Electrolance	雷槍投擲
+Electrolance Assimilation	雷槍回収
+Electromagnetic Field	電磁フィールド
+Electromagnetic Release (Circle)	電磁放射（Circle）
+Electromagnetic Release (Donut)	電磁放射（Donut）
+Electrope Edge	エレクトロープ展開
+Electrope Edge: 1 Long	エレクトロープ展開：1 Long
+Electrope Edge: 2 Long	エレクトロープ展開：2 Long
+Electrope Edge: 2 Short	エレクトロープ展開：2 Short
+Electrope Edge: 3 Short	エレクトロープ展開：3 Short
+Electrope Edge: Fail/Invalid	エレクトロープ展開：Fail/Invalid
+Electrope Edge: Nothing	エレクトロープ展開：Nothing
+Electrope Transplant: Casted	エレクトロープ移植：Casted
+Electrope Transplant: Cover	エレクトロープ移植：Cover
+Electrope Transplant: Get Covered	エレクトロープ移植：Get Covered
+Electrope Transplant: Instant	エレクトロープ移植：Instant
+Electrothermia	エレクトロサーミア
+Electrowave	エレクトロウェーブ
+Electrowave (Protector)	エレクトロウェーブ（Protector）
+Electrowave (Vanguard Commander R8)	エレクトロウェーブ（Vanguard Commander R8）
+Elegant Evisceration	エレガントイヴィセレーション
+Elegeia	エレゲイア
+Elemental Break (Fire)	エレメンタルブレイク（炎）
+Elemental Break (Holy)	エレメンタルブレイク（Holy）
+Elemental Break (Lightning)	エレメンタルブレイク（雷）
+Elemental Overload	エレメンタルブースト
+Elenchos (Middle)	エレンコス（中央）
+Elenchos (Outsides)	エレンコス（Outsides）
+Elenchos (Sides)	エレンコス（横）
+Elevated (DPS)	高度固定：高（DPS）
+Elevated (Tank/Healer)	高度固定：高（Tank/Healer）
+Elimination	対人光線
+Elimination (Avoid)	対人光線（Avoid）
+Elimination (Healer)	対人光線（ヒーラー）
+Elimination (on You)	対人光線（自分）
+Emanation	ラクシュミ討滅戦
+Emanation Extreme	極ラクシュミ討滅戦
+Embittered Dance	峻厳の舞踏技
+Emerald Crusher	エメラルドクラッシャー
+Emerald Shot	エメラルドショット
+Eminent Reign: Away, Stacks	薙の群狼剣：Away, Stacks
+Eminent Reign: Dodge Clones	薙の群狼剣：Dodge Clones
+Empirical Research	エンピリカルリサーチ
+Empty Beleaguer	エンプティベリーガー
+Empty Dimension	エンプティディメンション
+Empty Flood	虚無の氾濫
+Empty Gaze	虚無の瞳
+Empty Hate	虚ろなる悪意
+Empty Plane	暗黒天空
+Empty Proclamation	エンプティ・プロクラメーション
+Empty Rage	虚ろなる害意
+Empty Salvation	かむうた
+Empty Wave	虚無の波動
+Enaero: Initial	エンエアロ：最初
+Enchain	大捕物
+Encircling Thorns (Bloom 4)	ローズソーン（Bloom 4）
+Encroaching Twintides	リング・ダブルタイド
+Encroaching Twintides (Role Stacks)	リング・ダブルタイド（Role Stacks）
+Endless Ice Age (Intermission)	光の氾濫（Intermission）
+Endless Ice Age: Kill Main Crystal	光の氾濫：Kill Main Crystal
+Endless Ice Age: Main Crystal Vuln Down	光の氾濫：Main Crystal Vuln Down
+Endless Ice Age: Tether on You	光の氾濫：Tether on You
+Endsinger Extreme	終極の戦い
+Enduring Glory	ヨカフイの誇り
+Energy Assault	連続エネルギー弾
+Energy Barrage	エネルギー弾幕
+Energy Barrage (Towers)	エネルギー弾幕（Towers）
+Energy Compression	エネルギー凝縮
+Engage Goliath Tank Support	支援要請：大型戦車
+Engage Marx Support	支援要請：マルクス
+Enhanced Mobility (Blades Inside)	高速機動（Blades Inside）
+Enhanced Mobility (Blades Outside)	高速機動（Blades Outside）
+Enkyo	猿叫
+Entanglement	呪髪呪縛
+Entangling Web	グランドウェブ
+Enter Night	エンターナイト
+Enthrall	インスロール・アイ
+Entr'acte	幕間の風狂
+Entrance	虚ろな瞳
+Entropic Sphere	エントロピックスフィア
+Entropy	エントロピー
+Entropy: Avoid Hit	エントロピー：Avoid Hit
+Entropy: Spread	エントロピー：散開
+Enumeration	カウント
+Enumeration (On You)	カウント（自分）
+Enumeration (Targets)	カウント（Targets）
+Ephemerality	神出鬼没
+Epic Hero	決戦α［被］
+Epigonoi (Cardinal Safe)	エピノゴイ（Cardinal Safe）
+Epigonoi (Intercardinal Safe)	エピノゴイ（Intercardinal Safe）
+Equal Concentration	水量均等化
+Equinox	エクイノックス
+Equinox (with Crystallize)	エクイノックス（with Crystallize）
+Eruption	エラプション
+Eruption: East Safe	エラプション：East Safe
+Eruption: Move	エラプション：Move
+Eruption: West Safe	エラプション：West Safe
+Escelons' Fall: Far First, Swap After 1st and 3rd	クライムクロス：Far First, Swap After 1st and 3rd
+Escelons' Fall: Far First, Swap After 2nd	クライムクロス：Far First, Swap After 2nd
+Escelons' Fall: Near First, Swap After 1st and 3rd	クライムクロス：Near First, Swap After 1st and 3rd
+Escelons' Fall: Near First, Swap After 2nd	クライムクロス：Near First, Swap After 2nd
+Eudaimon Eorzea	エウダイモン・エオルゼア
+Eunomia	エウノミアー
+Euphrosyne	喜びの神域 エウプロシュネ
+Eventide Fall	集束黒竜閃
+Eventide Triad	三連黒竜閃
+Everkeep	ゾラージャ討滅戦
+Everkeep (Zoraal Ja)	ゾラージャ討滅戦
+Evil Earth	イビルアース
+Evil Scheme	イービルスキーム
+Evil Seed: Not On You	種子弾：自分以外
+Evil Seed: On You	種子弾：自分
+Evilsphere	イビルスフィア
+Evilsphere (On You)	イビルスフィア（自分）
+Evilsphere (Other Tank)	イビルスフィア（Other Tank）
+Exaflare: Start Location/Direction	エクサフレア：Start Location/Direction
+Excretion (Heavy)	粘液（Heavy）
+Execration	エクセクレイション
+Execute (One Safe Spot)	エクセキュート（One Safe Spot）
+Execute (Two Safe Spots)	エクセキュート（Two Safe Spots）
+Execution	エクスキューション
+Execution (not on You)	エクスキューション（自分以外）
+Execution (on You)	エクスキューション（自分）
+Execution Wheel	月輪断
+Exocleaver	エクソークリーバー
+Exodus	エクソダス
+Exorcise	エクソサイズ
+Experimental Ashplume (Light Parties)	魔力錬成：暗闇の劫火天焦（Light Parties）
+Experimental Ashplume (Spread)	魔力錬成：暗闇の劫火天焦（散開）
+Experimental Fireplume (Out)	魔力錬成：劫火天焦（外）
+Experimental Fireplume (Rotating)	魔力錬成：劫火天焦（Rotating）
+Experimental Fireplume (Shiva)	魔力錬成：劫火天焦（Shiva）
+Experimental Gloryplume (Light Parties)	魔力錬成：炎闇劫火（Light Parties）
+Experimental Gloryplume (Out)	魔力錬成：炎闇劫火（外）
+Experimental Gloryplume (Shiva)	魔力錬成：炎闇劫火（Shiva）
+Experimental Gloryplume (Spread)	魔力錬成：炎闇劫火（散開）
+Expire	噴射
+Exploding Catapult	爆弾ブン投げ
+Exploding Catapult: Barrels	爆弾ブン投げ：Barrels
+Explosion	大誘爆
+Expulsion	エクスパルション
+Extraplanar Pursuit	空間斬り
+Extrasensory Field	サイコフィールド
+Extreme Edge	ブーストエッジ
+Extreme Edge (Left)	ブーストエッジ（左）
+Extreme Edge (Right)	ブーストエッジ（右）
+Eye of Troia	トロイアの魔眼
+Eye of the Cyclone	アイ・オブ・サイクロン
+Eye of the Fire	フィアーアイ
+Eye of the Thunder Vortex	渦雷の連舞：円輪
+FRU	絶もうひとつの未来
+FRU Triggers	絶もうひとつの未来
+Fae Light	妖精光
+Fae Light (DPS)	妖精光（DPS）
+Fae Light (On You)	妖精光（自分）
+Fair Flight	フェアリーノックアップ
+Faith Unmoving	フェイスアンムーブ
+Fallen Grace	降魔弾
+Falling Boulder	大落石
+Falling Nightmare	ナイトメアフォール
+Falling Rock	落石
+Falling Rock (On You)	落石（自分）
+Falling Water	落水
+False Dawn	黎明の機動
+Famine's Harvest	生命の繁茂【猛】
+Fanged Maw	回転光牙
+Fanged Perimeter	旋回光牙
+Far Above, Deep Below (Blue)	死生択一：砲華（青）
+Far Above, Deep Below (Blue, Arrow)	死生択一：砲華（Blue, Arrow）
+Far Above, Deep Below (Orange, Arrow)	死生択一：砲華（Orange, Arrow）
+Far Edge (Tethered)	遠間当て（Tethered）
+Far Edge (Untethered)	遠間当て（Untethered）
+Far Edge: Bait	遠間当て：Bait
+Far Edge: Tether	遠間当て：Tether
+Far-flung Fire	生火砲
+Farsight (Non-Tank)	遠見の魔撃（Non-Tank）
+Farsight (Tank)	遠見の魔撃（タンク）
+Fated Hero	決戦β［被］
+Fault Line: Front	フォールトライン：前
+Fault Line: Sides	フォールトライン：横
+Fault Warren	フォルトウォーレン
+Fault Zone	フォールトゾーン
+Faunal Figure	動物召喚
+Fear of Death	死の恐怖
+Fear of Death: Bait	死の恐怖：Bait
+Feculent Flood	ドロドロ掬い投げ
+Feint Particle Beam	潜地式波動砲
+Feral Fission	フェラルフィッション
+Feral Fission (Spread)	フェラルフィッション（散開）
+Feral Fission (Stack)	フェラルフィッション（頭割り）
+Feral Lunge	急襲
+Ferostorm	フィアスストーム
+Ferrofluid (Attract)	マグネット（Attract）
+Ferrofluid (Repel)	マグネット（Repel）
+Ferrofluid (Unknown)	マグネット（不明）
+Ferrofluid: Attract	マグネット：Attract
+Ferrofluid: Different Markers	マグネット：Different Markers
+Ferrofluid: Repel	マグネット：Repel
+Ferrofluid: Same Markers	マグネット：Same Markers
+Ferrofluid: Unknown	マグネット：不明
+Festina Lente	フェスティナ・レンテ
+Festina Lente (With Clones)	フェスティナ・レンテ（With Clones）
+Fetid Fang	不快な牙
+Fetters	拘束
+Fevered Flagellation	フィバードフラジレーション
+Field of Scorn	ショック・オブ・ドゥーム
+Fiendish Orbs	追尾せよ
+Fiendish Rage	魔神の怒り
+Fiendish Rage (Main Tank)	魔神の怒り（Main Tank）
+Fiendish Wail (Avoid)	魔神の嘆き（Avoid）
+Fiendish Wail (Tower)	魔神の嘆き（Tower）
+Fiendish Wail: Avoid Towers	魔神の嘆き：Avoid Towers
+Fiendish Wail: Get Tower	魔神の嘆き：Get Tower
+Fifth Element	陰陽五行
+Fighting Spirits	般若湯
+Fighting Spirits (Limit Cut)	般若湯（Limit Cut）
+Fighting Spirits: Limit Cut	般若湯：Limit Cut
+Final Beam	ファイナルメガビーム
+Final Fusedown: Long Fuse	零式フューズボム：Long Fuse
+Final Fusedown: Long Fuse, Second Set	零式フューズボム：Long Fuse, Second Set
+Final Fusedown: Short Fuse	零式フューズボム：Short Fuse
+Final Punch (Tank Swap)	ファイナルダブルロケットパンチ（Tank Swap）
+Final Punch (on Other)	ファイナルダブルロケットパンチ（on Other）
+Final Punch (on You)	ファイナルダブルロケットパンチ（自分）
+Finale Fatale	フィナーレ・ファターレ
+Finale Fatale (Enrage)	フィナーレ・ファターレ（Enrage）
+Fire	ファイア
+Fire (Spread)	ファイア（散開）
+Fire (Stack)	ファイア（頭割り）
+Fire Beam	ファイアビーム
+Fire Breath	ファイアブレス
+Fire II	ファイラ
+Fire III	ファイガ
+Fire III (Dualcast)	ファイガ（Dualcast）
+Fire IV	ファイジャ
+Fire Spread	放火
+Fire and Fury	ファイア・アンド・テイル
+Fire's Domain	炎獄殺
+Fire's Domain (First)	炎獄殺（1回目）
+Fireball	ファイアボール
+Fireball (First)	ファイアボール（1回目）
+Fireball (Second/Third)	ファイアボール（Second/Third）
+Firedamp	ファイアダンプ
+Firespit	ファイアースピット
+Firesteel Fracture	石火豪打
+Firesteel Strike: Cover	石火豪衝：Cover
+Firesteel Strike: Get Covered	石火豪衝：Get Covered
+Flagrant Combustion	赤熱爆煙
+Flagrant Fire (Single)	めらめらファイガ（Single）
+Flagrant Fire (Stack)	めらめらファイガ（頭割り）
+Flagrant Spread	フレグラントスプレッド
+Flame Floater	フレイムフローター
+Flame Floater (Split)	フレイムフローター（Split）
+Flame Rune	火のルーン
+Flame Rune (2nd+)	火のルーン（2nd+）
+Flame Slash	火炎斬り
+Flame and Sulphur: Stacks	岩火招来：Stacks
+Flamerake	烈火赤滅爪
+Flames of Decay	絶望の炎
+Flames of Eventide	黒竜炎
+Flames of Hatred	フレイム・オブ・ヘイトレッド
+Flamespire Brand: Flare	炎禍の呪い：Flare
+Flamespire Brand: Flare + Safety	炎禍の呪い：Flare + Safety
+Flamespire Brand: Nothing	炎禍の呪い：Nothing
+Flamespire Brand: Nothing + Safety	炎禍の呪い：Nothing + Safety
+Flamespire Brand: Spread	炎禍の呪い：散開
+Flameviper	炎蛇砲
+Flaming Crush	フレイミングクラッシュ
+Flaming Halberd	フレイムハルバード
+Flaming Recoil	フレイムリコイル
+Flare	フレア
+Flare (Hit)	フレア（命中）
+Flare IV	フレアジャ
+Flare Star	フレアスター
+Flash Powder	フラッシュパウダー
+Flash of Steel	闘人の波動
+Flatliner	フラットライナー
+Flatliner: Bait Puddles No Tether	フラットライナー：Bait Puddles No Tether
+Flatliner: Bait Puddles w/ Tether	フラットライナー：Bait Puddles w/ Tether
+Flatliner: No Tether	フラットライナー：No Tether
+Flatliner: Tether, Cross	フラットライナー：Tether, Cross
+Flatliner: Tether, Stay	フラットライナー：Tether, Stay
+Flatten	押しつぶす
+Flaying Flail	断罪の鉄球
+Flaying Fry	フレイングフライ
+Fleeting Iai-giri (On Other)	俊足居合斬り（On Other）
+Fleeting Iai-giri (On You)	俊足居合斬り（自分）
+Fleeting Iai-giri (on Other)	俊足居合斬り（on Other）
+Fleeting Iai-giri (on You)	俊足居合斬り（自分）
+Fleeting Spark	烈火旋脚
+Fleshbuster (Ghost)	リビングスライサー（Ghost）
+Fleshbuster (Not Ghost)	リビングスライサー（Not Ghost）
+Flinted Foehn	フェーンアロー
+Flinted Foehn (On You)	フェーンアロー（自分）
+Flintlock	火砲
+Flintlock (Hammer Target)	火砲（Hammer Target）
+Flintlock (Other)	火砲（ほか）
+Flintlock (Tank)	火砲（タンク）
+Flintlock (on You)	火砲（自分）
+Flood	フラッド
+Flood of Darkness	闇の氾濫
+Flood of Darkness (Interruptable)	闇の氾濫（Interruptable）
+Flood of Naught: Charge	無の氾濫：Charge
+Flood: Location and Rotation	フラッド：Location and Rotation
+Flood: Move 1	フラッド：Move 1
+Flood: Move 2	フラッド：Move 2
+Floodstide	フラッドタイド
+Floral Figure	植物召喚
+Fluid Strike (after Wash Away)	フルイドストライク（after Wash Away）
+Fluke Typhoon	フリッパータイフーン
+Flutterfall	フェザーストーム
+Flying Press	フライングプレス
+Foamy Fetters	バブルフィッター
+Foamy Fetters (No Partner)	バブルフィッター（No Partner）
+Foamy Fetters (with Partner)	バブルフィッター（with Partner）
+Fog Plume	放射霧
+Force Against Magic	フォースフィールド：魔法特化
+Force Against Might	フォースフィールド：物理特化
+Force of the Land	大地の轟き
+Forceful Impact	大震動
+Fore Honor	前方焔剣閃
+Fore and Aft	前後双斬
+Foregone Fatality	フェイタルライン
+Forged Track	エッジトラック
+Forged Track: Safe Inner Tile	エッジトラック：Safe Inner Tile
+Forged Track: Unknown	エッジトラック：不明
+Forked Lightning	フォークライトニング
+Formless Judgment	天罰の波動
+Formless Judgment (On You)	天罰の波動（自分）
+Formless Judgment (Tank)	天罰の波動（タンク）
+Formless Judgment: On You	天罰の波動：自分
+Forsaken	ミッシング
+Forsaken: Debuff Tracker	ミッシング：Debuff Tracker
+Forsaken: Final Future Nothing	ミッシング：Final Future Nothing
+Forsaken: Followup Circle + Future	ミッシング：Followup Circle + Future
+Forsaken: Followup Circle + Past	ミッシング：Followup Circle + Past
+Forsaken: Followup Cone + Future	ミッシング：Followup Cone + Future
+Forsaken: Followup Cone + Past	ミッシング：Followup Cone + Past
+Forsaken: Followup Nothing + Future	ミッシング：Followup Nothing + Future
+Forsaken: Followup Nothing + Past	ミッシング：Followup Nothing + Past
+Forsaken: Followup Stack + Future	ミッシング：Followup Stack + Future
+Forsaken: Followup Stack + Past	ミッシング：Followup Stack + Past
+Forsaken: Initial Circle	ミッシング：Initial Circle
+Forsaken: Initial Cone	ミッシング：Initial Cone
+Forsaken: Initial Nothing	ミッシング：Initial Nothing
+Forsaken: Initial Stack	ミッシング：Initial Stack
+Fortius	フォルティウス
+Forward Half (Front Left Safe)	フォワード・ルーズハーフ（Front Left Safe）
+Forward Half (Front Right Safe)	フォワード・ルーズハーフ（Front Right Safe）
+Forward Implosion	フォワード・インプロージョン
+Forward Interceptors	前方迎撃ロケット
+Forward March	移動命令：前
+Forward March (Statice)	移動命令：前（Statice）
+Forward March: Leftward	移動命令：前：Leftward
+Forward March: Rightward	移動命令：前：Rightward
+Forward Shadow Implosion	フォワード・シャドウインプロージョン
+Fountain	ファウンテン
+Four Parts Resolve: Cleave	四連断重撃：Cleave
+Four Parts Resolve: Jump	四連断重撃：Jump
+Fourfold Blight	青の四重波
+Fourfold Blight (Unknown Safe Spot)	青の四重波（Unknown Safe Spot）
+Fourfold Flame	四重爆炎
+Fourfold Shear	四連双斬
+Fractured Eventide (NE Safe)	黒竜閃（NE Safe）
+Fractured Eventide (NW Safe)	黒竜閃（NW Safe）
+Fragor Maximus	フラゴルマクシマス
+Free Spirits	ソウルリリース
+Freezing	徐々に氷結
+Freezing Brand	氷の烙印
+Freezing Dust	フリジングダスト
+Freezing Missile	冷凍ミサイル
+Friction	ウィンドブレード
+Frigid Stomp	フリジッドストンプ
+Frigid Stone	アイスストーン
+Frigid Water	アイスフロスト
+Frond Affeared	恐怖のまなざし
+Frond Fatale	魅惑のまなざし
+Front Combination	前方連転脚
+Frost Bow	凍てつく弓
+Frost Breath (On You)	フロストブレス（自分）
+Frost Breath (Other)	フロストブレス（ほか）
+Frost Rune	氷のルーン
+Frost Rune (In)	氷のルーン（中）
+Frost Rune (Out)	氷のルーン（外）
+Frosting Fracas	霧雪の声
+Frustration	フラストレーション
+Fulgent Blade: CCW	光塵の剣：反時計回り
+Fulgent Blade: CW	光塵の剣：時計回り
+Fulgent Blade: Clockwise, Hit 1	光塵の剣：Clockwise, Hit 1
+Fulgent Blade: Clockwise, Hit 2	光塵の剣：Clockwise, Hit 2
+Fulgent Blade: Clockwise, Hit 3	光塵の剣：Clockwise, Hit 3
+Fulgent Blade: Clockwise, Hit 4	光塵の剣：Clockwise, Hit 4
+Fulgent Blade: Clockwise, Hit 5	光塵の剣：Clockwise, Hit 5
+Fulgent Blade: Clockwise, Hit 6	光塵の剣：Clockwise, Hit 6
+Fulgent Blade: Clockwise, Hit 7	光塵の剣：Clockwise, Hit 7
+Fulgent Blade: Counter-Clockwise, Hit 1	光塵の剣：Counter-Clockwise, Hit 1
+Fulgent Blade: Counter-Clockwise, Hit 2	光塵の剣：Counter-Clockwise, Hit 2
+Fulgent Blade: Counter-Clockwise, Hit 3	光塵の剣：Counter-Clockwise, Hit 3
+Fulgent Blade: Counter-Clockwise, Hit 4	光塵の剣：Counter-Clockwise, Hit 4
+Fulgent Blade: Counter-Clockwise, Hit 5	光塵の剣：Counter-Clockwise, Hit 5
+Fulgent Blade: Counter-Clockwise, Hit 6	光塵の剣：Counter-Clockwise, Hit 6
+Fulgent Blade: Counter-Clockwise, Hit 7	光塵の剣：Counter-Clockwise, Hit 7
+Fulgent Blade: Initial	光塵の剣：最初
+Full Beat	1ビート
+Full Rank	全軍集結
+Furrow	地突き
+Fury's Bolt	チャージボルト
+Fury's Fourteen	フォーティーン・チャージボルト
+Fuse or Foe: Clockwise Spin	アタッチ・フューズボム：Clockwise Spin
+Fuse or Foe: Counter-Clockwise Spin	アタッチ・フューズボム：Counter-Clockwise Spin
+Fuse or Foe: Initial	アタッチ・フューズボム：最初
+Fuse or Foe: Long Fuse	アタッチ・フューズボム：Long Fuse
+Fuse or Foe: Short Fuse	アタッチ・フューズボム：Short Fuse
+Future's End (Tank/Healer)	未来の終焉（Tank/Healer）
+Gaiaochos	ガイアオコス
+Galaxias	ガラクシアス
+Gale Force	暴風
+Gale Sphere	ウィンドスフィア
+Gaoler's Flail (Left)	懲罰撃（左）
+Gaoler's Flail (Right)	懲罰撃（右）
+Gardener's Hymn	萌芽への謡
+Gaze of the Tengu	天狗の眼力
+Gaze of the Void (Clockwise)	混沌の激流（Clockwise）
+Gaze of the Void (Counter-clockwise)	混沌の激流（Counter-clockwise）
+Gaze of the Void: Tank Orbs	混沌の激流：Tank Orbs
+Gekko	月光
+Geocrush	ジオクラッシュ
+Geothermal Flatulence	噴火
+Gevurah Chesed (Left)	ゲブラー・ケセド（左）
+Gevurah Chesed (No Debuff)	ゲブラー・ケセド（No Debuff）
+Gevurah Chesed (Right)	ゲブラー・ケセド（右）
+Ghastly Gloom (Cross)	怖れの雲（Cross）
+Ghastly Gloom (Huge Donut)	怖れの雲（Huge Donut）
+Ghastly Wind	妖火風
+Ghostcrusher	ヘビーメモリーズ
+Ghostduster (Ghost)	ゴーストダスター（Ghost）
+Ghostduster (Not Ghost)	ゴーストダスター（Not Ghost）
+Giga Jump	ギガジャンプ
+Giga Slash (Left First)	ギガスラッシュ（Left First）
+Giga Slash (Quadruple, Left)	ギガスラッシュ（Quadruple, Left）
+Giga Slash (Quadruple, Right)	ギガスラッシュ（Quadruple, Right）
+Giga Slash (Right First)	ギガスラッシュ（Right First）
+Giga Slash (Single, Left)	ギガスラッシュ（Single, Left）
+Giga Slash (Single, Right)	ギガスラッシュ（Single, Right）
+Gigaflare	ギガフレア
+Gigaflare (Phase Change)	ギガフレア（Phase Change）
+Gigantomachy	ギガントマキア
+Gigantomachy (Enrage)	ギガントマキア（Enrage）
+Gigantomill (Left)	コロッサスミル（左）
+Gigantomill (Right)	コロッサスミル（右）
+Glacier Bash	グレイシャーバッシュ
+Glassy-eyed	人形の石眼
+Glaukopis	グラウコピス
+Global Spell	スペルグローブ
+Glorious Blaze	引火
+Glory Neverlasting	槿花一朝
+Glossolalia	グロソラリア
+Glower Power	ブルートグラワー
+Glupgloop	強酸性劇物薬
+Gluttonous Rampage	グラットンランページ
+Gnashing of Teeth	噛みつき
+Gnostic Rant	魔槍乱舞
+Gobcut	衝撃のアッパー
+Gobrush Rushgob	ゴブ流ゴブリンラッシュ
+Gobslash Slicetops (not on You)	ゴブ流真空斬り（自分以外）
+Gobslash Slicetops (on You)	ゴブ流真空斬り（自分）
+Gobslice Mooncrops	ゴブ流三日月斬り
+Gobsnick Leghops	ゴブ流後の先
+Gobspin Zoomdrops	ゴブ流大回転斬り
+Gobspin Zoomdrops (After)	ゴブ流大回転斬り（After）
+God Ray	ゴッドレイ
+Godsbane	ゴッズベーン
+Golden Talons	ゴールデンタロン
+Golden Tenet	ナルの神火
+Golden Tenet (On You)	ナルの神火（自分）
+Grand Cross	グランドクロス
+Grand Cross Alpha	グランドクロス・アルファ
+Grand Cross Delta (DPS)	グランドクロス・デルタ（DPS）
+Grand Cross Delta (Healer)	グランドクロス・デルタ（ヒーラー）
+Grand Cross Delta (Tank)	グランドクロス・デルタ（タンク）
+Grand Cross Omega	グランドクロス・オメガ
+Grand Cross: Bait Puddles	グランドクロス：Bait Puddles
+Grand Cross: Bait Puddles then Intercards	グランドクロス：Bait Puddles then Intercards
+Grand Cross: Spread	グランドクロス：散開
+Grand Cross: Tower	グランドクロス：Tower
+Gratuity	心づけ
+Graven Image	神々の像
+Graviball	重力球
+Gravitational Anomaly: Levitating	重力異常：Levitating
+Gravitational Empire: Cone on You	グラビティ・エンパイア：Cone on You
+Gravitational Empire: Pillar on You	グラビティ・エンパイア：Pillar on You
+Gravitational Empire: Towers	グラビティ・エンパイア：Towers
+Gravitational Manipulation	重力操作
+Gravitational Manipulation (Levitate)	重力操作（Levitate）
+Gravitational Manipulation (On You)	重力操作（自分）
+Gravitational Wave	重力波
+Graviton Cannon	グラビトンキャノン
+Gravity Force	グラビデフォース
+Gravity Force: On Other	グラビデフォース：On Other
+Gravity Force: On You	グラビデフォース：自分
+Gravity Thrust	グラビデカノン
+Great Divide	一刀両断
+Great Wall of Fire	ファイアストリーム
+Greater Gateway	エンチャント・ゲートウェイ
+Grim Embrace: Front Dodge Soon	グリムエンブレイス：Front Dodge Soon
+Grim Embrace: Initial Front Dodge	グリムエンブレイス：Initial Front Dodge
+Grim Embrace: Initial Rear Dodge	グリムエンブレイス：Initial Rear Dodge
+Grim Embrace: Rear Dodge Now	グリムエンブレイス：Rear Dodge Now
+Grim Embrace: Rear Dodge Soon	グリムエンブレイス：Rear Dodge Soon
+Ground Zero	急襲
+Ground Zero: Follow-up	急襲：続き
+Ground and Pound	グラウンドパンチ
+Growth Rune	根のルーン
+Guided Missile	誘導ミサイル
+Guillotine	ギロティン
+Gust	ガスト
+Gyre Charge	ジャイヤチャージ
+Hack Goliath Tank	ハッキング：大型戦車
+Hagetsu	破月
+Hail of Feathers: End	フェザーヘイル：End
+Hail of Feathers: Start	フェザーヘイル：Start
+Hail of Thunder: Back Safe	サンダーレイン：Back Safe
+Hail of Thunder: First	サンダーレイン：1回目
+Hail of Thunder: Front Safe	サンダーレイン：Front Safe
+Hail of Thunder: Left Safe	サンダーレイン：Left Safe
+Hail of Thunder: Right Safe	サンダーレイン：Right Safe
+Hailfire	ヘイルファイア
+Hailstorm	ヘイルストーム
+Hair Raid	ヘアレイド
+Hair Raid (Wall)	ヘアレイド（Wall）
+Hair Spray	呪髪針
+Halatali Hard	剣闘領域 ハラタリ修練所 (Hard)
+Half Circuit: In + Left	ルーズハーフ・サーキット：In + Left
+Half Circuit: In + Right	ルーズハーフ・サーキット：In + Right
+Half Circuit: Left+In	ルーズハーフ・サーキット：Left+In
+Half Circuit: Left+Out	ルーズハーフ・サーキット：Left+Out
+Half Circuit: Out + Left	ルーズハーフ・サーキット：Out + Left
+Half Circuit: Out + Right	ルーズハーフ・サーキット：Out + Right
+Half Circuit: Right+In	ルーズハーフ・サーキット：Right+In
+Half Circuit: Right+Out	ルーズハーフ・サーキット：Right+Out
+Half Full (Left Safe)	ルーズハーフ（Left Safe）
+Half Full (Right Safe)	ルーズハーフ（Right Safe）
+Half Moon (Large, Left First)	ハーフムーン（Large, Left First）
+Half Moon (Large, Right First)	ハーフムーン（Large, Right First）
+Half Moon (Small, Left First)	ハーフムーン（Small, Left First）
+Half Moon (Small, Right First)	ハーフムーン（Small, Right First）
+Hallowed Bolt: Stack	無双稲妻突き：頭割り
+Hallowed Ray	ホーリーレイ
+Hallowed Wings: Uptime Knockback	ホーリーウィング：Uptime Knockback
+Halo	ヘイロー
+Halo of Destruction	マサカーヘイロー
+Hand of Beauty	優美なる左手
+Hand of Beauty (Chanchala)	優美なる左手（Chanchala）
+Hand of Grace	優雅なる右手
+Hand of Grace (Chanchala)	優雅なる右手（Chanchala）
+Hand of Pain (5th)	ハンド・オブ・ペイン（5th）
+Hand of the Destroyer (Blue)	壊神創幻撃（青）
+Hand of the Destroyer (Blue, Portal)	壊神創幻撃（Blue, Portal）
+Hand of the Destroyer (Red)	壊神創幻撃（赤）
+Hand of the Destroyer (Red, Initial)	壊神創幻撃（赤、最初）
+Handprint (East Safe)	圧殺掌（East Safe）
+Handprint (East)	圧殺掌（東）
+Handprint (West Safe)	圧殺掌（West Safe）
+Handprint (West)	圧殺掌（西）
+Hands of Flame (On You)	火炎拳（自分）
+Hands of Flame (Other Tank)	火炎拳（Other Tank）
+Hands of Flame (Tank Swap)	火炎拳（Tank Swap）
+Hands of Flame (on You)	火炎拳（自分）
+Hands of Hell	業炎拳
+Hard Rock	泥岩柱
+Hard Slash	ハードスラッシュ
+Hard Swipe	ハードスワイプ
+Hardcore (Large)	ハードコア（Large）
+Hardcore (Small)	ハードコア（Small）
+Harrowing Hell	魔殿の震撃
+Hated of Levin	雷神の呪い
+Hated of the Vortex	嵐神の呪い
+Haukke Manor	名門屋敷 ハウケタ御用邸
+Haukke Manor Hard	妖異屋敷 ハウケタ御用邸 (Hard)
+Havoc Spiral (Clockwise)	ハボックスパイラル（Clockwise）
+Havoc Spiral (Counterclockwise)	ハボックスパイラル（Counterclockwise）
+Hawk	鷹詞
+Head Crusher	ヘッドクラッシャー
+Head On	追突
+Head Toss	ヘッドトス
+Head-splitting Roar	処刑人の咆哮
+Headlight	ヘッドライト
+Heart Stake	ハートステイク
+Heart on Fire IV	メラメラファイジャ
+Heartbreak Kick	ハートブレイクキック
+Heartbreaker	ハートブレイカー
+Hearth Above, Flight Below (Blue)	死生択一：閃弧（青）
+Hearth Above, Flight Below (Blue, Arrow)	死生択一：閃弧（Blue, Arrow）
+Hearth Above, Flight Below (Orange)	死生択一：閃弧（Orange）
+Hearth Above, Flight Below (Orange, Arrow)	死生択一：閃弧（Orange, Arrow）
+Heartsick	ハートシック
+Heartsore	ハートソゥ
+Heat Above, Flames Below (Blue)	死生択一：環火（青）
+Heat Above, Flames Below (Orange)	死生択一：環火（Orange）
+Heat Lightning	ヒートライトニング
+Heat Up (Left)	赤熱化（左）
+Heat Up (Right)	赤熱化（右）
+Heat of Condemnation	獄炎の炎撃
+Heat of Condemnation (Not on You)	獄炎の炎撃（自分以外）
+Heat of Condemnation (On You)	獄炎の炎撃（自分）
+Heavenly Heel	ヘヴンリーヒール
+Heavenly Strike	ヘヴンリーストライク
+Heavenly Strike: Not Targeted	ヘヴンリーストライク：Not Targeted
+Heavenly Strike: On You	ヘヴンリーストライク：自分
+Heavens' Earth (Not on You)	神界石（自分以外）
+Heavens' Earth (On You)	神界石（自分）
+Heavens' Trial	炎天の浄火
+Heavensblaze	ヘヴンブレイズ
+Heavensearth	大震撃
+Heavensfall	天地崩壊
+Heaving Haymaker	ヘイメーカー
+Heavy Arms (Middle)	武装（中央）
+Heavy Arms (Sides)	武装（横）
+Heavy Blast Cannon	ハイブラスターキャノン
+Heavy Hand	痛撃
+Heavy Smash	ヘビースマッシュ
+Height of Chaos	ハイト・オブ・カオス
+Height of Chaos (Healer)	ハイト・オブ・カオス（ヒーラー）
+Height of Chaos (On You)	ハイト・オブ・カオス（自分）
+Heirsbane	No.IX
+Hell Skewer	ヘルスキュアー
+Hell Wind	ヘルウィンド
+Hell of Fire (Back)	炎獄破（後ろ）
+Hell of Fire (Front)	炎獄破（前）
+Hell of Waste	玄冥瀑
+Hell of Waves	玄冥波
+Hell on Rails	グラシャラボラス討滅戦
+Hell on Rails (Doomtrain)	グラシャラボラス討滅戦
+Hell's Judgment	ヘル・ジャッジメント
+Hell's Sting	ヘルスティング
+Hellborn Yawp	ヘルボーンヨープ
+Hellfire	地獄の火炎
+Hells Kier	朱雀征魂戦
+Hells Kier Extreme	極朱雀征魂戦
+Hells Lid	紅玉火山 獄之蓋
+Hells' Nebula	ヘリッシュネビュラ
+Hells' Trial	炎獄の浄火
+Helm Crack	兜割り
+Hemitheos's Aero II	ヘーミテオス・エアロラ
+Hemitheos's Aero IV	ヘーミテオス・エアロジャ
+Hemitheos's Dark IV	ヘーミテオス・ダージャ
+Hemitheos's Flare	ヘーミテオス・フレア
+Hemitheos's Glare III	ヘーミテオス・グレアガ
+Hemitheos's Holy	ヘーミテオス・ホーリー
+Hemorrhagic Projection	指向性衝撃波
+Heros's Glory	ヘロイスグローリー
+Heros's Radiance	ヘロイスラジエンス
+Heros's Sundering	ヘロイスサンダリング
+Heros's Sundering (Not on You)	ヘロイスサンダリング（自分以外）
+Heros's Sundering (On You)	ヘロイスサンダリング（自分）
+Hi-NRG Fever	ハイエナジー・ナイトフィーバー
+Hidden Minefield	ステルス地雷散布
+Hidden Minefield (Intermission)	ステルス地雷散布（Intermission）
+Hidden Minefield (Tank)	ステルス地雷散布（タンク）
+Hiemal Storm	ハイマルストーム
+Hieroglyphika (Eulogia)	ヒエログリュフィカ（Eulogia）
+Hieroglyphika (Thaliak)	ヒエログリュフィカ（Thaliak）
+High Arithmeticks	算術：ハイト2
+High Pressure	ハイプレッシャー
+High Voltage	高圧電流
+High Volts	ハイボルト
+High Wind	ハイウィンド
+High-powered Homing Lasers	高出力誘導レーザー
+High-powered Homing Lasers (On You)	高出力誘導レーザー（自分）
+High-powered Sniper Cannon	狙撃式高出力波動砲
+Highest Holy	ハイエストホーリー
+Highest Holy (with Crystallize)	ハイエストホーリー（with Crystallize）
+Highest Stakes	乾坤一擲
+Hiss	呼び寄せ
+Holiest Hallowing	ホリエストブレッシング
+Holiest of Holy	ホリエストホーリー
+Hollow Night (on Other)	ホローナイト（on Other）
+Hollow Night (on You)	ホローナイト（自分）
+Hollow Omen	ホローオーメン
+Holminster Switch	殺戮郷村 ホルミンスター
+Holo Ark	ラストアーク
+Holy	ホーリー
+Holy (Ark Angel EV)	ホーリー（Ark Angel EV）
+Holy (Divided)	ホーリー（Divided）
+Holy Bladedance (Same Target)	ホーリーブレードダンス（Same Target）
+Holy Bladedance (Split)	ホーリーブレードダンス（Split）
+Holy Bladedance (Unknown Targets)	ホーリーブレードダンス（Unknown Targets）
+Holy Divided	ディバイデッド・ホーリー
+Holy Light	ホーリーライト
+Holy Scourge	聖光の鞭
+Holy Shield Bash	ホーリーシールドバッシュ
+Holy Sword	ホーリーソード
+Holy Sword (In)	ホーリーソード（中）
+Holy Sword (On You)	ホーリーソード（自分）
+Holy Sword (Out)	ホーリーソード（外）
+Holy Sword (Three, Rotate Left)	ホーリーソード（Three, Rotate Left）
+Holy Sword (Three, Rotate Right)	ホーリーソード（Three, Rotate Right）
+Holy Sword (Thunder, Left Safe)	ホーリーソード（Thunder, Left Safe）
+Holy Sword (Thunder, Right Safe)	ホーリーソード（Thunder, Right Safe）
+Homing Laser	ホーミングレーザー
+Honey B. Finale	ハニー・B・フィナーレ
+Honey B. Live: 1st Beat	ハニー・B・ライヴ【1st】
+Honey B. Live: 1st Beat: Avoid Towers	ハニー・B・ライヴ：1st Beat: Avoid Towers
+Honey B. Live: 1st Beat: Don't Stack	ハニー・B・ライヴ：1st Beat: Don't Stack
+Honey B. Live: 1st Beat: Take Stack	ハニー・B・ライヴ：1st Beat: Take Stack
+Honey B. Live: 1st Beat: Take Towers	ハニー・B・ライヴ：1st Beat: Take Towers
+Honey B. Live: 2nd Beat	ハニー・B・ライヴ【2nd】
+Honey B. Live: 3rd Beat	ハニー・B・ライヴ【3rd】
+Honey Beeline	ハニーブラスト
+Honeyed Breeze	ハニーガスト
+Honeyed Front	フロントネクター
+Honeyed Left	レフトネクター
+Honeyed Right	ライトネクター
+Hood Swing	フードスイング
+Horrid Roar	ホリッドロア
+Hot Aerial	フレイムエアリアル
+Hot Blast	爆風
+Hot Charge	ホットチャージ
+Hot Impact	ホットインパクト
+House Arrest	確定判決：接近強制命令
+Howl	遠吠え
+Hubris	ヒュブリス
+Hubris (Not on You)	ヒュブリス（自分以外）
+Hubris (On You)	ヒュブリス（自分）
+Huff and Puff	吐出
+Hullbreaker Isle	財宝伝説 ハルブレーカー・アイル
+Humble Hammer	打ち出の小槌
+Hundred Fists	百烈拳
+Hurricane Wing	ハリケーンウィング
+Hurricane Wing (Inner Ring First)	ハリケーンウィング（Inner Ring First）
+Hurricane Wing (Outer Ring First)	ハリケーンウィング（Outer Ring First）
+Hush	ハッシュスイング
+Huton	風遁の術
+Hydro Pull	ハイドロプル
+Hydro Push	ハイドロプッシュ
+Hydroball	ハイドロボール
+Hydroblast	ハイドロブラスト
+Hydrocannon	ハイドロキャノン
+Hydrofall	ハイドロフォール
+Hydrofall: Role Stacks	ハイドロフォール：Role Stacks
+Hydrofall: Role Stacks then Spread	ハイドロフォール：Role Stacks then Spread
+Hydrofall: Role Stacks, then Spread	ハイドロフォール：Role Stacks, then Spread
+Hydrofall: Spread then Role Stacks	ハイドロフォール：Spread then Role Stacks
+Hydrofall: Spread, then Role Stacks	ハイドロフォール：Spread, then Role Stacks
+Hydroptosis	ヒュドルピトシス
+Hydroshot	ハイドロショット
+Hydrostasis	ヒュドルスタシス
+Hydrothermal Missile (Targets)	蒸気ミサイル（Targets）
+Hydrothermal Missile (on You)	蒸気ミサイル（自分）
+Hydrothermal Vent: Not Tethered	ハイドロサーマルベント：Not Tethered
+Hydrothermal Vent: On You	ハイドロサーマルベント：自分
+Hypercharged Condensation	波動雲吸引
+Hypercompressed Plasma (not on You)	ハイパープラズマ（自分以外）
+Hypercompressed Plasma (on You)	ハイパープラズマ（自分）
+Hyperdrive	ハイパードライブ
+Hypernova	スーパーノヴァ
+Hypernova (Phase 3)	スーパーノヴァ（Phase 3）
+Iai-kasumi-giri (Back)	居合霞斬り（後ろ）
+Iai-kasumi-giri (Front)	居合霞斬り（前）
+Iai-kasumi-giri (Left)	居合霞斬り（左）
+Iai-kasumi-giri (Right)	居合霞斬り（右）
+Ice Dart	氷塊
+Ice Missile	アイスミサイル
+Ice Rondel	大氷塊
+Ice Storm	吹雪
+Ice Talon (Not on You)	アイスタロン（自分以外）
+Ice Talon (on You)	アイスタロン（自分）
+Ice and Fire	アイス・アンド・ファイア
+Icebreaker	アイスブレイカー
+Icicle Impact	アイシクルインパクト
+Icicle Impact (Center)	アイシクルインパクト（中央）
+Icicle Impact (East)	アイシクルインパクト（東）
+Icicle Impact (Middle)	アイシクルインパクト（中央）
+Icicle Impact (West)	アイシクルインパクト（西）
+Icicle Impact: East/West	アイシクルインパクト：East/West
+Icicle Impact: North/South	アイシクルインパクト：North/South
+Icy Throes	アイススロー
+Idyllic Dream	アルカディアン・ドリーム
+Idyllic Will	睡魔の神気
+Ignis Est	イグニス・エスト
+Ignis Odi	イグニス・オディー
+Ignorabimus	イグノラビムス
+Ihuykatumu	濁流遡上 イフイカ・トゥム
+Ill Intent (Ghost)	イービルソート（Ghost）
+Ill Intent (Not Ghost)	イービルソート（Not Ghost）
+Imbued Coruscance	魔法剣技：ブライトセイバー
+Imbued Coruscance (In, Blizzard)	魔法剣技：ブライトセイバー（In, Blizzard）
+Imbued Coruscance (In, Fire)	魔法剣技：ブライトセイバー（中、炎）
+Imbued Coruscance (In, Unknown)	魔法剣技：ブライトセイバー（中、不明）
+Imbued Coruscance (Out, Blizzard)	魔法剣技：ブライトセイバー（Out, Blizzard）
+Imbued Coruscance (Out, Fire)	魔法剣技：ブライトセイバー（外、炎）
+Imbued Coruscance (Out, Unknown)	魔法剣技：ブライトセイバー（外、不明）
+Immersion	イマーション
+Immolating Shade	重黒炎
+Immortal Anathema	イモータルアナテーマ 
+Immortal's Obol	生滅の導枝
+Immune Response (Back)	イミューンリアクション（後ろ）
+Immune Response (Front)	イミューンリアクション（前）
+Imp Choir	カッパの調べ
+Impact	衝撃
+Impact Stream	インパクトストリーム
+Impartial Ruling (Left)	審理の光（左）
+Impartial Ruling (Right)	審理の光（右）
+Implosion (Howl)	インプロージョン（Howl）
+Implosion (Left)	インプロージョン（左）
+Implosion (Right)	インプロージョン（右）
+Implosion (Tail)	インプロージョン（Tail）
+Imprisonment	インプリズメント
+Impure Purgation (First Hit)	炎流（First Hit）
+Impure Purgation (First)	炎流（1回目）
+Impure Purgation (Second Hit)	炎流（Second Hit）
+Impure Purgation (Second)	炎流（2回目）
+Incendiary Bombing	焼尽ミサイル
+Incendiary Saturation Bombing	拡散焼尽ミサイル
+Inception: Bait Sword	時空潜行：Bait Sword
+Inception: Bait Sword or Jump	時空潜行：Bait Sword or Jump
+Inception: Vulnerable	時空潜行：Vulnerable
+Incinerating Heat	浄化の熱線
+Indolent Will	惰眠の神気
+Indulgent Will	聖母の神気
+Inertia Stream	イナーシャストリーム
+Inexorable Pull	重力操作
+Infantry Deterrent	対地爆弾
+Infern Gale	呪具暴風
+Infern Well	呪具吸炎
+Infernal Deliverance (Puddles)	いざない（Puddles）
+Infernal Deliverance (Towers)	いざない（Towers）
+Infernal Pain	インファーナルペイン
+Infernal Weight	インファーナルウェイト
+Inferno	地獄の火炎
+Inferno (Raidwide)	地獄の火炎（Raidwide）
+Inferno (Spread)	地獄の火炎（散開）
+Inferno Howl	灼熱の咆吼
+Inferno Theorem	散火法
+Inferno: Spread	地獄の火炎：散開
+Infinite Fire	炎の刻印
+Infinite Ice	氷の刻印
+Infirm Soul	虚証弾
+Inflammable Fumes	可燃性ガス
+Infralateral Arc	ラテラルアーク
+Infusion: On Someone Else	猛突進：On Someone Else
+Infusion: On You	猛突進：自分
+Inhale	インヘイル
+Inhumanity	暴行指示
+Innocence	イノセンス
+Insane Air: Mechanics	インセインエアー：Mechanics
+Insatiable Thirst	インセーシャブル・サースト
+Inscrutability	意味不明
+Inside Out	インサイドアウト
+Instant Incineration	爆裂炎
+Intemperance (Blue)	氷火の侵食（青）
+Intemperance (Red)	氷火の侵食（赤）
+Intemperate Will	撲殺の神気
+Intermediate Relativity: Next Aero	時間圧縮・破：Next Aero
+Intermediate Relativity: Next Flare	時間圧縮・破：Next Flare
+Intermediate Relativity: Next Gaze	時間圧縮・破：Next Gaze
+Intermediate Relativity: Next Ice	時間圧縮・破：Next Ice
+Intermediate Relativity: Next Spread	時間圧縮・破：Next Spread
+Intermediate Relativity: Next Stack	時間圧縮・破：Next Stack
+Intermediate Relativity: Order	時間圧縮・破：Order
+Interstellar	星渡り
+Intestinal Crank	インテスティナルクランク
+Intimidation	インティミデーション
+Into the Light	インツーライト
+Inviolate Bonds: Spread then Stack	魔印創成：Spread then Stack
+Inviolate Bonds: Stack then Spread	魔印創成：Stack then Spread
+Inviolate Purgation	魔印創成・獄
+Invisible	インビジブル
+Invocation of Vengeance	怨呪の祈請
+Iron Chariot	アイアンチャリオット
+Irons of Purgatory	煉獄の鎖
+Irresistible Grace	連帯刑
+Isle Drop	アイルドロップ
+Issen	一閃
+It Came from the Dirt	ソーンサージ
+Ixali Aero (Raidwide)	イクサリエアロ（Raidwide）
+Jagadishwari	ジャガディッシュワリ
+Jagged Edge	ロックスパイク
+Jarring Blow	ハードヒット
+Jeuno The First Walk	ジュノ：ザ・ファーストウォーク
+Jongleur's X	ダークジャグリング
+Judgment Blade	不動無明剣
+Judgment Bolt	裁きの雷
+Judgment Crystal	審判の結晶
+Judgment Crystal (Placed)	審判の結晶（Placed）
+Judgment Day	断罪礼儀
+Judgment Volts	裁きの熱雷
+Juji Shuriken	十字手裏剣
+Junction	ジャンクション
+Junction Shiva	ジャンクション：シヴァ
+Junction Shiva: Diamond Dust	ジャンクション：シヴァ：Diamond Dust
+Junction Titan	ジャンクション：タイタン
+Junction Titan: Blue Weight	ジャンクション：タイタン：Blue Weight
+Junction Titan: Blue Weight with Partner	ジャンクション：タイタン：Blue Weight with Partner
+Junction Titan: Earthen Fury	ジャンクション：タイタン：Earthen Fury
+Junction Titan: Orange	ジャンクション：タイタン：Orange
+Junction Titan: Yellow	ジャンクション：タイタン：黄
+Jury Overruling: Proteans then Buddies	ジューリー＆オーバールール：Proteans then Buddies
+Jury Overruling: Twisters then Light Parties In	ジューリー＆オーバールール：Twisters then Light Parties In
+Kan Rhai (Marker)	カン・ラーイ（Marker）
+Kan Rhai (Move)	カン・ラーイ（Move）
+Karmic Shielding	反射防壁
+Katarraktes	カタラクティス
+Katon: San	火遁の術：San
+Keen Moonbeam	月光槍
+Kenki Release	剣気解放
+Keraunography	雷光
+Keraunography (Lean Left)	雷光（Lean Left）
+Keraunography (Lean Right)	雷光（Lean Right）
+Ketu Slash	ケトゥ・スラッシュ
+Killer Instinct	見切り
+Killer Seeds	ヘビーシード
+Killer Sting	キラースティング
+Killer Voice	キラーボイス
+King's Will	キングスウィル
+Knock Down (Water)	着弾せよ（水）
+Knock Down (Wind)	着弾せよ（風）
+Knuckle Sandwich	ナックルパート
+Knuckle Sandwich (Big)	ナックルパート（Big）
+Knuckle Sandwich (Mid)	ナックルパート（Mid）
+Knuckle Sandwich (Small)	ナックルパート（Small）
+Kokytos	コキュートス
+Ktisis Hyperboreia	創造環境 ヒュペルボレア造物院
+Kugane Castle	悪党成敗 クガネ城
+Kugane Ohashi	真ヨウジンボウ討滅戦
+Kuge Rantsui	空花乱墜
+Kugelblitz	クーゲルブリッツ
+Lamentation	慟哭
+Land Wave	地霊波
+Landsblood	水脈乱打
+Landslide	ランドスライド
+Landslip	土石流
+Lapis Manalis	雪山冥洞 ラピス・マナリス
+Large Specimen	大隕石
+Lariat Combo: East safe	ラリアットコンビネーション：East safe
+Lariat Combo: East then west	ラリアットコンビネーション：East then west
+Lariat Combo: West safe	ラリアットコンビネーション：West safe
+Lariat Combo: West then east	ラリアットコンビネーション：West then east
+Laser Eye	メーザーアイ
+Laser Lash (Far Lanes)	レーザーガン（Far Lanes）
+Laser Lash (Middle Lanes)	レーザーガン（Middle Lanes）
+Laser Lash (Middle North Lane)	レーザーガン（Middle North Lane）
+Laser Lash (Middle South Lane)	レーザーガン（Middle South Lane）
+Laser Lash (Unknown)	レーザーガン（不明）
+Laser Saturation	全方位レーザー
+Laser Shower	レーザーシャワー
+Laser Sight	レーザー照射
+Laser Turret	主砲レーザー
+Laser X Sword: On Someone Else	レーザーエックススウォード：On Someone Else
+Laser X Sword: On You	レーザーエックススウォード：自分
+Last Drop	ラストドロップ
+Last Gasp	哀訴
+Last Kiss (Marker)	死の口づけ（Marker）
+Last Kiss (Passed)	死の口づけ（Passed）
+Last Testament	ファイナルテスタメント
+Latent Defect	レイテントバグ
+Lateral Aureole	サイド・オーレオール
+Lateral Aureole (with Crystallize)	サイド・オーレオール（with Crystallize）
+Lateral Slice	胴薙ぎ
+Latitudinal Implosion	ホリゾンタルインプロージョン
+Latitudinal Implosion (Primordial Crust)	ホリゾンタルインプロージョン（Primordial Crust）
+Latitudinal Implosion: Cast	ホリゾンタルインプロージョン：詠唱
+Latitudinal Implosion: Move	ホリゾンタルインプロージョン：Move
+Launcher	ランチャー
+Lava Flow	ラーヴァフロウ
+Lava Pinax	ピナクスラーヴァ
+Lead Hook (on Other)	フック（on Other）
+Lead Hook (on You)	フック（自分）
+Lead Hook: On Other	フック：On Other
+Lead Hook: On You	フック：自分
+Lead of the Underworld	黄泉の銃弾
+Lead of the Underworld (On You)	黄泉の銃弾（自分）
+Leaping Black Cat Crossing: Card safe	リーピング・クロスネイル：Card safe
+Leaping Black Cat Crossing: Inter safe	リーピング・クロスネイル：Inter safe
+Left Bank	左岸氾濫
+Left Bank (Hieroglyphika)	左岸氾濫（Hieroglyphika）
+Left Cinderwing	左翼焼却
+Left Disassembler	左腕分解砲
+Left Face	移動命令：左
+Left Face (Statice)	移動命令：左（Statice）
+Left Firaga Forte	レフト・フォルテファイガ
+Left Giga Slash	レフトサイド・ギガスラッシュ
+Left Handgonne	左舷掃射
+Left Knout	レフト・クヌート
+Left Laser Sword	レフト・レーザースウォード
+Left Palm	輝く左手
+Left Shadow Slash	レフトサイド・シャドウギガスラッシュ
+Left Slam	レフト・アルビオンスラム
+Left Strait	左舷掃討
+Left Sweep	左方薙ぎ払い
+Left Swipe	左爪薙ぎ払い
+Left Swipe (Before Pull)	左爪薙ぎ払い（Before Pull）
+Left Swordscross	レフト・ソードクロス
+Leftward Blows	左方返し太刀
+Legitimate Force (Left First)	レジティメート・フォース（Left First）
+Legitimate Force (Left then Right)	レジティメート・フォース（Left then Right）
+Legitimate Force (Right First)	レジティメート・フォース（Right First）
+Legitimate Force (Right then Left)	レジティメート・フォース（Right then Left）
+Legitimate Force (Stay Left)	レジティメート・フォース（Stay Left）
+Legitimate Force (Stay Right)	レジティメート・フォース（Stay Right）
+Leporine Loaf	ラビットローフ
+Leveling Missile	整地ミサイル
+Levinbolt	稲妻
+Levinbolt (Phase 3)	稲妻（Phase 3）
+Levinbolt (Phase 3, Move Away)	稲妻（Phase 3, Move Away）
+Levinforce	ライトニングフォース
+Levinstrike Pinax	ピナクスサンダー
+Life's Last Song	終焉ノ歌
+Light Dew	ライトデュー
+Light Pillar	リヒト・ゾイレ
+Light Pillar (On You)	リヒト・ゾイレ（自分）
+Light Pillar (On You, 3rd)	リヒト・ゾイレ（On You, 3rd）
+Light Rampant	光の暴走
+Light Rampant (Cone)	光の暴走（Cone）
+Light Rampant (Tower)	光の暴走（Tower）
+Light Rampant: After First Towers	光の暴走：After First Towers
+Light Rampant: Avoid Final Tower	光の暴走：Avoid Final Tower
+Light Rampant: Chain + Weight Debuff	光の暴走：Chain + Weight Debuff
+Light Rampant: Chain, No Weight Debuff	光の暴走：Chain, No Weight Debuff
+Light Rampant: Get Final Tower	光の暴走：Get Final Tower
+Light Rampant: Initial	光の暴走：最初
+Light Rampant: Puddle	光の暴走：Puddle
+Light Rampant: Take Final Tower	光の暴走：Take Final Tower
+Light and Darkness: Stack	ライト・アンド・ダークネス：頭割り
+Light of Anathema	怨恨の斬撃
+Light of Devotion	ライトネス・ディヴォーション
+Light of Judgment	裁きの光
+Light of Life	生命の極光
+Light of Life (Enrage)	生命の極光（Enrage）
+Light of Salvation	ライトネス・サルベイション
+Lighter Note	断唱：白
+Lightless Spark	無明閃
+Lightless World	ライトレス・ワールド
+Lightning Claw	ライトニングクロウ
+Lightning Express	ライトニングエクスプレス
+Lightning Reign	神雷轟天
+Lightning Rod (Gain)	地雷敷設（Gain）
+Lightning Rod (Lose)	地雷敷設（Lose）
+Lightning Storm	百雷
+Limit Cut: #1	リミッターカット：#1
+Limit Cut: #2	リミッターカット：#2
+Limit Cut: #3	リミッターカット：#3
+Limit Cut: #4	リミッターカット：#4
+Limit Cut: #5	リミッターカット：#5
+Limit Cut: #6	リミッターカット：#6
+Limit Cut: #7	リミッターカット：#7
+Limit Cut: #8	リミッターカット：#8
+Limit Cut: 1	リミッターカット：1
+Limit Cut: 2	リミッターカット：2
+Limit Cut: 3	リミッターカット：3
+Limit Cut: 4	リミッターカット：4
+Limit Cut: 5	リミッターカット：5
+Limit Cut: 6	リミッターカット：6
+Limit Cut: 7	リミッターカット：7
+Limit Cut: 8	リミッターカット：8
+Limit Cut: After	リミッターカット：After
+Limit Cut: Bait Punch Now	リミッターカット：Bait Punch Now
+Limit Cut: Blue Now	リミッターカット：Blue Now
+Limit Cut: Clockwise	リミッターカット：Clockwise
+Limit Cut: Counter-Clockwise	リミッターカット：Counter-Clockwise
+Limit Cut: Error	リミッターカット：Error
+Limit Cut: Even	リミッターカット：Even
+Limit Cut: First Round	リミッターカット：First Round
+Limit Cut: Fourth Round	リミッターカット：Fourth Round
+Limit Cut: Initial	リミッターカット：最初
+Limit Cut: Nothing	リミッターカット：Nothing
+Limit Cut: Number	リミッターカット：Number
+Limit Cut: Odd	リミッターカット：Odd
+Limit Cut: Second Round	リミッターカット：Second Round
+Limit Cut: Take Tower Now	リミッターカット：Take Tower Now
+Limit Cut: Third Round	リミッターカット：Third Round
+Limit Cut: You Have #1	リミッターカット：You Have #1
+Limit Cut: You Have #2	リミッターカット：You Have #2
+Limit Cut: You Have #3	リミッターカット：You Have #3
+Limit Cut: You Have #4	リミッターカット：You Have #4
+Limit Cut: You Have #5	リミッターカット：You Have #5
+Limit Cut: You Have #6	リミッターカット：You Have #6
+Limit Cut: You Have #7	リミッターカット：You Have #7
+Limit Cut: You Have #8	リミッターカット：You Have #8
+Limitless Desolation: Number	万象灰燼：Number
+Limitless Desolation: Soak	万象灰燼：Soak
+Limitless Desolation: Start	万象灰燼：Start
+Limitless Synergy	連携プログラムLB
+Limitless Synergy: Don't Stack	連携プログラムLB：Don't Stack
+Limitless Synergy: Flare	連携プログラムLB：Flare
+Limitless Synergy: No Flare	連携プログラムLB：No Flare
+Limitless Synergy: Stack	連携プログラムLB：頭割り
+Lindwurm's Meteor	リンドブルム・メテオ
+Lingering Spark (Move)	ディレイスパーク（Move）
+Lingering Spark (Wait)	ディレイスパーク（Wait）
+Link-up (Chakrams)	システムリンク（Chakrams）
+Liquefaction	リクェファクション
+Liquefaction (Ravensflight, First)	リクェファクション（Ravensflight, First）
+Liquefaction (Ravensflight, Later)	リクェファクション（Ravensflight, Later）
+Liquefy (Middle)	リクエファイ（中央）
+Liquefy (Sides)	リクエファイ（横）
+Liquid Hell	ヘルリキッド
+Loaded Gunshield	ガンシールド：魔導バースト
+Loaded Gunshield (Final Phase)	ガンシールド：魔導バースト（Final Phase）
+Local Regression	エンバグ：ニアー
+Local Resonance	レゾナンスプログラム：ニアー
+Localized Blizzard	寄らばブリザド
+Localized Maelstrom	ローカル・ミールストーム
+Lofty Peaks	風天の霊峰
+Lone Wolf's Lament: Long Tether with DPS	孤狼の呪い：Long Tether with DPS
+Lone Wolf's Lament: Long Tether with Healer	孤狼の呪い：Long Tether with Healer
+Lone Wolf's Lament: Long Tether with Tank	孤狼の呪い：Long Tether with Tank
+Lone Wolf's Lament: Short Tether with DPS	孤狼の呪い：Short Tether with DPS
+Lone Wolf's Lament: Short Tether with Healer	孤狼の呪い：Short Tether with Healer
+Lone Wolf's Lament: Short Tether with Tank	孤狼の呪い：Short Tether with Tank
+Lone Wolf's Lament: Two-Player Tower Location	孤狼の呪い：Two-Player Tower Location
+Long Burst	エアロショット
+Long Needle	大型ミサイル
+Long Needle (Active Tank)	大型ミサイル（Active Tank）
+Long Needle (Prey)	大型ミサイル（Prey）
+Long Needle (Stack on Other)	大型ミサイル（Stack on Other）
+Long Needle (Stack on You)	大型ミサイル（Stack on You）
+Long-lost Light	忘れられた光
+Longitudinal Implosion	ヴァーティカルインプロージョン
+Longitudinal Implosion (Primordial Crust)	ヴァーティカルインプロージョン（Primordial Crust）
+Longitudinal Implosion: Cast	ヴァーティカルインプロージョン：詠唱
+Longitudinal Implosion: Move	ヴァーティカルインプロージョン：Move
+Looming Chaos	ルーミングカオス
+Looming Emptiness	虚ろなる大衝撃
+Looming Nightmare	ナイトメアルーム
+Lost Hope	自失の叫び
+Lost Opportunity (Stun)	後悔の死念（Stun）
+Love's Light	慈愛の月
+Love's Light (Quadruple Moon)	慈愛の月（Quadruple Moon）
+Love's Light (Single Moon)	慈愛の月（Single Moon）
+Loveseeker	ラブシーカー
+Loving Embrace (Left Safe)	慈愛の翼（Left Safe）
+Loving Embrace (Right Safe)	慈愛の翼（Right Safe）
+Low Arithmeticks	算術：ハイト1
+Lower Realm	王妃の威光
+Lozatl's Scorn	ロツァトルの罵声
+Lumen Infinitum	ルーメンインフィニーテム
+Luminous Ray	ルミナスレイ
+Lunacy	月下繚乱
+Lunar Cry	ルナークライ
+Lunar Dynamo	ルナダイナモ
+Lunar Flare (Middle)	ルナフレア（中央）
+Lunar Flare (Outside)	ルナフレア（Outside）
+Lunar Kiss (Not on You)	冷月閃（自分以外）
+Lunar Kiss (On You)	冷月閃（自分）
+Lunar Nail	異形の楔
+Lunge	体当たり
+Lunge (Get Middle)	体当たり（Get Middle）
+Lunge (Out of Middle)	体当たり（Out of Middle）
+M10N	至天の座アルカディア：ヘビー級2
+M10S	至天の座アルカディア零式：ヘビー級2
+M11N	至天の座アルカディア：ヘビー級3
+M11S	至天の座アルカディア零式：ヘビー級3
+M12N	至天の座アルカディア：ヘビー級4
+M12S	至天の座アルカディア零式：ヘビー級4
+M1N	至天の座アルカディア：ライトヘビー級1
+M1S	至天の座アルカディア零式：ライトヘビー級1
+M2N	至天の座アルカディア：ライトヘビー級2
+M2S	至天の座アルカディア零式：ライトヘビー級2
+M3N	至天の座アルカディア：ライトヘビー級3
+M3S	至天の座アルカディア零式：ライトヘビー級3
+M4N	至天の座アルカディア：ライトヘビー級4
+M4S	至天の座アルカディア零式：ライトヘビー級4
+M5N	至天の座アルカディア：クルーザー級1
+M5S	至天の座アルカディア零式：クルーザー級1
+M6N	至天の座アルカディア：クルーザー級2
+M6S	至天の座アルカディア零式：クルーザー級2
+M7N	至天の座アルカディア：クルーザー級3
+M7S	至天の座アルカディア零式：クルーザー級3
+M8N	至天の座アルカディア：クルーザー級4
+M8S	至天の座アルカディア零式：クルーザー級4
+M9N	至天の座アルカディア：ヘビー級1
+M9S	至天の座アルカディア零式：ヘビー級1
+Mad Stare	狂気の視線
+Made Magic	魔力放出
+Made Magic (Left)	魔力放出（左）
+Made Magic (Right)	魔力放出（右）
+Maelstrom	吸引
+Magic Artillery Alpha	魔法衝撃弾α
+Magic Artillery Beta (Avoid)	魔法衝撃弾β（Avoid）
+Magic Artillery Beta (Healer)	魔法衝撃弾β（ヒーラー）
+Magic Artillery Beta (on You)	魔法衝撃弾β（自分）
+Magic Number: Cast	マジックナンバー：詠唱
+Magic Number: Debuff	マジックナンバー：Debuff
+Magicrystal	魔導クリスタル
+Magitek Cannon	魔導カノン
+Magitek Chakram	魔導チャクラム
+Magitek Claw	魔導クロー
+Magitek Crossray	魔導クロスレーザー
+Magitek Explosive	魔導爆弾
+Magitek Magnetism	魔導マグネット
+Magitek Magnetism: Bait	魔導マグネット：Bait
+Magitek Magnetism: Flare	魔導マグネット：Flare
+Magitek Missiles	魔導ミサイル
+Magitek Missiles (First)	魔導ミサイル（1回目）
+Magitek Ray	魔導レーザー
+Magitek Slash (Clockwise)	マジテックスラッシュ（Clockwise）
+Magitek Slash (Counterclockwise)	マジテックスラッシュ（Counterclockwise）
+Magitek Spark	魔導スパーク
+Magitek Torch	魔導フレイム
+Magmatic Spell	魔成岩
+Magnitude 5.0	マグニチュード5.0
+Magnitude Opus	崩土
+Magos's Radiance	マゴスラジエンス
+Main Head	メインヘッド
+Majestic Meteor	チャンピオンズ・メテオ
+Maleficium	マレフィキウム
+Malevolent Blessing (Left Safe)	あまのさかて（Left Safe）
+Malevolent Blessing (Right Safe)	あまのさかて（Right Safe）
+Malformed Prayer	呪珠印
+Malformed Reincarnation	変現呪珠の印
+Malformed Reincarnation (Blue Tower 1)	変現呪珠の印（Blue Tower 1）
+Malformed Reincarnation (Blue Tower 2)	変現呪珠の印（Blue Tower 2）
+Malformed Reincarnation (Blue Tower 3)	変現呪珠の印（Blue Tower 3）
+Malformed Reincarnation (Orange Tower 1)	変現呪珠の印（Orange Tower 1）
+Malformed Reincarnation (Orange Tower 2)	変現呪珠の印（Orange Tower 2）
+Malformed Reincarnation (Orange Tower 3)	変現呪珠の印（Orange Tower 3）
+Malformed Reincarnation (Partner)	変現呪珠の印（Partner）
+Malformed Reincarnation: Blue Tower 1	変現呪珠の印：Blue Tower 1
+Malformed Reincarnation: Blue Tower 2	変現呪珠の印：Blue Tower 2
+Malformed Reincarnation: Blue Tower 3	変現呪珠の印：Blue Tower 3
+Malformed Reincarnation: Orange Tower 1	変現呪珠の印：Orange Tower 1
+Malformed Reincarnation: Orange Tower 2	変現呪珠の印：Orange Tower 2
+Malformed Reincarnation: Orange Tower 3	変現呪珠の印：Orange Tower 3
+Malicious Mist (Leonogg)	イービルミスト（Leonogg）
+Malicious Mist (Träumerei)	イービルミスト（Träumerei）
+Malikahs Well	爽涼離宮 マリカの大井戸
+Malkuth	マルクト
+Mammoth Meteor	ヒュージメテオ
+Mana Boost	マナブースター
+Mana Burst	マナバースト
+Mana Release (Fake Thunder, In)	マジックアウト（Fake Thunder, In）
+Mana Release (Fake Thunder, Out)	マジックアウト（Fake Thunder, Out）
+Mana Release (Fire Spread)	マジックアウト（Fire Spread）
+Mana Release (Fire Stack)	マジックアウト（Fire Stack）
+Mana Release (True Thunder, In)	マジックアウト（True Thunder, In）
+Mana Release (True Thunder, Out)	マジックアウト（True Thunder, Out）
+Maneuver: Incendiary Bombing	攻撃：焼尽ミサイル
+Mangle (Phase 1)	アギト（Phase 1）
+Mangle (Phase 2)	アギト（Phase 2）
+Maniacal Probe (DPS)	触手乱舞（DPS）
+Maniacal Probe (On You)	触手乱舞（自分）
+Maniacal Probe (Tanks/Healers)	触手乱舞（Tanks/Healers）
+Mantle of the Whorl	水神のマント
+Manusya Berserk	マヌシャ・バーサク
+Manusya Bio III	マヌシャ・バイオガ
+Manusya Bio III (Fire Orb)	マヌシャ・バイオガ（Fire Orb）
+Manusya Confuse	マヌシャ・コンフュ
+Manusya Fire III	マヌシャ・ファイガ
+Manusya Fire III (Bio Orb)	マヌシャ・ファイガ（Bio Orb）
+Marine Mayhem	マリーンメイヘム
+Mark II Magitek Comet	魔導コメットII
+Mark II Magitek Comet (Tank)	魔導コメットII（タンク）
+Mark of the Depths	重圧の刻印
+Mark of the Tides	激流の刻印
+Marx Crush	マルクス挟撃
+Marx Smash (Back)	マルクス打撃（後ろ）
+Marx Smash (Forward)	マルクス打撃（Forward）
+Marx Smash (Left)	マルクス打撃（左）
+Marx Smash (Right)	マルクス打撃（右）
+Marx Thrust	マルクス突撃
+Mass Aetheroplasm	大型エーテル爆雷
+Mass Macabre	集団恐慌
+Mass Macabre: Next Tower	集団恐慌：Next Tower
+Massive Landslide	メガ・ランドスライド
+Massive Landslide: Front	メガ・ランドスライド：前
+Massive Landslide: Sides	メガ・ランドスライド：横
+Massive Meteor	ヘビーメテオ
+Massive Meteor (On You)	ヘビーメテオ（自分）
+Master of Levin	外輪雷
+Matoyas Relict	魔術工房 マトーヤのアトリエ
+Meaningless Destruction	絶望の狂乱
+Meat Mallet	ミートマレット
+Mechanical Decapitation	斬機光撃
+Mechanical Dissection	断機光撃
+Medicine Field	広域散薬
+Mega Death	オーバーデス
+Mega Graviton	メガグラビトン
+Mega Holy	メガホーリー
+Megaflare (Move)	メガフレア（Move）
+Megaflare (Spread)	メガフレア（散開）
+Megalith: Non-Tank	メガリスクラッシュ：Non-Tank
+Megalith: On Other Tank	メガリスクラッシュ：On Other Tank
+Megalith: On You	メガリスクラッシュ：自分
+Megiddo Flame	メギドフレイム
+Meltdown	メルトン
+Meltdown: Chains of Condemnation	メルトン：Chains of Condemnation
+Meltdown: Have Spread Marker	メルトン：Have Spread Marker
+Meltdown: No Spread Marker	メルトン：No Spread Marker
+Memento Mori (Light East)	メメント・モリ（Light East）
+Memento Mori (Light West)	メメント・モリ（Light West）
+Memoria Misera Extreme	極シタデル・ボズヤ追憶戦
+Memory of the Pyre	メモリーボム
+Memory of the Storm	メモリーストーム
+Memory's End	エンド・オブ・メモリーズ
+Meracydian Fear	メラシディアン・フィアー
+Mesmerizing Melody	誘引の旋律
+Meteor	メテオ
+Meteor (Ozma)	メテオ（Ozma）
+Meteor Impact	メテオインパクト
+Meteor Stream	メテオストリーム
+Meteor Strike	メテオストライク
+Meteorain	メテオレイン
+Miasmata	腐毒素飛散
+Midnight Frost (Back Cleave)	月地氷霜（Back Cleave）
+Midnight Frost (Front Cleave)	月地氷霜（Front Cleave）
+Midnight Haze	夜の煙
+Midnight Sabbath: Buddy in Cardinals	ブラックサバト【夜半】：Buddy in Cardinals
+Midnight Sabbath: Buddy in Intercards	ブラックサバト【夜半】：Buddy in Intercards
+Midnight Sabbath: Spread in Cardinals	ブラックサバト【夜半】：Spread in Cardinals
+Midnight Sabbath: Spread in Intercards	ブラックサバト【夜半】：Spread in Intercards
+Mighty Smite	闘人の斬撃
+Mijin Gakure	微塵がくれ
+Millennial Decay	千年の風化
+Millennial Decay: Clockwise Panto	千年の風化：Clockwise Panto
+Millennial Decay: Counter-Clockwise Panto	千年の風化：Counter-Clockwise Panto
+Millennial Decay: No Tether	千年の風化：No Tether
+Millennial Decay: Spread Marker	千年の風化：Spread Marker
+Millennial Decay: Tether	千年の風化：Tether
+Minced Meat	ミートミンサー
+Mind Blast	マインドブラスト
+Mindjack (Back)	ブレインジャック（後ろ）
+Mindjack (Forward)	ブレインジャック（Forward）
+Mindjack (Left)	ブレインジャック（左）
+Mindjack (Right)	ブレインジャック（右）
+Mindless Flesh	細胞暴走
+Minefield	地雷散布
+Mirage	蜃気楼
+Mirror Maneuver	大鏡起動
+Mirror Maneuver (First)	大鏡起動（1回目）
+Missile Command	ミサイル全弾発射
+Mist Rune	水のルーン
+Mist Rune (2nd+)	水のルーン（2nd+）
+Mistwake	遺忘行路 ミストウェイク
+Mixed Feelings (Frowny Face)	ペロペロの呪い（Frowny Face）
+Mixed Feelings (No Face)	ペロペロの呪い（No Face）
+Mixed Feelings (Smiley Face)	ペロペロの呪い（Smiley Face）
+Mooncleaver	剛刃一閃
+Moonlight: Weal, Cardinal Safe	月光：Weal, Cardinal Safe
+Moonlight: Weal, Intercard Safe	月光：Weal, Intercard Safe
+Moonlit	満月下
+Moonseal	月の刻印
+Moonset Rays	月の階
+Moonshadowed	新月下
+Morbid Advance	デスマーチ：前進
+Morbid Retreat	デスマーチ：後退
+Morn Afah (Stack)	モーン・アファー（頭割り）
+Morn Afah: On Other	モーン・アファー：On Other
+Morn Afah: On You	モーン・アファー：自分
+Morphic Melody (Both)	変剋の旋律（Both）
+Morphic Melody (Lines)	変剋の旋律（Lines）
+Morphic Melody (Rocks)	変剋の旋律（Rocks）
+Mortal Blow	強打
+Mortal Flame	必滅の炎
+Mortal Flame: Touch Furniture	必滅の炎：Touch Furniture
+Mortal Gaze	死の視線
+Mortal Ray	モータルレイ
+Mortal Revolution	モータルレボリューション
+Mortal Slayer: Both Purple Left, Initial	リーサルスカージ：Both Purple Left, Initial
+Mortal Slayer: Both Purple Right, Initial	リーサルスカージ：Both Purple Right, Initial
+Mortal Slayer: Hitting	リーサルスカージ：Hitting
+Mortal Slayer: Purple Both Sides, Initial	リーサルスカージ：Purple Both Sides, Initial
+Mount Huaguo	花果山
+Mount Ordeals	ルビカンテ討滅戦
+Mount Rokkon	ヴァリアントダンジョン 六根山
+Mountain Falls	山津波
+Mousa's Scorn	ムーサスコーン
+Mouser: Kick	マウサーラッシュ：Kick
+Mouser: Punch	マウサーラッシュ：Punch
+Mouser: SE	マウサーラッシュ：SE
+Mouser: SW	マウサーラッシュ：SW
+Mouser: Start SE	マウサーラッシュ：Start SE
+Mouser: Start SW	マウサーラッシュ：Start SW
+Mousse Mural	ムースシャワー
+Mousse Touch-up	ミニムースシャワー
+Mouth Off	有口無行
+Mt Gulg	偽造天界 グルグ火山
+Mud Pie	泥団子
+Mudsling	ドロドロ突っ張り
+Multidirectional Divide	マルチウェイ
+Murky Depths	マーキーディープ
+Mustard Bomb	マスタードボム
+Mutation: Alpha	突然変異：Alpha
+Mutation: Beta	突然変異：Beta
+Mutation: Fire + Dynamo, Initial Alpha	突然変異：Fire + Dynamo, Initial Alpha
+Mutation: Fire + Dynamo, Initial Beta	突然変異：Fire + Dynamo, Initial Beta
+Mutation: Fire + Dynamo, Second Beta	突然変異：Fire + Dynamo, Second Beta
+Mutation: Fire + Dynamo: Second Pop, Second Alpha	突然変異：Fire + Dynamo: Second Pop, Second Alpha
+Mutation: First Safe	突然変異：First Safe
+Mutation: Lightning + Chariot, Initial Alpha	突然変異：Lightning + Chariot, Initial Alpha
+Mutation: Lightning + Chariot, Initial Beta	突然変異：Lightning + Chariot, Initial Beta
+Mutation: Lightning + Chariot, Second Alpha	突然変異：Lightning + Chariot, Second Alpha
+Mutation: Lightning + Chariot, Second Beta	突然変異：Lightning + Chariot, Second Beta
+Mutation: Netherworld Far, Alpha	突然変異：Netherworld Far, Alpha
+Mutation: Netherworld Far, Beta	突然変異：Netherworld Far, Beta
+Mutation: Netherworld Near, Alpha	突然変異：Netherworld Near, Alpha
+Mutation: Netherworld Near, Beta	突然変異：Netherworld Near, Beta
+Mysterious Light	神秘の光
+Mythmaker	驚天動地
+Naught Grows: Away	無の肥大：Away
+Naught Grows: Donut	無の肥大：Donut
+Naught Grows: One Under Boss	無の肥大：One Under Boss
+Naught Grows: Opposite	無の肥大：Opposite
+Naught Grows: Overlap	無の肥大：Overlap
+Naught Grows: Single	無の肥大：Single
+Naught Grows: Under Boss	無の肥大：Under Boss
+Naught Grows: Under Void	無の肥大：Under Void
+Naught Hunts	無の追跡
+Navigator's Trident	リムレーンズトライデント
+Neap Tide	水禍の小潮
+Near Edge (Tethered)	近間当て（Tethered）
+Near Edge (Untethered)	近間当て（Untethered）
+Near Edge: Bait	近間当て：Bait
+Near Edge: Tether	近間当て：Tether
+Nearsight (Non-Tank)	近思の魔撃（Non-Tank）
+Nearsight (Tank)	近思の魔撃（タンク）
+Necrohazard	ネクロハザード
+Necrosis	死腐毒
+Needle Burst	ニードル散弾
+Negative Aura	ネガティブオーラ
+Negatron	ネガトロン
+Nemesis	ネメシス
+Nest of Flamevipers	スプレッドヴァイパー
+Nether Blast	ネザーブラスト
+Netherwrath Far	ネザーレイジ・ファー
+Netherwrath Near	ネザーレイジ・ニア
+Neuro Squama	幻惑の鱗粉
+Neutralization	制圧射撃
+Neutralize Front Lines	フロントニュートライズ
+Neutron Ring	ニュートンリング
+Nightbloom	月下彼岸花
+Nightfall (Gun)	宵の早替え（Gun）
+Nightfall (Spear)	宵の早替え（Spear）
+Nightmare	ナイトメア
+Nitrospin	ニトロスピン
+No Future	ノーフューチャー
+Noahionto	ノアヒオント
+Noble Pursuit	獅子王牙
+Noctoshield	ノクトシールド
+Northerly Shift (Knockback)	シフティングストライクN（Knockback）
+Northerly Shift (Slash)	シフティングストライクN（Slash）
+Northern Cross (Back/Left Safe)	ノーザンクロス（Back/Left Safe）
+Northern Cross (Front/Right Safe)	ノーザンクロス（Front/Right Safe）
+Nostalgia	望郷
+Note of Despair	絶望の叫び
+Nox	ノックス
+Nullifying Dropkick	崑崙八象脚・改
+Numbing Breath	ナムブレス
+O Isle, Bloom	祈願：地に満ちよ
+O Life, Flourish	祈願：生い育て
+O Petals, Unfurl	祈願：咲き誇れ
+O10S	次元の狭間オメガ零式：アルファ編2
+O11S	次元の狭間オメガ零式：アルファ編3
+O12S	次元の狭間オメガ零式：アルファ編4
+O1S	次元の狭間オメガ零式：シグマ編1
+O2S	次元の狭間オメガ零式：シグマ編2
+O3S	次元の狭間オメガ零式：シグマ編3
+O4S	次元の狭間オメガ零式：シグマ編4
+O5S	次元の狭間オメガ零式：デルタ編1
+O6S	次元の狭間オメガ零式：デルタ編2
+O7S	次元の狭間オメガ零式：デルタ編3
+O8S	次元の狭間オメガ零式：デルタ編4
+O9S	次元の狭間オメガ零式：アルファ編1
+Obscure Woods	暗黒森林
+Octaflare: Spread Later	オクタフレア：Spread Later
+Octaflare: Spread Now	オクタフレア：Spread Now
+Octoboom Bombarian Special	8ショック・ボンバリアンスペシャル
+Octoboom Bombarian Special: In	8ショック・ボンバリアンスペシャル：中
+Octoboom Bombarian Special: Knockback	8ショック・ボンバリアンスペシャル：Knockback
+Octoboom Bombarian Special: Out	8ショック・ボンバリアンスペシャル：外
+Octoboom Bombarian Special: Spread	8ショック・ボンバリアンスペシャル：散開
+Ode to Lost Love	狂愛の歌声
+Off My Lawn	押し出し
+Oink	ポルルルル！
+Old Magic	魔力放出
+Omega Protocol	絶オメガ検証戦
+Ominous Wind	祟り風
+On High	大扇風
+On the Soul	オン・ザ・ソウル
+Once Above, Ever Below (Blue)	死生択一：襲火（青）
+Once Above, Ever Below (Orange)	死生択一：襲火（Orange）
+One and Only	ワン・アンド・オンリー
+Onmyo Sigil	陰陽の印
+Onmyo Sigil (Out/In)	陰陽の印（Out/In）
+Onmyo Sigil (Out/In, Second)	陰陽の印（Out/In, Second）
+Onmyo Sigil (Single)	陰陽の印（Single）
+Oogle	石化の視線
+Open Flame	オープンフレイム
+Optical Sight (Bait)	照準（Bait）
+Optical Sight (Chakrams)	照準（Chakrams）
+Optical Sight (Clock)	照準（Clock）
+Optical Sight (Out)	照準（外）
+Optical Sight (Spread)	照準（散開）
+Optimized Fire III	ファイラ・オメガ
+Optimized Meteor	メテオ・オメガ
+Optimized Sagittarius Arrow	サジタリウスアロー・オメガ
+Optimized Ultima	魔導アルテマ
+Optimized Ultima (Enrage)	魔導アルテマ（Enrage）
+Ordained Motion	行動命令
+Ordained Punishment (Healer)	誅罰（ヒーラー）
+Ordained Punishment (On You)	誅罰（自分）
+Ordained Punishment (Other Tank)	誅罰（Other Tank）
+Ordained Stillness	静止命令
+Ordeal of Purgation	煉獄の朱炎
+Ordeal of Purgation (Unknown)	煉獄の朱炎（不明）
+Ordeal of Thunder	オーディアルサンダー
+Order to Fire	攻撃命令
+Ordered Fire	支援砲撃
+Origenics	魂魄工廠 オリジェニクス
+Orison Fortissimo	オリゾン・フォルティッシモ
+Outrage	アウトレイジ
+Outside In	アウトサイドイン
+Ovation	手打ち
+Over the Falls	オーバー・ザ・フォール
+Overexposure	マルチエクスポージャー
+Overtow	ハイフロウ
+Overwhelming Charge	オーバーウェルム
+P10N	万魔殿パンデモニウム：天獄編2
+P10S	万魔殿パンデモニウム零式：天獄編2
+P11N	万魔殿パンデモニウム：天獄編3
+P11S	万魔殿パンデモニウム零式：天獄編3
+P12N	万魔殿パンデモニウム：天獄編4
+P12S	万魔殿パンデモニウム零式：天獄編4
+P12S Doorboss	万魔殿パンデモニウム零式：天獄編4
+P12S Final Boss	万魔殿パンデモニウム零式：天獄編4
+P1S	万魔殿パンデモニウム零式：辺獄編1
+P2S	万魔殿パンデモニウム零式：辺獄編2
+P3S	万魔殿パンデモニウム零式：辺獄編3
+P4S	万魔殿パンデモニウム零式：辺獄編4
+P5N	万魔殿パンデモニウム：煉獄編1
+P5S	万魔殿パンデモニウム零式：煉獄編1
+P6N	万魔殿パンデモニウム：煉獄編2
+P6S	万魔殿パンデモニウム零式：煉獄編2
+P7N	万魔殿パンデモニウム：煉獄編3
+P7S	万魔殿パンデモニウム零式：煉獄編3
+P8N	万魔殿パンデモニウム：煉獄編4
+P8S	万魔殿パンデモニウム零式：煉獄編4
+P8S Door Boss	万魔殿パンデモニウム零式：煉獄編4
+P8S Final Boss	万魔殿パンデモニウム零式：煉獄編4
+P8S Final Boss Dominion Priority	万魔殿パンデモニウム零式：煉獄編4
+P9N	万魔殿パンデモニウム：天獄編1
+P9S	万魔殿パンデモニウム零式：天獄編1
+Packet Filter F	ガードプログラムF
+Packet Filter M	ガードプログラムM
+Paglthan	黄金平原 パガルザン
+Pall of Grief	悲嘆
+Pall of Rage	憤怒
+Palladian Grasp	パラスの手
+Palm of Temperance (SE)	拒絶の手（SE）
+Palm of Temperance (SW)	拒絶の手（SW）
+Pandora's Box	パンドラの櫃
+Pandæmoniac Pillars	パンデモニックピラー
+Pandæmoniac Ray: East hit	パンデモニックレイ：East hit
+Pandæmoniac Ray: West hit	パンデモニックレイ：West hit
+Pangenesis: Avoid Tethers	パンゲネシス：Avoid Tethers
+Pangenesis: Long Dark	パンゲネシス：Long Dark
+Pangenesis: Long Light	パンゲネシス：Long Light
+Pangenesis: New Dark	パンゲネシス：New Dark
+Pangenesis: New Light	パンゲネシス：New Light
+Pangenesis: Nothing	パンゲネシス：Nothing
+Pangenesis: One Stack	パンゲネシス：One Stack
+Pangenesis: Pick Up Tethers	パンゲネシス：Pick Up Tethers
+Pangenesis: Raidwide	パンゲネシス：Raidwide
+Pangenesis: Short Dark	パンゲネシス：Short Dark
+Pangenesis: Short Light	パンゲネシス：Short Light
+Panzerfaust	パンツァーファウスト
+Paradise Regained: Dark Wing + Dark Tether	パラダイスリゲイン：Dark Wing + Dark Tether
+Paradise Regained: Dark Wing + Light Tether	パラダイスリゲイン：Dark Wing + Light Tether
+Paradise Regained: Light Wing + Dark Tether	パラダイスリゲイン：Light Wing + Dark Tether
+Paradise Regained: Light Wing + Light Tether	パラダイスリゲイン：Light Wing + Light Tether
+Parhelic Circle	パーヘリックサークル
+Parted Plumes	ディバイドプルーム
+Particle Beam: Not on You	波動爆発：自分以外
+Particle Beam: On You	波動爆発：自分
+Particle Concentration	波動球
+Partition (Left Cleave)	パーティション（Left Cleave）
+Partition (Right Cleave)	パーティション（Right Cleave）
+Party Synergy: Both In	連携プログラムPT：Both In
+Party Synergy: Both Out	連携プログラムPT：Both Out
+Party Synergy: F In, M Out	連携プログラムPT：F In, M Out
+Party Synergy: F Out, M In	連携プログラムPT：F Out, M In
+Passage of Naught: Cardinals	集積波動：Cardinals
+Passage of Naught: Intercards	集積波動：Intercards
+Passage of Naught: Max Melee	集積波動：Max Melee
+Passage of Naught: Middle	集積波動：中央
+Past's End (Tank/Healer)	過去の終焉（Tank/Healer）
+Patricidal Pique	パトリサイド
+Peasebomb	ビーズボム
+Peat Pelt	泥団子遊び
+Pedestal Purge	旋回斬り
+Pedestal Purge (Jump)	旋回斬り（Jump）
+Pelagic Cleaver	ペラジッククリーヴ
+Penetrating Pitch	ペネトレーティングピッチ
+Penetration	ペネトレーション
+Perfect Decimation	パーフェクトデシメート
+Perfumed Quietus	クワイタスローズ
+Periaktoi	ペリアクトイ
+Peridialogos	ペリ・ディアロゴス
+Permafrost	パーマフロスト
+Perpetual Ray	パーペチュアルレイ
+Perpetual Ray (Tank Swap)	パーペチュアルレイ（Tank Swap）
+Perpetual Ray (on Other)	パーペチュアルレイ（on Other）
+Perpetual Ray (on You)	パーペチュアルレイ（自分）
+Petrai	ペトゥライ
+Petribreath	ペトロブレス
+Petrifaction	ペトリファクション
+Phantom Flood	ファントムフラッド
+Phantom Flurry	鬼宿脚
+Phantom Flurry (Follow-up)	鬼宿脚（続き）
+Phantom Flurry: Buster	鬼宿脚：Buster
+Phantom Flurry: Get Behind	鬼宿脚：Get Behind
+Phantom Rune (In)	幻のルーン（中）
+Phantom Rune (Out)	幻のルーン（外）
+Pharos Sirius	怪鳥巨塔 シリウス大灯台
+Phases of the Blade	弦月連剣
+Phases of the Shadow	弦月黒竜連剣
+Phobos	フォボス
+Photon Burst	フォトンバースト
+Piercing Missile	採掘ミサイル
+Pillar of Mercy	ピラー・オブ・メルシー
+Pillory	ピロリー
+Pinwheeling Dartboard: Avoid Blue	ダーツ＆ウィール：Avoid Blue
+Pinwheeling Dartboard: Avoid Red	ダーツ＆ウィール：Avoid Red
+Pinwheeling Dartboard: Avoid Yellow	ダーツ＆ウィール：Avoid Yellow
+Pinwheeling Dartboard: Dart on You	ダーツ＆ウィール：Dart on You
+Pinwheeling Dartboard: No Dart	ダーツ＆ウィール：No Dart
+Pinwheeling Dartboard: Stack	ダーツ＆ウィール：頭割り
+Pinwheeling Dartboard: Tether	ダーツ＆ウィール：Tether
+Pipe Cleaner	重波撃
+Pitch Bog (First)	シャドウスワンプ（1回目）
+Pitch Bog (Second)	シャドウスワンプ（2回目）
+Pitiless Flail (Knockback)	懲罰連撃（Knockback）
+Pitiless Flail (Stack)	懲罰連撃（頭割り）
+Pitiless Flail of Grace	懲罰連撃・聖
+Pitiless Flail of Purgation	懲罰連撃・炎
+Piton Pull (NE/SW)	ハーケンブリング（NE/SW）
+Piton Pull (NW/SE)	ハーケンブリング（NW/SE）
+Pitter-patter	モクモクザーザー
+Pity	慈悲
+Planar Tactics: Either Two	爆雷戦術：面：Either Two
+Planar Tactics: Number Only	爆雷戦術：面：Number Only
+Planar Tactics: One	爆雷戦術：面：One
+Planar Tactics: Three	爆雷戦術：面：Three
+Planar Tactics: Twos Stacking with One	爆雷戦術：面：Twos Stacking with One
+Planar Tactics: Twos with One	爆雷戦術：面：Twos with One
+Plate Fracture: Back	ロックフラクチャー：後ろ
+Plate Fracture: Front	ロックフラクチャー：前
+Plate Fracture: Left	ロックフラクチャー：左
+Plate Fracture: Left or Back	ロックフラクチャー：Left or Back
+Plate Fracture: Left or Front	ロックフラクチャー：Left or Front
+Plate Fracture: Right	ロックフラクチャー：右
+Plate Fracture: Right or Back	ロックフラクチャー：Right or Back
+Plate Fracture: Right or Front	ロックフラクチャー：Right or Front
+Plectrum of Power (Both)	強勢の旋律（Both）
+Plectrum of Power (Lines)	強勢の旋律（Lines）
+Plectrum of Power (Rocks)	強勢の旋律（Rocks）
+Plummet	プラメット
+Plummet (as Tank)	プラメット（as Tank）
+Plummet (non Tank)	プラメット（non Tank）
+Plunging Ice	落氷衝撃
+Poison	毒
+Poison Heart	毒液塊
+Poison: Spread	毒：散開
+Poison: Stack	毒：頭割り
+Polarizing Strikes	星霊の剣
+Polarizing Strikes: Move Back to Stacks	星霊の剣：Move Back to Stacks
+Polydegmon's Purgation	ポリデグモンストライク
+Polyominoid Sigma	エーテル・ポリオミノΣ
+Pop	破裂
+Pop (Safe Number)	破裂（Safe Number）
+Pop (with Trigger Happy)	破裂（with Trigger Happy）
+Port and Star	左右双斬
+Positron	ポジトロン
+Pound Sand	アースパウンド
+Powder Mark	爆印刻
+Powder Mark (On You)	爆印刻（自分）
+Powder Mark (Tank Swap)	爆印刻（Tank Swap）
+Powder Mark (on Other)	爆印刻（on Other）
+Powder Mark (on You)	爆印刻（自分）
+Powder Mark Trail: 3s Left	連鎖爆印刻：3s Left
+Powder Mark Trail: Debuff Placed	連鎖爆印刻：Debuff Placed
+Powder Mark Trail: Initial	連鎖爆印刻：最初
+Power Break: East Safe	パワーブレイク：East Safe
+Power Break: West Safe	パワーブレイク：West Safe
+Power Serge	魔布入精
+Power Tackle	パワータックル
+Powerful Gust	強風
+Powerful Light (Fire)	光爆（炎）
+Powerful Light (Light)	光爆（光）
+Powerslam	パワーダイブ
+Pox	ポックス
+Pox Flail	痘瘡の拳
+Precision Guided Missile	高性能誘導ミサイル
+Precision Guided Missile (Healer)	高性能誘導ミサイル（ヒーラー）
+Precision Guided Missile (Not on You)	高性能誘導ミサイル（自分以外）
+Precision Guided Missile (On You)	高性能誘導ミサイル（自分）
+Predaceous Pounce	キャッツレイド
+Predatory Sight	生餌の刻印
+Prey	プレイ
+Prey (Healer)	プレイ（ヒーラー）
+Prey (On You)	プレイ（自分）
+Prey (on You)	プレイ（自分）
+Prey: Take from Healer	プレイ：Take from Healer
+Primary Target	攻撃目標
+Prime Blade (Behind)	斬機撃：充填（背後）
+Prime Blade (Clones, Cardinal In)	斬機撃：充填（Clones, Cardinal In）
+Prime Blade (Clones, Corner In)	斬機撃：充填（Clones, Corner In）
+Prime Blade (Clones, Out)	斬機撃：充填（分身、外）
+Prime Blade (In)	斬機撃：充填（中）
+Prime Blade (Out)	斬機撃：充填（外）
+Prime Blade (Out, Jump)	斬機撃：充填（Out, Jump）
+Primordial Crust	混沌の土
+Primus Terminus Est	ターミナス・エスト：ウーヌス
+Primus Terminus Est: No Marker	ターミナス・エスト：ウーヌス：No Marker
+Proboscis	プロビスカス
+Projection of Triumph	プロジェクション・エッジ
+Projection of Turmoil	プロジェクション・バースト
+Propeller Wind	プロペラウィンド
+Prosecution of War	プロセキューション・ウォー
+Protean Wave	プロティアンウェイブ
+Protective Will	霊衝
+Proud Palisade	エクストリームガード
+Prowling Gale	風狼陣
+Proximate Current	導雷［近］
+Psychic Wave	サイコウェーブ
+Psychokinesis	サイコキネシス
+Psychokinesis (First)	サイコキネシス（1回目）
+Psychokinesis: Spread + Bait	サイコキネシス：Spread + Bait
+Psychokinesis: Spread + Tankbusters	サイコキネシス：Spread + Tankbusters
+Psychokinetic Charge	サイコフィールド＆オーバーウェルム
+Psychokinetic Charge (First)	サイコフィールド＆オーバーウェルム（1回目）
+Ptera Ixou (Go Left/Wing)	プテラ・イクソス（Go Left/Wing）
+Ptera Ixou (Go Right/Snake)	プテラ・イクソス（Go Right/Snake）
+Ptera Ixou (Unknown/Error)	プテラ・イクソス（Unknown/Error）
+Puck's Breath	パック・ブレス
+Puck's Breath (On You)	パック・ブレス（自分）
+Puck's Rebuke	パックレビューク
+Pudding Party	プリンパーティー
+Pulp Smash	ソーンスマッシュ
+Pulse Wave	波動衝撃
+Pulse of the Land	大地の響き
+Pulverize	粉砕する
+Pulverizing Pounce	ヘビーパウンス
+Pummel	殴打
+Puncture	パンクチャー
+Pungent Aerosol	爆発性薬
+Punishing Heat	懲罰の熱線
+Punitive Light	ピューニティブライト
+Punutiy Press	プヌティープレス
+Pure Light	ピュアライト
+Pure of Soul	ピュア・オブ・ソウル
+Pyretic	ヒート
+Pyretic (Pre-Call)	ヒート（Pre-Call）
+Pyric Blast	パイリックブラスト
+Pyric Breath (Back Left Safe)	パイリックブレス（Back Left Safe）
+Pyric Breath (Back Right Safe)	パイリックブレス（Back Right Safe）
+Pyric Breath (First)	パイリックブレス（1回目）
+Pyric Breath (Front Safe)	パイリックブレス（Front Safe）
+Pyrotation	フレイムローテーション
+Quadrastrike	クアドラストライク
+Quadrastrike: After Towers	クアドラストライク：After Towers
+Quadroboom Bombarian Special	4ショック・ボンバリアンスペシャル
+Quadroboom Bombarian Special: Buddies	4ショック・ボンバリアンスペシャル：Buddies
+Quadroboom Bombarian Special: In	4ショック・ボンバリアンスペシャル：中
+Quadroboom Bombarian Special: Knockback	4ショック・ボンバリアンスペシャル：Knockback
+Quadroboom Bombarian Special: Out	4ショック・ボンバリアンスペシャル：外
+Quadroboom Dive (KB)	4ショック・パワーダイブ（KB）
+Quadroboom Dive (Out)	4ショック・パワーダイブ（外）
+Quadruple Slap	クアドラスラップ
+Quagmire	汚泥
+Quake III	クエイガ
+Quake IV	クエイジャ
+Quarantine	クァランティン
+Quarry Swamp: Direction	石化の波動：Direction
+Quarry Swamp: First Safe Spot	石化の波動：First Safe Spot
+Quarry Swamp: LoS Gaze	石化の波動：LoS Gaze
+Quarter Beats	4ビート
+Quietus	クワイタス
+Quintuplecast: Marker	五連魔：Marker
+Quintuplecast: Next	五連魔：Next
+Quintuplecast: Order	五連魔：Order
+R011: Laser	R011：レーザー
+Radial Flagration	放散火流
+Radiant Braver	ブライトブレイバー
+Radiant Desperado	ブライトデスペラード
+Radiant Halo	レディアントヘイロー
+Radiant Meteor	ブライトメテオ
+Radiant Sacrament	拝火の秘蹟
+Radical Shift	ラディカルシフト
+Radical Shift: Earth Platform	ラディカルシフト：Earth Platform
+Radical Shift: Ice Platform	ラディカルシフト：Ice Platform
+Radical Shift: Unknown Platform	ラディカルシフト：Unknown Platform
+Radical Shift: Wind Platform	ラディカルシフト：Wind Platform
+Raging Claw	レイジングクロウ
+Raging Glower	レイジング・グラワー
+Raging Slice	レイジングスライス
+Rahu Comet	ラフ・コメット
+Rahu Ray	ラフ・アトミックレイ
+Rail Cannon	レールキャノン
+Rain of Spears	レイン・オブ・スピアーズ
+Raining Cats	レイニングキャッツ
+Raining Swords: All	剣の雨：All
+Raining Swords: North-middle Safe	剣の雨：North-middle Safe
+Raining Swords: Northmost Safe	剣の雨：Northmost Safe
+Raining Swords: Soak Tower	剣の雨：Soak Tower
+Raining Swords: South-middle Safe	剣の雨：South-middle Safe
+Raining Swords: Southmost Safe	剣の雨：Southmost Safe
+Rake	ひっかき
+Rake (Charge)	ひっかき（Charge）
+Rake (Tankbuster)	ひっかき（Tankbuster）
+Rapid Sever	滅多斬り
+Rapid Thunder	ラピッドサンダー
+Rapturous Reach (Single)	悦楽の手（Single）
+Rapturous Reach: Stack on You	悦楽の手：Stack on You
+Rapturous Reach: Two Stacks	悦楽の手：Two Stacks
+Ratzon	ラツォン
+Ratzon (Green)	ラツォン（緑）
+Ratzon (Purple)	ラツォン（紫）
+Ravening	魂喰らい
+Ravenous Assault	ラヴェナスアサルト
+Ravenous Assault (Healer)	ラヴェナスアサルト（ヒーラー）
+Ravenous Assault (On You)	ラヴェナスアサルト（自分）
+Ravenous Reach (East)	ラヴェナスリーチ（東）
+Ravenous Reach (West)	ラヴェナスリーチ（西）
+Ravenous Saber	風塵光狼斬
+Ravensclaw	レイヴェンズクロウ
+Raw Steel (Buster)	抜刀突撃（Buster）
+Raw Steel (Spread)	抜刀突撃（散開）
+Ray of Lightning: Not on You	ライトニングレイ：自分以外
+Ray of Lightning: On You	ライトニングレイ：自分
+Ready Ore Not	原石あげる
+Realmrazer	レルムレイザー
+Rear Combination	後方連転脚
+Rear Interceptors	後方迎撃ロケット
+Rearing Rampage	リアリングランページ
+Receding Twintides	ラウンド・ダブルタイド
+Receding Twintides (Role Stacks)	ラウンド・ダブルタイド（Role Stacks）
+Recollection	リコレクション
+Recreate Signal	再現：信号
+Recreate Structure	再現：建物
+Redemption	破壊
+Reflected Drachen Armor	ミラーリング・ドラゴンアーマー
+Reflected Scythe Kick	ミラーリング・サイスキック
+Refraction Cannons (Left)	偏向粒子砲（左）
+Refraction Cannons (Right)	偏向粒子砲（右）
+Refreshing Overkill	オーバーキュア・オーバーキル
+Refulgent Chain	光の鎖
+Regicidal Rage	レジサイド
+Regorge	リゴージ
+Reinforced Gunshield	ガンシールド：魔導カウンター
+Reinforced Gunshield (Front)	ガンシールド：魔導カウンター（前）
+Reinforced Gunshield (Sides)	ガンシールド：魔導カウンター（横）
+Reinforcements	支援命令
+Reinforcements (Tank)	支援命令（タンク）
+Reisho (Count)	霊障（Count）
+Reisho (Tower)	霊障（Tower）
+Reisho: Tower	霊障：Tower
+Rejuvenating Balm	活性弾
+Rekindle	再生の炎
+Release: Leviathan + Garuda	リリース：Leviathan + Garuda
+Release: Leviathan + Ifrit	リリース：Leviathan + Ifrit
+Release: Leviathan + Ramuh	リリース：Leviathan + Ramuh
+Release: One Primal	リリース：One Primal
+Release: Two Primals	リリース：Two Primals
+Relentless Torment	強連撃
+Remote Current	導雷［遠］
+Remote Regression	エンバグ：ファー
+Remote Resonance	レゾナンスプログラム：ファー
+Rend	引き裂き
+Rend the Rift	次元干渉
+Repel	リペル
+Replication: Dark Res Down	レプリケーション：Dark Res Down
+Replication: Fire Res Down	レプリケーション：Fire Res Down
+Replication: Get Hit By Dark	レプリケーション：Get Hit By Dark
+Replication: Get Hit By Fire	レプリケーション：Get Hit By Fire
+Replication: Horizonal, Cleaving Horizontal	レプリケーション：Horizonal, Cleaving Horizontal
+Replication: Horizontal, Cleaving Vertical	レプリケーション：Horizontal, Cleaving Vertical
+Replication: No Res Down	レプリケーション：No Res Down
+Replication: Vertical, Cleaving Horizontal	レプリケーション：Vertical, Cleaving Horizontal
+Replication: Vertical, Cleaving Vertical	レプリケーション：Vertical, Cleaving Vertical
+Reprimand	折檻
+Reproduce	分体生成
+Reproduce (After Soaring Minuet)	分体生成（After Soaring Minuet）
+Reproduce (First)	分体生成（1回目）
+Resin Bomb	粘着弾
+Restraining Order	確定判決：接近禁止命令
+Restraint Collar	鉄鎖
+Revelation	リヴァレーション
+Revelation (on You)	リヴァレーション（自分）
+Revenge of the Vines	ソーンワールド
+Reverse Alley-oop	リバースアリウープ
+Revolting Ruin III	ばりばりルインガ
+Revolutionary Reign: Away, Stacks	廻の群狼剣：Away, Stacks
+Revolutionary Reign: Dodge Clones	廻の群狼剣：Dodge Clones
+Rhalgr's Beacon	破軍の流星
+Rhalgr's Beacon (Orbs)	破軍の流星（Orbs）
+Rhalgr's Piece	壊神拳
+Rheognosis	レーオノシス
+Rheognosis Petrine	レーオノシス・ペトゥロス
+Ribbit	クルルルル！
+Ribbit (Get Hit)	クルルルル！（Get Hit）
+Right Bank	右岸氾濫
+Right Bank (Hieroglyphika)	右岸氾濫（Hieroglyphika）
+Right Cinderwing	右翼焼却
+Right Disassembler	右腕分解砲
+Right Face	移動命令：右
+Right Face (Statice)	移動命令：右（Statice）
+Right Firaga Forte	ライト・フォルテファイガ
+Right Giga Slash	ライトサイド・ギガスラッシュ
+Right Handgonne	右舷掃射
+Right Knout	ライト・クヌート
+Right Laser Sword	ライト・レーザースウォード
+Right Palm	輝く右手
+Right Round	大回転
+Right Shadow Slash	ライトサイド・シャドウギガスラッシュ
+Right Slam	ライト・アルビオンスラム
+Right Strait	右舷掃討
+Right Sweep	右方薙ぎ払い
+Right Swipe	右爪薙ぎ払い
+Right Swipe (Before Pull)	右爪薙ぎ払い（Before Pull）
+Right Swordscross	ライト・ソードクロス
+Righteous Bolt	ジャッジボルト
+Righteous Bolt (On You)	ジャッジボルト（自分）
+Righteous Bolt (Other Tank)	ジャッジボルト（Other Tank）
+Rightward Blows	右方返し太刀
+Rime Wreath	ライムリリース
+Ring of Chaos	カオスリング
+Ring of Might (1)	大剛の旋撃（1）
+Ring of Might (2)	大剛の旋撃（2）
+Ring of Might (3)	大剛の旋撃（3）
+Ring of Might: Followup	大剛の旋撃：続き
+Riot of Magic	魔法弾放射
+Riot of Magic (on You)	魔法弾放射（自分）
+Rip Current	リップカレント
+Rip Current (On You)	リップカレント（自分）
+Rip Current: Healer	リップカレント：ヒーラー
+Rip Current: On You	リップカレント：自分
+Rip Current: Tank Swap	リップカレント：Tank Swap
+Ripper Claw	リッパークロウ
+Ripper Fang	リッパーファング
+Rising Seas	ライジングシー
+Roar	咆哮
+Roar of Albion	アルビオンロア
+Roaring Rumble	ロアリング
+Rock Cutter	ロックカッター
+Rock Throw	グラナイト・ジェイル
+Rock Throw (On You)	グラナイト・ジェイル（自分）
+Rock Throw (on You)	グラナイト・ジェイル（自分）
+Roiling Pulse	苛烈なる波動
+Roiling Pulse: Non-Tank	苛烈なる波動：Non-Tank
+Roiling Pulse: Tank	苛烈なる波動：タンク
+Rolling Current (Safe Spot)	ローリングカレント（Safe Spot）
+Rolling Current (Unknown)	ローリングカレント（不明）
+Rolling Scrapline	ローリングラリアット
+Rolling Winds	突風衝
+Ronkan Cure II	ロンカ・ケアルラ
+Root Arrangement	枯樹生花の術
+Rotary Gale	刻風
+Rotten Heart: Initial	ブラックハート：最初
+Rotten Heart: Other Groups	ブラックハート：Other Groups
+Rotten Heart: Pop Now	ブラックハート：Pop Now
+Rotten Heart: Upfront Partner Call	ブラックハート：Upfront Partner Call
+Rotten Rampage	ロトンランページ
+Roundhouse Conductor	帯雷［輪］
+Rousing Reincarnation (Blue Tower)	変現の呪い（Blue Tower）
+Rousing Reincarnation (Orange Tower)	変現の呪い（Orange Tower）
+Rousing Reincarnation (Tether)	変現の呪い（Tether）
+Rousing Reincarnation (Tether, then Blue)	変現の呪い（Tether, then Blue）
+Rousing Reincarnation (Tether, then Orange)	変現の呪い（Tether, then Orange）
+Rousing Reincarnation: Blue Tower	変現の呪い：Blue Tower
+Rousing Reincarnation: Orange Tower	変現の呪い：Orange Tower
+Rousing Reincarnation: Tether	変現の呪い：Tether
+Rousing Reincarnation: Tether then Blue Tower	変現の呪い：Tether then Blue Tower
+Rousing Reincarnation: Tether then Orange Tower	変現の呪い：Tether then Orange Tower
+Royal Banishment	バニッシュレイ
+Royal Domain	ロイヤルドメイン
+Ruby Claw	ルビークロー
+Ruby Claw (On You)	ルビークロー（自分）
+Ruby Glow	ルビーの光
+Ruby Ray	ルビーレイ
+Ruin Foretold	ディザスターサイン
+Ruinous Hex	爆散
+Ruinous Omen	ルイナスオーメン
+Runaway Runoff	水塊噴出
+Rush	突進
+Rush (First)	突進（1回目）
+Rush (Grid)	突進（Grid）
+Rush of Might (1)	大剛の突撃（1）
+Rush of Might (2)	大剛の突撃（2）
+Rush of Might (3)	大剛の突撃（3）
+Rush of Might: Followup	大剛の突撃：続き
+Rusting Claw	ラスティクロウ
+Ruthless Refrain	拒絶の旋律
+Ruthless Regalia: Laser Tether on You	ルースレスレガリア：Laser Tether on You
+Saber Rush	セイバーラッシュ
+Sable Thread	漆黒の熱線
+Sacrament of Penance	恩赦の秘跡
+Sacrifice	サクリファイス
+Sadistic Screech	サディスティック・スクリーチ
+Saint Mociannes Arboretum Hard	草木汚染 聖モシャーヌ植物園 (Hard)
+Saline Spit	スピットウォーター
+Salivous Snap	サライヴォススナップ
+Samsara	サンサーラ
+Sanctuary	地鎮の輝き
+Sandblast	サンドブラスト
+Sanguine Scratch	サングインスクラッチ
+Sap Shower	サップシャワー
+Sastasha Hard	逆襲要害 サスタシャ浸食洞 (Hard)
+Savage Barbery (Cleave)	サベッジバルバリー（Cleave）
+Savage Barbery (Donut)	サベッジバルバリー（Donut）
+Savage Barbery (In)	サベッジバルバリー（中）
+Savage Barbery (Line)	サベッジバルバリー（Line）
+Scalding Ring	滅土焼尽：輪火
+Scalding Signal	滅土焼尽：烽火
+Scarlet Auspice	赤帝剣気
+Scathing Net	張宿業火
+Scold's Bridle	スコルドブライダル
+Scorched Exaltation	灰燼の炎
+Scorching Left	左辺炎獄斬
+Scorching Right	右辺炎獄斬
+Scouring Waters: Avoid Knockback	暴風の兆し：Avoid Knockback
+Scouring Waters: Defamation	暴風の兆し：Defamation
+Scouring Waters: Not on You	暴風の兆し：自分以外
+Scrap Bomb	スクラップボム
+Scrap Burst	スクラップバースト
+Scrapline	スクラップラリアット
+Scrapline (Main Tank)	スクラップラリアット（Main Tank）
+Scrapline Storm	ラリアットタイフーン
+Scratch	スクラッチ
+Screaming Score (False Idol)	唱譜（False Idol）
+Screaming Score (Her Inflorescence)	唱譜（Her Inflorescence）
+Screams of the Damned	叫喚地獄
+Screech	叫声
+Scrutiny	観察
+Sculptor's Passion	闘人砲
+Scythe Kick	サイスキック
+Scythe Kick (Cardinal Mirrors)	サイスキック（Cardinal Mirrors）
+Scythe Kick (Intercard Mirrors)	サイスキック（Intercard Mirrors）
+Scythe Kick (Unknown Mirrors)	サイスキック（Unknown Mirrors）
+Scythe Tail	サイズテール
+Sea Swallows All	ホワールプール
+Seafoam Spiral	輪の波浪
+Seal of Riotous Bloom (In + Cardinals)	花押印・乱咲（In + Cardinals）
+Seal of Riotous Bloom (In + Intercards)	花押印・乱咲（In + Intercards）
+Seal of Riotous Bloom (Out + Cardinals)	花押印・乱咲（Out + Cardinals）
+Seal of Riotous Bloom (Out + Intercards)	花押印・乱咲（Out + Intercards）
+Seal of Scurrying Sparks (Stack Targets)	乱火の印（Stack Targets）
+Seal of Scurrying Sparks (Stack/Spread)	乱火の印（Stack/Spread）
+Seal of Scurrying Sparks (Stacks)	乱火の印（Stacks）
+Searchlight	サーチライト
+Searing Ray	シアリングレイ
+Searing Stream	シアリングストリーム
+Searing Wind	熱風
+Searing Wind (Initial)	熱風（最初）
+Searing Wind (Linger Time)	熱風（Linger Time）
+Seasplitter	海割り
+Secondary Head	サブヘッド
+Secret Breeze	シークレットブリーズ
+Sector Bisector	イリュージョン・ハーフカット
+Secundus Terminus Est (Cross)	ターミナス・エスト：ドゥオ（Cross）
+Secundus Terminus Est (Plus)	ターミナス・エスト：ドゥオ（Plus）
+Secundus Terminus Est (X)	ターミナス・エスト：ドゥオ（X）
+Sedimentary Debris	崩落
+Seduce	誘惑
+Seductive Scream	シダクティヴクリーム
+Seed Crystals	結晶付着
+Seed of Magic Alpha	魔法弾α
+Seed of the Rivers (First)	シード・オブ・リバー（1回目）
+Seed of the Rivers (Second)	シード・オブ・リバー（2回目）
+Seed of the Sea (First)	シード・オブ・シー（1回目）
+Seed of the Sea (Second)	シード・オブ・シー（2回目）
+Seiryu Unreal	幻青龍征魂戦
+Seismic Wave	サイズミックウェーブ
+Serpent Ascending	登り蛇
+Serpent Descending	降り蛇
+Sewage Deluge	スウェッジデリージュ
+Shackled Apart	離別の鎖
+Shackled Together	束縛の鎖
+Shade Shot	シェイドショット
+Shadespin	シェードスピン
+Shadethrust	シャドウスラスト
+Shadow Burst	シャドウバースト
+Shadow Cleave	シャドウクリーヴ
+Shadow Crescent	弦月黒竜剣
+Shadow Flare	シャドウフレア
+Shadow Kasumi-giri (Back Tether)	幻影霞斬り（Back Tether）
+Shadow Kasumi-giri: Back Tether	幻影霞斬り：Back Tether
+Shadow Kasumi-giri: Followup	幻影霞斬り：続き
+Shadow Links	影の足枷
+Shadow Servant	影の従僕
+Shadow Spread	シャドウスプレッド
+Shadow Spread: Move	シャドウスプレッド：Move
+Shadow Stream	シャドウストリーム
+Shadow Warrior	影武者
+Shadow Wreck	シャドウレック
+Shadow's Edge	シャドウスラッシュ
+Shadowblade	闇の剣
+Shadowblade: Bubble	闇の剣：Bubble
+Shadowbolt	シャドウボルト
+Shadowbolt (On You)	シャドウボルト（自分）
+Shadowchase	残影剣
+Shadowchase (Rotate)	残影剣（Rotate）
+Shadoweye	シャドウアイ
+Shadoweye (On You)	シャドウアイ（自分）
+Shadoweye: On Other	シャドウアイ：On Other
+Shadoweye: On You	シャドウアイ：自分
+Shadowflame	シャドーフレイム
+Shadowflame (On You)	シャドーフレイム（自分）
+Shadowflame: On You	シャドーフレイム：自分
+Shadowflight	影討ち
+Shadowflow	シャドウフロウ
+Shadowkeeper	影の王命
+Shadowreaver	シャドウリーヴァー
+Shardstrike	シャードストライク
+Shared Sentence	確定判決：集団罰
+Shared Sentence (Inception)	確定判決：集団罰（Inception）
+Sharp Gust	シャープガスト
+Sharp Spike (Not On You)	シャープスパイク（自分以外）
+Sharp Spike (On You)	シャープスパイク（自分）
+Sharp Strike	シャープストライク
+Sharp Strike: On Other	シャープストライク：On Other
+Sharp Strike: On You	シャープストライク：自分
+Sharp Turn (Inside)	転回斬撃（Inside）
+Sharp Turn (Outside)	転回斬撃（Outside）
+Shattering Heat	炎撃
+Shattering Steel	激発の波動
+Sheer Heart Attack	シアー・ハート・アタック
+Shell Crusher	シェルクラッシャー
+Shield Skewer	シールドスキュワー
+Shifting Sky (Fire)	至天絶技（炎）
+Shifting Sky (Lightning)	至天絶技（雷）
+Shining Cells	光炎監獄
+Shining Saber	シャイニングセイバー
+Shining Saber (with Crystallize)	シャイニングセイバー（with Crystallize）
+Shinryu Unreal	幻神龍討滅戦
+Shisui Of The Violet Tides	海底宮殿 紫水宮
+Shisui Of The Violet Tides74	海底宮殿 紫水宮（旧）
+Shock: Spread	放電：散開
+Shock: Spread Move Reminder	放電：Spread Move Reminder
+Shockbolt	ショックボルト
+Shocking Abandon	アバンドンショック
+Shocking Force	高電圧放電
+Shockwave	ショックウェーブ
+Shockwave Pulsar	ショックウェーブ・パルサー
+Shore Shaker	ショアシェイカー
+Short Needle	小型ミサイル
+Show of Strength	勇士の咆哮
+Shower Power	ザブザブジャブジャブ
+Shrapnel Impact	残骸落下
+Shrapnel Shell	榴散弾
+Shriek	号叫
+Shrouded Holy	シャドウホーリー
+Sick Swell	シック・スウェル
+Sickest Take-off: Hitting Location	シック・テイクオフ：Hitting Location
+Side Cannons (Left)	側面機関砲（左）
+Side Cannons (Right)	側面機関砲（右）
+Sidescathe (Left Safe)	側面掃射（Left Safe）
+Sidescathe (Left)	側面掃射（左）
+Sidescathe (Right Safe)	側面掃射（Right Safe）
+Sidescathe (Right)	側面掃射（右）
+Sidestriking Spin	サイド：回転攻撃
+Sidewise Spark: East safe	サイドスパーク：East safe
+Sidewise Spark: West safe	サイドスパーク：West safe
+Sigmascape V10	次元の狭間オメガ：シグマ編1
+Sigmascape V10 Savage	次元の狭間オメガ零式：シグマ編1
+Sigmascape V20	次元の狭間オメガ：シグマ編2
+Sigmascape V20 Savage	次元の狭間オメガ零式：シグマ編2
+Sigmascape V30	次元の狭間オメガ：シグマ編3
+Sigmascape V30 Savage	次元の狭間オメガ零式：シグマ編3
+Sigmascape V40	次元の狭間オメガ：シグマ編4
+Sigmascape V40 Savage	次元の狭間オメガ零式：シグマ編4
+Sil'dihn Subterrane (Criterion)	アナザーダンジョン 異聞シラディハ水道
+Sil'dihn Subterrane (Savage)	アナザーダンジョン 異聞シラディハ水道 零式
+Silent Torrent	奔流
+Silkspit	スピットウェブ
+Silkspit: Cast	スピットウェブ：詠唱
+Silkspit: Marker	スピットウェブ：Marker
+Silver Shot	白光の矢
+Silver Sledge (on Other)	白光の槌（on Other）
+Silver Sledge (on You)	白光の槌（自分）
+Single Charge (In)	単発充填（中）
+Single Charge (Out)	単発充填（外）
+Sinister Tide	迷潮流
+Six Fulms Under	沈下
+Six Fulms Under (Levitating)	沈下（Levitating）
+Six Fulms Under (Not Levitating)	沈下（Not Levitating）
+Six-bladed Khadga (East Pattern)	三面六臂：断（East Pattern）
+Six-bladed Khadga (West Pattern)	三面六臂：断（West Pattern）
+Sizzlebeam (not on You)	ゴブ式波動砲（自分以外）
+Sizzlebeam (on You)	ゴブ式波動砲（自分）
+Sizzlespark	ゴブリスパーク
+Skull Dasher	スカルダッシャー
+Skullcrush (First)	石槌頭突き（1回目）
+Skyruin (Fire)	リビングディザスター（炎）
+Skyruin (Ice)	リビングディザスター（氷）
+Skyruin (Lightning)	リビングディザスター（雷）
+Skyruin (Storm)	リビングディザスター（Storm）
+Skyward Leap	スカイワードリープ
+Skyward Leap (Intermission)	スカイワードリープ（Intermission）
+Slabber	サライヴァスピット
+Slam Shut	監獄閉塞
+Slaminator	ブルートダイブ
+Slash and Burn (Lion First)	火焔旋爪（Lion First）
+Slash and Burn (Lioness First)	火焔旋爪（Lioness First）
+Slashburn (Reversed)	刀撃火種（Reversed）
+Slaughtershed	スローターシェッド
+Slaughtershed: East Cleave	スローターシェッド：East Cleave
+Slaughtershed: Knockback from Northeast	スローターシェッド：Knockback from Northeast
+Slaughtershed: Knockback from Northwest	スローターシェッド：Knockback from Northwest
+Slaughtershed: Spread	スローターシェッド：散開
+Slaughtershed: Stack	スローターシェッド：頭割り
+Slaughtershed: West Cleave	スローターシェッド：West Cleave
+Sledgehammer	トリプル・スレッジハンマー
+Slime	粘液
+Slipstream (Cleave)	スリップストリーム（Cleave）
+Slitherbane Foreguard	フロントテイル・セイバー
+Slitherbane Rearguard	バックテイル・セイバー
+Slithering Strike	スリザーストライク
+Slosh	突進
+Slow	スロウ
+Sludge Bomb	スラッジボム
+Sluice	スルース
+Smashdown (Axe)	ウェポンスマッシュ（Axe）
+Smashdown (Scythe)	ウェポンスマッシュ（Scythe）
+Smashdown (Sword)	ウェポンスマッシュ（Sword）
+Smelting	震動波
+Smileton	楽園都市 スマイルトン
+Smiting Circuit (Inside)	スマイティング・サーキット（Inside）
+Smiting Circuit (Outside)	スマイティング・サーキット（Outside）
+Smoke Rings	円撃煙管打ち
+Smokeater (Count)	霞喰い（Count）
+Smothering Waters	溺没の兆し
+Snaking Kick	スネークキック
+Sneeze	くしゃみ
+Sniper Cannon	狙撃式波動砲
+Snowcloak	氷結潜窟 スノークローク大氷壁
+Snuff	重打撃
+Soap's Up: Cardinal Safe	シャンプーボム：Cardinal Safe
+Soaring Minuet (Eulogia)	メヌエットアロー（Eulogia）
+Soaring Minuet (Oschon)	メヌエットアロー（Oschon）
+Sohm Al	霊峰踏破 ソーム・アル
+Sohm Al Hard	霊峰浄化 ソーム・アル (Hard)
+Solar Ray	ソーラレイ
+Solar Ray: Not Targeted	ソーラレイ：Not Targeted
+Solar Ray: On You	ソーラレイ：自分
+Solar Ray: Weapon Setup	ソーラレイ：Weapon Setup
+Solar Wings	両翼紅炎風
+Soldiers of Death (Blue Add)	屍兵呼び（Blue Add）
+Soldiers of Death (Left Tether)	屍兵呼び（Left Tether）
+Soldiers of Death (Right Tether)	屍兵呼び（Right Tether）
+Soldiers of Death: Blue Add Safe Spot	屍兵呼び：Blue Add Safe Spot
+Soldiers of Death: Shadow Kasumi-giri Tether	屍兵呼び：Shadow Kasumi-giri Tether
+Somber Dance: Second Hit	宵闇の舞踏技：Second Hit
+Somber Melody	ソンバーメロディー
+Sonic Bloop	ソニックブループ
+Sonic Howl	ソニックハウル
+Sordid Steam	イービルスチーム
+Soul Douse	ソウルダウス
+Soul Drain	ソウルドレイン
+Soul Grasp	ソウルグラスプ
+Soul Nebula	ソウルネビュラ
+Soul Overflow	ソウル・オーバーフロー
+Soul Overflow (Phase Transition)	ソウル・オーバーフロー（Phase Transition）
+Soul Reaping: Safe Spot	青き魂：Safe Spot
+Soul Reaping: Stored Safe Spot	青き魂：Stored Safe Spot
+Soul Scythe	ソウルサイズ
+Soul Sugar (Adds)	シュガーソウル（Adds）
+Soul and Body	ソウル・アンド・ボディー
+Soulbane Shock	ベインショック
+Soulscald	滅土焼尽
+Soundwave	サウンドウェーブ
+South Uptime Exas	絶竜詩戦争
+Southerly Shift (Knockback)	シフティングストライクS（Knockback）
+Southerly Shift (Slash)	シフティングストライクS（Slash）
+Southern Cross	サザンクロス
+Southern Cross (Bait)	サザンクロス（Bait）
+Southern Cross (Move)	サザンクロス（Move）
+Southron Star	星宿波
+Spark of Life	生命の光芒
+Sparking Fissure (Big)	対地放雷（Big）
+Sparking Fissure (Small)	対地放雷（Small）
+Sparkling Sprinkling	降霜
+Spatial Tactics: Four	爆雷戦術：立体：Four
+Spatial Tactics: One	爆雷戦術：立体：One
+Spatial Tactics: Three	爆雷戦術：立体：Three
+Spatial Tactics: Two	爆雷戦術：立体：Two
+Spear of Paradise	スピア・オブ・パラダイス
+Spear of Paradise (On You)	スピア・オブ・パラダイス（自分）
+Spear of Paradise (Other Tank)	スピア・オブ・パラダイス（Other Tank）
+Spearpoint Push: Tether on You	突撃：Tether on You
+Spears Three (Not on You)	スリースピアーズ（自分以外）
+Spears Three (On You)	スリースピアーズ（自分）
+Special Bombarian Special	アルティメット・ボンバリアンスペシャル
+Special Bombarian Special (Enrage)	アルティメット・ボンバリアンスペシャル（Enrage）
+Specter of Death: Safe Row	闇の巨腕：Safe Row
+Specter of the Lost: Non-Tank	スペクトルブレイク：Non-Tank
+Specter of the Lost: Tank	スペクトルブレイク：タンク
+Spectral Dream	幻光三段
+Spectral Gust	幻光旋風
+Spectral Whirlwind	幻光大旋風
+Spellblade Holy (Cave)	魔法剣ホーリー（Cave）
+Spellblade Holy (Mindjack)	魔法剣ホーリー（Mindjack）
+Spellblade Holy (Prey)	魔法剣ホーリー（Prey）
+Spellblade Holy (Stack on You)	魔法剣ホーリー（Stack on You）
+Spellblade Holy (Unmarked)	魔法剣ホーリー（Unmarked）
+Spellblade Holy: Stack	魔法剣ホーリー：頭割り
+Spike Flail	スパイクフレイル
+Spike of Flame	爆炎
+Spikesicle: Start East	アイシクルスパイク：Start East
+Spikesicle: Start West	アイシクルスパイク：Start West
+Spin Crusher	スピンクラッシャー
+Spin Out	四方八方帯回し
+Spinner's Wheel: Freeze	運命の紡車：Freeze
+Spinner's Wheel: Look Away	運命の紡車：Look Away
+Spinner's Wheel: Look Towards	運命の紡車：Look Towards
+Spinner's Wheel: Pyretic	運命の紡車：Pyretic
+Spinning Conductor	帯雷［円］
+Spiral Finish	スパイラルエンド
+Spiral Pierce	スパイラルピアス
+Spirit Taker	スピリットテイカー
+Spirit Wave	真霊波
+Spirited Charge	突撃命令
+Spiteful Dance	冷厳の舞踏技
+Splashing Waters	強風の兆し
+Splattershed	スプラッターシェッド
+Splintering Nails	スプレッドネイル
+Split Current	スプリットカレント
+Splitting Cry	霊鳴砲
+Spoken Cataract	ブレス＆カタラクティス
+Spoken Cataract (Corners)	ブレス＆カタラクティス（Corners）
+Spoken Cataract (Side)	ブレス＆カタラクティス（横）
+Spread	キープ
+Spring Flowers	春の花茨
+Spring Flowers (Backward March)	春の花茨（Backward March）
+Spring Flowers (Forward March)	春の花茨（Forward March）
+Spring Flowers (Left March)	春の花茨（Left March）
+Spring Flowers (Right March)	春の花茨（Right March）
+Spring Tide	水禍の大潮
+Sputter	バシャーン
+Squeaky Clean (Left)	水拭き（左）
+Squeaky Clean (Right)	水拭き（右）
+Squeaky Clean: Left Safe	水拭き：Left Safe
+Squeaky Clean: Right Safe	水拭き：Right Safe
+Squelch	カルルルル！
+Staff Smite	杖撃
+Staging: Boss Tether Locked In	模倣細胞：Boss Tether Locked In
+Staging: Defamation Locked In	模倣細胞：Defamation Locked In
+Staging: Protean Locked In	模倣細胞：Protean Locked In
+Staging: Reenactment Mechanics Pair	模倣細胞：Reenactment Mechanics Pair
+Staging: Stack Locked In	模倣細胞：Stack Locked In
+Staging: Stacks Now	模倣細胞：Stacks Now
+Staging: Tethered to E Clone	模倣細胞：Tethered to E Clone
+Staging: Tethered to N Clone	模倣細胞：Tethered to N Clone
+Staging: Tethered to NE Clone	模倣細胞：Tethered to NE Clone
+Staging: Tethered to NW Clone	模倣細胞：Tethered to NW Clone
+Staging: Tethered to S Clone	模倣細胞：Tethered to S Clone
+Staging: Tethered to SE Clone	模倣細胞：Tethered to SE Clone
+Staging: Tethered to SW Clone	模倣細胞：Tethered to SW Clone
+Staging: Tethered to W Clone	模倣細胞：Tethered to W Clone
+Stamp	ストンピング
+Stamp (On You)	ストンピング（自分）
+Stamp (Other Tank)	ストンピング（Other Tank）
+Stampeding Thunder: East Safe	カノンスタンピード：East Safe
+Stampeding Thunder: Go East	カノンスタンピード：Go East
+Stampeding Thunder: Go West	カノンスタンピード：Go West
+Stampeding Thunder: West Safe	カノンスタンピード：West Safe
+Standstill	スタンドスティル
+Starcleaver	剛刃一閃・終
+Stardust Specimen	隕石
+State of Shock (Not on You)	呪縛雷（自分以外）
+State of Shock (on You, Delayed)	呪縛雷（自分、遅延）
+Static Moon	スタティックムーン
+Static Spark	スポットスパーク
+Steam Burst	ミックスバースト
+Steel Beam	前方斬攻撃
+Steel Scales	スチールスケール
+Stepped Leader	ステップトリーダー
+Stepped Leader (Fury's Bolt)	ステップトリーダー（Fury's Bolt）
+Stepped Leader: Move	ステップトリーダー：Move
+Sterile Sphere	円状散布
+Sticky Wicket	スティッキーウィケット
+Still Embrace	安寧の翼
+Stinging Slash	キラースラッシュ
+Stirring of Spirits	地鎮の足踏み
+Stock	ストック
+Stock Break	ストックブレイク
+Stone Age	地鳴り
+Stone Flail	ロックフレイル
+Stone Flail (On You)	ロックフレイル（自分）
+Stone II	ストンラ
+Stonecarver (East First)	削岩拳（East First）
+Stonecarver (West First)	削岩拳（West First）
+Stonecrusher	ロッククラッシュ
+Stonecrusher (On You)	ロッククラッシュ（自分）
+Stonefang	土の魔技
+Stonefist	石の拳
+Stoneskin	ストンスキン
+Stool Pelt	岩石投げ
+Storm Pulse	風雷波動
+Storm of Color	春嵐
+Storm of Color (On You)	春嵐（自分）
+Storm of Fury	フューリアスストーム
+Stormcloud Summons	雷雲生成
+Storms Crown	バルバリシア討滅戦
+Stormsplitter	海嵐斬
+Stormsplitter (On You)	海嵐斬（自分）
+Stormsplitter (Other Tank)	海嵐斬（Other Tank）
+Stormsplitter (not on You)	海嵐斬（自分以外）
+Stormsplitter (on You)	海嵐斬（自分）
+Stormwinds	時化の潮風
+Stormy Horizon	大時化
+Stotram	ストトラム
+Stotram (Chanchala)	ストトラム（Chanchala）
+Straight Punch	ボーンブレイカー
+Strangling Coil	スリザーコイル
+Strategic Strike	強撃
+Stratospear Summons	武具生成
+Strength in Numbers	攻撃機動
+Strength in Numbers (Circle)	攻撃機動（Circle）
+Strength in Numbers (Donut)	攻撃機動（Donut）
+Strident Shriek	軋み声
+Strike Spark	ファイアスパーク
+Strike Spark (Unknown)	ファイアスパーク（不明）
+Strophe Ixou	ストロペー・イクソス
+Stygian Deluge	スティギアンデリージュ
+Stygian Tenet (Not on You)	ザルの神火（自分以外）
+Stygian Tenet (On You)	ザルの神火（自分）
+Stymphalian Strike	バードストライク
+Styx	ステュクス
+Sublime Sunset	神技・落陽
+Subsonics	サブソニクス
+Subterranean Shudder	連鎖振動波
+Sucked In	吸引
+Sudden Downpour	ダウンポール
+Sugarscape: Avoid Long Spread	ランドスケープ：Avoid Long Spread
+Sugarscape: Long Spread Later	ランドスケープ：Long Spread Later
+Sugarscape: Long Spread Now	ランドスケープ：Long Spread Now
+Sugarscape: Short Spread Later	ランドスケープ：Short Spread Later
+Sugarscape: Short Spread Now	ランドスケープ：Short Spread Now
+Sugarscape: Short Stack Later	ランドスケープ：Short Stack Later
+Sugarscape: Short Stack Now	ランドスケープ：Short Stack Now
+Suiton: San	水遁の術：San
+Summer Shade	夏の針葉
+Summer Shade (Backward March)	夏の針葉（Backward March）
+Summer Shade (Forward March)	夏の針葉（Forward March）
+Summer Shade (Left March)	夏の針葉（Left March）
+Summer Shade (Right March)	夏の針葉（Right March）
+Summon Alexander	アレキサンダー召喚
+Summon Wyrm	サモン・ウィルム
+Sundered Sky (Fire)	堕獄絶技（炎）
+Sundered Sky (Lightning)	堕獄絶技（雷）
+Sundering Waters: Late First	断絶の兆し：Late First
+Sundering Waters: Late Second	断絶の兆し：Late Second
+Sundering Waters: Short	断絶の兆し：短
+Sunseal	太陽の刻印
+Super Cyclone	スーパーサイクロン
+Super Hawk Blaster	スーパーホークブラスター
+Super Jump (On You)	スーパージャンプ（自分）
+Super Jump (Other)	スーパージャンプ（ほか）
+Super Jump (on Other)	スーパージャンプ（on Other）
+Super Jump (on You)	スーパージャンプ（自分）
+Superbolt	スーパーボルト
+Supercell Matrix (Lasers)	カレントマトリクス（Lasers）
+Supercell Matrix (Triangle)	カレントマトリクス（Triangle）
+Supercharge	スーパーチャージ
+Supercharge (Mirage)	スーパーチャージ（Mirage）
+Superliminal Motion	ブレードコンボF
+Superliminal Motion (Blades)	ブレードコンボF（Blades）
+Superliminal Steel (Blades)	ブレードコンボB（Blades）
+Superstorm	スーパーストーム
+Surge	サージ
+Surge (Far North Lane, Left)	サージ（Far North Lane, Left）
+Surge (Far North Lane, Right)	サージ（Far North Lane, Right）
+Surging Waters	強圧の兆し
+Surging Waters (On You)	強圧の兆し（自分）
+Surging Wave	波穿ち
+Surprise Balloon	サプライズバルーン
+Surprise Balloon: Trigger Happy Reminder	サプライズバルーン：Trigger Happy Reminder
+Susurrant Breath	スリザーブレス
+Suzaku Unreal	幻朱雀征魂戦
+Swarming Locust: First Cleaves	ローカストスウォーム：First Cleaves
+Swarming Locust: Second Cleaves	ローカストスウォーム：Second Cleaves
+Swath of Silence	サイレントスアス
+Sweep the Leg	旋体脚
+Sweep the Leg (Intermission)	旋体脚（Intermission）
+Sweeping Flames	スウィーピングフレイム
+Sweeping Gouge	スウィーピングガウジ
+Sweeping Immolation	赤滅熱波
+Sweeping Immolation: Spread	赤滅熱波：散開
+Sweeping Immolation: Stack	赤滅熱波：頭割り
+Sweeping Waters	拡散の兆し
+Sweeping Waters: Reminder	拡散の兆し：Reminder
+Swift Spill	強制放水
+Swinge	スイング
+Swirling Waters	渦動の兆し
+Sword Quiver: Raidwides	剣の舞：Raidwides
+Sword of Light	ソード・オブ・ライト
+Sword of the Heavens	蒼天の剣
+Sync	シンクロナス
+Synchroshot (First)	一斉射撃（1回目）
+Synergy	シュネルギア
+Synthetic Blades	ブレードオプション
+Synthetic Shield	シールドオプション
+TEA	絶アレキサンダー討滅戦
+TOP Triggers	絶オメガ検証戦
+Tachi: Gekko	八之太刀・月光
+Tactical Pack	光狼招来
+Tactical Pack: Attack Green	光狼招来：Attack Green
+Tactical Pack: Attack Yellow	光狼招来：Attack Yellow
+Tactical Pack: Clockwise	光狼招来：Clockwise
+Tactical Pack: Counter-Clockwise	光狼招来：Counter-Clockwise
+Tactical Pack: Long Green Debuff	光狼招来：Long Green Debuff
+Tactical Pack: Long Yellow Debuff	光狼招来：Long Yellow Debuff
+Tactical Pack: Medium Green Debuff	光狼招来：Medium Green Debuff
+Tactical Pack: Medium Yellow Debuff	光狼招来：Medium Yellow Debuff
+Tactical Pack: Pack Predation	光狼招来：Pack Predation
+Tactical Pack: Short Green Debuff	光狼招来：Short Green Debuff
+Tactical Pack: Short Yellow Debuff	光狼招来：Short Yellow Debuff
+Tactical Pack: Tether	光狼招来：Tether
+Tail Drive	テイルドライブ
+Tail End	テイルエンド
+Tail Screw	テールスクリュー
+Tail Screw (Stun)	テールスクリュー（Stun）
+Tail Slap	テールスラップ
+Tail Slap (BLU)	テールスラップ（BLU）
+Tail Smash	テールスマッシュ
+Tail Swing	テールスイング
+Tail Thrust: Fire East->West	テイルスラスト：Fire East->West
+Tail Thrust: Fire West->East	テイルスラスト：Fire West->East
+Tail Thrust: Water East->West	テイルスラスト：Water East->West
+Tail Thrust: Water West->East	テイルスラスト：Water West->East
+Tail to Claw	テイル・アンド・クロウ
+Tainted Flood	テインテッドフラッド
+Tank Purge	魔導フレア
+Tankbuster	バスターキャノン
+Taphephobia	タフィフォビア
+Taproot	タップルート
+Target Analysis: On You	標的識別：自分
+Targeted Light: Back	高精度光弾：後ろ
+Targeted Light: Front	高精度光弾：前
+Targeted Light: Left	高精度光弾：左
+Targeted Light: Right	高精度光弾：右
+Tartarean Impact	タルタロスインパクト
+Taste of Fire	シュガーファイア
+Taste of Thunder	シュガーサンダー
+Tatami-gaeshi (Inside North)	畳返しの術（Inside North）
+Tatami-gaeshi (Inside South)	畳返しの術（Inside South）
+Tatami-gaeshi (Outside North)	畳返しの術（Outside North）
+Tatami-gaeshi (Outside South)	畳返しの術（Outside South）
+Teasing Tangles: Enum on You	呪髪拘束：Enum on You
+Teasing Tangles: Nothing	呪髪拘束：Nothing
+Teasing Tangles: Spread	呪髪拘束：散開
+Tectonics	地殻変動
+Tele-trouncing	ずびずばテレポ
+Telltale Tears	ファントムティアー
+Telomania	テロスマニア
+Telos	テロス
+Temper's Flare	メラメラフレア
+Tempest	大海嵐
+Tempest Wing	テンペストウィング
+Tempestuous Tear: East, In First	テンペストテアー：East, In First
+Tempestuous Tear: East, Out First	テンペストテアー：East, Out First
+Tempestuous Tear: In Second	テンペストテアー：In Second
+Tempestuous Tear: Out Second	テンペストテアー：Out Second
+Tempestuous Tear: West, In First	テンペストテアー：West, In First
+Tempestuous Tear: West, Out First	テンペストテアー：West, Out First
+Temporal Stasis: No Debuff	時間停止：No Debuff
+Temporary Current (Front Left)	テンポラリーカレント（Front Left）
+Temporary Current (Front Right)	テンポラリーカレント（Front Right）
+Tempting Twist	ハニーツイスター
+Tempting Twist: Initial	ハニーツイスター：最初
+Tender Loin	テンダライザー
+Tenebrism	テネブリズム
+Tentacle Dig (Multiple)	触手潜行（Multiple）
+Tentacle Dig (Single)	触手潜行（Single）
+Tentacle Dig (Unknown)	触手潜行（不明）
+Tera Slash	テラスラッシュ
+Tera Slash (On You)	テラスラッシュ（自分）
+Tera Slash (Other Tank)	テラスラッシュ（Other Tank）
+Tera Slash (Other)	テラスラッシュ（ほか）
+Tera Slash (on You)	テラスラッシュ（自分）
+Terminate	ターミネーション
+Terminus Est (Clones)	ターミナス・エスト（分身）
+Ternary Charge	トライバースト
+Terrastorm	ディレイアース
+Terror Unleashed	アンリーシュ・テラー
+Terror Unleashed (Healer)	アンリーシュ・テラー（ヒーラー）
+Tertius Terminus Est	ターミナス・エスト：トレース
+Tertius Terminus Est: Middle First	ターミナス・エスト：トレース：Middle First
+Tertius Terminus Est: Middle Last	ターミナス・エスト：トレース：Middle Last
+Tetraflare: Partners Now	テトラフレア：Partners Now
+Tetraflare: Stack Later	テトラフレア：Stack Later
+Tetrapagos: Summary	テトラパゴス：Summary
+Thaleia	華めく神域 タレイア
+The Abyssal Fracture	ゼロムス討滅戦
+The Aetherfont	星霊間欠 ハーム島
+The Aetherochemical Research Facility	蒼天聖戦 魔科学研究所
+The Aitiascope	星海潜航 アイティオン星晶鏡
+The Akh Afah Amphitheatre Extreme	極シヴァ討滅戦
+The Akh Afah Amphitheatre Hard	真シヴァ討滅戦
+The Akh Afah Amphitheatre Unreal	幻シヴァ討滅戦
+The Aurum Vale	霧中行軍 オーラムヴェイル
+The Aurum Vale73	霧中行軍 オーラムヴェイル（旧）
+The Binding Coil Of Bahamut Turn1	大迷宮バハムート：邂逅編1
+The Binding Coil Of Bahamut Turn2	大迷宮バハムート：邂逅編2
+The Binding Coil Of Bahamut Turn4	大迷宮バハムート：邂逅編4
+The Binding Coil Of Bahamut Turn5	大迷宮バハムート：邂逅編5
+The Bitter End	エンドオール
+The Bitter End (On You)	エンドオール（自分）
+The Bitter End (Other Tank)	エンドオール（Other Tank）
+The Burn	永久焦土 ザ・バーン
+The Cloud Deck	ダイヤウェポン捕獲作戦
+The Cloud Deck Extreme	極ダイヤウェポン捕獲作戦
+The Copied Factory	複製サレタ工場廃墟
+The Crown Of The Immaculate	イノセンス討滅戦
+The Crown Of The Immaculate Extreme	極イノセンス討滅戦
+The Dancing Plague	ティターニア討滅戦
+The Dancing Plague Extreme	極ティターニア討滅戦
+The Dark Inside	ゾディアーク討滅戦
+The Dead Ends	最終幻想 レムナント
+The Drowned City Of Skalla	水没遺構 スカラ
+The Dying Gasp	ハーデス討滅戦
+The End's Embrace	導きの翼
+The End's Embrace: Bait	導きの翼：Bait
+The Epic Of Alexander Ultimate	絶アレキサンダー討滅戦
+The Fell Court Of Troia	異界孤城 トロイアコート
+The Final Coil Of Bahamut Turn1	大迷宮バハムート：真成編1
+The Final Coil Of Bahamut Turn2	大迷宮バハムート：真成編2
+The Final Coil Of Bahamut Turn3	大迷宮バハムート：真成編3
+The Final Coil Of Bahamut Turn4	大迷宮バハムート：真成編4
+The Final Day	終焉の戦い
+The Fixer	フィクサー・オブ・アルカディア
+The Fourth Season	青の式波・四重
+The Fractal Continuum	博物戦艦 フラクタル・コンティニアム
+The Fractal Continuum Hard	暴走戦艦 フラクタル・コンティニアム (Hard)
+The Ghimlyt Dark	境界戦線 ギムリトダーク
+The Gilded Araya	アスラ討滅戦
+The Grand Cosmos	魔法宮殿 グラン・コスモス
+The Great Gubal Library Hard	稀書回収 グブラ幻想図書館 (Hard)
+The Great Hunt	リオレウス狩猟戦
+The Great Hunt Extreme	極リオレウス狩猟戦
+The Heroes Gauntlet	漆黒決戦 ノルヴラント
+The Interphos	エターナルクイーン討滅戦
+The Interphos (Queen Eternal)	エターナルクイーン討滅戦
+The Jade Stoa	白虎征魂戦
+The Jade Stoa Extreme	極白虎征魂戦
+The Limitless Blue Extreme	極ビスマルク討滅戦
+The Lost City Of Amdapor	腐敗遺跡 古アムダプール市街
+The Lost City Of Amdapor Hard	神聖遺跡 古アムダプール市街 (Hard)
+The Lunar Subterrane	深淵潜行 月の地下渓谷
+The Meso Terminal	永久幽界 メインターミナル
+The Minstrels Ballad Hadess Elegy	極ハーデス討滅戦
+The Minstrels Ballad Hydaelyns Call	極ハイデリン討滅戦
+The Minstrels Ballad Shinryus Domain	極神龍討滅戦
+The Minstrels Ballad Thordans Reign	蒼天幻想 ナイツ・オブ・ラウンド討滅戦
+The Minstrels Ballad Tsukuyomis Pain	極ツクヨミ討滅戦
+The Minstrels Ballad Ultimas Bane	究極幻想 アルテマウェポン破壊作戦
+The Minstrels Ballad Zodiarks Fall	極ゾディアーク討滅戦
+The Mothercrystal	ハイデリン討滅戦
+The Navel	タイタン討伐戦
+The Navel Extreme	極タイタン討滅戦
+The Navel Hard	真タイタン討滅戦
+The Navel Unreal	幻タイタン討滅戦
+The Orbonne Monastery	楽欲の僧院 オーボンヌ
+The Pool Of Tribute	スサノオ討滅戦
+The Pool Of Tribute Extreme	極スサノオ討滅戦
+The Puppets Bunker	人形タチノ軍事基地
+The Qitana Ravel	古跡探索 キタンナ神影洞
+The Ridorana Lighthouse	封じられた聖塔 リドルアナ
+The Royal City Of Rabanastre	失われた都 ラバナスタ
+The Royal Menagerie	神龍討滅戦
+The Seat Of Sacrifice	ウォーリア・オブ・ライト討滅戦
+The Seat Of Sacrifice Extreme	極ウォーリア・オブ・ライト討滅戦
+The Second Coil Of Bahamut Turn1	大迷宮バハムート：侵攻編1
+The Second Coil Of Bahamut Turn2	大迷宮バハムート：侵攻編2
+The Second Coil Of Bahamut Turn3	大迷宮バハムート：侵攻編3
+The Second Coil Of Bahamut Turn4	大迷宮バハムート：侵攻編4
+The Second Season	青の式波・二重
+The Sildihn Subterrane	ヴァリアントダンジョン シラディハ水道
+The Singularity Reactor Unreal	幻ナイツ・オブ・ラウンド討滅戦
+The Sirensong Sea	漂流海域 セイレーン海
+The Skydeep Cenote	遺産踏査 天深きセノーテ
+The Stigma Dreamscape	電脳夢想 スティグマ・フォー
+The Stone Vigil	城塞攻略 ストーンヴィジル
+The Stone Vigil Hard	城塞奪回 ストーンヴィジル (Hard)
+The Strayborough Deadwalk	悪夢遊園 ストレイバロー
+The Sunken Temple Of Qarn	遺跡探索 カルン埋没寺院
+The Sunken Temple Of Qarn Hard	遺跡救援 カルン埋没寺院 (Hard)
+The Sunken Temple Of Qarn71	遺跡探索 カルン埋没寺院（旧）
+The Swallows Compass	風水霊殿 ガンエン廟
+The Tam Tara Deepcroft Hard	惨劇霊殿 タムタラの墓所 (Hard)
+The Temple Of The Fist	壊神修行 星導山寺院
+The Tower At Paradigms Breach	希望ノ砲台：「塔」
+The Tower Of Babil	魔導神門 バブイルの塔
+The Tower Of Zot	異形楼閣 ゾットの塔
+The Twinning	異界遺構 シルクス・ツイニング
+The Underkeep	王城旧跡 アンダーキープ
+The Unending Coil of Bahamut	絶バハムート討滅戦
+The Unmaking	エヌオー討滅戦
+The Unmaking (Enuo)	エヌオー討滅戦
+The Vault	強硬突入 イシュガルド教皇庁
+The Voidcast Dais	ゴルベーザ討滅戦
+The Wanderers Palace Hard	武装聖域 ワンダラーパレス (Hard)
+The Weapon's Refrain	絶アルテマウェポン破壊作戦
+The Weeping City Of Mhach	禁忌都市マハ
+The Whorleater Extreme	極リヴァイアサン討滅戦
+The Whorleater Unreal	幻リヴァイアサン討滅戦
+The World Of Darkness	クリスタルタワー：闇の世界
+The Wreath Of Snakes	青龍征魂戦
+The Wreath Of Snakes Extreme	極青龍征魂戦
+Theos's Ultima	テオス・アルテマ
+Thermal Suppression	火力制圧
+Thermobaric Charge	気化爆弾
+Third Rail: Move	フラッシュサンダー：Move
+Thirty Arrows	サーティー・アローズ
+Thirty Souls	サーティー・ソウルズ
+Thirty Thorns	サーティー・ソーンズ
+Thlipsis	スリプシス
+Thorn Whip (No Tethers)	ソーンウィップ（No Tethers）
+Thorn Whip (One Tether)	ソーンウィップ（One Tether）
+Thorn Whip (Three or More Tethers)	ソーンウィップ（Three or More Tethers）
+Thorn Whip (Two Tethers)	ソーンウィップ（Two Tethers）
+Thorned Catharsis	ローズ・カタルシス
+Thorny Vine	茨の蔓
+Thousandfold Thrust (Back)	サウザンスラスト（後ろ）
+Thousandfold Thrust (Front)	サウザンスラスト（前）
+Thousandfold Thrust (Left)	サウザンスラスト（左）
+Thousandfold Thrust (Right)	サウザンスラスト（右）
+Three Parts Disdain	三連衝撃斬
+Three Parts Disdain: Knockback	三連衝撃斬：Knockback
+Threefold Grace (Dark)	三重光環（闇）
+Threefold Grace (Light)	三重光環（光）
+Throne of Shadow	影の王権
+Throttle	スロットル
+Thrumming Thunder (Fake)	もりもりサンダガ（Fake）
+Thrumming Thunder (True)	もりもりサンダガ（True）
+Thunder Beam	サンダービーム
+Thunder II	サンダラ
+Thunder III	サンダガ
+Thunder III (Amdusias)	サンダガ（Amdusias）
+Thunder III (Dualcast)	サンダガ（Dualcast）
+Thunder III (Exdeath AoE)	サンダガ（Exdeath AoE）
+Thunder III (Exdeath Proximity)	サンダガ（Exdeath Proximity）
+Thunder III (Others)	サンダガ（ほか）
+Thunder III (Tank/Healer)	サンダガ（Tank/Healer）
+Thunder III (Treno Catoblepas)	サンダガ（Treno Catoblepas）
+Thunder IV	サンダジャ
+Thunder Rune	雷のルーン
+Thunder Slash	雷鳴剣
+Thunder Vortex	輪転渦雷
+Thunder Vortex (Stack Targets)	輪転渦雷（Stack Targets）
+Thunder and Error	狙いつけサンダー
+Thunderbolt	サンダーボルト
+Thunderclap Concerto (Behind Safe)	サンダークラップコンチェルト（Behind Safe）
+Thunderclap Concerto (Front Safe)	サンダークラップコンチェルト（Front Safe）
+Thunderous Breath	サンダーブレス
+Thunderous Breath (Error)	サンダーブレス（Error）
+Thunderous Slash	サンダースラッシュ
+Thunderspark	サンダースパーク
+Thunderstorm	サンダーストーム
+Tidal Breath (Lyngbakr)	タイダルブレス（Lyngbakr）
+Tidal Breath (Octomammoth)	タイダルブレス（Octomammoth）
+Tidal Guillotine	タイダルギロチン
+Tidal Rage	タイダルレイジ
+Tidal Roar	タイダルロア
+Tidal Wave	タイダルウェイブ
+Tidal Wave (Enrage)	タイダルウェイブ（Enrage）
+Tidal Wave (Enrage, Healer)	タイダルウェイブ（Enrage, Healer）
+Tidal Wave: Knockback	タイダルウェイブ：Knockback
+Tidalspout	バーストフラッド
+Time Bomb	タイムボム
+Time Eruption	タイムエラプション
+Timely Teleport	ぶっとびテレポ
+Titan Gaols	絶アルテマウェポン破壊作戦
+Titanomachy	ティタノマキア
+Toad Choir	カエルの調べ
+Torching Torment	煩熱
+Tornado (on Other)	トルネド（on Other）
+Tornado (on You)	トルネド（自分）
+Tornado: On Other	トルネド：On Other
+Tornado: On You	トルネド：自分
+Torpedo	トルペド
+Torrential Tridents (Eulogia)	銛の雨（Eulogia）
+Torrential Tridents (Llymlaen)	銛の雨（Llymlaen）
+Total Wash	水洗い
+Total Wreck	打ち壊し
+Touch of Slaughter (Healer)	霊魂秘孔拳（ヒーラー）
+Touchdown	タッチダウン
+Touchdown (After Dragon Breath)	タッチダウン（After Dragon Breath）
+Touchdown (East)	タッチダウン（東）
+Touchdown (West)	タッチダウン（西）
+Toxic Crunch	ベノムクランチ
+Toxic Squama	毒素の鱗粉
+Toxic Vomit (Tank)	トキシックヴォミット（タンク）
+Tracking Bolt	トラッキングサンダー
+Tracking Tremors	連震撃
+Trail of Condemnation	獄炎の焔
+Trample	踏みつけ
+Trap Jaws	トラップジョーズ
+Trapshooting: Spread	トラップシューティング：散開
+Trapshooting: Stack	トラップシューティング：頭割り
+Trek Shot	トレックアロー
+Trepidation	狐鶏鼠
+Tribulation	トリビュレーション
+Tribunal Summons	思念体生成
+Tribunal Summons (Adds)	思念体生成（Adds）
+Tribunal Summons (Fury's Bolt)	思念体生成（Fury's Bolt）
+Trick Reload: Safe Number	トリックリロード：Safe Number
+Trick Reload: Spread First	トリックリロード：Spread First
+Trick Reload: Stack First	トリックリロード：Stack First
+Trick Reload: Trigger Happy Safe Spot	トリックリロード：Trigger Happy Safe Spot
+Trigger Happy	トリガーハッピー
+Trine: Get Middle	トライン：Get Middle
+Trine: Go North, Dodge South	トライン：Go North, Dodge South
+Trine: Go North, Dodge West	トライン：Go North, Dodge West
+Trine: Go South, Dodge East	トライン：Go South, Dodge East
+Trine: Go South, Dodge North	トライン：Go South, Dodge North
+Trine: Second Dodge	トライン：Second Dodge
+Trine: Wait Middle, Dodge North	トライン：Wait Middle, Dodge North
+Trine: Wait Middle, Dodge South	トライン：Wait Middle, Dodge South
+Triple Kasumi-giri (All)	霞三段（All）
+Triple Kasumi-giri (Back, Blue)	霞三段（後ろ、青）
+Triple Kasumi-giri (Back, Red)	霞三段（後ろ、赤）
+Triple Kasumi-giri (Front, Blue)	霞三段（前、青）
+Triple Kasumi-giri (Front, Red)	霞三段（前、赤）
+Triple Kasumi-giri (Left, Blue)	霞三段（左、青）
+Triple Kasumi-giri (Left, Red)	霞三段（左、赤）
+Triple Kasumi-giri (Right, Blue)	霞三段（右、青）
+Triple Kasumi-giri (Right, Red)	霞三段（右、赤）
+Triple Kasumi-giri (Second Preview)	霞三段（Second Preview）
+Triple Kasumi-giri: All	霞三段：All
+Triple Kasumi-giri: First	霞三段：1回目
+Triple Kasumi-giri: Followup	霞三段：続き
+Triple Kasumi-giri: Second	霞三段：2回目
+Triscourge	トライスカージ
+Trismegistos	トリスメギストス
+Trouble Bubbles	メイワクブロワー
+Trounce	トラウンス
+True Aero	トゥルー・エアロ
+True Bravery	トゥルー・ブレイブ
+True Tornado	トゥルー・トルネド
+Tsukuyomi Unreal	幻ツクヨミ討滅戦
+Tsunami	大海嘯
+Tulidisaster	トラルディザスター
+Tumult	激震
+Turali Stone IV	トラルストンジャ
+Turmoil (East Safe)	ターモイル（East Safe）
+Turmoil (West Safe)	ターモイル（West Safe）
+Turn of the Heavens (Fire)	転輪召（炎）
+Turn of the Heavens (Lightning)	転輪召（雷）
+Turn of the Heavens: Dodge Lightning	転輪召：Dodge Lightning
+Turn of the Heavens: Initial	転輪召：最初
+Turn of the Heavens: KB Move In	転輪召：KB Move In
+Turret Crossing	随伴機出撃
+Twilight Nebula (Dark)	トワイライトネビュラ（闇）
+Twilight Nebula (Light)	トワイライトネビュラ（光）
+Twilight Nebula (Unknown)	トワイライトネビュラ（不明）
+Twilight Phase	トワイライトフェイズ
+Twilight Sabbath: Bait Puddle	ブラックサバト【日没】：Bait Puddle
+Twilight Sabbath: First Safe Spot	ブラックサバト【日没】：First Safe Spot
+Twilight Sabbath: Second Safe Spot, In	ブラックサバト【日没】：Second Safe Spot, In
+Twilight Sabbath: Second Safe Spot, Out	ブラックサバト【日没】：Second Safe Spot, Out
+Twin Blaze (Left)	ツインブレイズ（左）
+Twin Blaze (Right)	ツインブレイズ（右）
+Twin Bolt	ツインボルト
+Twin Silence	閑寂の双剣技
+Twin Silence: Move	閑寂の双剣技：Move
+Twin Stillness	静寂の双剣技
+Twin Stillness: Move	静寂の双剣技：Move
+Twinbite	双牙撃
+Twinfold Flame	二重爆炎
+Twisted Scream	異形の咆哮
+Twisted Touch	穢れた指先
+Twister	ツイスター
+Twofold Blight	青の二重波
+Twofold Blight (Unknown Safe Spot)	青の二重波（Unknown Safe Spot）
+Twofold Revelation: Dark Safe	二種魔法陣展開：Dark Safe
+Twofold Revelation: Light Safe	二種魔法陣展開：Light Safe
+Tyranny's Grasp	クイーンズハンド
+Tyrant's Unholy Darkness	タイラント・ダークホーリー
+Tyrfing	ティルフィング
+Ukehi	宇気比
+Ultima	アルテマ
+Ultima Blade	アルテマブレイド
+Ultima Upsurge	どきどきアルテマ
+Ultimas Bane Unreal	幻アルテマウェポン破壊作戦
+Ultimate Crossover (Tank)	アルティメット・クロスオーバー（タンク）
+Ultimate Embrace	終末の双腕
+Ultimate Embrace (On You)	終末の双腕（自分）
+Ultimate Fate	ウルティマフェイト
+Ultimate Illusion (Healer)	究極幻想（ヒーラー）
+Ultimate Illusion: Kill Ruination	究極幻想：Kill Ruination
+Ultimate Relativity: Initial	時間圧縮・絶：最初
+Ultimate Relativity: Relative North	時間圧縮・絶：Relative North
+Ultimate Terror	アルティメットテラー
+Ultimate Trophy Weapons (Axe)	アルティメット・トロフィーウェポンズ（Axe）
+Ultimate Trophy Weapons (Scythe)	アルティメット・トロフィーウェポンズ（Scythe）
+Ultimate Trophy Weapons (Sword)	アルティメット・トロフィーウェポンズ（Sword）
+Ultra Flash	ウルトラフラッシュ
+Ultrasonic Amp	アグリゲートソニック
+Ultrasonic Spread	スプレッドソニック
+Ultraviolent Ray: One DPS, Four Support	魔光：One DPS, Four Support
+Ultraviolent Ray: One Support, Four DPS	魔光：One Support, Four DPS
+Umbra Smash	アンブラスマッシュ
+Umbra Smash (Lordly Shadow)	アンブラスマッシュ（Lordly Shadow）
+Umbra Smash (Tank Swap)	アンブラスマッシュ（Tank Swap）
+Umbra Smash (on Other)	アンブラスマッシュ（on Other）
+Umbra Smash (on You)	アンブラスマッシュ（自分）
+Umbral Effect	偏属性：闇
+Umbral Orbs	アンブラルオーブ
+Unbridled Rage (Not On You)	アンブライドルレイジ（自分以外）
+Unbridled Rage (On You)	アンブライドルレイジ（自分）
+Unconventional Voltage	収束ヴォルト
+Undead Deathmatch	バット・デスマッチ
+Undermine	クローマイン
+Undersea Quake (Inside)	アンダーシークエイク（Inside）
+Undersea Quake (Outside)	アンダーシークエイク（Outside）
+Unearned Envy	防衛本能
+Unending Coil of Bahamut	絶バハムート討滅戦
+Unenlightenment	煩悩熾盛
+Unholy Darkness	ダークホーリー
+Unholy Darkness (Single)	ダークホーリー（Single）
+Unite Mare	重魂爆
+Universal Assault	全方位攻撃
+Universal Manipulation	法則改変
+Unjoined Aspect (Dark)	属性変動（闇）
+Unjoined Aspect (Light)	属性変動（光）
+Unjoined Aspect (Tank)	属性変動（タンク）
+Unlimited Express	アンリミテッドエクスプレス
+Unlimited Wave Cannon	波動砲：リミッターカット
+Unshadowed Stake (on Other)	闇光の釘（on Other）
+Unshadowed Stake (on You)	闇光の釘（自分）
+Unstable Gravity	グラビティバースト
+Unstable Gravity (Delayed)	グラビティバースト（遅延）
+Upgraded Shield (Gretel)	強化：盾（Gretel）
+Upgraded Shield (Hansel)	強化：盾（Hansel）
+Upheaval	大激震
+Upheld Overruling: Stack then Light Parties	アップヘルド＆オーバールール：Stack then Light Parties
+Upheld Overruling: Tanks In then Buddies In	アップヘルド＆オーバールール：Tanks In then Buddies In
+Uplift	隆起
+Uppercut	アッパーカット
+Upsweep	アプスウィープ
+Urth's Fount	闘神オーディン討滅戦
+Urth's Fount (Odin)	闘神オーディン討滅戦
+Vacuum Wave	真空波
+Valknut (Out)	ヴァルクヌート（外）
+Vamp Stomp	ヴァンプストンプ
+Vanaspati	終末樹海 ヴァナスパティ
+Vanguard	外征前哨 ヴァンガード
+Veil of the Whorl	水神のヴェール
+Venom Pool	ベノムスプラッシュ
+Venom Rain	ベノムレイン
+Venom Squall	ベノムスコール
+Venom Surge	ベノムサージ
+Venomous Mass	ベノムマス
+Venomous Tail	ベノモステール
+Venomspill (Left)	毒撒き（左）
+Venomspill (Right)	毒撒き（右）
+Ventus Est	ウェントゥス・エスト
+Verdict: Max HP	最後の審判：開廷：Max HP
+Verdict: Max HP Provoke	最後の審判：開廷：Max HP Provoke
+Verdict: Min HP	最後の審判：開廷：Min HP
+Verdict: Min HP Tornado	最後の審判：開廷：Min HP Tornado
+Verdict: Nisi A	最後の審判：開廷：Nisi A
+Verdict: Nisi B	最後の審判：開廷：Nisi B
+Verdict: Penalty 1	最後の審判：開廷：Penalty 1
+Verdict: Penalty 2	最後の審判：開廷：Penalty 2
+Verdict: Penalty 3	最後の審判：開廷：Penalty 3
+Verdict: Penalty 3 Orb	最後の審判：開廷：Penalty 3 Orb
+Vertical Cleave	バーチカルクリーヴ
+Vice and Virtue: DPS 2	ヴァイス・アンド・ヴァーチュー：DPS 2
+Vice and Virtue: DPS Marker	ヴァイス・アンド・ヴァーチュー：DPS Marker
+Vice and Virtue: Tank 2	ヴァイス・アンド・ヴァーチュー：Tank 2
+Vice and Virtue: Tank Marker	ヴァイス・アンド・ヴァーチュー：Tank Marker
+Vice of Apathy	ヴァイス・オブ・アパシー
+Vice of Vanity	ヴァイス・オブ・ヴァニティー
+Vine Whip	ヴァインウィップ
+Violent Discharge	強制放電
+Violet Storm	紫雷波
+Viper Poison	バイパーポイズン
+Virtual Shift	ヴァーチャルシフト
+Virtuosic Capriccio	苛烈なるカプリッチョ
+Visceral Whirl (NE/SW Safe)	ヴィセラルワール（NE/SW Safe）
+Visceral Whirl (NW/SE Safe)	ヴィセラルワール（NW/SE Safe）
+Viscous Aetheroplasm	吸着式エーテル爆雷
+Viscous Aetheroplasm (4 Stacks)	吸着式エーテル爆雷（4 Stacks）
+Voice of the Land	大地の叫び
+Void Aero II	ヴォイド・エアロラ
+Void Aero III	ヴォイド・エアロガ
+Void Aero IV	ヴォイド・エアロジャ
+Void Bio	ヴォイド・バイオ
+Void Blizzard III	ヴォイド・ブリザガ
+Void Blizzard IV	ヴォイド・ブリザジャ
+Void Dark II	ヴォイド・ダーラ
+Void Death (Circle)	ヴォイド・デス（Circle）
+Void Death (Squares)	ヴォイド・デス（Squares）
+Void Fire III	ヴォイド・ファイガ
+Void Gravity (Evil Dreamer)	ヴォイド・グラビデ（Evil Dreamer）
+Void Gravity (Scarmiglione)	ヴォイド・グラビデ（Scarmiglione）
+Void Meteor	ヴォイド・メテオ
+Void Nail	ヴォイドネイル
+Void Stardust	ヴォイド・コメットレイン
+Void Thunder III	ヴォイド・サンダガ
+Void Torrent	ヴォイドトーレント
+Void Vortex	ヴォイドヴォーテックス
+Voidal Turbulence: Cone on You	無の渦流：Cone on You
+Voidal Turbulence: Tower	無の渦流：Tower
+Voidcleaver	ヴォイドクリーバー
+Voidgate	ヴォイドゲート
+Voidgate Amplifier	ヴォイドゲート・アンプリファイア
+Vollok (Five Platforms)	エッジ・ザ・ヴォロク（Five Platforms）
+Vollok (Two Platforms)	エッジ・ザ・ヴォロク（Two Platforms）
+Voltaic Slash	ショックスラッシュ
+Vorpal Trail: Contracting	エッジトレイル：Contracting
+Vorpal Trail: Expanding	エッジトレイル：Expanding
+Vortex of the Thunder Eye	渦雷の連舞：輪円
+Wail	叫び声
+Wail of the Lost	ウエイル・オブ・ザ・ロスト
+Wail of the Lost (Left)	ウエイル・オブ・ザ・ロスト（左）
+Wail of the Lost (Right)	ウエイル・オブ・ザ・ロスト（右）
+Wallop (Large)	叩きつけ（Large）
+Wallop (Small)	叩きつけ（Small）
+Wallow	嗚咽
+Wandering Shot (North)	ワンダリングショット（北）
+Wandering Shot (South)	ワンダリングショット（南）
+Wandering Volley (North)	ワンダリングバラージ（北）
+Wandering Volley (South)	ワンダリングバラージ（南）
+Waning Cycle	サークル＆バースト
+War's Harvest	生命の繁茂【乱】
+Warden's Prominence	神火天陽
+Warden's Warmth (Not on You)	神炎（自分以外）
+Warden's Warmth (On You)	神炎（自分）
+Warder's Wrath	魔鎖乱流
+Warm Glow	慈光
+Wash Away	ウォッシュアウェイ
+Wash Out	洗い流す
+Waste Away	立ち枯れ
+Water Drop	水塊
+Water III	ウォタガ
+Water III: On Other	ウォタガ：On Other
+Water III: On You	ウォタガ：自分
+Watering Wheel	水やり
+Wave Cannon (Avoid)	波動砲（Avoid）
+Wave Cannon (On You)	波動砲（自分）
+Wave Cannon (Other)	波動砲（ほか）
+Wave Cannon (Stack on Player)	波動砲（Stack on Player）
+Wave Cannon (Stack)	波動砲（頭割り）
+Wave Cannon (on You)	波動砲（自分）
+Wave Repeater: First Move In	速射式波動砲：First Move In
+Wave Repeater: Second Move In	速射式波動砲：Second Move In
+Wave: Black	波動：黒
+Wave: White	波動：白
+Waxing Cycle	バースト＆サークル
+Weal of Stone	地烈波
+Weal of Stone (Cardinals)	地烈波（Cardinals）
+Weapon's Refrain	絶アルテマウェポン破壊作戦
+Weight of Nothing	高圧波動
+Weight of the World	大陸の重み
+Weighty Blow	グラビティブロウ
+Well Pinax	ピナクススプラッシュ
+Westerly Shift (Knockback)	シフティングストライクW（Knockback）
+Westerly Shift (Slash)	シフティングストライクW（Slash）
+Westerly Winds	西風の魔印
+What Is Left	穢れた左手
+What Is Right	穢れた右手
+Wheel	ホイール
+Wheel of Deincarnation	輪転斬り
+Wheel of Deincarnation (Jump)	輪転斬り（Jump）
+Wheel of Impregnability	まぼろしのわ
+Wheel of Impregnability (Lasers)	まぼろしのわ（Lasers）
+Wheel of Impregnability (Left)	まぼろしのわ（左）
+Wheel of Impregnability (Right)	まぼろしのわ（右）
+Whirlwind	エリアルレイヴ
+White Breath	ホワイトブレス
+White Herald	白帝衝
+White Herald (on Other)	白帝衝（on Other）
+White Herald (on You)	白帝衝（自分）
+Whitefire	白熱の炎
+Whiteout	ホワイトアウト
+Wicked Bolt	ウィケッドボルト
+Wicked Jolt	ウィケッドジョルト
+Wicked Special: In Middle	ウィケッドスペシャル：In Middle
+Wicked Special: Out of Middle	ウィケッドスペシャル：Out of Middle
+Wicked Step	尖脚
+Wicked Thunder	ウィケッドサンダー
+Wild Anguish	獣魂の痛み
+Wild Anguish (On You)	獣魂の痛み（自分）
+Wild Anguish (Rocks)	獣魂の痛み（Rocks）
+Wild Charge	ワイルドチャージ
+Wild Charge (on You)	ワイルドチャージ（自分）
+Wild Fire Beam	拡散ファイアビーム
+Wild Rage	獣魂の怒り
+Wild Rampage	獣魂の猛り
+Wild Speed	暴走
+Will Breaker	破砕弾
+Wind Resistance Down II	風属性耐性低下［強］
+Wind Rose	円の旋風
+Wind Shot (After Crystalline Storm)	ウィンドショット（After Crystalline Storm）
+Wind Shot (Before Crystalline Storm)	ウィンドショット（Before Crystalline Storm）
+Wind Sickle	ウィンドシックル
+Wind Unbound	ウィンドアンバウンド
+Windfang	風の魔技
+Windpipe	ミストバキューム
+Winds of Promyvion (Clockwise)	虚無の風（Clockwise）
+Winds of Promyvion (Counterclockwise)	虚無の風（Counterclockwise）
+Winds of Winter	ウィンターウィンド
+Windurst The Third Walk	ウィンダス：ザ・サードウォーク
+Windwhistle	風呼び
+Wingbeat: On Other	ウィングガスト：On Other
+Wingbeat: On You	ウィングガスト：自分
+Winged Cataract	ウィング＆カタラクティス
+Winged Terror	テラーウィング
+Wings of Destruction	破壊の翼
+Wings of Destruction (Tank)	破壊の翼（タンク）
+Winter Halo	月暈
+Witch Hunt: Inside Safe, Bait	ウィッチハント：Inside Safe, Bait
+Witch Hunt: Inside Safe, No Bait	ウィッチハント：Inside Safe, No Bait
+Witch Hunt: Outside Safe, Bait	ウィッチハント：Outside Safe, Bait
+Witch Hunt: Outside Safe, No Bait	ウィッチハント：Outside Safe, No Bait
+Witchgleam: Basic	シャインスパーク：Basic
+Wolves' Reign	群狼剣
+Wolves' Reign (Direction)	群狼剣（Direction）
+Words of Night (Dark)	夜襲の号令（闇）
+Words of Night (Light)	夜襲の号令（光）
+Words of Woe	ワード・オブ・ウー
+World Shatter	ワールドシャッター
+Wormhole Formation	次元断絶のマーチ
+Wormwail	神龍の咆哮
+Worqor Lar Dor	ヴァリガルマンダ討滅戦
+Worqor Lar Dor (Valigarmanda)	ヴァリガルマンダ討滅戦
+Worqor Zormor	山嶺登頂 ウォーコー・ゾーモー
+Wrath Unfurled	ラース・アンファールド
+Wrath of Halone	ラース・オブ・ハルオーネ
+Wrath of Zeus	ラス・オブ・ゼウス
+Wrath of the Heavens: Blue Marker	至天の陣：風槍：Blue Marker
+Wrath of the Heavens: In	至天の陣：風槍：中
+Wrath of the Heavens: In with Lightning	至天の陣：風槍：In with Lightning
+Wrath of the Heavens: Lightning on you	至天の陣：風槍：Lightning on you
+Wrath of the Heavens: Nothing	至天の陣：風槍：Nothing
+Wrath of the Heavens: Protean	至天の陣：風槍：Protean
+Wrath of the Heavens: Tether	至天の陣：風槍：Tether
+Wrath of the Tengu	天狗の破魔術
+Wyrm's Lament	聖竜の咆哮
+Wyrm's Lament: Get Puddle	聖竜の咆哮：Get Puddle
+Wyrm's Lament: Pop Head	聖竜の咆哮：Pop Head
+Wyrmclaw	ウィルムクロウ
+Wyrmfang	聖竜の牙
+Xelphatol	峻厳渓谷 ゼルファトル
+Xtreme Spectacular	エクストリーム・スペクタクル
+Yesod	イェソドクラッシュ
+Yuweyawata Field Station	廃地討究 ユウェヤーワータ
+Zombie Breath	ゾンビブレス

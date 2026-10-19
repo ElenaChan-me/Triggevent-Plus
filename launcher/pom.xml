@@ -214,6 +214,24 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>copy-windows-scripts</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/windows</outputDirectory>
+                            <resources>
+                                <!-- 起動する jar の名前をバージョンに合わせて埋め込む -->
+                                <resource>
+                                    <directory>${project.basedir}/src/windows</directory>
+                                    <includes>*.cmd</includes>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>copy-linux-scripts</id>
                         <!-- here the phase you need -->
                         <phase>package</phase>
@@ -412,6 +430,11 @@
         <dependency>
             <groupId>gg.xp</groupId>
             <artifactId>testutils-samplelogs</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>

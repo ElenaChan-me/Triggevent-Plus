@@ -3,6 +3,7 @@ package gg.xp.xivsupport.speech.voicepack;
 import gg.xp.reevent.events.EventContext;
 import gg.xp.reevent.scan.HandleEvents;
 import gg.xp.reevent.scan.LiveOnly;
+import gg.xp.xivsupport.gui.i18n.HubSettings;
 import gg.xp.xivsupport.persistence.PersistenceProvider;
 import gg.xp.xivsupport.persistence.settings.BooleanSetting;
 import gg.xp.xivsupport.persistence.settings.IntSetting;
@@ -46,6 +47,7 @@ public class VoicePackPlayer {
 	private final StringSetting folder;
 	private final IntSetting volume;
 	private final BooleanSetting japaneseFallback;
+	private final List<Path> hubPacks;
 	// 読み上げが重ならないよう、1つずつ順番に鳴らす
 	private final ExecutorService playback = Executors.newSingleThreadExecutor(r -> {
 		Thread t = new Thread(r, "VoicePackPlayback");
@@ -56,8 +58,16 @@ public class VoicePackPlayer {
 	private volatile String loadError;
 
 	public VoicePackPlayer(PersistenceProvider pers) {
-		enabled = new BooleanSetting(pers, "voice-pack.enabled", false);
-		folder = new StringSetting(pers, "voice-pack.folder", "");
+		this(pers, HubSettings.get().getVoicePacks());
+	}
+
+	/**
+	 * @param hubPacks XIVToolHub でインストールしたパック。自分で選んでいなければ最初のものを使い、読み上げも差し替える
+	 */
+	VoicePackPlayer(PersistenceProvider pers, List<Path> hubPacks) {
+		this.hubPacks = List.copyOf(hubPacks);
+		enabled = new BooleanSetting(pers, "voice-pack.enabled", !hubPacks.isEmpty());
+		folder = new StringSetting(pers, "voice-pack.folder", hubPacks.isEmpty() ? "" : hubPacks.get(0).toString());
 		volume = new IntSetting(pers, "voice-pack.volume", 100, 0, 100);
 		japaneseFallback = new BooleanSetting(pers, "voice-pack.japanese-fallback", true);
 		folder.addListener(this::reload);
@@ -89,7 +99,7 @@ public class VoicePackPlayer {
 		if (!enabled.get() || current == null || event.isHandled() || event instanceof JapaneseTtsRequest) {
 			return;
 		}
-		VoicePack.Resolution resolution = current.resolve(event.getTtsString());
+		CalloutMapping.Resolution resolution = current.resolve(event.getTtsString());
 		if (resolution == null) {
 			return;
 		}
@@ -172,6 +182,10 @@ public class VoicePackPlayer {
 
 	public IntSetting getVolume() {
 		return volume;
+	}
+
+	public List<Path> getHubPacks() {
+		return hubPacks;
 	}
 
 	public BooleanSetting getJapaneseFallback() {

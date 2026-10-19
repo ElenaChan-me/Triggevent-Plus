@@ -29,8 +29,17 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
   Replaces TTS with Japanese recorded clips made with Triggevent-VoiceGen (Voice Pack tab).
 - 方角・数字・「自分」などの部品はつなげて鳴らします。プレイヤー名が入るなど収録が揃わない文は、日本語にした文を ACT の TTS で読みます（ACT の TTS には日本語の音声を選んでください）。
   Directions, numbers and "you" are stitched from parts. Lines that can't be fully covered are read in Japanese through ACT's TTS.
-- 同じフォルダに複数のパックを置くと、タブから切り替えられます。
-  Packs in the same folder can be switched from the tab.
+- 同じフォルダに複数のパックを置くと、タブから切り替えられます。XIVToolHub でインストールしたパックも一覧に出ます。
+  Packs in the same folder, and packs installed with XIVToolHub, can be switched from the tab.
+- 「パーティメンバーの名前の音声を VoiceGen で作る」を有効にすると、パーティが変わったときに名前の音声を VoiceGen（`python -m voicegen ui` を起動中のもの）に作らせ、名前の入る読み上げも収録音声で鳴らします。送り先はこの PC（127.0.0.1）だけです。
+  With name generation enabled, party member names are sent to a locally running VoiceGen (127.0.0.1 only) so lines with names can also use recorded voices.
+- 表示言語が日本語のときは、画面に出るコールアウトの文と、ボイスパックを使わない場合の ACT の TTS も日本語にします。
+  In Japanese mode, on-screen callout text and ACT TTS (without a voice pack) are translated as well.
+
+### ログでの確認 / Verifying with logs
+
+- `verify-log.cmd <ACT のログ> [--pack <ボイスパックのフォルダ>] [--all]` で、ログを再生してコールアウトの一覧（時間・読み上げ・日本語・収録の有無）と、読み上げが重なる・(NOW) で終わるといった気になる点を `<ログ名>.callouts.md` に書き出します。普段の設定には触りません。
+  `verify-log.cmd` replays an ACT log and writes the callout timeline, translations, voice pack coverage and possible issues to `<log>.callouts.md`, without touching your settings.
 
 ### ボスの対応 / Boss coverage
 
