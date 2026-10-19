@@ -71,7 +71,7 @@
                             <descriptors>
                                 <descriptor>src/assembly/bin.xml</descriptor>
                             </descriptors>
-                            <finalName>triggevent-jp-win</finalName>
+                            <finalName>triggevent-plus-win</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                             <skipAssembly>${skipWindowsPackaging}</skipAssembly>
                         </configuration>
