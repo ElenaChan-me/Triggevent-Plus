@@ -19,6 +19,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import gg.xp.xivsupport.gui.i18n.UiFont;
+import gg.xp.xivsupport.speech.voicepack.CalloutTranslator;
 
 import javax.swing.*;
 import javax.swing.text.SimpleAttributeSet;
@@ -53,9 +54,11 @@ public class FlyingTextOverlay extends XivOverlay {
 	private final ColorSetting textColorSetting;
 	private final FontSetting textFontSetting;
 	private final BooleanSetting flipVertical;
+	private final CalloutTranslator translator;
 
-	public FlyingTextOverlay(PersistenceProvider pers, OverlayConfig oc) {
+	public FlyingTextOverlay(PersistenceProvider pers, OverlayConfig oc, CalloutTranslator translator) {
 		super("Callout Text", "callout-text-overlay", oc, pers);
+		this.translator = translator;
 		alignmentSetting = new EnumSetting<>(pers, "callout-text-overlay.text-alignment", TextAlignment.class, TextAlignment.CENTER);
 		textColorSetting = new ColorSetting(pers, "callout-text-overlay.text-color", defaultTextColor);
 		// 論理フォントの Dialog は日本語の代替フォントを持つため、日本語のコールアウトが文字化けしない。
@@ -222,7 +225,7 @@ public class FlyingTextOverlay extends XivOverlay {
 
 		public void recheckText() {
 			try {
-				String newText = event.getVisualText();
+				String newText = translator.translateVisual(event.getVisualText());
 				if (!Objects.equals(newText, prevText)) {
 					text.setText(newText);
 					prevText = newText;
@@ -384,7 +387,7 @@ public class FlyingTextOverlay extends XivOverlay {
 			pers.save("callout-text-overlay.text-alignment", "RIGHT");
 			pers.save("callout-text-overlay.flip-vertical", "true");
 			OverlayConfig oc = new OverlayConfig(pers);
-			FlyingTextOverlay overlay = new FlyingTextOverlay(pers, oc);
+			FlyingTextOverlay overlay = new FlyingTextOverlay(pers, oc, new CalloutTranslator(pers));
 			overlay.finishInit();
 			overlay.setVisible(true);
 			overlay.setEditMode(true);

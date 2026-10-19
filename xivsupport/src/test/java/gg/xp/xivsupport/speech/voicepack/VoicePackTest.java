@@ -22,7 +22,7 @@ public class VoicePackTest {
 	private static final AudioFormat FORMAT = new AudioFormat(48000f, 16, 1, true, false);
 
 	// テストは並列に動くので、テストごとに別のフォルダを作る
-	private static Path createPack() throws IOException {
+	static Path createPack() throws IOException {
 		Path dir = Files.createTempDirectory("voicepack");
 		for (String id : List.of("L_raid", "S_buster", "part_you", "part_dir_n", "S_partners", "C_real", "dot_1871")) {
 			writeWav(dir.resolve(id + ".wav"), 4800);
@@ -52,7 +52,7 @@ public class VoicePackTest {
 		return dir;
 	}
 
-	private static void delete(Path dir) throws IOException {
+	static void delete(Path dir) throws IOException {
 		try (Stream<Path> walk = Files.walk(dir)) {
 			walk.sorted(Comparator.reverseOrder()).forEach(p -> p.toFile().delete());
 		}
@@ -71,18 +71,18 @@ public class VoicePackTest {
 		// フォルダの外を指す entry は読み込まない
 		Assert.assertEquals(pack.getClipCount(), 7);
 
-		VoicePack.Resolution raid = pack.resolve("Raidwide");
+		CalloutMapping.Resolution raid = pack.resolve("Raidwide");
 		Assert.assertEquals(raid.ids(), List.of("L_raid"));
 		Assert.assertEquals(raid.japanese(), "全体攻撃");
 		Assert.assertNotNull(pack.clipsFor(raid));
 
-		VoicePack.Resolution you = pack.resolve("Buster on YOU");
+		CalloutMapping.Resolution you = pack.resolve("Buster on YOU");
 		Assert.assertEquals(you.ids(), List.of("part_you", "S_buster"));
 		Assert.assertEquals(you.japanese(), "自分にタンク強攻撃");
 		Assert.assertEquals(pack.clipsFor(you).size(), 2);
 
 		// プレイヤー名は収録できないので、日本語の文だけを返して TTS に回す
-		VoicePack.Resolution other = pack.resolve("Buster on Lily Tayler");
+		CalloutMapping.Resolution other = pack.resolve("Buster on Lily Tayler");
 		Assert.assertNull(pack.clipsFor(other));
 		Assert.assertEquals(other.japanese(), "Lily Taylerにタンク強攻撃");
 
@@ -119,14 +119,30 @@ public class VoicePackTest {
 	}
 
 	@Test
+	public void usesPackInstalledByHubUntilUserChooses() throws IOException {
+		Path dir = createPack();
+		InMemoryMapPersistenceProvider pers = new InMemoryMapPersistenceProvider();
+		VoicePackPlayer player = new VoicePackPlayer(pers, List.of(dir));
+		// XIVToolHub で入れたパックは、そのまま使えるよう最初から有効にする
+		Assert.assertTrue(player.getEnabled().get());
+		Assert.assertEquals(player.getFolder().get(), dir.toString());
+		Assert.assertNotNull(player.getPack());
+		// 自分で切った設定は次の起動でも引き継ぐ
+		player.getEnabled().set(false);
+		Assert.assertFalse(new VoicePackPlayer(pers, List.of(dir)).getEnabled().get());
+		Assert.assertFalse(new VoicePackPlayer(new InMemoryMapPersistenceProvider(), List.of()).getEnabled().get());
+		delete(dir);
+	}
+
+	@Test
 	public void tabOpensWithAndWithoutFolder() throws IOException {
 		// フォルダ未設定の初回起動でタブを開けなかったことがあるので、両方の状態で組み立てられるかを見る
 		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider());
-		Assert.assertNotNull(new VoicePackTab(player, null).getTabContents());
+		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider()), new NameVoiceRequester(new InMemoryMapPersistenceProvider(), player)).getTabContents());
 		Path dir = createPack();
 		player.getFolder().set(dir.toString());
 		Assert.assertNotNull(player.getPack());
-		Assert.assertNotNull(new VoicePackTab(player, null).getTabContents());
+		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider()), new NameVoiceRequester(new InMemoryMapPersistenceProvider(), player)).getTabContents());
 		delete(dir);
 	}
 
