@@ -50,7 +50,8 @@ public class CalloutTranslator {
 		this(pers, "ja".equals(HubSettings.get().getLanguage()));
 	}
 
-	CalloutTranslator(PersistenceProvider pers, boolean japanese) {
+	// ログの検証ツールのように、表示言語の設定に関係なく日本語にしたい場合にも使う
+	public CalloutTranslator(PersistenceProvider pers, boolean japanese) {
 		displayEnabled = new BooleanSetting(pers, "callout-translation.display", true);
 		speechEnabled = new BooleanSetting(pers, "callout-translation.speech", true);
 		this.japanese = japanese;
