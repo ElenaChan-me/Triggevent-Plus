@@ -36,6 +36,8 @@ public final class UiTranslator {
 	private static final Logger log = LoggerFactory.getLogger(UiTranslator.class);
 
 	private static final String DICTIONARY_FORMAT = "/i18n/%s.tsv";
+	// コンテンツ名やコールアウトの説明（技名）をゲームデータから自動で作った辞書。手で書いた辞書を優先する
+	private static final String GENERATED_DICTIONARY_FORMAT = "/i18n/%s-callouts.tsv";
 	// -Dtriggevent.translate=false で英語表示に戻せる（不具合の切り分け用）
 	private static final String DISABLE_PROPERTY = "triggevent.translate";
 	private static final String HOOKED_KEY = "triggevent.i18n.hooked";
@@ -253,11 +255,18 @@ public final class UiTranslator {
 		if (language == null || "en".equals(language)) {
 			return Map.of();
 		}
-		String resource = DICTIONARY_FORMAT.formatted(language);
+		loadInto(map, GENERATED_DICTIONARY_FORMAT.formatted(language), false);
+		loadInto(map, DICTIONARY_FORMAT.formatted(language), true);
+		return Map.copyOf(map);
+	}
+
+	private static void loadInto(Map<String, String> map, String resource, boolean required) {
 		try (InputStream stream = UiTranslator.class.getResourceAsStream(resource)) {
 			if (stream == null) {
-				log.warn("Translation dictionary not found: {}", resource);
-				return map;
+				if (required) {
+					log.warn("Translation dictionary not found: {}", resource);
+				}
+				return;
 			}
 			BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8));
 			String line;
@@ -277,9 +286,8 @@ public final class UiTranslator {
 			}
 		}
 		catch (IOException e) {
-			log.error("Error loading translation dictionary", e);
+			log.error("Error loading translation dictionary {}", resource, e);
 		}
-		return Map.copyOf(map);
 	}
 
 	static String unescape(String text) {
