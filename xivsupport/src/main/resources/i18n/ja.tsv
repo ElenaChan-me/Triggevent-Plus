@@ -576,5 +576,7 @@ Read callouts without recordings in Japanese via ACT TTS	収録の無い読み�
 Volume (%)	音量（%）
 Voice pack folder	ボイスパックのフォルダ
 Switch voice pack	ボイスパックの切り替え
+Show callout text in Japanese	コールアウトの表示を日本語にする
+Read callouts in Japanese via ACT TTS when no voice pack is used	ボイスパックを使わないときも ACT の TTS で日本語で読む
 Browse...	参照...
 Callout text to test	試す読み上げ文

@@ -71,18 +71,18 @@ public class VoicePackTest {
 		// フォルダの外を指す entry は読み込まない
 		Assert.assertEquals(pack.getClipCount(), 7);
 
-		VoicePack.Resolution raid = pack.resolve("Raidwide");
+		CalloutMapping.Resolution raid = pack.resolve("Raidwide");
 		Assert.assertEquals(raid.ids(), List.of("L_raid"));
 		Assert.assertEquals(raid.japanese(), "全体攻撃");
 		Assert.assertNotNull(pack.clipsFor(raid));
 
-		VoicePack.Resolution you = pack.resolve("Buster on YOU");
+		CalloutMapping.Resolution you = pack.resolve("Buster on YOU");
 		Assert.assertEquals(you.ids(), List.of("part_you", "S_buster"));
 		Assert.assertEquals(you.japanese(), "自分にタンク強攻撃");
 		Assert.assertEquals(pack.clipsFor(you).size(), 2);
 
 		// プレイヤー名は収録できないので、日本語の文だけを返して TTS に回す
-		VoicePack.Resolution other = pack.resolve("Buster on Lily Tayler");
+		CalloutMapping.Resolution other = pack.resolve("Buster on Lily Tayler");
 		Assert.assertNull(pack.clipsFor(other));
 		Assert.assertEquals(other.japanese(), "Lily Taylerにタンク強攻撃");
 
@@ -122,11 +122,11 @@ public class VoicePackTest {
 	public void tabOpensWithAndWithoutFolder() throws IOException {
 		// フォルダ未設定の初回起動でタブを開けなかったことがあるので、両方の状態で組み立てられるかを見る
 		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider());
-		Assert.assertNotNull(new VoicePackTab(player, null).getTabContents());
+		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider())).getTabContents());
 		Path dir = createPack();
 		player.getFolder().set(dir.toString());
 		Assert.assertNotNull(player.getPack());
-		Assert.assertNotNull(new VoicePackTab(player, null).getTabContents());
+		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider())).getTabContents());
 		delete(dir);
 	}
 

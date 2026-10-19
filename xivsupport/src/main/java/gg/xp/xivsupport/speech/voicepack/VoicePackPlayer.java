@@ -89,7 +89,7 @@ public class VoicePackPlayer {
 		if (!enabled.get() || current == null || event.isHandled() || event instanceof JapaneseTtsRequest) {
 			return;
 		}
-		VoicePack.Resolution resolution = current.resolve(event.getTtsString());
+		CalloutMapping.Resolution resolution = current.resolve(event.getTtsString());
 		if (resolution == null) {
 			return;
 		}

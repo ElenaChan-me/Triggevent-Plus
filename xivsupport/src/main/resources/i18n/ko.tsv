@@ -570,5 +570,7 @@ Read callouts without recordings in Japanese via ACT TTS	녹음이 없는 콜아
 Volume (%)	음량(%)
 Voice pack folder	보이스 팩 폴더
 Switch voice pack	보이스 팩 전환
+Show callout text in Japanese	콜아웃 표시를 일본어로
+Read callouts in Japanese via ACT TTS when no voice pack is used	보이스 팩을 쓰지 않을 때도 ACT TTS로 일본어로 읽기
 Browse...	찾아보기...
 Callout text to test	테스트할 콜아웃 문장

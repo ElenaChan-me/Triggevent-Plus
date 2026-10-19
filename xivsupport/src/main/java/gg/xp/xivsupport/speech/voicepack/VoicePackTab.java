@@ -25,15 +25,17 @@ public class VoicePackTab implements PluginTab {
 
 	private final VoicePackPlayer player;
 	private final EventMaster master;
+	private final CalloutTranslator translator;
 	private JLabel status;
 	private JTextField folderField;
 	private JComboBox<Path> packCombo;
 	// 一覧を作り直している間の選択の変化を、利用者の操作として扱わない
 	private boolean refreshingPacks;
 
-	public VoicePackTab(VoicePackPlayer player, EventMaster master) {
+	public VoicePackTab(VoicePackPlayer player, EventMaster master, CalloutTranslator translator) {
 		this.player = player;
 		this.master = master;
+		this.translator = translator;
 	}
 
 	@Override
@@ -55,6 +57,14 @@ public class VoicePackTab implements PluginTab {
 		options.add(new BooleanSettingGui(player.getJapaneseFallback(), "Read callouts without recordings in Japanese via ACT TTS").getComponent());
 		options.add(new IntSettingSpinner(player.getVolume(), "Volume (%)").getComponent());
 		content.add(options);
+
+		// 日本語の対応表は表示言語が日本語のときだけ使うので、それ以外では設定も出さない
+		if (translator.isJapanese()) {
+			JPanel translation = new JPanel(new WrapLayout(FlowLayout.LEFT));
+			translation.add(new BooleanSettingGui(translator.getDisplayEnabled(), "Show callout text in Japanese").getComponent());
+			translation.add(new BooleanSettingGui(translator.getSpeechEnabled(), "Read callouts in Japanese via ACT TTS when no voice pack is used").getComponent());
+			content.add(translation);
+		}
 
 		JPanel folderPanel = new JPanel(new WrapLayout(FlowLayout.LEFT));
 		folderPanel.add(new JLabel("Voice pack folder"));
