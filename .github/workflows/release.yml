@@ -23,11 +23,13 @@ jobs:
       - name: Build
         run: mvn -B -DskipTests install
 
-      # XIVToolHub はこの triggevent-jp-win.zip を取得してインストールする
+      # XIVToolHub はこの triggevent-plus-win.zip を取得してインストールする。
+      # 名前を変える前の XIVToolHub は triggevent-jp-win.zip を探すので、同じものを旧名でも添付する
       - name: Create release
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${{ github.ref_name }}" "launcher/target/triggevent-jp-win.zip" `
-            --title "Triggevent JP ${{ github.ref_name }}" --notes "Triggevent JP ${{ github.ref_name }}"
+          Copy-Item "launcher/target/triggevent-plus-win.zip" "launcher/target/triggevent-jp-win.zip"
+          gh release create "${{ github.ref_name }}" "launcher/target/triggevent-plus-win.zip" "launcher/target/triggevent-jp-win.zip" `
+            --title "Triggevent Plus ${{ github.ref_name }}" --notes "Triggevent Plus ${{ github.ref_name }}"

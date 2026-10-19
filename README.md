@@ -1,49 +1,58 @@
-# Triggevent JP
+# Triggevent Plus
 
-[Triggevent](https://github.com/xpdota/event-trigger) を日本語化・最適化した版です。
-A Japanese-localized and optimized fork of [Triggevent](https://github.com/xpdota/event-trigger).
+[Triggevent](https://github.com/xpdota/event-trigger) の拡張版です。日本語化から始まり、多言語対応、XIVToolHub との連携、収録音声による読み上げ、全拡張のボス対応を加えています。
+
+An extended edition of [Triggevent](https://github.com/xpdota/event-trigger). It started as a Japanese localization and now adds multiple languages, XIVToolHub integration, voice packs, and boss triggers for every expansion.
+
+> 旧名は Triggevent JP です（2026-10 に改名）。
+> Formerly Triggevent JP (renamed in October 2026).
 
 ## 注意 / Warning
 
 FINAL FANTASY XIV の利用規約では外部ツールの使用が禁止されています。利用は自己責任で行ってください。
 Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use at your own risk.
 
-## 本家からの変更点 / Changes from the original
+## 主な機能 / Features
 
-変更日 / Date of modification: 2026-10-13（ベース / based on: upstream `master` `44aca1b`）
+### 表示言語とテーマ / Languages and themes
 
-- **日本語化 / Localization**: 画面の文字列を辞書（`xivsupport/src/main/resources/i18n/ja.tsv`）で日本語に置き換える仕組みを追加。本家のソースの文字列は変更していません。`-Dtriggevent.translate=false` で英語表示に戻せます。
-  UI strings are replaced at display time from a dictionary; upstream source strings are untouched.
-- **自動更新の無効化 / Updater disabled**: 本家の配布ファイルで日本語版が上書きされないよう、本家サーバーからの更新を停止。更新は XIVToolHub から行います。
-  The upstream auto-updater is disabled so the Japanese build is not overwritten; updates come via XIVToolHub.
-- **配布サイズの削減 / Smaller package**: 同梱 JRE を jlink で作成（Windows 用 zip: 225MB → 146MB）。
-  The bundled JRE is built with jlink (Windows zip: 225MB → 146MB).
-- **負荷の削減 / Lower overhead**: ログの既定レベルを info に変更、文字列の重複排除を有効化、非表示のマップタブの更新処理を停止。
-  Default log level set to info, string deduplication enabled, hidden map tab no longer refreshes.
-- **日本語の表示 / Japanese text**: コールアウトの既定フォントを日本語を表示できる論理フォント（Dialog）に変更。
-  The default callout font now supports Japanese.
-- **多言語 / Languages**: 表示言語を日本語・英語・韓国語・中国語（簡体字）から選択可能（辞書は `ja.tsv`・`ko.tsv`・`zh.tsv`）。XIVToolHub でインストール時に選び、日本語の場合は追加フォントも選べます。
-  Display language can be Japanese, English, Korean or Simplified Chinese, chosen in XIVToolHub (with an optional font for Japanese).
-- **テーマ / Themes**: テーマを「黒・赤」と「白・水色」の2種類に整理し、XIVToolHub・Glamaholic JP と同じ配色に統一。ハブから起動した場合はハブのテーマに合わせます。
-  Themes reduced to Black/Red and White/Light Blue, shared with XIVToolHub and Glamaholic JP; the hub's theme is used when installed through it.
-- **ボイスパック / Voice packs**: [Triggevent-VoiceGen](https://github.com/ElenaChan-me/Triggevent-VoiceGen) で作ったボイスパックで読み上げを差し替える「ボイスパック」タブを追加しました。
-  - 収録した音声があれば Triggevent が直接再生します。名前や方角などの部品はつなげて鳴らします。
-  - プレイヤー名が入るなど収録が揃わない読み上げは、日本語にした文を ACT の TTS で読みます。そのため、ACT の TTS には日本語の音声（例: Microsoft Haruka）を選んでください。
-  - 台本に無い読み上げ（自分で書き換えたコールアウトなど）は、今までどおりの動作です。
-  - 同じフォルダに複数のパック（本気用・かわいい話し方など）を並べておくと、「ボイスパックの切り替え」で選び直せます。
-  A "Voice Pack" tab plays recorded clips from a Triggevent-VoiceGen pack instead of TTS. Lines that cannot be fully covered by clips are read in Japanese via ACT TTS, and callouts not in the script behave as before. Packs placed in the same parent folder can be switched from the tab.
-- **黄金のレガシーの極・幻・メインストーリー / Dawntrail Extremes, Unreals and story duties**: 本家が未対応のボス（極：スフェーン・ゼレニア・ネクロン・ドゥームトレイン・エヌオー、幻：白虎・朱雀・青龍・ツクヨミ・神龍、ダンジョン11か所、ノーマル討伐戦5つ）のトリガーを、[cactbot](https://github.com/OverlayPlugin/cactbot)（Apache License 2.0）のトリガーをもとに移植しました。ライセンス文は `licenses/cactbot-LICENSE.txt` にあります。実際の戦闘ログでの確認はまだのため、読み上げのタイミングがずれる場合があります。
-  Triggers for Dawntrail Extremes, Unreals, dungeons and normal trials not covered upstream were ported from cactbot (Apache License 2.0); see `licenses/cactbot-LICENSE.txt`. They have not been verified against real combat logs yet.
-- **全拡張のボス / Bosses from every expansion**: 新生〜黄金の、本家が未対応のダンジョン・討伐戦・レイド・アライアンス・絶（247か所）のトリガーを cactbot から移植し、`triggers-cactbot` モジュールにまとめました。cactbot のタイムライン専用のトリガーと、名前でしか判別できないトリガーは移植していません。
-  Triggers for 247 duties from A Realm Reborn to Dawntrail that upstream does not cover were ported from cactbot into the `triggers-cactbot` module. Timeline-only and name-only cactbot triggers were not ported.
-- **CI**: 本家専用のワークフローを削除し、GitHub のランナーで動くビルド・リリース用のワークフローに置き換え。
-  Upstream-only workflows were replaced with ones that run on GitHub-hosted runners.
+- 画面を日本語・英語・韓国語・中国語（簡体字）で表示できます。辞書（`xivsupport/src/main/resources/i18n/*.tsv`）で表示時に置き換えるので、本家の文字列は変えていません。`-Dtriggevent.translate=false` で英語に戻せます。
+  The UI can be shown in Japanese, English, Korean or Simplified Chinese. Strings are replaced at display time from dictionaries, so upstream strings are untouched.
+- 日本語の場合は追加フォントを選べます。コールアウトの既定フォントも日本語を表示できるものにしています。
+  An extra font can be chosen for Japanese, and the default callout font supports Japanese.
+- テーマは「黒・赤」と「白・水色」の2種類です。XIVToolHub・Glamaholic Plus と同じ配色で、ハブから起動するとハブのテーマに合わせます。
+  Two themes, Black/Red and White/Light Blue, shared with XIVToolHub and Glamaholic Plus.
 
-## 必要なもの / Requirements
+### ボイスパック / Voice packs
 
-ACT（Advanced Combat Tracker）、FFXIV_ACT_Plugin、OverlayPlugin が必要です。XIVToolHub で Triggevent JP を選ぶと、これらも一緒にインストールされます。ACT の OverlayPlugin の設定で WebSocket サーバーを開始してから起動してください。
+- 読み上げ（TTS）を、[Triggevent-VoiceGen](https://github.com/ElenaChan-me/Triggevent-VoiceGen) で作った日本語の収録音声に差し替えます（「ボイスパック」タブ）。
+  Replaces TTS with Japanese recorded clips made with Triggevent-VoiceGen (Voice Pack tab).
+- 方角・数字・「自分」などの部品はつなげて鳴らします。プレイヤー名が入るなど収録が揃わない文は、日本語にした文を ACT の TTS で読みます（ACT の TTS には日本語の音声を選んでください）。
+  Directions, numbers and "you" are stitched from parts. Lines that can't be fully covered are read in Japanese through ACT's TTS.
+- 同じフォルダに複数のパックを置くと、タブから切り替えられます。
+  Packs in the same folder can be switched from the tab.
 
-ACT, FFXIV_ACT_Plugin and OverlayPlugin are required; XIVToolHub installs them together with Triggevent JP. Start the OverlayPlugin WebSocket server before launching.
+### ボスの対応 / Boss coverage
+
+- 本家が対応していないボス（新生〜黄金のダンジョン・討伐戦・レイド・アライアンス・絶、極・幻・メインストーリーを含む）のトリガーを、[cactbot](https://github.com/OverlayPlugin/cactbot)（Apache License 2.0）から移植しました。新生〜暁月の分は `triggers/triggers-cactbot`、黄金の分は `triggers/triggers-dt` にあります。
+  Triggers for bosses upstream does not cover were ported from cactbot (Apache License 2.0): `triggers/triggers-cactbot` and `triggers/triggers-dt`.
+- 移植したものは実際の戦闘ログでの確認がまだで、読み上げのタイミングがずれる場合があります。cactbot のタイムライン専用のトリガーと、英語名でしか判別できないトリガーは移植していません。
+  Ported triggers have not been verified against real combat logs yet. Timeline-only and English-name-only cactbot triggers were not ported.
+
+### 軽量化と配布 / Performance and distribution
+
+- 同梱の JRE を jlink で作り、配布サイズを減らしています（Windows 用 zip: 225MB → 約150MB）。
+  The bundled JRE is built with jlink.
+- ログの既定レベルを info にし、文字列の重複排除を有効にし、表示していないマップタブの更新を止めています。
+  Default log level is info, string deduplication is on, and the hidden map tab no longer refreshes.
+- 本家サーバーからの自動更新を止め、更新は XIVToolHub から行います。
+  The upstream auto-updater is disabled; updates come through XIVToolHub.
+
+## インストール / Install
+
+[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) で Triggevent Plus を選ぶと、必要な ACT・FFXIV_ACT_Plugin・OverlayPlugin も一緒にインストールされます。ACT の OverlayPlugin の設定で WebSocket サーバーを開始してから起動してください。
+
+Select Triggevent Plus in XIVToolHub; ACT, FFXIV_ACT_Plugin and OverlayPlugin are installed with it. Start the OverlayPlugin WebSocket server in ACT before launching.
 
 ## ビルド / Build
 
@@ -51,15 +60,23 @@ ACT, FFXIV_ACT_Plugin and OverlayPlugin are required; XIVToolHub installs them t
 mvn -B -DskipTests install
 ```
 
-`launcher/target/triggevent-jp-win.zip` が配布用ファイルです。jlink を使うため、jmods を含む JDK 21 で実行してください。
-The distributable is `launcher/target/triggevent-jp-win.zip`. Use a JDK 21 that includes jmods.
+`launcher/target/triggevent-plus-win.zip` が配布用ファイルです。jlink を使うため、jmods を含む JDK 21 で実行してください。
+The distributable is `launcher/target/triggevent-plus-win.zip`. Use a JDK 21 that includes jmods.
+
+ブランチは Git-flow（`master` / `develop` / `feature/*`）です。本家は `upstream` リモートとして取り込んでいます。
+Branching follows Git-flow; upstream is tracked as the `upstream` remote.
 
 ## ライセンス / License
 
-本家と同じく GPL-3.0 です（[LICENSE](LICENSE)）。
-Licensed under GPL-3.0, the same as the original ([LICENSE](LICENSE)).
+本家と同じく GPL-3.0 です（[LICENSE](LICENSE)）。cactbot から移植したトリガーについては [licenses/cactbot-LICENSE.txt](licenses/cactbot-LICENSE.txt)（Apache License 2.0）も参照してください。
+Licensed under GPL-3.0, the same as upstream. For the triggers ported from cactbot, see also licenses/cactbot-LICENSE.txt (Apache License 2.0).
+
+FINAL FANTASY は株式会社スクウェア・エニックス・ホールディングスの登録商標です。本ツールはスクウェア・エニックスとは関係ありません。
+FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. This tool is not affiliated with Square Enix.
 
 ---
+
+以下は本家の README です。 / The original README follows.
 
 # Triggevent
 
