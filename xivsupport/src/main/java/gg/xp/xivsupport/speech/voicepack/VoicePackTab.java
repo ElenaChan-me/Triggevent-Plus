@@ -8,6 +8,7 @@ import gg.xp.xivsupport.gui.extra.PluginTab;
 import gg.xp.xivsupport.gui.i18n.HubSettings;
 import gg.xp.xivsupport.persistence.gui.BooleanSettingGui;
 import gg.xp.xivsupport.persistence.gui.IntSettingSpinner;
+import gg.xp.xivsupport.persistence.gui.StringSettingGui;
 import gg.xp.xivsupport.speech.TtsRequest;
 
 import javax.swing.*;
@@ -26,16 +27,18 @@ public class VoicePackTab implements PluginTab {
 	private final VoicePackPlayer player;
 	private final EventMaster master;
 	private final CalloutTranslator translator;
+	private final NameVoiceRequester names;
 	private JLabel status;
 	private JTextField folderField;
 	private JComboBox<Path> packCombo;
 	// 一覧を作り直している間の選択の変化を、利用者の操作として扱わない
 	private boolean refreshingPacks;
 
-	public VoicePackTab(VoicePackPlayer player, EventMaster master, CalloutTranslator translator) {
+	public VoicePackTab(VoicePackPlayer player, EventMaster master, CalloutTranslator translator, NameVoiceRequester names) {
 		this.player = player;
 		this.master = master;
 		this.translator = translator;
+		this.names = names;
 	}
 
 	@Override
@@ -57,6 +60,12 @@ public class VoicePackTab implements PluginTab {
 		options.add(new BooleanSettingGui(player.getJapaneseFallback(), "Read callouts without recordings in Japanese via ACT TTS").getComponent());
 		options.add(new IntSettingSpinner(player.getVolume(), "Volume (%)").getComponent());
 		content.add(options);
+
+		// 名前の音声は VoiceGen の画面（python -m voicegen ui）を起動している間だけ作れる
+		JPanel nameOptions = new JPanel(new WrapLayout(FlowLayout.LEFT));
+		nameOptions.add(new BooleanSettingGui(names.getEnabled(), "Generate party member name clips with VoiceGen").getComponent());
+		nameOptions.add(new StringSettingGui(names.getUrl(), "VoiceGen URL", () -> names.getEnabled().get()).getComponent());
+		content.add(nameOptions);
 
 		// 日本語の対応表は表示言語が日本語のときだけ使うので、それ以外では設定も出さない
 		if (translator.isJapanese()) {

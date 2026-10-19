@@ -574,3 +574,5 @@ Show callout text in Japanese	콜아웃 표시를 일본어로
 Read callouts in Japanese via ACT TTS when no voice pack is used	보이스 팩을 쓰지 않을 때도 ACT TTS로 일본어로 읽기
 Browse...	찾아보기...
 Callout text to test	테스트할 콜아웃 문장
+Generate party member name clips with VoiceGen	VoiceGen으로 파티원 이름 음성 생성
+VoiceGen URL	VoiceGen URL

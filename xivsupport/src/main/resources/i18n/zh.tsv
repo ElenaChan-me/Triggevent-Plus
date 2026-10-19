@@ -574,3 +574,5 @@ Show callout text in Japanese	以日语显示提示文字
 Read callouts in Japanese via ACT TTS when no voice pack is used	不使用语音包时也通过 ACT TTS 用日语朗读
 Browse...	浏览...
 Callout text to test	要测试的播报文本
+Generate party member name clips with VoiceGen	使用 VoiceGen 生成队友名字语音
+VoiceGen URL	VoiceGen 地址

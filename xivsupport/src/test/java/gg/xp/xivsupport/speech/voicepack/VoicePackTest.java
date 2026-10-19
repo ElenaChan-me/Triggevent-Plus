@@ -22,7 +22,7 @@ public class VoicePackTest {
 	private static final AudioFormat FORMAT = new AudioFormat(48000f, 16, 1, true, false);
 
 	// テストは並列に動くので、テストごとに別のフォルダを作る
-	private static Path createPack() throws IOException {
+	static Path createPack() throws IOException {
 		Path dir = Files.createTempDirectory("voicepack");
 		for (String id : List.of("L_raid", "S_buster", "part_you", "part_dir_n", "S_partners", "C_real", "dot_1871")) {
 			writeWav(dir.resolve(id + ".wav"), 4800);
@@ -52,7 +52,7 @@ public class VoicePackTest {
 		return dir;
 	}
 
-	private static void delete(Path dir) throws IOException {
+	static void delete(Path dir) throws IOException {
 		try (Stream<Path> walk = Files.walk(dir)) {
 			walk.sorted(Comparator.reverseOrder()).forEach(p -> p.toFile().delete());
 		}
@@ -122,11 +122,11 @@ public class VoicePackTest {
 	public void tabOpensWithAndWithoutFolder() throws IOException {
 		// フォルダ未設定の初回起動でタブを開けなかったことがあるので、両方の状態で組み立てられるかを見る
 		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider());
-		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider())).getTabContents());
+		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider()), new NameVoiceRequester(new InMemoryMapPersistenceProvider(), player)).getTabContents());
 		Path dir = createPack();
 		player.getFolder().set(dir.toString());
 		Assert.assertNotNull(player.getPack());
-		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider())).getTabContents());
+		Assert.assertNotNull(new VoicePackTab(player, null, new CalloutTranslator(new InMemoryMapPersistenceProvider()), new NameVoiceRequester(new InMemoryMapPersistenceProvider(), player)).getTabContents());
 		delete(dir);
 	}
 
