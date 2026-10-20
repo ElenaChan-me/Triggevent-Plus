@@ -32,9 +32,16 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
+import java.awt.Window;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.stream.Stream;
 
 /**
  * ACT のログを再生して、どのコールアウトがいつ鳴るかを一覧にする。
@@ -44,13 +51,17 @@ import java.util.Locale;
  * 設定はメモリ上だけで扱うので、普段使っている Triggevent の設定には触らない。
  * <pre>
  * verify-log.cmd Network_xxxx.log [--pack ボイスパックのフォルダ] [--out 出力ファイル] [--all]
+ * verify-log.cmd ログのフォルダ [--pack ボイスパックのフォルダ] [--out 出力フォルダ] [--all]
  * </pre>
  * 出力先を指定しないときは、ログと同じフォルダに「ログ名.callouts.md」を作る。
+ * フォルダを渡すと中の .log をすべて確かめ、「callouts-report」フォルダにログごとの結果とコンテンツごとのまとめを作る。
  */
 public final class VerifyLog {
 
 	// これより短い間隔で続くコールアウトは読み上げが重なりやすい（CalloutVerificationTest と同じ基準）
 	private static final long MIN_MS_BETWEEN_CALLS = 1000;
+	static final String REPORT_DIR = "callouts-report";
+	static final String SUMMARY_FILE = "summary.md";
 
 	private VerifyLog() {
 	}
@@ -109,8 +120,22 @@ public final class VerifyLog {
 		}
 		catch (IllegalArgumentException e) {
 			System.err.println(e.getMessage());
-			System.err.println("Usage: verify-log <ACT log file> [--pack <voice pack folder>] [--out <report file>] [--all]");
+			System.err.println("Usage: verify-log <ACT log file or folder> [--pack <voice pack folder>] [--out <report file or folder>] [--all]");
 			System.exit(2);
+			return;
+		}
+		if (Files.isDirectory(options.log())) {
+			try {
+				VoicePack pack = options.pack() == null ? null : VoicePack.load(options.pack().toAbsolutePath().normalize());
+				Path outDir = options.out() == null ? options.log().resolve(REPORT_DIR) : options.out();
+				Path summary = verifyFolder(options.log(), outDir, options.all(), pack);
+				System.out.println("Summary -> " + summary.toAbsolutePath());
+				System.exit(0);
+			}
+			catch (IOException | RuntimeException e) {
+				e.printStackTrace();
+				System.exit(1);
+			}
 			return;
 		}
 		if (!Files.isRegularFile(options.log())) {
@@ -132,6 +157,106 @@ public final class VerifyLog {
 			e.printStackTrace();
 			System.exit(1);
 		}
+	}
+
+	/**
+	 * フォルダ内のログを1つずつ確かめる。壊れたログがあっても残りは続ける。
+	 */
+	static Path verifyFolder(Path folder, Path outDir, boolean enableAll, VoicePack pack) throws IOException {
+		List<Path> logs;
+		try (Stream<Path> files = Files.list(folder)) {
+			logs = files.filter(f -> Files.isRegularFile(f) && f.getFileName().toString().toLowerCase(Locale.ROOT).endsWith(".log"))
+					.sorted()
+					.toList();
+		}
+		Files.createDirectories(outDir);
+		List<LogResult> results = new ArrayList<>();
+		for (int i = 0; i < logs.size(); i++) {
+			Path log = logs.get(i);
+			String name = log.getFileName().toString();
+			System.out.printf("[%d/%d] %s%n", i + 1, logs.size(), name);
+			try {
+				List<Call> calls = replay(log.toFile(), enableAll, pack);
+				Files.writeString(outDir.resolve(defaultOutput(log).getFileName()), format(name, pack, calls), StandardCharsets.UTF_8);
+				results.add(new LogResult(name, calls, null));
+			}
+			catch (RuntimeException e) {
+				results.add(new LogResult(name, List.of(), e.toString()));
+			}
+			finally {
+				// 再生のたびに作られるオーバーレイの窓が溜まらないようにする
+				for (Window w : Window.getWindows()) {
+					w.dispose();
+				}
+			}
+		}
+		Path summary = outDir.resolve(SUMMARY_FILE);
+		Files.writeString(summary, summarize(folder.getFileName() == null ? folder.toString() : folder.getFileName().toString(), pack, results), StandardCharsets.UTF_8);
+		return summary;
+	}
+
+	record LogResult(String log, List<Call> calls, String error) {
+	}
+
+	/**
+	 * コンテンツごとのまとめ。どのログで何が起きたかを追えるよう、気になる点にはログ名を付ける。
+	 */
+	static String summarize(String folderName, VoicePack pack, List<LogResult> results) {
+		StringBuilder sb = new StringBuilder();
+		sb.append("# コールアウト検証のまとめ: ").append(folderName).append('\n');
+		sb.append("ボイスパック: ").append(pack == null ? "なし（日本語の対応表だけで判定）" : pack.getName()).append("\n\n");
+		long failed = results.stream().filter(r -> r.error() != null).count();
+		sb.append("ログ %d 件（読めなかったもの %d 件）\n\n".formatted(results.size(), failed));
+
+		Map<String, List<Call>> byZone = new TreeMap<>();
+		Map<String, Set<String>> logsByZone = new TreeMap<>();
+		Map<String, List<String>> issuesByZone = new TreeMap<>();
+		for (LogResult r : results) {
+			Map<String, List<Call>> zones = new LinkedHashMap<>();
+			for (Call c : r.calls()) {
+				String zone = c.zone().isBlank() ? "(不明)" : c.zone();
+				zones.computeIfAbsent(zone, z -> new ArrayList<>()).add(c);
+			}
+			zones.forEach((zone, calls) -> {
+				byZone.computeIfAbsent(zone, z -> new ArrayList<>()).addAll(calls);
+				logsByZone.computeIfAbsent(zone, z -> new TreeSet<>()).add(r.log());
+				issues(calls).forEach(i -> issuesByZone.computeIfAbsent(zone, z -> new ArrayList<>()).add(r.log() + " " + i));
+			});
+		}
+
+		sb.append("| コンテンツ | ログ | コールアウト | 収録 | 日本語TTS | 英語のまま | 気になる点 |\n|---|---|---|---|---|---|---|\n");
+		byZone.forEach((zone, calls) -> sb.append("| ").append(cell(zone))
+				.append(" | ").append(logsByZone.get(zone).size())
+				.append(" | ").append(calls.size())
+				.append(" | ").append(count(calls, Voice.PACK))
+				.append(" | ").append(count(calls, Voice.TTS_JA))
+				.append(" | ").append(count(calls, Voice.NONE))
+				.append(" | ").append(issuesByZone.getOrDefault(zone, List.of()).size())
+				.append(" |\n"));
+
+		byZone.forEach((zone, calls) -> {
+			List<String> issues = issuesByZone.getOrDefault(zone, List.of());
+			List<String> english = calls.stream().filter(c -> c.voice() == Voice.NONE).map(Call::tts).distinct().toList();
+			if (issues.isEmpty() && english.isEmpty()) {
+				return;
+			}
+			sb.append("\n## ").append(zone).append("\n\n");
+			issues.forEach(i -> sb.append("- ").append(i).append('\n'));
+			if (!english.isEmpty()) {
+				sb.append("\n対応表に無い読み上げ:\n\n");
+				english.forEach(t -> sb.append("- ").append(t).append('\n'));
+			}
+		});
+
+		if (failed > 0) {
+			sb.append("\n## 読めなかったログ\n\n");
+			results.stream().filter(r -> r.error() != null).forEach(r -> sb.append("- ").append(r.log()).append(": ").append(r.error()).append('\n'));
+		}
+		return sb.toString();
+	}
+
+	private static long count(List<Call> calls, Voice voice) {
+		return calls.stream().filter(c -> c.voice() == voice).count();
 	}
 
 	static Path defaultOutput(Path log) {
@@ -197,8 +322,14 @@ public final class VerifyLog {
 					.flatMap(group -> group.getCallouts().stream())
 					.forEach(c -> c.getEnable().set(true));
 		}
-		replay.advanceBy(Integer.MAX_VALUE);
-		pico.getComponent(EventMaster.class).getQueue().waitDrain();
+		try {
+			replay.advanceBy(Integer.MAX_VALUE);
+			pico.getComponent(EventMaster.class).getQueue().waitDrain();
+		}
+		finally {
+			// フォルダごと確かめるときに、ログごとの処理スレッドが動き続けないようにする
+			pico.getComponent(EventMaster.class).stop();
+		}
 		return calls;
 	}
 

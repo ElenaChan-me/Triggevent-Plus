@@ -38,6 +38,24 @@ public class VerifyLogTest {
 	}
 
 	@Test
+	public void summarizesByZoneAndKeepsGoingOnBrokenLogs() {
+		List<VerifyLog.LogResult> results = List.of(
+				new VerifyLog.LogResult("a.log", List.of(
+						new VerifyLog.Call(1, "P1S", 1000, "Raidwide", "Raidwide", "全体攻撃", VerifyLog.Voice.PACK),
+						new VerifyLog.Call(1, "P1S", 1200, "Mystery", "Mystery", "Mystery", VerifyLog.Voice.NONE)), null),
+				new VerifyLog.LogResult("b.log", List.of(
+						new VerifyLog.Call(1, "P1S", 5000, "Raidwide", "Raidwide", "全体攻撃", VerifyLog.Voice.PACK)), null),
+				new VerifyLog.LogResult("broken.log", List.of(), "java.lang.IllegalStateException: bad"));
+		String summary = VerifyLog.summarize("logs", null, results);
+		Assert.assertTrue(summary.contains("ログ 3 件（読めなかったもの 1 件）"), summary);
+		// P1S は2つのログに出て、コールアウト 3 件、うち英語のまま 1 件、重なり 1 件
+		Assert.assertTrue(summary.contains("| P1S | 2 | 3 | 2 | 0 | 1 | 1 |"), summary);
+		Assert.assertTrue(summary.contains("a.log #1 0:01.2"), summary);
+		Assert.assertTrue(summary.contains("- Mystery"), summary);
+		Assert.assertTrue(summary.contains("broken.log: java.lang.IllegalStateException"), summary);
+	}
+
+	@Test
 	public void replaysSampleLog() throws IOException {
 		Path log = Files.createTempFile("verifylog", ".log");
 		try (InputStream in = VerifyLogTest.class.getResourceAsStream("/asphodelos1.log")) {
