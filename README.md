@@ -40,6 +40,8 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
 
 - `verify-log.cmd <ACT のログ> [--pack <ボイスパックのフォルダ>] [--all]` で、ログを再生してコールアウトの一覧（時間・読み上げ・日本語・収録の有無）と、読み上げが重なる・(NOW) で終わるといった気になる点を `<ログ名>.callouts.md` に書き出します。普段の設定には触りません。
   `verify-log.cmd` replays an ACT log and writes the callout timeline, translations, voice pack coverage and possible issues to `<log>.callouts.md`, without touching your settings.
+- ログのフォルダ（ACT の `FFXIVLogs` など）を渡すと、中のログをすべて確かめ、`callouts-report` フォルダにログごとの結果と、コンテンツごとのまとめ（`summary.md`）を作ります。読めないログがあっても残りは続けます。
+  Pass a folder (e.g. ACT's `FFXIVLogs`) to check every log in it; per-log reports and a per-duty `summary.md` are written to `callouts-report`.
 
 ### ボスの対応 / Boss coverage
 
