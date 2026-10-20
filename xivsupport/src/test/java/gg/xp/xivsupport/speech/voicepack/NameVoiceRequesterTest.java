@@ -69,6 +69,69 @@ public class NameVoiceRequesterTest {
 	}
 
 	@Test
+	public void waitsBeforeRetryingWhenVoiceGenIsDown() throws Exception {
+		Path dir = VoicePackTest.createPack();
+		try {
+			InMemoryMapPersistenceProvider pers = new InMemoryMapPersistenceProvider();
+			VoicePackPlayer player = new VoicePackPlayer(pers);
+			player.getFolder().set(dir.toString());
+			player.getEnabled().set(true);
+			java.util.concurrent.atomic.AtomicReference<java.time.Instant> now = new java.util.concurrent.atomic.AtomicReference<>(java.time.Instant.parse("2026-10-20T00:00:00Z"));
+			java.time.Clock clock = new java.time.Clock() {
+				@Override
+				public java.time.ZoneId getZone() {
+					return java.time.ZoneOffset.UTC;
+				}
+
+				@Override
+				public java.time.Clock withZone(java.time.ZoneId zone) {
+					return this;
+				}
+
+				@Override
+				public java.time.Instant instant() {
+					return now.get();
+				}
+			};
+			NameVoiceRequester requester = new NameVoiceRequester(pers, player, clock);
+			requester.getUrl().set("http://127.0.0.1:1");
+			requester.getEnabled().set(true);
+			requester.request(List.of("Lily Tayler")).get(10, TimeUnit.SECONDS);
+			String first = requester.getLastError();
+			Assert.assertNotNull(first);
+
+			// 待っている間は送らない（エラーも変わらない）
+			HttpServer server = HttpServer.create(new InetSocketAddress("127.0.0.1", 0), 0);
+			List<String> bodies = new CopyOnWriteArrayList<>();
+			server.createContext("/api/names", ex -> {
+				bodies.add(new String(ex.getRequestBody().readAllBytes(), StandardCharsets.UTF_8));
+				ex.sendResponseHeaders(200, 2);
+				try (OutputStream out = ex.getResponseBody()) {
+					out.write("{}".getBytes(StandardCharsets.UTF_8));
+				}
+			});
+			server.start();
+			try {
+				now.set(now.get().plus(NameVoiceRequester.RETRY_DELAY).minusSeconds(1));
+				// URL を変えると待たずに送るので、ここでは URL を変えずに時間だけ進める
+				requester.request(List.of("Lily Tayler")).get(5, TimeUnit.SECONDS);
+				Assert.assertEquals(requester.getLastError(), first);
+
+				now.set(now.get().plusSeconds(2));
+				requester.getUrl().set("http://127.0.0.1:" + server.getAddress().getPort());
+				requester.request(List.of("Lily Tayler")).get(5, TimeUnit.SECONDS);
+				Assert.assertEquals(bodies.size(), 1);
+			}
+			finally {
+				server.stop(0);
+			}
+		}
+		finally {
+			VoicePackTest.delete(dir);
+		}
+	}
+
+	@Test
 	public void failedRequestsAreRetried() throws Exception {
 		Path dir = VoicePackTest.createPack();
 		try {
