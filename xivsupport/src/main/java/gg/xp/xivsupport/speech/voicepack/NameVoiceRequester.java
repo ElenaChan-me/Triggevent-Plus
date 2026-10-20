@@ -18,7 +18,9 @@ import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.time.Clock;
 import java.time.Duration;
+import java.time.Instant;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
@@ -43,6 +45,8 @@ public class NameVoiceRequester {
 	private static final Pattern NAME_PATTERN = Pattern.compile("^[A-Za-z][A-Za-z'\\-]{0,19}(?: [A-Za-z][A-Za-z'\\-]{0,19})?$");
 	// 声の変換に時間がかかるので長めに待つ
 	private static final Duration REQUEST_TIMEOUT = Duration.ofMinutes(3);
+	// VoiceGen を起動していないときに、パーティが変わるたびに頼み直してログを埋めないよう、失敗したらしばらく待つ
+	static final Duration RETRY_DELAY = Duration.ofMinutes(5);
 
 	private final VoicePackPlayer player;
 	private final BooleanSetting enabled;
@@ -52,11 +56,21 @@ public class NameVoiceRequester {
 	// 同じ名前を何度も頼まないよう、頼んだ名前を覚えておく（失敗したものは外して次の機会に頼み直す）
 	private final Set<String> requested = ConcurrentHashMap.newKeySet();
 	private volatile String lastError;
+	private final Clock clock;
+	private volatile Instant retryAfter = Instant.MIN;
 
 	public NameVoiceRequester(PersistenceProvider pers, VoicePackPlayer player) {
+		this(pers, player, Clock.systemUTC());
+	}
+
+	NameVoiceRequester(PersistenceProvider pers, VoicePackPlayer player, Clock clock) {
 		this.player = player;
+		this.clock = clock;
 		enabled = new BooleanSetting(pers, "voice-pack.name-generation", false);
 		url = new StringSetting(pers, "voice-pack.voicegen-url", DEFAULT_URL);
+		// 設定を直したり有効にし直したりしたら、待たずにすぐ頼めるようにする
+		url.addListener(() -> retryAfter = Instant.MIN);
+		enabled.addListener(() -> retryAfter = Instant.MIN);
 	}
 
 	@LiveOnly
@@ -70,7 +84,7 @@ public class NameVoiceRequester {
 	 */
 	public CompletableFuture<Void> request(Collection<String> names) {
 		VoicePack pack = player.getPack();
-		if (!enabled.get() || !player.getEnabled().get() || pack == null) {
+		if (!enabled.get() || !player.getEnabled().get() || pack == null || clock.instant().isBefore(retryAfter)) {
 			return CompletableFuture.completedFuture(null);
 		}
 		List<String> missing = names.stream()
@@ -115,16 +129,21 @@ public class NameVoiceRequester {
 					else {
 						lastError = "VoiceGen: HTTP " + res.statusCode() + " " + res.body();
 						log.warn("VoiceGen rejected name request: {} {}", res.statusCode(), res.body());
-						missing.forEach(requested::remove);
+						failed(missing);
 					}
 				})
 				.exceptionally(e -> {
 					// VoiceGen を起動していないことが多いので、警告だけにして読み上げは TTS のまま続ける
 					lastError = "VoiceGen: " + e.getMessage();
-					log.warn("Could not reach VoiceGen at {}: {}", endpoint, e.toString());
-					missing.forEach(requested::remove);
+					log.warn("Could not reach VoiceGen at {}: {} (retrying in {} minutes)", endpoint, e.toString(), RETRY_DELAY.toMinutes());
+					failed(missing);
 					return null;
 				});
+	}
+
+	private void failed(List<String> names) {
+		names.forEach(requested::remove);
+		retryAfter = clock.instant().plus(RETRY_DELAY);
 	}
 
 	/**
