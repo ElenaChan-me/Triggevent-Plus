@@ -36,6 +36,11 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
 - 表示言語が日本語のときは、画面に出るコールアウトの文と、ボイスパックを使わない場合の ACT の TTS も日本語にします。
   In Japanese mode, on-screen callout text and ACT TTS (without a voice pack) are translated as well.
 
+### ACT の状態の確認 / ACT health check
+
+- 戦闘が始まって20秒たっても詠唱・技の情報が届かないときや、FFXIV_ACT_Plugin が通信の読み取りエラーを続けて出しているときに、「戦闘の情報が届いていません」と表示・読み上げで知らせます。パッチ直後に FFXIV_ACT_Plugin がまだ対応していないと、こうなります。10分に1回まで知らせます。
+  When no cast/ability data arrives 20 seconds into combat, or FFXIV_ACT_Plugin keeps reporting network parse errors (typical right after a patch), a callout says so (at most every 10 minutes).
+
 ### ログでの確認 / Verifying with logs
 
 - `verify-log.cmd <ACT のログ> [--pack <ボイスパックのフォルダ>] [--all]` で、ログを再生してコールアウトの一覧（時間・読み上げ・日本語・収録の有無）と、読み上げが重なる・(NOW) で終わるといった気になる点を `<ログ名>.callouts.md` に書き出します。普段の設定には触りません。
