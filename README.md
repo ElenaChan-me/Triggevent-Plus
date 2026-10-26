@@ -66,9 +66,20 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
 
 ## インストール / Install
 
-[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) で Triggevent Plus を選ぶと、必要な ACT・FFXIV_ACT_Plugin・OverlayPlugin も一緒にインストールされます。ACT の OverlayPlugin の設定で WebSocket サーバーを開始してから起動してください。
+[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) で Triggevent Plus を選ぶと、必要な ACT・FFXIV_ACT_Plugin・OverlayPlugin も一緒にインストールされます。OverlayPlugin の WebSocket サーバーは XIVToolHub が自動で開始する設定にします。「ACT と Triggevent をまとめて起動」を使うと、正しい順番で起動します。
 
-Select Triggevent Plus in XIVToolHub; ACT, FFXIV_ACT_Plugin and OverlayPlugin are installed with it. Start the OverlayPlugin WebSocket server in ACT before launching.
+Select Triggevent Plus in XIVToolHub; ACT, FFXIV_ACT_Plugin and OverlayPlugin are installed with it, and the OverlayPlugin WebSocket server is set to start automatically.
+
+### 動作の条件 / Requirements
+
+- 設定は本家 Triggevent と同じ `%APPDATA%\triggevent` に保存します。本家を使っていた場合はその設定を引き継ぎ、Plus で変えた設定は本家にも反映されます。本家と Plus は同時に起動できます。
+  Settings are shared with upstream Triggevent (`%APPDATA%\triggevent`); both can run at the same time.
+- 収録の無い読み上げは ACT の TTS で日本語の文を読みます。Windows に日本語の音声（Haruka など）が入っていない場合は、Windows の設定の「音声」から追加してください。
+  Lines without recordings are read in Japanese by ACT's TTS, which needs a Japanese Windows voice.
+- 日本語以外の Windows では、画面やコールアウトの日本語が □ になることがあります。XIVToolHub の「表示設定」で日本語のフォントを選んでください。
+  On non-Japanese Windows, pick a Japanese font in XIVToolHub's display settings if Japanese text shows as boxes.
+- ボイスパックの再生は Windows の既定の出力デバイスを使います。再生できないときは ACT の TTS で読みます。
+  Voice pack playback uses the default output device and falls back to ACT's TTS when it fails.
 
 ## ビルド / Build
 

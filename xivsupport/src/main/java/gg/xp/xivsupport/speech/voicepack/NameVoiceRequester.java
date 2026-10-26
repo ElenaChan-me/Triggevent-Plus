@@ -108,7 +108,7 @@ public class NameVoiceRequester {
 		}
 		String body;
 		try {
-			body = mapper.writeValueAsString(Map.of("pack", pack.getName(), "names", missing));
+			body = mapper.writeValueAsString(Map.of("pack", pack.getName(), "directory", pack.getDirectory().toString(), "names", missing));
 		}
 		catch (JacksonException e) {
 			missing.forEach(requested::remove);

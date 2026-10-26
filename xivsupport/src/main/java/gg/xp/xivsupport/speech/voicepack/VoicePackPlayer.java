@@ -107,7 +107,9 @@ public class VoicePackPlayer {
 		if (clips != null) {
 			event.setHandled();
 			log.info("Voice pack: '{}' -> {}", event.getTtsString(), resolution.ids());
-			play(clips);
+			// 再生できなかったときは、ACT の TTS で読んでもらう
+			String japanese = resolution.japanese();
+			play(clips, () -> context.enqueue(new JapaneseTtsRequest(japanese)));
 		}
 		else if (japaneseFallback.get()) {
 			event.setHandled();
@@ -117,14 +119,24 @@ public class VoicePackPlayer {
 	}
 
 	public void play(List<Path> clips) {
+		play(clips, () -> {
+		});
+	}
+
+	/**
+	 * @param onFailure 再生できなかったときの代わりの処理
+	 */
+	public void play(List<Path> clips, Runnable onFailure) {
 		float gainDb = gainDb(volume.get());
 		playback.submit(() -> {
 			try {
 				byte[] pcm = concat(clips);
 				playPcm(pcm, gainDb);
 			}
-			catch (IOException | UnsupportedAudioFileException | LineUnavailableException e) {
+			// 音声デバイスが無い・ほかのソフトが占有している・形式を変換できないときは IllegalArgumentException なども出る
+			catch (IOException | UnsupportedAudioFileException | LineUnavailableException | RuntimeException e) {
 				log.error("Error playing voice pack clips {}", clips, e);
+				onFailure.run();
 			}
 		});
 	}
