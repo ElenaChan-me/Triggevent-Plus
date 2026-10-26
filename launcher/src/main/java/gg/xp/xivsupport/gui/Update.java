@@ -700,7 +700,8 @@ public class Update {
 	}
 
 	// 日本語版は本家の配布ファイルで上書きされないよう、本家サーバーからの更新を行わない。更新は XIVToolHub から行う。
-	private static final String JP_UPDATE_GUIDE = "日本語版では本家の自動更新を使用しません。\n更新は XIVToolHub の「最新版を確認」から行ってください。";
+	private static final String JP_UPDATE_GUIDE = "Triggevent Plus では本家の自動更新を使用しません。\n"
+			+ "更新は XIVToolHub の「最新版を確認」から、修復は XIVToolHub で Triggevent Plus をアンインストールしてからインストールし直してください。";
 
 	public static void main(String[] args) {
 		CatchFatalErrorInUpdater.run(() -> {

@@ -13,6 +13,9 @@
             <excludes>
                 <exclude>**/src.zip</exclude>
                 <exclude>*.sh</exclude>
+                <!-- 手元で起動したときに作られる設定。配布物に入れない -->
+                <exclude>init.properties*</exclude>
+                <exclude>update.properties*</exclude>
             </excludes>
         </fileSet>
         <!-- cactbot から移植したトリガーを含むため、配布物にもライセンス文を同梱する -->

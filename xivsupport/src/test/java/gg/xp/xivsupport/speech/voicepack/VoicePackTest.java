@@ -135,6 +135,15 @@ public class VoicePackTest {
 	}
 
 	@Test
+	public void fallsBackWhenPlaybackFails() throws InterruptedException {
+		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider(), List.of());
+		java.util.concurrent.CountDownLatch fallback = new java.util.concurrent.CountDownLatch(1);
+		// 読めない音声（音声デバイスが無い場合なども同じ扱い）は、代わりの処理に回す
+		player.play(List.of(Path.of("does-not-exist.wav")), fallback::countDown);
+		Assert.assertTrue(fallback.await(10, java.util.concurrent.TimeUnit.SECONDS));
+	}
+
+	@Test
 	public void tabOpensWithAndWithoutFolder() throws IOException {
 		// フォルダ未設定の初回起動でタブを開けなかったことがあるので、両方の状態で組み立てられるかを見る
 		VoicePackPlayer player = new VoicePackPlayer(new InMemoryMapPersistenceProvider());
