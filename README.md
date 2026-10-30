@@ -66,9 +66,12 @@ Third-party tools are prohibited by the FINAL FANTASY XIV Terms of Service. Use 
 
 ## インストール / Install
 
-[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) で Triggevent Plus を選ぶと、必要な ACT・FFXIV_ACT_Plugin・OverlayPlugin も一緒にインストールされます。OverlayPlugin の WebSocket サーバーは XIVToolHub が自動で開始する設定にします。「ACT と Triggevent をまとめて起動」を使うと、正しい順番で起動します。
+[XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) を使ってください（[XIVToolHub-Setup.exe](https://github.com/ElenaChan-me/XIVToolHub/releases/latest) で入れられます）。XIVToolHub で Triggevent Plus を選ぶと、必要な ACT・FFXIV_ACT_Plugin・OverlayPlugin を一緒に入れるか確認し、OverlayPlugin の WebSocket サーバーが自動で始まるように設定します。「ACT と Triggevent をまとめて起動」を使うと、正しい順番で起動します。
 
-Select Triggevent Plus in XIVToolHub; ACT, FFXIV_ACT_Plugin and OverlayPlugin are installed with it, and the OverlayPlugin WebSocket server is set to start automatically.
+Install with [XIVToolHub](https://github.com/ElenaChan-me/XIVToolHub) ([XIVToolHub-Setup.exe](https://github.com/ElenaChan-me/XIVToolHub/releases/latest)). Selecting Triggevent Plus offers to install ACT, FFXIV_ACT_Plugin and OverlayPlugin too, and sets the OverlayPlugin WebSocket server to start automatically.
+
+[Releases](https://github.com/ElenaChan-me/Triggevent-Plus/releases/latest) の `triggevent-plus-win.zip` を展開して `triggevent/triggevent.exe` を起動することもできます（Java は同梱しています）。
+You can also extract `triggevent-plus-win.zip` from the releases and run `triggevent/triggevent.exe` (Java is bundled).
 
 ### 動作の条件 / Requirements
 
